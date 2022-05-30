@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Latina bold';
+    src: url('../fonts/latbold/Latina\ W00\ Bold.ttf');
+}
+@font-face {
+    font-family: 'Latina regular';
+    src: url('../fonts/latregular/Latina\ W00\ Regular.ttf');
+}
+@font-face {
+    font-family: 'Latina ultra   heavy';
+    src: url('../fonts/latultheav/Latina\ W00\ Ultra\ Heavy.ttf');
+}
+:root{
+    --latinaBold: 'Latina bold';
+    --latinaRegular: 'Latina regular';
+    --latinaUltHeav: 'Latina ultra heavy';
+}
+#main{
+    box-sizing: border-box;
+    overflow: hidden;
+    height: auto;
+}
+/* Header */
+#menusup{
+    justify-content: space-between;
+    padding: 15px;
+    font-family: var(--latinaBold);
+}
+#suplogbot{
+    border: 1px solid white;
+    margin-left: 10px;
+}
+#logo img{
+    width: 35%;
+    height: 70%;
+}
+.itemnav{
+    flex-basis: 0;
+    flex-grow: 1;
+    align-items: center;
+}
+#buttons a{
+    width: 30%;
+    text-align: center;
+}
+/* Register */
+#register{
+    width: 90%;
+}
+#form{
+    width: 49%;
+}
+#terminos{
+    background-color: #011625;
+    color: white;
+}
+.titulo{
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.titulo::before, .titulo::after{
+    content:"";
+    height: 2px;
+    background-color: #fff;
+    display: block;
+}
+#redes{
+    width: 15%;
+}
+#redeslog{
+    width: 10%;
+}
+.with{
+    width: 40%;
+    border-radius: 35%;
+    color: white;
+}
+#got{
+    border-radius: 90px;
+    background-color: #426264;
+}
+/* Footer */
+#footer{
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid white ;
+    height: auto;
+}
+.group{
+    width: 99%;
+}
+/* Color forms */
+input[type='text'],
+input[type='password'],
+input[type='email']{
+    background:#011625;
+    color: white;
+    font-weight: bold;
+    border:none;
+}
+#loginboton{
+    width: 20%;
+    background-color: #ffb800;
+    color: white;
+}
+#buttonregister{
+    background-color: #ffb800;
+}
+.loginin{
+    width: 40%;
+}
+.loginin input[type="password"],input[type="text"]{
+    width: 100%;
+
+}
+#contentfoot{
+    margin: auto;
+    width: 90%;
+}

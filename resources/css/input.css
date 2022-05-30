@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(13,22,38);
+    background: linear-gradient(90deg, rgba(13,22,38,1) 0%, rgba(44,115,82,1) 100%);
+    box-sizing: border-box;
+}
+.symbol{
+    left: 3%;
+    top: 20%;
+    color: white;
+}
+#logo{
+    width: 15%;
+}
