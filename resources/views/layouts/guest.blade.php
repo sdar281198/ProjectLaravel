@@ -15,7 +15,6 @@
         <link rel="stylesheet" href="{{ config('app.url').'/css/output.css'}}">
         <link rel="stylesheet" href="{{ config('app.url'). '/css/styles.css' }}">
         <!-- <link rel="stylesheet" href="output.css"> -->
-        <link rel="stylesheet" href="{{ config('app.url'). '/css/estilosvalidacion.css' }}">
         <!-- <link rel="stylesheet" href="estilos.css"> -->
         <script src="https://kit.fontawesome.com/6d72c45872.js" crossorigin="anonymous"></script>
 
@@ -25,7 +24,7 @@
     <body>
         <main class="container mx-auto min-h-screen" id="main">
         <header id="header">
-        <nav id="menusup" class="container h-28 flex mt-3">
+        <nav id="menusup" class="container h-28 flex">
                     <div id="logo" class="h-full itemnav flex">
                         <img class="cursor-pointer" src="img/logo.png" alt="">
                     </div>

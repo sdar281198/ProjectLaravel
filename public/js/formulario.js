@@ -90,12 +90,16 @@ formulario.addEventListener('submit', (e) => {
 	e.preventDefault();
 
 	const terminos = document.getElementById('terminos');
+
 	if(campos.usuario && campos.nombre && campos.apellidos && campos.correo && campos.password && terminos.checked ){
 		formulario.reset();
 
-		document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo');
+		let formSuccees = document.getElementById('formulario__mensaje-exito');
+
+		formSuccees.classList.add('formulario__mensaje-exito-activo');
 		setTimeout(() => {
-			document.getElementById('formulario__mensaje-exito').classList.remove('formulario__mensaje-exito-activo');
+			formSuccees.classList.remove('formulario__mensaje-exito-activo');
+			document.getElementById('formulario__mensaje').style.display = "none";
 		}, 5000);
 
 		document.querySelectorAll('.formulario__grupo-correcto').forEach((icono) => {

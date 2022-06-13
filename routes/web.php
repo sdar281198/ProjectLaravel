@@ -12,6 +12,9 @@ Route::get('/login2', function () {
 Route::get('/register', function () {
     return view('register');
 });
+Route::get('/home', function () {
+    return view('index');
+});
 
 
 Route::middleware([
