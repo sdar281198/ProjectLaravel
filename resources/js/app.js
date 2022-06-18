@@ -1,5 +1,4 @@
 require('./bootstrap');
-// require('scrollreveal');
 
 import Alpine from 'alpinejs';
 

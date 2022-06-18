@@ -12,8 +12,14 @@ Route::get('/login2', function () {
 Route::get('/register', function () {
     return view('register');
 });
+Route::get('/mail', function () {
+    return view('mail');
+});
 Route::get('/home', function () {
     return view('index');
+});
+Route::get('/interescolar', function () {
+    return view('interescolar');
 });
 
 

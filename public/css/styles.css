@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0%;
+  padding: 0%;
   box-sizing: border-box;
 }
 
@@ -20,6 +20,39 @@
   background: #001521;
 }
 
+#body {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.menu.menu-opened {
+  position: relative;
+  top: 40px !important;
+  z-index: 2999 !important;
+}
+
+.body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(13, 0, 13, 0.38);
+  z-index: 1500;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.5s;
+}
+
+.menu-opened.body::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
 #header {
   background: url(../img/FONDO\ AMARILLO\ T-06-06.png);
   background-size: cover;
@@ -32,22 +65,43 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: linear-gradient(360deg, #001521, transparent 47%);
   z-index: 55;
+}
+
+#mobileMenu {
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  background-color: rgb(0, 74, 61);
+  background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
+  display: flex;
+  top: -400%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  border-radius: 0.8rem;
+  transition: all 500ms;
+}
+#mobileMenu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 #navsup {
   width: 85%;
   height: 10%;
-  padding: 2%;
+  padding: 0.5%;
   background: rgb(77, 53, 19);
   background: linear-gradient(90deg, rgb(77, 53, 19) 0%, rgb(70, 48, 16) 35%, rgb(70, 48, 16) 100%);
-  border: 5px solid #000;
+  border: 5px solid;
   border-image: -webkit-gradient(linear, right bottom, left top, from(#7e5023), to(#dcae19));
   border-image: linear-gradient(right, #7e5023, #dcae19);
   border-image-slice: 1;
-  z-index: 1999;
+  z-index: 199;
   top: 0px;
 }
 #navsup ul {
@@ -55,6 +109,15 @@
 }
 #navsup ul img {
   width: 50%;
+  transition: all 0.6s;
+}
+#navsup ul img:hover {
+  transform: scale(2, 2);
+  transition: all 0.6s;
+}
+
+#hambMenu {
+  display: none;
 }
 
 #logo {
@@ -117,16 +180,6 @@
   height: 15%;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-  color: #000 !important;
-}
-
-.swiper-pagination-bullet,
-.swiper-pagination-bullet-active {
-  background: #000 !important;
-}
-
 #caracteristics {
   width: 80%;
   background-color: #001521;
@@ -150,7 +203,7 @@
   font-size: 17px;
 }
 #caracteristics .caract-center {
-  color: #fff;
+  color: white;
   border-width: 3px;
   border-style: solid;
   border-image: linear-gradient(to top, #6d7a80, rgba(0, 0, 0, 0)) 1 100%;
@@ -160,18 +213,18 @@
   background-image: url(../img/FONDO\ PIEDRAS-06.png);
   background-size: cover;
   width: 100%;
-  height: 225vh;
+  height: 250vh;
   position: relative;
   padding-bottom: 100px;
 }
 #raceSectionAndfaq #races {
+  width: 100%;
   height: 50%;
   margin: auto;
 }
 #raceSectionAndfaq #races .race {
   width: 25%;
   height: 40%;
-  background-size: cover;
   z-index: 60;
   cursor: pointer;
 }
@@ -182,6 +235,7 @@
 #raceSectionAndfaq .raceDescription {
   color: #ffb800;
   font-family: "Latina bold";
+  font-size: 15px;
 }
 #raceSectionAndfaq #faq {
   width: 90%;
@@ -203,20 +257,40 @@
   border-bottom: 1px solid #fff;
 }
 #raceSectionAndfaq #faq #faqs {
+  box-sizing: border-box;
   width: 90%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
-#raceSectionAndfaq #faq #faqs .faq {
+#raceSectionAndfaq #faq #faqs .faqDiv {
   width: 100%;
-  height: 10%;
-  background-image: url(../img/CUADRADO\ PREGUNTAS\ FRECUENTES-06.png);
-  background-size: cover;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+#raceSectionAndfaq #faq #faqs .faqDiv .faqImg {
+  width: 100%;
+  height: 100%;
+}
+#raceSectionAndfaq #faq #faqs .faqDiv .faqAnswer {
+  width: 75%;
+  display: flex;
+  align-self: center;
 }
 #raceSectionAndfaq #faq #faqs p {
-  font-size: 130%;
+  font-size: 25px;
+  color: #fff;
   font-family: "Latina bold";
-  top: 35%;
-  left: 4%;
+}
+#raceSectionAndfaq #faq .plus {
+  color: #fff;
+  font-weight: bold;
+  width: 10%;
+  align-self: center;
+  right: 4%;
+  font-size: 25px;
+  z-index: 300;
 }
 
 #announce2 {
@@ -371,9 +445,6 @@ input[type=email] {
   background: rgb(0, 74, 61);
   background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
 }
-#mainlog #navsup {
-  padding: 0.5%;
-}
 #mainlog #login {
   width: 90%;
   margin: auto;
@@ -515,6 +586,109 @@ input[type=email] {
 
 .formulario__grupo-incorrecto .formulario__input {
   border: 3px solid #bb2929;
+}
+
+#maininter {
+  background: rgb(0, 74, 61);
+  background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
+  width: 100%;
+  height: 150vh;
+}
+#maininter #schoolAndRanking {
+  width: 85%;
+  height: 80%;
+  color: #fff;
+}
+#maininter #schoolAndRanking #school {
+  width: 30%;
+  height: 70%;
+  background-color: #001521;
+  border-radius: 5%;
+}
+#maininter #schoolAndRanking #school #schoolpicandname {
+  width: 90%;
+  margin: auto;
+  border-bottom: 1px solid #fff;
+}
+#maininter #schoolAndRanking #school #schoolpicandname #pic {
+  width: 30%;
+  height: 60%;
+  background-color: #fff;
+  border-radius: 55%;
+}
+#maininter #schoolAndRanking #school #position {
+  width: 90%;
+  margin: auto;
+  border-bottom: 1px solid #fff;
+}
+#maininter #schoolAndRanking #school #rankingside {
+  width: 90%;
+  margin: auto;
+  border-bottom: 1px solid #fff;
+}
+#maininter #schoolAndRanking #ranking {
+  width: 65%;
+  height: 100%;
+  border: 1px solid #fff;
+}
+
+/*Mail styles*/
+#mainmail {
+  background: rgb(0, 74, 61);
+  background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
+  height: 110vh;
+}
+#mainmail #mail .mail {
+  font-family: "Latina bold";
+  font-size: 40px;
+}
+#mainmail #mail .frasemail {
+  font-family: "Latina regular";
+  font-size: 18px;
+}
+#mainmail #dontreceive {
+  width: 50%;
+}
+#mainmail #dontreceive p {
+  font-family: "Latina regular";
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+#mainmail #buttonsreceive {
+  width: 60%;
+}
+#mainmail #buttonsreceive a {
+  width: 50%;
+}
+#mainmail #buttonsreceive .end {
+  text-align: end;
+}
+#mainmail #buttonsreceive img {
+  width: 100%;
+}
+#mainmail #buttonsreceive .changebut {
+  font-family: "Latina bold";
+  border: 1px solid #fff;
+  text-align: center;
+  border-radius: 20px;
+}
+#mainmail #netbuttons {
+  width: 40%;
+}
+#mainmail #redesbuttons {
+  width: 10%;
+}
+#mainmail #redesbuttons a {
+  width: 40%;
+  border-radius: 40%;
+}
+#mainmail #redesbuttons a i {
+  color: #fff;
+  font-size: 20px;
+}
+
+.buttonslog li {
+  width: 20% !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

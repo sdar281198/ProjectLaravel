@@ -16,7 +16,9 @@ mix.js('resources/js/app.js', 'public/js')
         require('postcss-import'),
         require('tailwindcss'),
     ])
+.options({ processCssUrls: false })
 .sass('resources/sass/styles.scss','public/css');
+
 
 
 if (mix.inProduction()) {

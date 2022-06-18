@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
 //Fuentes
@@ -24,9 +24,40 @@ $white: #fff;
 $colorInputs: #011625;
 $colorHave: #426264;
 $black: #000;
+$gradient1: rgb(0,74,61);
+$gradient2: linear-gradient(180deg, rgba(0,74,61,1) 0%, rgba(0,57,53,1) 34%, rgba(0,38,44,1) 64%, rgba(0,21,33,1) 100%);
 //Main
 #main{
     background: $colorFondo;
+}
+#body{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.menu.menu-opened{
+    position: relative;
+    top: 40px!important;
+    z-index: 2999!important;
+}
+.body::after{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(13, 0, 13, 0.38);
+    z-index: 1500;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity .5s;
+}
+.menu-opened.body::after{
+    opacity: 1;
+    transform: scale(1);
 }
 //Header
 #header{
@@ -40,17 +71,37 @@ $black: #000;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-image: linear-gradient(360deg, $colorFondo, transparent 47%);
     z-index: 55;
+}
+#mobileMenu{
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    background-color: $gradient1;
+    background: $gradient2;
+    display: flex;
+    top: -400%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    border-radius: .8rem;
+    transition: all 500ms;
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
 }
 #navsup{
     width: 85%;
     height: 10%;
-    padding: 2%;
+    padding: 0.5%;
     background: rgb(77,53,19);
     background: linear-gradient(90deg, rgba(77,53,19,1) 0%, rgba(70,48,16,1) 35%, rgba(70,48,16,1) 100%);
-    border: 5px solid $black;
+    border: 5px solid;
     border-image: -webkit-gradient(
         linear,
         right bottom,
@@ -62,14 +113,22 @@ $black: #000;
     #7e5023,
     #dcae19);
     border-image-slice:1;
-    z-index: 1999;
+    z-index: 199;
     top: 0px;
     ul{
         width: 45%;
         img{
             width: 50%;
+            transition: all 0.6s;
+        }
+        img:hover{
+            transform: scale(2, 2);
+            transition: all 0.6s;
         }
     }
+}
+#hambMenu{
+    display: none;
 }
 #logo{
     width: 20%;
@@ -127,14 +186,6 @@ $black: #000;
         height: 15%;
     }
 }
-.swiper-button-next, 
-.swiper-button-prev{
-    color: $black!important;
-}
-.swiper-pagination-bullet,
-.swiper-pagination-bullet-active{
-    background: $black!important;
-}
 #caracteristics{
     width: 80%;
     background-color: $colorFondo;
@@ -157,13 +208,13 @@ $black: #000;
         }
     }
     .caract-center{
-            color: $white;
+            color: white;
             border-width: 3px;
             border-style: solid;
-            border-image:
+            border-image: 
               linear-gradient(
-                to top,
-                #6d7a80,
+                to top, 
+                #6d7a80, 
                 rgba(0, 0, 0, 0)
               ) 1 100%;
     }
@@ -172,17 +223,16 @@ $black: #000;
     background-image: url(../img/FONDO\ PIEDRAS-06.png);
     background-size: cover;
     width: 100%;
-    height: 225vh;
+    height: 250vh;
     position: relative;
     padding-bottom: 100px;
     #races{
+        width: 100%;
         height: 50%;
         margin: auto;
         .race{
             width: 25%;
             height: 40%;
-            background-size:cover;
-            // border-radius: 5%;
             z-index: 60;
             cursor: pointer;
         }
@@ -194,6 +244,7 @@ $black: #000;
     .raceDescription{
         color: #ffb800;
         font-family: $latBold;
+        font-size: 15px;
     }
     #faq{
         width: 90%;
@@ -214,20 +265,43 @@ $black: #000;
             }
         }
         #faqs{
+            box-sizing: border-box;
             width: 90%;
             height: 100%;
-            .faq{
+            display: flex;
+            flex-direction: column;
+            .faqDiv{
                 width: 100%;
-                height: 10%;
-                background-image: url(../img/CUADRADO\ PREGUNTAS\ FRECUENTES-06.png);
-                background-size: cover;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                .faqImg{
+                    width: 100%;
+                    height: 100%;
+                    img{
+
+                    }
+                }
+                .faqAnswer{
+                    width: 75%;
+                    display: flex;
+                    align-self: center;
+                }
             }
             p{
-                font-size: 130%;
+                font-size: 25px;
+                color: $white;
                 font-family: $latBold;
-                top: 35%;
-                left: 4%;
             }
+        }
+        .plus{
+            color: $white;
+            font-weight: bold;
+            width: 10%;
+            align-self: center;
+            right: 4%;
+            font-size: 25px;
+            z-index: 300;
         }
     }
 }
@@ -285,13 +359,8 @@ $black: #000;
     width: 90%;
 }
 #mainreg{
-    background: rgb(0,74,61);
-    background: linear-gradient(
-                    180deg,
-                     rgba(0,74,61,1) 0%,
-                     rgba(0,57,53,1) 34%,
-                     rgba(0,38,44,1) 64%,
-                     rgba(0,21,33,1) 100%);
+    background: $gradient1;
+    background: $gradient2; 
     #navsup{
         height: 10vh;
     }
@@ -369,11 +438,8 @@ input[type='email']{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgb(0,74,61);
-    background: linear-gradient(180deg, rgba(0,74,61,1) 0%, rgba(0,57,53,1) 34%, rgba(0,38,44,1) 64%, rgba(0,21,33,1) 100%);
-    #navsup{
-        padding: 0.5%;
-    }
+    background: $gradient1;
+    background: $gradient2;
     #login{
         width: 90%;
         margin: auto;
@@ -431,7 +497,7 @@ input[type='email']{
 	margin-right: 10px;
 }
 
-.formulario__grupo-terminos,
+.formulario__grupo-terminos, 
 .formulario__mensaje,
 .formulario__grupo-btn-enviar {
 	grid-column: span 2;
@@ -500,7 +566,6 @@ input[type='email']{
 	color: $white;
 	opacity: 1;
 }
-
 .formulario__grupo-incorrecto .formulario__label {
 	color: #bb2929;
 }
@@ -512,4 +577,109 @@ input[type='email']{
 
 .formulario__grupo-incorrecto .formulario__input {
 	border: 3px solid #bb2929;
+}
+#maininter{
+    background: $gradient1;
+    background: $gradient2;
+    width: 100%;
+    height: 150vh;
+    #schoolAndRanking{
+        width: 85%;
+        height: 80%;
+        color: $white;
+        #school{
+            width: 30%;
+            height: 70%;
+            background-color: $colorFondo;
+            border-radius: 5%;
+            #schoolpicandname{
+                width: 90%;
+                margin: auto;
+                border-bottom: 1px solid $white;
+                #pic{
+                    width: 30%;
+                    height: 60%;
+                    background-color: $white;
+                    border-radius: 55%;
+                }
+            }
+            #position{
+                width: 90%;
+                margin: auto;
+                border-bottom: 1px solid $white;
+            }
+            #rankingside{
+                width: 90%;
+                margin: auto;
+                border-bottom: 1px solid $white;
+            }
+        }
+        #ranking{
+            width: 65%;
+            height: 100%;
+            border: 1px solid $white;
+        }
+    }
+}
+
+/*Mail styles*/
+#mainmail{
+    background: $gradient1;
+    background: $gradient2;
+    height: 110vh;
+    #mail{
+        .mail{
+            font-family: $latBold;
+            font-size: 40px;
+        }
+        .frasemail{
+            font-family: $latReg;
+            font-size: 18px;
+        }
+    }
+    #dontreceive{
+        width: 50%;
+        p{
+            font-family: $latReg;
+            font-size: 35px;
+            letter-spacing: 2px;
+        }
+    }
+    #buttonsreceive{
+        width: 60%;
+        a{
+            width: 50%;
+        }
+        .end{
+            text-align: end;
+        }
+        img{
+            width: 100%;
+        }
+        .changebut{
+            font-family: $latBold;
+            border: 1px solid $white;
+            text-align: center;
+            border-radius: 20px;
+        }
+    }
+    #netbuttons{
+        width: 40%;
+    }
+    #redesbuttons{
+        width: 10%;
+        a{
+            width: 40%;
+            border-radius: 40%;
+            i{
+                color: $white;
+                font-size: 20px;
+            }
+        }
+    }
+}
+.buttonslog{
+    li{
+        width: 20%!important;
+    }
 }
