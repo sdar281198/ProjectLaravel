@@ -106,7 +106,76 @@
                     <div id="line"></div>
                 </div>
                 <div id="faqs" class="mx-auto">
-                    <div class="faqDiv">
+                <div class="accordionfaq text-white" id="question1">
+                        <a class="accordion-link text-white" href="#question1">
+                            Que es the online race?
+                            <i class="fa-solid fa-plus text-white"></i>
+                            <i class="fa-solid fa-minus text-white"></i>
+                        </a>
+                        <div class="answer">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem itaque eveniet voluptatum ratione 
+                                officia aspernatur necessitatibus, eaque quod blanditiis deleniti adipisci, voluptate a, amet 
+                                possimus maxime soluta eos dolores. Animi?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordionfaq text-white" id="question2">
+                        <a class="accordion-link text-white" href="#question2">
+                            Tengo problemas para acceder a mi cuenta
+                            <i class="fa-solid fa-plus text-white"></i>
+                            <i class="fa-solid fa-minus text-white"></i>
+                        </a>
+                        <div class="answer">
+                            <p>
+                            Si tienes problemas para acceder a tu cuenta escríbenos a <span class="underline">soporte@theonlinerace.com</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordionfaq text-white" id="question3">
+                        <a class="accordion-link text-white" href="#question3">
+                            No puedo resolver un acertijo
+                            <i class="fa-solid fa-plus text-white"></i>
+                            <i class="fa-solid fa-minus text-white"></i>
+                        </a>
+                        <div class="answer">
+                            <p>
+                            Descubre cómo resolver un acertijo en <a href="#" class="underline">¿Como jugar?</a> Si notaste un error escríbenos a <span class="underline">soporte@theonlinerace.com</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordionfaq text-white" id="question4">
+                        <a class="accordion-link text-white" href="#question4">
+                            ¿Como puedo inscribir a mi colegio?
+                            <i class="fa-solid fa-plus text-white"></i>
+                            <i class="fa-solid fa-minus text-white"></i>
+                        </a>
+                        <div class="answer">
+                             <p>
+                             Si quieres participar con tu colegio escríbenos a <span class="underline">comercial@theonlinerace.com</span>.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordionfaq text-white" id="question5">
+                        <a class="accordion-link text-white" href="#question5">
+                            The online race es un juego gratuito?
+                            <i class="fa-solid fa-plus text-white"></i>
+                            <i class="fa-solid fa-minus text-white"></i>
+                        </a>
+                        <div class="answer">
+                            <p class="flex flex-col">
+                                Sí, The Online Race cuenta con 
+                                distintas modalidades gratuitas que podrás disfrutar solo y con amigos. 
+                                Para jugar sin límites y desbloquear más acertijos, ofrecemos paquetes 
+                                de tickets desde los S/. X.
+                                <span class="flex flex-col">
+                                    <p>Race: Compite de manera gratuita en la próxima carrera</p>
+                                    <p>Clásico: Desafía tu habilidad resolviendo cientos de acertijos gratuitos</p>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div class="faqDiv">
                         <div class="faqImg relative">
                             <img src="../img/CUADRADO PREGUNTAS FRECUENTES-06.png" alt="" class="relative mx-auto">
                         </div>
@@ -160,7 +229,7 @@
                         <div class="faqAnswer absolute">
                             <p class="">The online race es un juego gratuito</p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div id="announce2" class="mx-auto">

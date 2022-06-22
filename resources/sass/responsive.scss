@@ -48,6 +48,9 @@ $white : #fff;
             display: none;
         }
     }
+    #raceSectionAndfaq{
+        height: auto;
+    }
     #caracteristics{
         display: flex;
         flex-direction: column;
@@ -59,12 +62,93 @@ $white : #fff;
         }
     }
     #races{
+        width: 100%!important;
+        margin-top: 60px!important;
         display: flex;
         flex-direction: column;
+        .race{
+            width: 50%!important;
+        }
     }
     #buttons{
         display: none;
         li{
         }
+    }
+}
+@media screen and (max-width:841px){
+    #contentfoot{
+        justify-content: center;
+        flex-direction: column;
+    }
+    #menudown{
+        width: auto;
+        margin: auto;
+        ul{
+            flex-direction: column;
+        }
+    }
+    #footernet{
+        width: auto!important;
+        justify-content: center!important;
+        margin-top: 9%;
+    }
+}
+@media screen and (max-width:541px){
+    #frase{
+        img{
+            width: 55%!important;
+        }
+    #frase1{
+        font-size: 150%!important;
+    }
+    #frase2{
+        font-size: 75%!important;
+    }
+}
+.faqAnswer{
+    p{
+        font-size: 60%!important;
+    }
+}
+.plus{
+    font-size: 60%!important;
+}
+#textandline{
+    p{
+        font-size: 38%;
+        font-weight: bold;
+    }
+}
+}
+@media screen and (max-width:450px){
+    .caracteristic{
+        .text{
+            font-size: 80%!important;
+        }
+    }
+    .raceTitle{
+        font-size: 125%!important;
+    }
+    .raceDescription{
+        font-size: 10px!important;
+    }
+}
+@media screen and (max-width:340px){
+    .faqAnswer{
+        p{
+            font-size: 35%!important;
+        }
+    }
+    .plus{
+        font-size: 35%!important;
+    }
+}
+@media screen and (max-width:310px){
+    .raceTitle{
+        font-size: 100%!important;
+    }
+    .raceDescription{
+        font-size: 5px!important;
     }
 }

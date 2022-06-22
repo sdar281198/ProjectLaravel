@@ -21,6 +21,9 @@ Route::get('/home', function () {
 Route::get('/interescolar', function () {
     return view('interescolar');
 });
+Route::get('/perfil', function () {
+    return view('myprofile');
+});
 
 
 Route::middleware([
