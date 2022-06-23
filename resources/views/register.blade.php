@@ -2,11 +2,11 @@
 <div id="mainreg" class="flex flex-col items-center">
 <x-nav/>
 <div class="mt-10">
-  <p class="container text-center text-white text-3xl font-bold" id="titreg">Crear cuenta</p>
-            <p class="container text-white text-center text-lg mt-4" id="textreg">Te enviaremos un enlace de verificación.<br>Ingresa a tu correo para completar el registro.</p>
+<p class="container text-center text-white text-3xl font-bold" id="titreg">Crear cuenta</p>
+            <p class="container text-white text-center mt-4" id="textreg">Te enviaremos un enlace de verificación.<br>Ingresa a tu correo para completar el registro.</p>
         </div>
-        <div id="registerdiv" class="mx-auto mt-5" id="register">
-            <form id="form" class="mx-auto flex flex-col" action="">
+            <div id="registerdiv" class="mx-auto mt-5" id="register">
+                <form id="form" class="mx-auto flex flex-col" action="">
             <div>
                 <div class="mx-auto mt-4 mb-4 relative" id="grupo__usuario">
                 <label for="usuario"></label>
@@ -50,18 +50,18 @@
                 </div>
                 <div class="flex justify-center">
                     <button id="buttonregister" class="mx-auto outline-none p-3 rounded text-white" type="submit">
-                        <img src="../img/BOTON REGISTRATE-07.png" alt="">
+                        <img src="../assets/img/BOTON REGISTRATE-07.png" alt="">
                     </button>
                 </div>
                 <div class="mt-5">
-                    <p class="grid titulo text-center mt-2 text-white" style="font-family:var(--latinaBold);">o registrate con</p>
+                    <p id="regrayas" class="grid titulo text-center mt-2 text-white" style="font-family:var(--latinaBold);">o registrate con</p>
                 </div>
                 <div id="redes" class="mx-auto mt-4 flex justify-between">
                     <a class="with text-center border p-2" href=""><i class="font-bold fa-brands fa-facebook-f"></i></a>
                     <a class="with text-center border p-2" href=""><i class="font-bold fa-brands fa-google"></i></a>
                 </div>
                 <div class="flex justify-center">
-                    <button id="got" class="mx-auto mt-5 text-white p-4" type="button"><a href="/login2">¿Ya tienes una cuenta?</a></button>
+                    <button id="got" class="mx-auto mt-5 text-white p-4" type="button">¿Ya tienes una cuenta?</button>
                 </div>
                 </div>
                 <div class="formulario__mensaje" id="formulario__mensaje">

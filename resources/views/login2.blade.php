@@ -20,7 +20,7 @@
             <img src="../img/BOTON INICIAR SESION-07.png" alt="">
         </button>
         <a href="#" class="mt-4 text-white underline" style="font-family:var(--latinaBold);">Olvidaste tu contraseña</a>
-        <div class="mt-10" style="width:38%;">
+        <div id="rayaslog" class="mt-10" style="width:38%;">
             <p class="grid titulo text-center mt-2 text-white" style="font-family:var(--latinaBold);">o inicia sesion con</p>
         </div>
         <div id="redeslog" class="mx-auto mt-4 flex justify-between">

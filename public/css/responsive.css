@@ -51,7 +51,7 @@
     align-items: center;
   }
   #caracteristics .caracteristic {
-    width: 50%;
+    width: 100%;
     border: 0px;
   }
 
@@ -88,6 +88,10 @@
     justify-content: center !important;
     margin-top: 9%;
   }
+
+  #menudown {
+    width: 50% !important;
+  }
 }
 @media screen and (max-width: 541px) {
   #frase img {
@@ -97,7 +101,7 @@
     font-size: 150% !important;
   }
   #frase #frase2 {
-    font-size: 75% !important;
+    font-size: 100% !important;
   }
 
   .faqAnswer p {
@@ -142,6 +146,101 @@
 
   .raceDescription {
     font-size: 5px !important;
+  }
+}
+/*Register medias*/
+@media screen and (max-width: 680px) {
+  #form {
+    width: 90% !important;
+  }
+  #form input {
+    font-size: 80%;
+  }
+  #form #grupo__terminos {
+    font-size: 70%;
+  }
+
+  #buttonregister {
+    width: 60%;
+  }
+
+  #regrayas {
+    font-size: 70%;
+  }
+
+  #got {
+    font-size: 75%;
+  }
+}
+@media screen and (max-width: 380px) {
+  #redes {
+    display: flex;
+    flex-direction: column;
+  }
+  #redes a {
+    width: 100%;
+    border-radius: 20%;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 330px) {
+  #textreg {
+    font-size: 65% !important;
+  }
+}
+/*Login medias*/
+@media screen and (max-width: 1210px) {
+  #createlog {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 1130px) {
+  #rayaslog p {
+    font-size: 75%;
+  }
+}
+@media screen and (max-width: 760px) {
+  #formlog .loginin {
+    width: 90% !important;
+  }
+  #formlog #loginboton {
+    width: 35% !important;
+  }
+  #formlog #rayaslog {
+    width: 75% !important;
+  }
+  #formlog #rayaslog p {
+    font-size: 70%;
+  }
+
+  #redeslog {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 726px) {
+  #createlog {
+    width: 35%;
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 401px) {
+  #rayaslog p {
+    font-size: 50% !important;
+  }
+
+  #redeslog {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #redeslog a {
+    border-radius: 20%;
+    margin-bottom: 4px;
+  }
+
+  #createlog {
+    font-size: 45%;
   }
 }
 

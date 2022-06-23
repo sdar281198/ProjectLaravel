@@ -57,7 +57,7 @@ $white : #fff;
         justify-content: center;
         align-items: center;
         .caracteristic{
-            width: 50%;
+            width: 100%;
             border: 0px;
         }
     }
@@ -93,6 +93,9 @@ $white : #fff;
         justify-content: center!important;
         margin-top: 9%;
     }
+    #menudown{
+        width: 50%!important;
+    }
 }
 @media screen and (max-width:541px){
     #frase{
@@ -103,7 +106,7 @@ $white : #fff;
         font-size: 150%!important;
     }
     #frase2{
-        font-size: 75%!important;
+        font-size: 100%!important;
     }
 }
 .faqAnswer{
@@ -150,5 +153,100 @@ $white : #fff;
     }
     .raceDescription{
         font-size: 5px!important;
+    }
+}
+/*Register medias*/
+@media screen and (max-width:680px){
+    #form{
+        width: 90%!important;
+        input{
+            font-size: 80%;
+        }
+        #grupo__terminos{
+            font-size: 70%;
+        }
+    }
+    #buttonregister{
+        width: 60%;
+    }
+    #regrayas{
+        font-size: 70%;
+    }
+    #got{
+        font-size: 75%;
+    }
+}
+@media screen and (max-width:380px){
+    #redes{
+        display: flex;
+        flex-direction: column;
+        a{
+            width: 100%;
+            border-radius: 20%;
+            margin-bottom: 5px;
+        }
+    }
+}
+@media screen and (max-width:330px){
+    #textreg{
+        font-size: 65%!important;
+    }
+}
+/*Login medias*/
+@media screen and (max-width:1210px){
+    #createlog{
+        width: 25%;
+    }
+}
+@media screen and (max-width:1130px){
+    #rayaslog{
+        p{
+            font-size: 75%;
+        }
+    }
+}
+@media screen and (max-width:760px){
+    #formlog{
+        .loginin{
+        width: 90%!important;
+    }
+    #loginboton{
+        width: 35%!important;
+    }
+    #rayaslog{
+        width: 75%!important;
+        p{
+            font-size: 70%;
+        }
+    }
+  }
+  #redeslog{
+    width: 20%;
+  }
+}
+@media screen and (max-width:726px){
+    #createlog{
+        width: 35%;
+        font-size: 70%;
+    }
+}
+@media screen and (max-width:401px){
+    #rayaslog{
+        p{
+            font-size: 50%!important;
+        }
+    }
+    #redeslog{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a{
+            border-radius: 20%;
+            margin-bottom: 4px;
+        }
+    }
+    #createlog{
+        font-size: 45%;
     }
 }
