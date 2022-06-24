@@ -1,41 +1,10 @@
-// let i = 0;
-let images = [];
-let slideTime = 5000; // 3 seconds
-// let changeBorderTime = 4999;
-images[0] = '../img/famarilloosc.png';
-images[1] = '../img/fmoradoosc.png';
-images[2] = '../img/fverdeosc.png';
-console.log(images);
-// let colors = [];
-// colors[0] = 'white';
-// colors[1] = 'black';
-// colors[2] = '#d3761c';
-let ground = document.getElementById('header');
-// let navBorder = document.getElementById('navsup');
-
-
-function changePicture() {
-    ground.style.background = "url("+ images[i] + ")";
-    ground.style.backgroundSize = 'cover';
-
-    if (i < images.length - 1) {
-        i++;
-    } else {
-        i = 0;
-    }
-    setTimeout(changePicture, slideTime);
+window.onload = choosePic;
+var myPix = new Array("./img/FONDO\ AMARILLO\ T-06-06.png", "./img/fverdeosc.png","./img/fmoradoosc.png");
+function choosePic() {
+    var randomNum = Math.floor((Math.random() * myPix.length));
+    document.getElementById("header").style.backgroundImage =
+        "url(" + myPix[randomNum] + ")";
 }
-// function changeBorderNav(){
-//     navBorder.style.borderColor = colors[i];
-//     if(i<colors.length-1){
-//         i++;
-//     }
-//     else{
-//         i =0;
-//     }
-//     setTimeout(changeBorderNav,changeBorderTime );
-// }
-
 /*Scroll reveal effects */
 const menuOpen = document.getElementById('hambMenu');
 const menuClose = document.getElementById('hambMenuClose');

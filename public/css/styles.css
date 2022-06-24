@@ -55,6 +55,11 @@
 
 #header {
   background: url(../img/FONDO\ AMARILLO\ T-06-06.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   height: 100vh;
 }
