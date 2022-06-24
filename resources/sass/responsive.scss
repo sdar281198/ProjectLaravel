@@ -199,11 +199,6 @@ $white : #fff;
     }
 }
 @media screen and (max-width:330px){
-    #logo{
-        img{
-            width: 95%;
-        }
-    }
     #textreg{
         font-size: 65%!important;
     }
@@ -247,6 +242,9 @@ $white : #fff;
     }
 }
 @media screen and (max-width:401px){
+    #logo{
+        width: 40%;
+    }
     #rayaslog{
         p{
             font-size: 50%!important;
