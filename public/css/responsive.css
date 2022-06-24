@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #buttons li a {
-    font-size: 70% !important;
+    font-size: 45% !important;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -25,6 +25,9 @@
   }
   #frase #frase2 {
     text-align: center;
+  }
+  #frase div {
+    justify-content: center;
   }
 
   #navsup #hambMenu {
@@ -67,6 +70,9 @@
 
   #buttons {
     display: none;
+  }
+  .loginin {
+    width: 75% !important;
   }
 }
 @media screen and (max-width: 841px) {
@@ -150,6 +156,10 @@
 }
 /*Register medias*/
 @media screen and (max-width: 680px) {
+  #mainreg #navsup {
+    width: 90% !important;
+  }
+
   #form {
     width: 90% !important;
   }
@@ -201,7 +211,7 @@
 }
 @media screen and (max-width: 760px) {
   #formlog .loginin {
-    width: 90% !important;
+    width: 75% !important;
   }
   #formlog #loginboton {
     width: 35% !important;

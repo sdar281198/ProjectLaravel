@@ -3,7 +3,7 @@ $white : #fff;
     #buttons{
         li{
             a{
-                font-size: 70%!important;
+                font-size: 45%!important;
             }
         }
     }
@@ -31,6 +31,9 @@ $white : #fff;
         }
         #frase2{
             text-align: center;
+        }
+        div{
+            justify-content: center;
         }
     }
     #navsup{
@@ -74,6 +77,9 @@ $white : #fff;
         display: none;
         li{
         }
+    }
+    .loginin{
+        width: 75%!important;
     }
 }
 @media screen and (max-width:841px){
@@ -157,6 +163,11 @@ $white : #fff;
 }
 /*Register medias*/
 @media screen and (max-width:680px){
+    #mainreg{
+        #navsup{
+            width: 90%!important;
+        }
+    }
     #form{
         width: 90%!important;
         input{
@@ -208,7 +219,7 @@ $white : #fff;
 @media screen and (max-width:760px){
     #formlog{
         .loginin{
-        width: 90%!important;
+        width: 75%!important;
     }
     #loginboton{
         width: 35%!important;

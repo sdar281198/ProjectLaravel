@@ -5,7 +5,9 @@
         <p id="frase1" class="text-white italic uppercase">¡La suerte no juega!</p>
         <p id="frase2" class="text-white">Navega por internet y encuentra las respuestas <br>
             a cientos de acertijos.</p>
-        <img class="cursor-pointer" src="../img/BOTON JUGAR AHORA-12.png" alt="">
+        <div>
+        <img class="cursor-pointer" src="../img/jugar-ahora.png" alt="">
+        </div>
       </div>
   </header>
   <div id="bannerAndAnnounce" class="flex flex-col items-center">
@@ -163,16 +165,18 @@
                             <i class="fa-solid fa-minus text-white"></i>
                         </a>
                         <div class="answer">
-                            <p class="flex flex-col">
+                            <div class="flex flex-col">
+                                <p>
                                 Sí, The Online Race cuenta con 
                                 distintas modalidades gratuitas que podrás disfrutar solo y con amigos. 
                                 Para jugar sin límites y desbloquear más acertijos, ofrecemos paquetes 
                                 de tickets desde los S/. X.
+                                </p>
                                 <span class="flex flex-col">
                                     <p>Race: Compite de manera gratuita en la próxima carrera</p>
                                     <p>Clásico: Desafía tu habilidad resolviendo cientos de acertijos gratuitos</p>
                                 </span>
-                            </p>
+                            </div>
                         </div>
                     </div>
                     <!-- <div class="faqDiv">

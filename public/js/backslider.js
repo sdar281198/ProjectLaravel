@@ -1,30 +1,30 @@
 // let i = 0;
-// let images = [];
-// let slideTime = 5000; // 3 seconds
+let images = [];
+let slideTime = 5000; // 3 seconds
 // let changeBorderTime = 4999;
-// images[0] = '../assets/img/famarilloosc.png';
-// images[1] = '../assets/img/fmoradoosc.png';
-// images[2] = '../assets/img/fverdeosc.png';
+images[0] = '../img/famarilloosc.png';
+images[1] = '../img/fmoradoosc.png';
+images[2] = '../img/fverdeosc.png';
+console.log(images);
 // let colors = [];
 // colors[0] = 'white';
 // colors[1] = 'black';
 // colors[2] = '#d3761c';
-// let ground = document.getElementById('header');
+let ground = document.getElementById('header');
 // let navBorder = document.getElementById('navsup');
-// console.log(navBorder);
 
 
-// function changePicture() {
-//     ground.style.background = "url("+ images[i] + ")";
-//     ground.style.backgroundSize = 'cover';
+function changePicture() {
+    ground.style.background = "url("+ images[i] + ")";
+    ground.style.backgroundSize = 'cover';
 
-//     if (i < images.length - 1) {
-//         i++;
-//     } else {
-//         i = 0;
-//     }
-//     setTimeout(changePicture, slideTime);
-// }
+    if (i < images.length - 1) {
+        i++;
+    } else {
+        i = 0;
+    }
+    setTimeout(changePicture, slideTime);
+}
 // function changeBorderNav(){
 //     navBorder.style.borderColor = colors[i];
 //     if(i<colors.length-1){

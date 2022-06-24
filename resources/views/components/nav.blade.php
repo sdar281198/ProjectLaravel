@@ -4,8 +4,8 @@
       </div>
       <ul class="flex justify-between text-center">
           <li><a href="/interescolar" class="flex justify-center"> <img src="../img/INTERESCOLAR-07.png" alt=""></a></li>
-          <li><a href="" class="flex justify-center"><img src="../img/RACE-07.png" alt=""></a></li>
-          <li><a href="" class="flex justify-center"><img src="../img/CLASICO.png" alt=""></a></li>
+          <li><a href="" class="flex justify-center" style="margin-left:-21px;"><img src="../img/RACE-07.png" alt=""></a></li>
+          <li><a href="" class="flex justify-center" style="margin-top:-1.6px;"><img src="../img/CLASICO.png" alt=""></a></li>
       </ul>
       <div id="buttons" class="flex items-center justify-end">
           <li class="button-img list-none"><a href="/register" class="flex justify-end"><img src="../img/BOTON REGISTRARSE-07.png" alt=""></a></li>
