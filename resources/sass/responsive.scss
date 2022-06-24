@@ -199,6 +199,11 @@ $white : #fff;
     }
 }
 @media screen and (max-width:330px){
+    #logo{
+        img{
+            width: 95%;
+        }
+    }
     #textreg{
         font-size: 65%!important;
     }
