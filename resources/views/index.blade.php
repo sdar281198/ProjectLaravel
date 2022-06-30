@@ -3,8 +3,8 @@
     <x-nav/>
       <div id="frase" class="my-auto flex flex-col ">
         <p id="frase1" class="text-white italic uppercase">¡La suerte no juega!</p>
-        <p id="frase2" class="text-white">Navega por internet y encuentra las respuestas <br>
-            a cientos de acertijos.</p>
+        <p id="frase2" class="text-white">Navega por internet y encuentra las <br>
+        respuestas a cientos de acertijos.</p>
         <div>
         <img class="cursor-pointer" src="../img/jugar-ahora.png" alt="">
         </div>
@@ -75,7 +75,7 @@
                 <div class="mx-auto my-auto race flex flex-col justify-center items-center relative">
                     <img src="../img/fbordemorad.png" alt="">
                     <div class="raceelements flex flex-col justify-center items-center absolute">
-                    <a href="#" class="raceTitle text-white text-center">Interescolar</a>
+                    <a href="#" class="raceTitle text-white text-center uppercase">Interescolar</a>
                     <p class="raceDescription">
                         Apoya a tu colegio
                     </p>
@@ -85,7 +85,7 @@
                 <div class="mx-auto my-auto race flex flex-col justify-center items-center relative">
                     <img src="../img/fbordeama.png" alt="">
                     <div class="raceelements flex flex-col justify-center items-center absolute">
-                    <a href="#" class="raceTitle text-white text-center">Race</a>
+                    <a href="#" class="raceTitle text-white text-center uppercase">Race</a>
                     <p class="raceDescription">
                         Compite en simultaneo
                     </p>
@@ -95,7 +95,7 @@
                 <div class="mx-auto my-auto race flex flex-col justify-center items-center relative">
                     <img src="../img/fbordeverd.png" alt="">
                     <div class="raceelements flex flex-col justify-center items-center absolute">
-                    <a href="#" class="raceTitle text-white text-center">Clasico</a>
+                    <a href="#" class="raceTitle text-white text-center uppercase">Clásico</a>
                     <p class="raceDescription">
                         Resuelve cientos de acertijos
                     </p>
@@ -110,7 +110,7 @@
                 <div id="faqs" class="mx-auto">
                 <div class="accordionfaq text-white" id="question1">
                         <a class="accordion-link text-white" href="#question1">
-                            Que es the online race?
+                            ¿Que es the online race?
                             <i class="fa-solid fa-plus text-white"></i>
                             <i class="fa-solid fa-minus text-white"></i>
                         </a>

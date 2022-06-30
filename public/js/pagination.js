@@ -1,59 +1,56 @@
-const list_items = [];
-// var arry = ["JavaScript", "Fill", "this", "Array"];
-for (var i = 0; i < 192; i++) {
-    list_items[i] = i;
-}
-console.log(list_items);
-const list_element = document.getElementById('list');
-const pagination = document.getElementById('pagination');
+window.addEventListener('DOMContentLoaded', ()=> {
+    let tabs = document.querySelectorAll('.tab');
+    let content = document.querySelectorAll('.content');
+    let prev = document.querySelector('.previous');
+    let next = document.querySelector('.next');
+    let firstTab = function(tabs) {tabs.classList.add('tab-active')};
+    let firstContent = function(content) {content.classList.add('content-active')};
 
-let current_page = 1;
-let rows = 12;
-
-function DisplayList(items, wrapper, rows_per_page,page){
-    wrapper.innerHTML="";
-    page--;
-
-    let start = rows_per_page * page;
-    let end = start + rows_per_page;
-    let paginatedItems = items.slice(start, end);
-
-    for(let i = 0; i < paginatedItems.length; i++){
-        let item = paginatedItems[i];
+    let activeTab = 0;
+  
+    firstTab(tabs[0]);
+    firstContent(content[0]);
         
-        let item_element = document.createElement('div');
-        item_element.classList.add('item');
-        item_element.innerText = item;
+        for (let i = 0; i < tabs.length; i++) {            
+            tabs[i].addEventListener('click', () => tabClick(i));
+        }
 
-        wrapper.appendChild(item_element); 
-    }
-}
-function SetupPagination(items, wrapper, rows_per_page){
-    wrapper.innerHTML ="";
+        prev.addEventListener('click', () => tabClick(activeTab - 1));
+        next.addEventListener('click', () => tabClick(activeTab + 1));
 
-    let page_count = Math.ceil(items.length / rows_per_page);
-    for(let i = 1; i < page_count + 1; i++){
-        let btn = PaginationButton(i, items);
-        wrapper.appendChild(btn);
-    }
-
-}
-function PaginationButton(page, items){
-    let button = document.createElement('button');
-    button.innerText = 'Fecha'+page;
-
-    if(current_page == page) button.classList.add('active');
-
-    button.addEventListener('click',function(){
-        current_page = page;
-        DisplayList(items, list_element, rows, current_page);
-
-        let current_btn = document.querySelector('.pagenumbers button.active');
-        current_btn.classList.remove('active');
-
-        button.classList.add('active');
-    })
-    return button;
-}
-DisplayList(list_items, list_element, rows, current_page);
-SetupPagination(list_items, pagination, rows);
+        
+        function tabClick(currentTab) {
+          removeActive();
+            //Add Active Class
+            tabs[currentTab].classList.add('tab-active');
+            content[currentTab].classList.add('content-active');
+            activeTab = currentTab
+        }  
+        function removeActive() {
+          for (let i = 0; i < tabs.length; i++) {
+            //Remove Active Class
+            content[i].classList.remove('content-active');
+            content[i].classList.add('content-show');
+            setTimeout(function() {
+              content[i].classList.remove('content-show');
+            },1500);
+            tabs[i].classList.remove('tab-active');
+          }
+         }
+       })
+       prev.addEventListener("click", (i) => {
+        if (activeTab === 0) {
+          activeTab = tabs.length - 1;
+          tabClick(activeTab);
+        } else {
+          tabClick(activeTab - 1);
+        }
+      });
+      next.addEventListener("click", (i) => {
+        if (activeTab >= tabs.length - 1) {
+          activeTab = 0;
+          tabClick(activeTab);
+        } else {
+          tabClick(activeTab + 1);
+        }
+      });

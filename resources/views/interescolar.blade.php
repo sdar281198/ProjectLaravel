@@ -23,8 +23,32 @@
                 </div>
             </div>
             <div id="ranking">
-                <div class="pagenumbers" id="pagination"></div>
-                <div class="list" id="list"></div>
+            <div class="containerdate">
+                    <div class="tabs">
+                        <div class="previous buttons">PREV</div>
+                        <div id="fecha1" class="fecha tab">Fecha 1</div>
+                        <div id="fecha2" class="fecha tab">Fecha 2</div>
+                        <div id="fecha3" class="fecha tab">Fecha 3</div>
+                        <div id="fecha4" class="fecha tab">Fecha 4</div>
+                        <div id="fecha5" class="fecha tab">Fecha 5</div>
+                        <div id="fecha6" class="fecha tab">Fecha 6</div>
+                        <div id="fecha7" class="fecha tab">Fecha 7</div>
+                        <div id="fecha8" class="fecha tab">Fecha 8</div>
+                        <div class="next buttons">NEXT</div>
+                    </div>
+                
+                    <div class="contents">
+                        <div id="fecha1" class="content fecha">hola
+                        </div>
+                        <div id="fecha2" class="content fecha">2</div>
+                        <div id="fecha3" class="content fecha">3</div>
+                        <div id="fecha4" class="content fecha">4</div>
+                        <div id="fecha5" class="content fecha">5</div>
+                        <div id="fecha6" class="content fecha">6</div>
+                        <div id="fecha7" class="content fecha">7</div>
+                        <div id="fecha8" class="content fecha">8</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

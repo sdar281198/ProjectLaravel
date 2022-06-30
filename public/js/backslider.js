@@ -1,5 +1,5 @@
 window.onload = choosePic;
-var myPix = new Array("./img/FONDO\ AMARILLO\ T-06-06.png", "./img/fverdeosc.png","./img/fmoradoosc.png");
+var myPix = new Array("./img/famarilloosc.png", "./img/fverdeosc.png","./img/fmoradoosc.png");
 function choosePic() {
     var randomNum = Math.floor((Math.random() * myPix.length));
     document.getElementById("header").style.backgroundImage =

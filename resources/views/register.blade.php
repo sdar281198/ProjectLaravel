@@ -28,7 +28,7 @@
                 </div>
                 <div class="mx-auto mt-4 mb-4 relative" id="grupo__correo">
                 <label for="correo"></label>
-                <input class="container outline-none p-2 rounded" type="email" name="correo" value="" placeholder="Correo">
+                <input class="container outline-none p-2 rounded" type="email" name="correo" value="" placeholder="Email">
                 <i class="formulario__validacion-estado fas fa-times-circle"></i>
                 <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
                 </div>
@@ -50,7 +50,7 @@
                 </div>
                 <div class="flex justify-center">
                     <button id="buttonregister" class="mx-auto outline-none p-3 rounded text-white" type="submit">
-                        <img src="../assets/img/BOTON REGISTRATE-07.png" alt="">
+                        <img src="../img/BOTON REGISTRATE-07.png" alt="">
                     </button>
                 </div>
                 <div class="mt-5">
@@ -61,7 +61,7 @@
                     <a class="with text-center border p-2" href=""><i class="font-bold fa-brands fa-google"></i></a>
                 </div>
                 <div class="flex justify-center">
-                    <button id="got" class="mx-auto mt-5 text-white p-4" type="button">¿Ya tienes una cuenta?</button>
+                    <button id="got" class="mx-auto mt-5 text-white p-4" type="button"><a href="/login2">¿Ya tienes una cuenta?</a></button>
                 </div>
                 </div>
                 <div class="formulario__mensaje" id="formulario__mensaje">

@@ -61,7 +61,7 @@ $gradient2: linear-gradient(180deg, rgba(0,74,61,1) 0%, rgba(0,57,53,1) 34%, rgb
 }
 //Header
 #header{
-    background: url(../img/FONDO\ AMARILLO\ T-06-06.png);
+    // background: url(../img/FONDO\ AMARILLO\ T-06-06.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -111,7 +111,7 @@ $gradient2: linear-gradient(180deg, rgba(0,74,61,1) 0%, rgba(0,57,53,1) 34%, rgb
     margin-top: 5%;
 }
 #navsup{
-    width: 70%;
+    width: 85%;
     height: 10%;
     padding: 2%;
     background: rgb(77,53,19);
@@ -131,13 +131,20 @@ $gradient2: linear-gradient(180deg, rgba(0,74,61,1) 0%, rgba(0,57,53,1) 34%, rgb
     z-index: 199;
     top: 0px;
     ul{
-        width: 50%;
-        img{
-            width: 50%;
+        width: 45%;
+        // img{
+        //     width: 50%;
+        //     transition: all 0.6s;
+        // }
+        a{
+            color: #831202;
+            font-family: $latUltHeav;
+            font-size: 1.4rem;
+            text-shadow: 0px 0 0 #b38b40, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
             transition: all 0.6s;
         }
-        img:hover{
-            transform: scale(1.5,1.5);
+        a:hover{
+            transform: scale(1.5, 1.5);
             transition: all 0.6s;
         }
     }
@@ -158,11 +165,11 @@ $gradient2: linear-gradient(180deg, rgba(0,74,61,1) 0%, rgba(0,57,53,1) 34%, rgb
     }
 }
 #frase{
-    width: 70%;
+    width: 85%;
     height: 50%;
     #frase1{
         font-family: $latUltHeav;
-        font-size: 50px;
+        font-size: 35px;
     }
     #frase2{
         font-family: $latReg;
@@ -172,22 +179,22 @@ $gradient2: linear-gradient(180deg, rgba(0,74,61,1) 0%, rgba(0,57,53,1) 34%, rgb
         width: 100%;
         display: flex;
         img{
-            width: 30%;
+            width: 20%;
             margin-top: 40px;
             z-index: 100;
         }
     }
 }
 #buttons{
-    width:25%;
+    width:30%;
     li{
         width: 50%;
         font-family: $latUltHeav;
         color: $white;
         a{
-            font-size: 64%;
+            font-size: 90%;
             img{
-                width: 90%;
+                width: 80%;
             }
         }
     }
@@ -300,33 +307,33 @@ $gradient2: linear-gradient(180deg, rgba(0,74,61,1) 0%, rgba(0,57,53,1) 34%, rgb
         .accordionfaq{
             display: flex;
             flex-direction: column;
-            background-image: url(../img/CUADRADO\ PREGUNTAS\ FRECUENTES-06.png)!important;
-            // background-color: #302910;
-            background-size: 100% 100%;
-            // border: 5px solid;
-            // border-image: -webkit-gradient(
-            //     linear,
-            //     right bottom,
-            //     left top,
-            //     from(#7e5023),
-            //     to(#dcae19)
-            // );
-            // border-image: linear-gradient(right,
-            // #7e5023,
-            // #dcae19);
-            // border-image-slice: 1;
+            // background-image: url(../img/CUADRADO\ PREGUNTAS\ FRECUENTES-06.png)!important;
+            background-color: #302910;
+            // background-size: 100% 100%;
+            border: 5px solid;
+            border-image: -webkit-gradient(
+                linear,
+                right bottom,
+                left top,
+                from(#7e5023),
+                to(#dcae19)
+            );
+            border-image: linear-gradient(right,
+            #7e5023,
+            #dcae19);
+            border-image-slice: 1;
             padding: 1rem;
             margin-top: 1px;
             margin-bottom: 5px;
             font-family: $latBold;
         .accordion-link{
-            font-size: 100%;
+            font-size: 1.5rem;
             text-decoration: none;
             width: 100%;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 1rem 0;
+            padding: 0.3rem;
             margin-left: 1%!important;
             margin-top: 1%;
             i{
@@ -737,6 +744,116 @@ input[type='email']{
             width: 65%;
             height: 100%;
             border: 1px solid $white;
+            /*Try pag*/
+/* WHOLE CONTAINER */
+.containerdate {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* TABS */
+  .tabs {
+    position: relative;
+      display: flex;
+      height: 10%;
+      overflow: hidden;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .tab {
+      font-size: 14px;
+      padding: 5px 10px;
+      cursor: pointer;
+      letter-spacing: 2px;
+  }
+
+        /* #fecha1.tab-active {background-color: rgb(245, 66, 66);}
+        #fecha2.tab-active {background-color: rgb(66, 135, 245);}
+        #fecha3.tab-active {background-color: rgb(245, 215, 66);}
+        #fecha4.tab-active {background-color: rgb(56, 235, 98);}
+        #fecha5.tab-active {background-color: rgb(79, 247, 219);} */
+        .fecha.tab-active{
+            background-color: rgb(245, 66, 66)!important;
+        }
+
+        /* TAB CONTENTS */
+        .contents {
+            width: 100%;
+            margin-top: 5px;
+            height: 80%;
+        }
+
+        .content {
+            width: 100%;
+            height: 90%;
+            display: none;
+            padding: 0;
+            margin: 0;
+            border: none;
+        }
+
+        .content-show {
+            display: flex;
+            animation-name: fade-out;
+            animation-duration: 2.5s;
+        }
+        
+        @keyframes fade-out {
+            0% {
+                opacity: 0;
+                display: flex;
+            }
+            99% {
+                opacity: 0;
+                display: flex;
+            }
+            100% {
+                opacity: 0;
+                display: none;
+            }
+        }
+
+        .content-active {
+            display: flex;
+            border: none;
+            justify-content: center;
+            animation-name: fade-in;
+            animation-duration: 2.5s;
+        }
+
+        @keyframes fade-in {
+            0% {
+                display: none;
+                opacity: 0;
+            }
+            1% {
+                display: block;
+                opacity: 0.01;
+            }
+            100%{
+                display: block;
+                opacity: 1;
+            }
+        }
+
+        .fecha.content-active {background-color: red;}
+
+        /* BUTTON PREVIOUS NEXT */
+        .button {
+          /* position: absolute;
+          top: 49%; */
+          z-index: 4;
+          cursor: pointer;
+        }
+        .buttons{
+            cursor: pointer;
+        }
+        /* 
+        .next{
+            right: 0%;
+        } */
         }
     }
 }

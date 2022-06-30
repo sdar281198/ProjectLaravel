@@ -3,7 +3,7 @@ $white : #fff;
     #buttons{
         li{
             a{
-                font-size: 45%!important;
+                font-size: 70%!important;
             }
         }
     }
@@ -11,7 +11,7 @@ $white : #fff;
 @media screen and (max-width:1100px) {
     #logo{
         img{
-            width: 80%;
+            width: 15%;
         }
     }
     #maininter{
@@ -24,6 +24,7 @@ $white : #fff;
         align-items: center;
         img{
             margin-left: 0px;
+            width: 30%!important;
         }
         #frase1{
             text-align: center;
@@ -242,9 +243,9 @@ $white : #fff;
     }
 }
 @media screen and (max-width:401px){
-    #logo{
-        width: 40%;
-    }
+    // #logo{
+    //     width: 40%;
+    // }
     #rayaslog{
         p{
             font-size: 50%!important;

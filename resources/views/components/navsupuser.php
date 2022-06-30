@@ -3,9 +3,9 @@
             <a href="/home"><img src="../img/logo.png" alt=""></a>
         </div>
         <ul class="flex justify-between text-center">
-            <li><a href="./interescolar" class="flex justify-center"><img src="../img/INTERESCOLAR-07.png" alt=""></a></li>
-            <li><a href="" class="flex justify-center"><img src="../img/RACE-07.png" alt=""></a></li>
-            <li><a href="" class="flex justify-center"><img src="../img/CLASICO.png" alt=""></a></li>
+            <li><a href="./interescolar" class="flex justify-center">Interescolar</a></li>
+            <li><a href="" class="flex justify-center">Race</a></li>
+            <li><a href="" class="flex justify-center">Clasico</a></li>
         </ul>
         <div id="buttons" class="flex items-center justify-end buttonslog">
             <li class="list-none cursor-pointer"><i class="fa-solid fa-user"></i></li>

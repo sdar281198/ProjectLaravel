@@ -3,10 +3,10 @@
             <div class="" id="menudown">
                 <ul id="" class="flex justify-between text-white">
                     <li><a href="">¿Como jugar?</a></li>
-                    <li><a href="">Reglas</a></li>
                     <li><a href="">Legal</a></li>
                     <li><a href="">Libro de reclamaciones</a></li>
-                    <li><a href="">Apoyo</a></li>
+                    <li><a href="">Soporte</a></li>
+                    <li><a href="">Foro</a></li>
                 </ul>
             </div>
             <div class="flex" id="footernet">
