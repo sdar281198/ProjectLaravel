@@ -1,6 +1,9 @@
-<nav id="navsup" class="mt-10 flex justify-between items-center p-10">
-        <div class="cursor-pointer grow" id="logo">
-            <a href="/home"><img src="../img/logo.png" alt=""></a>
+<nav id="navsup" class="mt-10 flex justify-between items-center p-10 relative">
+        <div class="flex grow cursor-pointer items-center" id="logo">
+            <a id='logo1' href="/home" class="flex absolute items-center">
+                <img src="../img/logo1.png" alt="">
+                <img src="../img/logo2.png" alt="">
+            </a>
         </div>
         <ul class="flex justify-between grow">
             <li class="flex grow text-center"><a href="./interescolar" class="flex justify-center grow">Interescolar</a></li>

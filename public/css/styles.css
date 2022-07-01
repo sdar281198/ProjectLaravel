@@ -109,7 +109,6 @@
 #navsup {
   width: 85%;
   height: 10%;
-  padding: 2%;
   background: rgb(77, 53, 19);
   background: linear-gradient(90deg, rgb(77, 53, 19) 0%, rgb(70, 48, 16) 35%, rgb(70, 48, 16) 100%);
   border: 5px solid;
@@ -147,11 +146,18 @@
 #logo {
   width: 20%;
 }
-#logo img {
+#logo a {
+  left: -4%;
+  width: 20%;
+}
+#logo a img:nth-child(2) {
+  height: 50%;
+}
+#logo a img {
   width: 50%;
+  height: 10%;
   height: auto;
 }
-
 #frase {
   width: 85%;
   height: 50%;
@@ -280,6 +286,7 @@
 #raceSectionAndfaq #faq #textandline p {
   width: 20%;
   font-family: "Latina regular";
+  font-size: 85%;
 }
 #raceSectionAndfaq #faq #textandline #line {
   width: 80%;
