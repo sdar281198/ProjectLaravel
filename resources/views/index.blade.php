@@ -116,9 +116,15 @@
                         </a>
                         <div class="answer">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem itaque eveniet voluptatum ratione 
-                                officia aspernatur necessitatibus, eaque quod blanditiis deleniti adipisci, voluptate a, amet 
-                                possimus maxime soluta eos dolores. Animi?
+                            Es una plataforma educativa que ofrece competencias basadas en el aprendizaje a través de la metodología ABJ (aprendizaje basado en juegos). --> éste es en realidad el término correcto
+                            Nuestras carreras potencian el desarrollo de habilidades como el trabajo en equipo, liderazgo, análisis matemático, razonamiento verbal, compromiso, resistencia, sociabilidad, entre otros.
+                            Los acertijos que los participantes deberán descifrar implican una búsqueda continua y concisa de información a través de distintas páginas de internet.
+                            Puedes jugar cualquiera de nuestras tres modalidades.
+                            </p>
+                            <p>
+                            Interescolar: Apoya a tu colegio <br>
+                            Race: Compite en simultáneo<br>
+                            Clásico: Resuelve cientos de acertijos
                             </p>
                         </div>
                     </div>
@@ -142,7 +148,7 @@
                         </a>
                         <div class="answer">
                             <p>
-                            Descubre cómo resolver un acertijo en <a href="#" class="underline">¿Como jugar?</a> Si notaste un error escríbenos a <span class="underline">soporte@theonlinerace.com</span>
+                            Descubre cómo resolver un acertijo en <a href="#" class="underline">¿Como jugar?</a>
                             </p>
                         </div>
                     </div>
@@ -160,22 +166,17 @@
                     </div>
                     <div class="accordionfaq text-white" id="question5">
                         <a class="accordion-link text-white" href="#question5">
-                            The online race es un juego gratuito?
+                            ¿The online race es un juego gratuito?
                             <i class="fa-solid fa-plus text-white"></i>
                             <i class="fa-solid fa-minus text-white"></i>
                         </a>
                         <div class="answer">
                             <div class="flex flex-col">
                                 <p>
-                                Sí, The Online Race cuenta con 
-                                distintas modalidades gratuitas que podrás disfrutar solo y con amigos. 
-                                Para jugar sin límites y desbloquear más acertijos, ofrecemos paquetes 
-                                de tickets desde los S/. X.
+                                Sí, The Online Race cuenta con distintas modalidades gratuitas que podrás disfrutar solo y 
+                                con amigos. Para jugar sin límites y desbloquear más acertijos, puedes revisar nuestros paquetes 
+                                haciendo click <a href="" class="underline">aquí.</a>
                                 </p>
-                                <span class="flex flex-col">
-                                    <p>Race: Compite de manera gratuita en la próxima carrera</p>
-                                    <p>Clásico: Desafía tu habilidad resolviendo cientos de acertijos gratuitos</p>
-                                </span>
                             </div>
                         </div>
                     </div>
