@@ -19,4 +19,5 @@
 </head>
 <body id="body" class="body">
 <x-mobilemenu/>
+<x-ranking/>
 <main id="main" class="container h-max overflow-hidden mx-auto box-border">

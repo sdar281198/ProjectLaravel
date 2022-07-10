@@ -6,7 +6,7 @@
         <p id="frase2" class="text-white">Navega por internet y encuentra las <br>
         respuestas a cientos de acertijos.</p>
         <div>
-        <img class="cursor-pointer" src="../img/jugar-ahora.png" alt="">
+        <img class="cursor-pointer" src="../img/before/jugar-ahora.png" alt="">
         </div>
       </div>
   </header>
@@ -30,7 +30,7 @@
         <div id="caracteristics" class="flex mx-auto h-max">
             <div class="caracteristic flex flex-col justify-center items-center">
                 <div class="imagecaract">
-                    <img class="mx-auto" src="../img/LIBRO-08.png" alt="">
+                    <img class="mx-auto" src="../img/before/LIBRO-08.png" alt="">
                 </div>
                 <div id="textcaract">
                     <p class="title text-center text-white">Aprende jugando</p>
@@ -42,7 +42,7 @@
             </div>
             <div class="caracteristic caract-center flex flex-col justify-center items-center">
                 <div class="imagecaract">
-                    <img class="mx-auto" src="../img/ESPADA-08.png" alt="">
+                    <img class="mx-auto" src="../img/before/ESPADA-08.png" alt="">
                 </div>
                 <div id="textcaract">
                     <p class="title text-center text-white">Juega con tus amigos</p>
@@ -54,7 +54,7 @@
             </div>
             <div class="caracteristic flex flex-col justify-center items-center">
                 <div class="imagecaract">
-                    <img class="mx-auto" src="../img/COPA-08.png" alt="">
+                    <img class="mx-auto" src="../img/before/COPA-08.png" alt="">
                 </div>
                 <div id="textcaract">
                     <p class="title text-center text-white">
@@ -73,7 +73,7 @@
             <div id="races" class="flex">
 
                 <div class="mx-auto my-auto race flex flex-col justify-center items-center relative">
-                    <img src="../img/fbordemorad.png" alt="">
+                    <img src="../img/before/fbordemorad.png" alt="">
                     <div class="raceelements flex flex-col justify-center items-center absolute">
                     <a href="#" class="raceTitle text-white text-center uppercase">Interescolar</a>
                     <p class="raceDescription">
@@ -83,7 +83,7 @@
                 </div>
 
                 <div class="mx-auto my-auto race flex flex-col justify-center items-center relative">
-                    <img src="../img/fbordeama.png" alt="">
+                    <img src="../img/before/fbordeama.png" alt="">
                     <div class="raceelements flex flex-col justify-center items-center absolute">
                     <a href="#" class="raceTitle text-white text-center uppercase">Race</a>
                     <p class="raceDescription">
@@ -93,7 +93,7 @@
                 </div>
 
                 <div class="mx-auto my-auto race flex flex-col justify-center items-center relative">
-                    <img src="../img/fbordeverd.png" alt="">
+                    <img src="../img/before/fbordeverd.png" alt="">
                     <div class="raceelements flex flex-col justify-center items-center absolute">
                     <a href="#" class="raceTitle text-white text-center uppercase">Clásico</a>
                     <p class="raceDescription">

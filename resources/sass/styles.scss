@@ -265,7 +265,7 @@ $gradient2: linear-gradient(180deg, rgba(0,74,61,1) 0%, rgba(0,57,53,1) 34%, rgb
     }
 }
 #raceSectionAndfaq{
-    background-image: url(../img/FONDO\ PIEDRAS-06.png);
+    background-image: url(../img/landing/FONDO\ PIEDRAS-06.png);
     background-size: 100% 100%;
     width: 100%;
     height: auto;
@@ -730,13 +730,15 @@ input[type='email']{
         height: 80%;
         color: $white;
         #school{
-            width: 30%;
-            height: 70%;
+            width: 25%;
+            height: 57%;
             background-color: $colorFondo;
             border-radius: 5%;
             #schoolpicandname{
                 width: 90%;
+                height: 25%;
                 margin: auto;
+                font-family: $latUltHeav;
                 border-bottom: 1px solid $white;
                 #pic{
                     width: 30%;
@@ -747,129 +749,39 @@ input[type='email']{
             }
             #position{
                 width: 90%;
+                height: 25%;
                 margin: auto;
-                border-bottom: 1px solid $white;
+                span{
+                    p{
+                    color: #ffc200;
+                }
+            }
+            .puesto{
+                font-family: $latBold;
+            }
             }
             #rankingside{
+                cursor: pointer;
                 width: 90%;
+                height: 25%;
                 margin: auto;
                 border-bottom: 1px solid $white;
+                border-top: 1px solid $white;
+                font-family: $latBold;
+            }
+            #points{
+                height: 25%;
+                p:first-child{
+                    font-family: $latBold;
+                }
+                p:nth-child(2){
+                    color:#ffc200;
+                }
             }
         }
         #ranking{
-            width: 65%;
+            width: 70%;
             height: 100%;
-            border: 1px solid $white;
-            /*Try pag*/
-/* WHOLE CONTAINER */
-.containerdate {
-    width: 100%;
-    height: 100%;
-  }
-  
-  /* TABS */
-  .tabs {
-    position: relative;
-      display: flex;
-      height: 10%;
-      overflow: hidden;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-  }
-
-  .tab {
-      font-size: 14px;
-      padding: 5px 10px;
-      cursor: pointer;
-      letter-spacing: 2px;
-  }
-
-        /* #fecha1.tab-active {background-color: rgb(245, 66, 66);}
-        #fecha2.tab-active {background-color: rgb(66, 135, 245);}
-        #fecha3.tab-active {background-color: rgb(245, 215, 66);}
-        #fecha4.tab-active {background-color: rgb(56, 235, 98);}
-        #fecha5.tab-active {background-color: rgb(79, 247, 219);} */
-        .fecha.tab-active{
-            background-color: rgb(245, 66, 66)!important;
-        }
-
-        /* TAB CONTENTS */
-        .contents {
-            width: 100%;
-            margin-top: 5px;
-            height: 80%;
-        }
-
-        .content {
-            width: 100%;
-            height: 90%;
-            display: none;
-            padding: 0;
-            margin: 0;
-            border: none;
-        }
-
-        .content-show {
-            display: flex;
-            animation-name: fade-out;
-            animation-duration: 2.5s;
-        }
-        
-        @keyframes fade-out {
-            0% {
-                opacity: 0;
-                display: flex;
-            }
-            99% {
-                opacity: 0;
-                display: flex;
-            }
-            100% {
-                opacity: 0;
-                display: none;
-            }
-        }
-
-        .content-active {
-            display: flex;
-            border: none;
-            justify-content: center;
-            animation-name: fade-in;
-            animation-duration: 2.5s;
-        }
-
-        @keyframes fade-in {
-            0% {
-                display: none;
-                opacity: 0;
-            }
-            1% {
-                display: block;
-                opacity: 0.01;
-            }
-            100%{
-                display: block;
-                opacity: 1;
-            }
-        }
-
-        .fecha.content-active {background-color: red;}
-
-        /* BUTTON PREVIOUS NEXT */
-        .button {
-          /* position: absolute;
-          top: 49%; */
-          z-index: 4;
-          cursor: pointer;
-        }
-        .buttons{
-            cursor: pointer;
-        }
-        /* 
-        .next{
-            right: 0%;
-        } */
         }
     }
 }
@@ -993,3 +905,174 @@ input[type='email']{
         }
     }
 }
+/*Try pag*/
+/* WHOLE CONTAINER */
+.containerdate {
+    width: 100%;
+    height: 100%;
+    .buttons{
+        min-width: 4%;
+        cursor: pointer;
+        background-color: #66421b;
+        min-height: 50%;
+        border: 2px solid #905a1e;
+    }
+    .tabs {
+        // position: absolute;
+        display: flex;
+        flex-wrap: nowrap;
+        // grid-template-columns: repeat(16,1fr);
+        // gap: 5px;
+        height: 5%;
+        overflow: hidden!important;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        .contentTabs{
+            // position: absolute;
+            width: 200%;
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            gap: 1%;
+        }
+        .tab {
+            font-size: 14px;
+            padding: 5px 10px;
+            cursor: pointer;
+            background-color: #221c02;
+            border: 2px solid #d17519;
+            font-family: $latUltHeav;
+            font-weight: bold;
+        }
+        .fecha.tab-active{
+            background-color: #fea433;
+        }
+    }
+  }
+
+        /* TAB CONTENTS */
+        // .contents {
+        //     width: 100%;
+        //     margin-top: 5px;
+        // }
+
+        .content {
+            width: 93%;
+            height: 80%;
+            margin: auto;
+            display: none;
+            padding: 0;
+            margin: auto;
+            border: none;
+        }
+
+        .content-show {
+            display: flex;
+            animation-name: fade-out;
+            animation-duration: 2.5s;
+        }
+        
+        @keyframes fade-out {
+            0% {
+                opacity: 0;
+                display: flex;
+            }
+            99% {
+                opacity: 0;
+                display: flex;
+            }
+            100% {
+                opacity: 0;
+                display: none;
+            }
+        }
+
+        .content-active {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 3%;
+            // grid-template-columns:auto auto auto;
+            // justify-content: center;
+            animation-name: fade-in;
+            animation-duration: 2.5s;
+            .raceInter{
+                width: 30%;
+                // background-image: url(../../assets/img/inter/fondo1.png);
+                background-size: 100% 100%;
+                .position{
+                    left: 10%;
+                    top: 5%;
+                }
+                .botonRace{
+                    img{
+                        margin: 0;
+                        position: absolute;
+                        bottom: -10%;
+                        left: 50%;
+                        -ms-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+                    }
+                }
+                // .hour{
+                //     width: 100%;
+                //     justify-content: center;
+                //     #symbolandHour{
+                //         width: 50%;
+                //         justify-content: space-between;
+                //     }
+                // }
+            }
+        }
+
+        @keyframes fade-in {
+            0% {
+                display: none;
+                opacity: 0;
+            }
+            1% {
+                display: block;
+                opacity: 0.01;
+            }
+            100%{
+                display: block;
+                opacity: 1;
+            }
+        }
+
+        // .fecha.content-active {background-color: red;}
+        
+
+        /* BUTTON PREVIOUS NEXT */
+        .button {
+          /* position: absolute;
+          top: 49%; */
+          z-index: 4;
+          cursor: pointer;
+        }
+        /* .buttons{
+            position: absolute;
+            top: 0%;
+        }
+        .next{
+            right: 0%;
+        } */
+        #rankingMenu{
+            position: fixed;
+            width: 50%;
+            height: 90%;
+            background-color: #002f30;
+            // background: $gradient2;
+            display: flex;
+            top: -400%;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 200;
+            border-radius: .8rem;
+            transition: all 500ms;
+        }
+        #rankingClose{
+            position: absolute;
+            top: 0;
+            right: 2%;
+        }

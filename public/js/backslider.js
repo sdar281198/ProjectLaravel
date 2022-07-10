@@ -1,5 +1,5 @@
 window.onload = choosePic;
-var myPix = new Array("./img/famarilloosc.png", "./img/fverdeosc.png","./img/fmoradoosc.png");
+var myPix = new Array("./img/landing/famarilloosc.png", "./img/landing/fverdeosc.png","./img/landing/fmoradoosc.png");
 function choosePic() {
     var randomNum = Math.floor((Math.random() * myPix.length));
     document.getElementById("header").style.backgroundImage =
@@ -18,6 +18,8 @@ menuClose.addEventListener('click', () => {
     mobileMenu.classList.remove('menu-opened');
     headerOverlay.classList.remove('menu-opened');
 });
+
+
 window.sr = ScrollReveal();
 sr.reveal('#header',{
     duration: 3000,
