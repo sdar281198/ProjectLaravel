@@ -11,7 +11,7 @@
             <li><a href="" class="flex justify-center">Clasico</a></li>
         </ul>
         <div id="buttons" class="flex items-center justify-end buttonslog">
-            <li class="list-none cursor-pointer"><i class="fa-solid fa-user"></i></li>
-            <li class="list-none cursor-pointer"><i class="fa-solid fa-bell"></i></li>
+            <li class="list-none cursor-pointer"><img src="../img/inter/usuario-04.png" alt=""></li>
+            <li class="list-none cursor-pointer"><img src="../img/inter/campana-04.png" alt=""></li>
         </div>
     </nav>

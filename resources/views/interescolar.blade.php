@@ -31,7 +31,7 @@
                 <!-- <div class="pagenumbers" id="pagination"></div>
                 <div class="list" id="list"></div> -->
                 <div class="containerdate">
-                    <div class="tabs">
+                    <div class="tabs mx-auto">
                         <div class="previous buttons box"></div>
                         <!-- <div class="contentTabs"> -->
                         <div id="fecha1" class="fecha tab">Fecha 1</div>
@@ -39,194 +39,310 @@
                         <div id="fecha3" class="fecha tab">Fecha 3</div>
                         <div id="fecha4" class="fecha tab">Fecha 4</div>
                         <div id="fecha5" class="fecha tab">Fecha 5</div>
-                        <div id="fecha6" class="fecha tab">Fecha 6</div>
-                        <div id="fecha7" class="fecha tab">Fecha 7</div>
-                        <div id="fecha8" class="fecha tab">Fecha 8</div>
-                        <!-- <div id="fecha9" class="fecha tab">Fecha 9</div>
-                        <div id="fecha10" class="fecha tab">Fecha 10</div>
-                        <div id="fecha11" class="fecha tab">Fecha 11</div>
-                        <div id="fecha12" class="fecha tab">Fecha 12</div>
-                        <div id="fecha13" class="fecha tab">Fecha 13</div>
-                        <div id="fecha14" class="fecha tab">Fecha 14</div>
-                        <div id="fecha15" class="fecha tab">Fecha 15</div>
-                        <div id="fecha16" class="fecha tab">Fecha 16</div> -->
-                        <!-- </div> -->
                         <div class="next buttons"></div>
                     </div>
-                    <div id="tituloFechas" class="mx-auto">
-                        <p><img src="../img/inter/NOMBRE-04.png" alt="" class="mx-auto"></p>
-                        <p class="text-center">Puntos de la fecha</p>
-                        <p class="text-center">850</p>
+                    <div class="contents">
+                        <div id="fecha1" class="content fecha">
+                            <div id="progressWithouthRiddle">
+                                <div id="tituloFechas" class="mx-auto">
+                                    <p><img src="../img/inter/NOMBRE-04.png" alt="" class="mx-auto"></p>
+                                </div>
+                            </div>
+                            <div id="tabsGeneralContainer">
+                            <div id="tabsTable">
+                                <div id="globalTable" class="tabrank tabrankActive">
+                                    Global
+                                </div>
+                                <div id="personalTable" class="tabrank">
+                                    Personal
+                                </div>
+                            </div>
+                            <div id="contentTables">
+                                <div id="globalTableContainer" class="contentRank">
+                                <table id="rankTable" class="">
+                                    <tr class="trIndice">
+                                        <th class="uppercase">Colegio</th>
+                                        <th class="uppercase">Acertijos</th>
+                                        <th class="uppercase">Puntos</th>
+                                    </tr>
+                                    <tr class="trDato">
+                                        <td class="flex">
+                                            <p>1.</p>
+                                            <img src="" alt="">
+                                            <p>Colegio A</p>
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                    </tr>
+                                    <tr class="trDato">
+                                        <td class="flex">
+                                            <p>2.</p>
+                                            <img src="" alt="">
+                                            <p>Colegio A</p>
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                    </tr>
+                                    <tr class="trDato">
+                                        <td class="flex">
+                                            <p>3.</p>
+                                            <img src="" alt="">
+                                            <p>Colegio A</p>
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                    </tr>
+                                    <tr class="trDato">
+                                        <td class="flex">
+                                            <p>4.</p>
+                                            <img src="" alt="">
+                                            <p>Colegio A</p>
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                    </tr>
+                                </table>
+                                </div>
+                                <div id="personalTableContainer" class="contentRank">
+                                <table id="rankTable" class="">
+                                    <tr class="trIndice">
+                                        <th class="uppercase">Participante</th>
+                                        <th class="uppercase">Acertijos</th>
+                                        <th class="uppercase">Puntos</th>
+                                    </tr>
+                                    <tr class="trDato">
+                                        <td class="flex">
+                                            <p>1.</p>
+                                            <img src="" alt="">
+                                            <p>Alumno A</p>
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                    </tr>
+                                    <tr class="trDato">
+                                        <td class="flex">
+                                            <p>2.</p>
+                                            <img src="" alt="">
+                                            <p>Alumno A</p>
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                    </tr>
+                                    <tr class="trDato">
+                                        <td class="flex">
+                                            <p>3.</p>
+                                            <img src="" alt="">
+                                            <p>Alumno A</p>
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                    </tr>
+                                    <tr class="trDato">
+                                        <td class="flex">
+                                            <p>4.</p>
+                                            <img src="" alt="">
+                                            <p>Alumno A</p>
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                        <td>
+                                            12
+                                        </td>
+                                    </tr>
+                                </table>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div id="fecha2" class="content fecha">
+                            <div id="progress">
+                                <div id="tituloFechas" class="mx-auto">
+                                    <p><img src="../img/inter/NOMBRE-04.png" alt="" class="mx-auto"></p>
+                                    <p class="text-center">Puntos de la fecha</p>
+                                    <p class="text-center">850</p>
+                                </div>
+                                <div id="bar" class="text-center">
+                                    Barra
+                                </div>
+                            </div>
+                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo1.png);">
+                                <div class="position absolute">1</div>
+                                <div class="hour flex">
+                                    <div id="symbolandHour" class="flex">
+                                        <img class="" src="../img/inter/reloj de arena-04.png" alt="">
+                                        <div id="watch">00:00:49</div>
+                                    </div>
+                                </div>
+                                <div class="botonRace">
+                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo2.png);">
+                                <div class="position absolute">2</div>
+                                <div class="hour flex">
+                                    <div id="symbolandHour" class="flex">
+                                        <img class="" src="../img/inter/banderas-04.png" alt="">
+                                        <div id="watch">18:05</div>
+                                    </div>
+                                </div>
+                                <div class="botonRace">
+                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo3.png);">
+                                <div class="position absolute">3</div>
+                                <div class="hour flex">
+                                    <div id="symbolandHour" class="flex">
+                                            <img class="" src="../img/inter/banderas-04.png" alt="">
+                                            <div id="watch">18:10</div>
+                                    </div>
+                                </div>
+                                <div class="botonRace">
+                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo4.png);">
+                                <div class="position absolute">4</div>
+                                <div class="hour flex">
+                                    <div id="symbolandHour" class="flex">
+                                            <img class="" src="../img/inter/banderas-04.png" alt="">
+                                            <div id="watch">18:15</div>
+                                    </div>
+                                </div>
+                                <div class="botonRace">
+                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo5.png);">
+                                <div class="position absolute">5</div>
+                                <div class="hour flex">
+                                    <div id="symbolandHour" class="flex">
+                                            <img class="" src="../img/inter/banderas-04.png" alt="">
+                                            <div id="watch">18:20</div>
+                                    </div>
+                                </div>
+                                <div class="botonRace">
+                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo6.png);">
+                                <div class="position absolute">6</div>
+                                <div class="hour flex">
+                                <div id="symbolandHour" class="flex">
+                                            <img class="" src="../img/inter/banderas-04.png" alt="">
+                                            <div id="watch">18:25</div>
+                                    </div>
+                                </div>
+                                <div class="botonRace">
+                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo1.png);">
+                                <div class="position absolute">7</div>
+                                <div class="hour flex">
+                                <div id="symbolandHour" class="flex">
+                                            <img class="" src="../img/inter/banderas-04.png" alt="">
+                                            <div id="watch">18:30</div>
+                                    </div>
+                                </div>
+                                <div class="botonRace">
+                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo2.png);">
+                                <div class="position absolute">8</div>
+                                <div class="hour flex">
+                                <div id="symbolandHour" class="flex">
+                                            <img class="" src="../img/inter/banderas-04.png" alt="">
+                                            <div id="watch">18:35</div>
+                                    </div>
+                                </div>
+                                <div class="botonRace">
+                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo3.png);">
+                                <div class="position absolute">9</div>
+                                <div class="hour flex">
+                                <div id="symbolandHour" class="flex">
+                                            <img class="" src="../img/inter/banderas-04.png" alt="">
+                                            <div id="watch">18:40</div>
+                                    </div>
+                                </div>
+                                <div class="botonRace">
+                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo4.png);">
+                                <div class="position absolute">10</div>
+                                <div class="hour flex">
+                                <div id="symbolandHour" class="flex">
+                                            <img class="" src="../img/inter/banderas-04.png" alt="">
+                                            <div id="watch">18:45</div>
+                                    </div>
+                                </div>
+                                <div class="botonRace">
+                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo5.png);">
+                                <div class="position absolute">11</div>
+                                <div class="hour flex">
+                                <div id="symbolandHour" class="flex">
+                                            <img class="" src="../img/inter/banderas-04.png" alt="">
+                                            <div id="watch">18:50</div>
+                                    </div>
+                                </div>
+                                <div class="botonRace">
+                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo6.png);">
+                                <div class="position absolute">12</div>
+                                <div class="hour flex">
+                                <div id="symbolandHour" class="flex">
+                                            <img class="" src="../img/inter/banderas-04.png" alt="">
+                                            <div id="watch">18:55</div>
+                                    </div>
+                                </div>
+                                <div class="botonRace">
+                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="fecha3" class="content fecha">3</div>
+                        <div id="fecha4" class="content fecha">4</div>
+                        <div id="fecha5" class="content fecha">5</div>
                     </div>
-                    <div id="bar" class="text-center">
-                <!-- <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-                    <div class="bg-white text-xs font-medium text-black text-center p-0.5 leading-none rounded-full" style="width: 45%"> 45%</div>
-                </div> -->
-                Barra
-                </div>
-                <div class="contents">
-                    <div id="fecha1" class="content fecha">
-                        <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo1.png);">
-                            <div class="position absolute">1</div>
-                            <div class="hour flex">
-                                <div id="symbolandHour" class="flex">
-                                    <img class="" src="../img/inter/reloj de arena-04.png" alt="">
-                                    <div id="watch">00:00:49</div>
-                                </div>
-                            </div>
-                            <div class="botonRace">
-                                <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo2.png);">
-                            <div class="position absolute">2</div>
-                            <div class="hour flex">
-                                <div id="symbolandHour" class="flex">
-                                    <img class="" src="../img/inter/banderas-04.png" alt="">
-                                    <div id="watch">18:05</div>
-                                </div>
-                            </div>
-                            <div class="botonRace">
-                                <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo3.png);">
-                            <div class="position absolute">3</div>
-                            <div class="hour flex">
-                                <div id="symbolandHour" class="flex">
-                                        <img class="" src="../img/inter/banderas-04.png" alt="">
-                                        <div id="watch">18:10</div>
-                                </div>
-                            </div>
-                            <div class="botonRace">
-                                <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo4.png);">
-                            <div class="position absolute">4</div>
-                            <div class="hour flex">
-                                <div id="symbolandHour" class="flex">
-                                        <img class="" src="../img/inter/banderas-04.png" alt="">
-                                        <div id="watch">18:15</div>
-                                </div>
-                            </div>
-                            <div class="botonRace">
-                                <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo5.png);">
-                            <div class="position absolute">5</div>
-                            <div class="hour flex">
-                                <div id="symbolandHour" class="flex">
-                                        <img class="" src="../img/inter/banderas-04.png" alt="">
-                                        <div id="watch">18:20</div>
-                                </div>
-                            </div>
-                            <div class="botonRace">
-                                <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo6.png);">
-                            <div class="position absolute">6</div>
-                            <div class="hour flex">
-                            <div id="symbolandHour" class="flex">
-                                        <img class="" src="../img/inter/banderas-04.png" alt="">
-                                        <div id="watch">18:25</div>
-                                </div>
-                            </div>
-                            <div class="botonRace">
-                                <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo1.png);">
-                            <div class="position absolute">7</div>
-                            <div class="hour flex">
-                            <div id="symbolandHour" class="flex">
-                                        <img class="" src="../img/inter/banderas-04.png" alt="">
-                                        <div id="watch">18:30</div>
-                                </div>
-                            </div>
-                            <div class="botonRace">
-                                <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo2.png);">
-                            <div class="position absolute">8</div>
-                            <div class="hour flex">
-                            <div id="symbolandHour" class="flex">
-                                        <img class="" src="../img/inter/banderas-04.png" alt="">
-                                        <div id="watch">18:35</div>
-                                </div>
-                            </div>
-                            <div class="botonRace">
-                                <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo3.png);">
-                            <div class="position absolute">9</div>
-                            <div class="hour flex">
-                            <div id="symbolandHour" class="flex">
-                                        <img class="" src="../img/inter/banderas-04.png" alt="">
-                                        <div id="watch">18:40</div>
-                                </div>
-                            </div>
-                            <div class="botonRace">
-                                <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo4.png);">
-                            <div class="position absolute">10</div>
-                            <div class="hour flex">
-                            <div id="symbolandHour" class="flex">
-                                        <img class="" src="../img/inter/banderas-04.png" alt="">
-                                        <div id="watch">18:45</div>
-                                </div>
-                            </div>
-                            <div class="botonRace">
-                                <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo5.png);">
-                            <div class="position absolute">11</div>
-                            <div class="hour flex">
-                            <div id="symbolandHour" class="flex">
-                                        <img class="" src="../img/inter/banderas-04.png" alt="">
-                                        <div id="watch">18:50</div>
-                                </div>
-                            </div>
-                            <div class="botonRace">
-                                <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo6.png);">
-                            <div class="position absolute">12</div>
-                            <div class="hour flex">
-                            <div id="symbolandHour" class="flex">
-                                        <img class="" src="../img/inter/banderas-04.png" alt="">
-                                        <div id="watch">18:55</div>
-                                </div>
-                            </div>
-                            <div class="botonRace">
-                                <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="fecha2" class="content fecha">2</div>
-                    <div id="fecha3" class="content fecha">3</div>
-                    <div id="fecha4" class="content fecha">4</div>
-                    <div id="fecha5" class="content fecha">5</div>
-                    <div id="fecha6" class="content fecha">6</div>
-                    <div id="fecha7" class="content fecha">7</div>
-                    <div id="fecha8" class="content fecha">8</div>
-                    <!-- <div id="fecha9" class="content fecha">9</div>
-                    <div id="fecha10" class="content fecha">10</div>
-                    <div id="fecha11" class="content fecha">11</div>
-                    <div id="fecha12" class="content fecha">12</div>
-                    <div id="fecha13" class="content fecha">13</div>
-                    <div id="fecha14" class="content fecha">14</div>
-                    <div id="fecha15" class="content fecha">15</div>
-                    <div id="fecha16" class="content fecha">16</div> -->
-                </div>
                 </div>
             </div>  
         </div>

@@ -24,6 +24,9 @@ Route::get('/interescolar', function () {
 Route::get('/perfil', function () {
     return view('myprofile');
 });
+Route::get('/interacces', function () {
+    return view('interacces');
+});
 
 
 Route::middleware([

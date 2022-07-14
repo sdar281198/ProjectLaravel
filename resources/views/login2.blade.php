@@ -6,7 +6,7 @@
     </header>
     <div id="login" class="mt-20">
     <form id="formlog" class="flex flex-col justify-center items-center mb-20" action="">
-        <img clas="" src="../img/CALAVERA-08.png" id="logolog">
+        <img clas="" src="../img/landing/CALAVERA-08.png" id="logolog">
         <h2 class="my-8 font-bold text-3xl text-white text-center">Inicia sesion</h2>
         <div class="loginin">
             <i class="symbol fa fa-user text-primarycolor text-xl"></i>

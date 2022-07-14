@@ -16,6 +16,10 @@
   font-family: "Latina ultra heavy";
   src: url("../fonts/latultheav/Latina W00 Ultra Heavy.ttf");
 }
+@font-face {
+  font-family: "Digital";
+  src: url("../fonts/digital/wwDigital.ttf");
+}
 #main {
   background: #001521;
 }
@@ -678,12 +682,18 @@ input[type=email] {
 #headerinter #navsup .buttonslog {
   width: 25%;
 }
+#headerinter #navsup .buttonslog li {
+  background: rgb(250, 205, 103);
+  background: linear-gradient(90deg, rgb(250, 205, 103) 0%, rgb(254, 166, 53) 60%);
+  margin-left: 1.5%;
+  border-radius: 100%;
+}
 
 #maininter {
   background: rgb(0, 74, 61);
   background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
   width: 100%;
-  height: 150vh;
+  height: 170vh;
 }
 #maininter #schoolAndRanking {
   width: 85%;
@@ -741,6 +751,70 @@ input[type=email] {
 #maininter #schoolAndRanking #ranking {
   width: 70%;
   height: 100%;
+}
+
+#maininteracces {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 74, 61);
+  background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
+}
+#maininteracces #navsup {
+  height: 10vh;
+}
+#maininteracces #interAccesForm {
+  width: 80%;
+  height: 100vh;
+}
+#maininteracces #interAccesForm #imgacces {
+  width: 40%;
+}
+#maininteracces #interAccesForm #imgacces img {
+  width: 50%;
+  margin-bottom: 10%;
+}
+#maininteracces #interAccesForm #interAccesBack {
+  width: 50%;
+  height: 50%;
+  background-image: url(../img/landing/popup.png);
+  background-size: 100% 100%;
+}
+#maininteracces #interAccesForm #schoolandyear {
+  width: 80%;
+  height: 50%;
+}
+#maininteracces #interAccesForm #schoolandyear #selects {
+  width: 100%;
+  margin-bottom: 2%;
+}
+#maininteracces #interAccesForm #schoolandyear #selects select {
+  border: none;
+  border-radius: 5px;
+  background-color: #011625;
+  font-family: "Latina bold";
+  color: #fff;
+}
+#maininteracces #interAccesForm #schoolandyear #selects #schoolSelect {
+  width: 59%;
+}
+#maininteracces #interAccesForm #schoolandyear #selects #yearSelect {
+  width: 39%;
+}
+#maininteracces #inviteText p {
+  color: #fff;
+  font-family: "Latina regular";
+}
+#maininteracces #inviteText p a {
+  color: #d5b819;
+  font-family: "Latina bold";
+}
+#maininteracces input {
+  margin-bottom: 1%;
+  border-radius: 5px;
+}
+#maininteracces #interAccesButton {
+  margin-top: 5%;
+  width: 40%;
 }
 
 /*Mail styles*/
@@ -879,7 +953,7 @@ input[type=email] {
   overflow: hidden !important;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 86%;
 }
 .containerdate .tabs .contentTabs {
   width: 200%;
@@ -888,8 +962,9 @@ input[type=email] {
   gap: 1%;
 }
 .containerdate .tabs .tab {
+  width: 16%;
   font-size: 14px;
-  padding: 5px 10px;
+  text-align: center;
   cursor: pointer;
   background-color: #221c02;
   border: 2px solid #d17519;
@@ -899,8 +974,93 @@ input[type=email] {
 .containerdate .tabs .fecha.tab-active {
   background-color: #fea433;
 }
+.containerdate #progress {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.containerdate #progressWithouthRiddle {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+}
+.containerdate #tabsGeneralContainer {
+  width: 90%;
+  height: 100%;
+}
+.containerdate #tabsGeneralContainer #tabsTable {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  height: 10%;
+  margin: auto;
+}
+.containerdate #tabsGeneralContainer .tabrank {
+  width: 45%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #221c02;
+  border: 3px solid #c27520;
+  border-radius: 30%;
+  font-family: "Latina bold";
+  cursor: pointer;
+  transition: all 1000ms;
+}
+.containerdate #tabsGeneralContainer .tabrankActive {
+  background: rgb(250, 205, 103);
+  background: linear-gradient(90deg, rgb(250, 205, 103) 0%, rgb(254, 166, 53) 60%);
+  transition: all 1000ms;
+}
+.containerdate #contentTables {
+  width: 100%;
+  height: 90%;
+}
+.containerdate .contentRank {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.containerdate .contentRank #rankTable {
+  width: 100%;
+  margin: auto;
+}
+.containerdate .contentRank #rankTable .trIndice {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  font-family: "Latina bold";
+}
+.containerdate .contentRank #rankTable .trDato {
+  padding-top: 10px;
+}
+.containerdate .contentRank #rankTable .trDato p:first-child {
+  font-family: "Latina bold";
+}
+.containerdate .contentRank #rankTable .trDato td {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.containerdate .contentRank #rankTable .trDato td:first-child {
+  width: 63%;
+  justify-content: space-between;
+}
+.containerdate .contentRankActive {
+  display: block;
+}
 
 /* TAB CONTENTS */
+.contents {
+  width: 86%;
+}
+
 .content {
   width: 93%;
   height: 80%;
@@ -941,11 +1101,16 @@ input[type=email] {
 }
 .content-active .raceInter {
   width: 30%;
+  height: 22%;
   background-size: 100% 100%;
 }
 .content-active .raceInter .position {
   left: 10%;
   top: 5%;
+  font-family: "Latina regular";
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgba(132, 132, 132, 0.72);
 }
 .content-active .raceInter .botonRace img {
   margin: 0;
@@ -954,6 +1119,10 @@ input[type=email] {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+.content-active .raceInter .hour {
+  font-size: 1.5rem;
+  font-family: "Digital";
 }
 
 @keyframes fade-in {
@@ -989,20 +1158,34 @@ input[type=email] {
   position: fixed;
   width: 50%;
   height: 90%;
-  background-color: #002f30;
+  background: rgb(30, 26, 1);
+  background: linear-gradient(180deg, rgb(30, 26, 1) 0%, rgb(41, 33, 4) 34%, rgb(51, 38, 7) 64%, rgb(60, 44, 10) 100%);
   display: flex;
   top: -400%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 200;
   border-radius: 0.8rem;
+  border: 4px solid #8c510f;
   transition: all 500ms;
 }
-
-#rankingClose {
+#rankingMenu #rankingClose img {
+  width: 5%;
   position: absolute;
   top: 0;
   right: 2%;
+  cursor: pointer;
+}
+#rankingMenu .rankingContent {
+  width: 100%;
+}
+#rankingMenu .rankingContent p {
+  text-align: center;
+  color: #831202;
+  font-family: "Latina ultra heavy";
+  font-size: 2.4rem;
+  text-shadow: 0px 0 0 #b38b40, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+  margin-top: 1%;
 }
 
 /*# sourceMappingURL=styles.css.map */

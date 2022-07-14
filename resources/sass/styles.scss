@@ -16,16 +16,23 @@
     font-family: 'Latina ultra heavy';
     src: url('../fonts/latultheav/Latina\ W00\ Ultra\ Heavy.ttf');
 }
+@font-face {
+    font-family: 'Digital';
+    src: url('../fonts/digital/wwDigital.ttf');
+}
 $colorFondo : #001521;
 $latBold: 'Latina bold';
 $latReg: 'Latina regular';
 $latUltHeav: 'Latina ultra heavy';
+$digital: 'Digital';
 $white: #fff;
 $colorInputs: #011625;
 $colorHave: #426264;
 $black: #000;
 $gradient1: rgb(0,74,61);
 $gradient2: linear-gradient(180deg, rgba(0,74,61,1) 0%, rgba(0,57,53,1) 34%, rgba(0,38,44,1) 64%, rgba(0,21,33,1) 100%);
+$letraSombraColor : #831202;
+$sombrasLetras : 0px 0 0 #b38b40, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
 //Main
 #main{
     background: $colorFondo;
@@ -137,10 +144,10 @@ $gradient2: linear-gradient(180deg, rgba(0,74,61,1) 0%, rgba(0,57,53,1) 34%, rgb
         //     transition: all 0.6s;
         // }
         a{
-            color: #831202;
+            color: $letraSombraColor;
             font-family: $latUltHeav;
             font-size: 1.4rem;
-            text-shadow: 0px 0 0 #b38b40, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+            text-shadow: $sombrasLetras;
             transition: all 0.6s;
         }
         a:hover{
@@ -717,6 +724,12 @@ input[type='email']{
     }
     .buttonslog{
         width: 25%;
+        li{
+            background: rgb(250,205,103);
+            background: linear-gradient(90deg, rgba(250,205,103,1) 0%, rgba(254,166,53,1) 60%);
+            margin-left: 1.5%;
+            border-radius: 100%;
+        }
     }
     }
 }
@@ -724,7 +737,7 @@ input[type='email']{
     background: $gradient1;
     background: $gradient2;
     width: 100%;
-    height: 150vh;
+    height: 170vh;
     #schoolAndRanking{
         width: 85%;
         height: 80%;
@@ -783,6 +796,73 @@ input[type='email']{
             width: 70%;
             height: 100%;
         }
+    }
+}
+#maininteracces{
+    width: 100%;
+    height: 100%;
+    background: $gradient1;
+    background: $gradient2;
+    // Interacces styles
+    #navsup{
+        height: 10vh;
+    }
+    #interAccesForm{
+        width: 80%;
+        height: 100vh;
+        #imgacces{
+            width: 40%;
+            img{
+                width: 50%;
+                margin-bottom: 10%;
+            }
+        }
+        #interAccesBack{
+            width: 50%;
+            height: 50%;
+            background-image: url(../img/landing/popup.png);
+            background-size: 100% 100%;
+        }
+        #schoolandyear{
+            width: 80%;
+            height: 50%;
+            #selects{
+                width: 100%;
+                margin-bottom: 2%;
+                select{
+                    border: none;
+                    border-radius: 5px;
+                    background-color: $colorInputs;
+                    font-family: $latBold;
+                    color: $white;
+
+                }
+                #schoolSelect{
+                    width: 59%;
+                }
+                #yearSelect{
+                    width: 39%;
+                }
+            }
+        }
+    }
+    #inviteText{
+        p{
+            color: $white;
+            font-family: $latReg;
+            a{
+                color: #d5b819;
+                font-family: $latBold;
+            }
+        }
+    }
+    input{
+        margin-bottom: 1%;
+        border-radius: 5px;
+    }
+    #interAccesButton{
+        margin-top: 5%;
+        width: 40%;
     }
 }
 
@@ -927,7 +1007,7 @@ input[type='email']{
         overflow: hidden!important;
         align-items: center;
         justify-content: space-between;
-        width: 100%;
+        width: 86%;
         .contentTabs{
             // position: absolute;
             width: 200%;
@@ -936,8 +1016,10 @@ input[type='email']{
             gap: 1%;
         }
         .tab {
+            width: 16%;
             font-size: 14px;
-            padding: 5px 10px;
+            text-align: center;
+            // padding: 5px 10px;
             cursor: pointer;
             background-color: #221c02;
             border: 2px solid #d17519;
@@ -948,13 +1030,94 @@ input[type='email']{
             background-color: #fea433;
         }
     }
+    #progress{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #progressWithouthRiddle{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+    }
+    #tabsGeneralContainer{
+        width: 90%;
+        height: 100%;
+        #tabsTable{
+            display: flex;
+            justify-content: space-around;
+            width: 30%;
+            height: 10%;
+            margin: auto;
+        }
+        .tabrank{
+            width: 45%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #221c02;
+            border: 3px solid #c27520;
+            border-radius: 30%;
+            font-family: $latBold;
+            cursor: pointer;
+            transition: all 1000ms;
+        }
+        .tabrankActive{
+            background: rgb(250,205,103);
+            background: linear-gradient(90deg, rgba(250,205,103,1) 0%, rgba(254,166,53,1) 60%);
+            transition: all 1000ms; 
+        }
+    }
+    #contentTables{
+        width: 100%;
+        height: 90%;
+    }
+    .contentRank{
+        width: 100%;
+        height: 100%;
+        display: none;
+        #rankTable{
+            width: 100%;
+            margin: auto;
+            .trIndice{
+                border-top: 1px solid $white;
+                border-bottom: 1px solid $white;
+                font-family: $latBold;
+
+            }
+            .trDato{
+                padding-top: 10px;
+                p:first-child{
+                    font-family: $latBold;
+                }
+                td{
+                    flex-basis: 0;
+                    flex-grow: 1;
+                    text-align: center;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+                td:first-child{
+                    width: 63%;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+    .contentRankActive{
+        display: block;
+    }
   }
 
         /* TAB CONTENTS */
-        // .contents {
-        //     width: 100%;
-        //     margin-top: 5px;
-        // }
+        .contents {
+            width: 86%;
+        }
 
         .content {
             width: 93%;
@@ -998,11 +1161,16 @@ input[type='email']{
             animation-duration: 2.5s;
             .raceInter{
                 width: 30%;
+                height: 22%;
                 // background-image: url(../../assets/img/inter/fondo1.png);
                 background-size: 100% 100%;
                 .position{
                     left: 10%;
                     top: 5%;
+                    font-family: $latReg;
+                    font-weight: bold;
+                    font-size: 2rem;
+                    color: rgba(132, 132, 132, 0.72);
                 }
                 .botonRace{
                     img{
@@ -1014,14 +1182,10 @@ input[type='email']{
                         transform: translate(-50%, -50%);
                     }
                 }
-                // .hour{
-                //     width: 100%;
-                //     justify-content: center;
-                //     #symbolandHour{
-                //         width: 50%;
-                //         justify-content: space-between;
-                //     }
-                // }
+                .hour{
+                    font-size: 1.5rem;
+                    font-family: $digital;
+                }
             }
         }
 
@@ -1061,7 +1225,8 @@ input[type='email']{
             position: fixed;
             width: 50%;
             height: 90%;
-            background-color: #002f30;
+            background: rgb(30,26,1);
+            background: linear-gradient(180deg, rgba(30,26,1,1) 0%, rgba(41,33,4,1) 34%, rgba(51,38,7,1) 64%, rgba(60,44,10,1) 100%); 
             // background: $gradient2;
             display: flex;
             top: -400%;
@@ -1069,10 +1234,26 @@ input[type='email']{
             transform: translateX(-50%);
             z-index: 200;
             border-radius: .8rem;
+            border: 4px solid #8c510f;
             transition: all 500ms;
-        }
-        #rankingClose{
-            position: absolute;
-            top: 0;
-            right: 2%;
+            #rankingClose{
+                img{
+                    width: 5%;
+                    position: absolute;
+                    top: 0;
+                    right: 2%;
+                    cursor:pointer;
+                }
+            }
+            .rankingContent{
+                width: 100%;
+                p{  
+                    text-align: center;
+                    color: $letraSombraColor;
+                    font-family: $latUltHeav;
+                    font-size: 2.4rem;
+                    text-shadow: $sombrasLetras;
+                    margin-top: 1%;
+                }
+            }
         }
