@@ -693,16 +693,20 @@ input[type=email] {
   background: rgb(0, 74, 61);
   background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
   width: 100%;
-  height: 170vh;
+  height: auto;
+}
+#maininter #navsup {
+  height: 10vh;
 }
 #maininter #schoolAndRanking {
   width: 85%;
-  height: 80%;
+  height: 100vh;
   color: #fff;
+  margin-bottom: 10%;
 }
 #maininter #schoolAndRanking #school {
   width: 25%;
-  height: 57%;
+  height: 60%;
   background-color: #001521;
   border-radius: 5%;
 }
@@ -1057,10 +1061,6 @@ input[type=email] {
 }
 
 /* TAB CONTENTS */
-.contents {
-  width: 86%;
-}
-
 .content {
   width: 93%;
   height: 80%;
@@ -1099,12 +1099,19 @@ input[type=email] {
   animation-name: fade-in;
   animation-duration: 2.5s;
 }
-.content-active .raceInter {
+.content-active #racesInter {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content-active #racesInter .raceInter {
   width: 30%;
-  height: 22%;
+  height: 25%;
   background-size: 100% 100%;
 }
-.content-active .raceInter .position {
+.content-active #racesInter .raceInter .position {
   left: 10%;
   top: 5%;
   font-family: "Latina regular";
@@ -1112,7 +1119,7 @@ input[type=email] {
   font-size: 2rem;
   color: rgba(132, 132, 132, 0.72);
 }
-.content-active .raceInter .botonRace img {
+.content-active #racesInter .raceInter .botonRace img {
   margin: 0;
   position: absolute;
   bottom: -10%;
@@ -1120,7 +1127,7 @@ input[type=email] {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.content-active .raceInter .hour {
+.content-active #racesInter .raceInter .hour {
   font-size: 1.5rem;
   font-family: "Digital";
 }
@@ -1186,6 +1193,14 @@ input[type=email] {
   font-size: 2.4rem;
   text-shadow: 0px 0 0 #b38b40, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
   margin-top: 1%;
+}
+#rankingMenu .rankingContent table {
+  width: 100%;
+  margin-top: 5%;
+}
+#rankingMenu .rankingContent table tr th {
+  font-family: "Latina ultra heavy";
+  color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */

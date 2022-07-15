@@ -194,6 +194,7 @@
                                     Barra
                                 </div>
                             </div>
+                            <div id="racesInter">
                             <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo1.png);">
                                 <div class="position absolute">1</div>
                                 <div class="hour flex">
@@ -337,6 +338,7 @@
                                 <div class="botonRace">
                                     <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
                                 </div>
+                            </div>
                             </div>
                         </div>
                         <div id="fecha3" class="content fecha">3</div>

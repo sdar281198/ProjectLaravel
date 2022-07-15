@@ -282,3 +282,18 @@ $white : #fff;
         font-size: 45%;
     }
 }
+/*Inter medias*/
+@media screen and (max-width:1000px){
+    #schoolAndRanking{
+        width: 100%!important;
+        height: 250vh!important;
+        flex-direction: column-reverse;
+        align-items: center;
+        .raceInter{
+            height: 15%!important;
+        }
+        #ranking{
+            height: 100vh;
+        }
+    }
+}
