@@ -281,8 +281,19 @@
   #schoolAndRanking .raceInter {
     height: 15% !important;
   }
+  #schoolAndRanking #school {
+    width: 45% !important;
+    margin-top: 10%;
+  }
   #schoolAndRanking #ranking {
     height: 100vh;
+  }
+  #schoolAndRanking #racesInter {
+    flex-direction: column;
+    align-items: center;
+  }
+  #schoolAndRanking #racesInter .raceInter {
+    width: 48% !important;
   }
 }
 

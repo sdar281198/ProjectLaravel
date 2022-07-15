@@ -292,8 +292,20 @@ $white : #fff;
         .raceInter{
             height: 15%!important;
         }
+        #school{
+            width: 45%!important;
+            margin-top: 10%;
+        }
         #ranking{
             height: 100vh;
         }
+        #racesInter{
+            flex-direction: column;
+            align-items: center;
+            .raceInter{
+                width: 48%!important;
+            }
+        }
     }
+
 }
