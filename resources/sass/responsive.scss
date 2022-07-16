@@ -309,3 +309,28 @@ $white : #fff;
     }
 
 }
+@media screen and (max-width:633px){
+    .position{
+        font-size: 1rem!important;
+    }
+    .hour{
+        font-size: 1rem!important;
+    }
+    .tab{
+        font-size: 0.5rem!important;
+    }
+    .botonRace img{
+        width: 50%!important;
+    }
+}
+//     #school{
+//         display: none;
+//     }
+//     #racesInter{
+//         display: block!important;
+//         .raceInter{
+//             margin: 0px auto!important;
+//         }
+//     }
+
+// }

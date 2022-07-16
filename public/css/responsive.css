@@ -296,5 +296,22 @@
     width: 48% !important;
   }
 }
+@media screen and (max-width: 633px) {
+  .position {
+    font-size: 1rem !important;
+  }
+
+  .hour {
+    font-size: 1rem !important;
+  }
+
+  .tab {
+    font-size: 0.5rem !important;
+  }
+
+  .botonRace img {
+    width: 50% !important;
+  }
+}
 
 /*# sourceMappingURL=responsive.css.map */
