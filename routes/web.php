@@ -27,7 +27,9 @@ Route::get('/perfil', function () {
 Route::get('/interacces', function () {
     return view('interacces');
 });
-
+Route::get('/boleteria', function () {
+    return view('boleteria');
+});
 
 Route::middleware([
     'auth:sanctum',

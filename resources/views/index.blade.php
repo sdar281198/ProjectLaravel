@@ -75,7 +75,7 @@
                 <div class="mx-auto my-auto race flex flex-col justify-center items-center relative">
                     <img src="../img/before/fbordemorad.png" alt="">
                     <div class="raceelements flex flex-col justify-center items-center absolute">
-                    <a href="#" class="raceTitle text-white text-center uppercase">Interescolar</a>
+                    <a href="/interescolar" class="raceTitle text-white text-center uppercase">Interescolar</a>
                     <p class="raceDescription">
                         Apoya a tu colegio
                     </p>

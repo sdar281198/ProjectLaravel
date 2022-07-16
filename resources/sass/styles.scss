@@ -187,7 +187,7 @@ $sombrasLetras : 0px 0 0 #b38b40, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c
     }
 }
 #frase{
-    width: 85%;
+    width: 73%;
     height: 50%;
     #frase1{
         font-family: $latUltHeav;
@@ -1278,3 +1278,72 @@ input[type='email']{
                 }
             }
         }
+/*Boleteria styles*/
+#ticketDivs{
+    width: 100%;
+    height: 100vh;
+    #tituloBol{
+        h1{
+            color: $letraSombraColor;
+            font-family: $latUltHeav;
+            font-size: 2rem;
+            text-shadow: $sombrasLetras;
+        }
+    }
+    #datesPrices{
+        width: 55%;
+        height: 80%;
+        margin: auto;
+        #pricesBol{
+            display: flex;
+            width: 100%;
+            height: 80%;
+            margin: auto;   
+            justify-content: space-between;
+            align-items: center;
+            #porFecha{
+                width: 45%;
+                height: 80%;
+                background-image: url(../img/inter/FONDO\ 1-07.png);
+                background-size: 100% 100%;
+            }
+            #full{
+                width: 45%;
+                height: 80%;
+                background-image: url(../img/inter/FONDO\ 2-07.png);
+                background-size: 100% 100%;
+            }
+            .tituloPrices{
+                p:first-child{
+                    color: #ffb800;
+                    font-family: $latReg;
+                    font-size: 2rem;
+                    margin-top: 5%;
+                }
+
+            }
+            #priceTicket{
+                p{
+                    font-size: 2.5rem;
+                    font-family: $latReg
+                }
+            }
+        }
+        #canjear{
+            display: flex;
+            justify-content: space-between;
+            height: 7%;
+            input{
+                width: 80%;
+                height: 100%;
+                border-radius: 40px;
+            }
+            button{
+                background-color: #80a09c;
+                width: 19%;
+                font-family: $latBold;
+                border-radius: 40px;
+            }
+        }
+    }
+}
