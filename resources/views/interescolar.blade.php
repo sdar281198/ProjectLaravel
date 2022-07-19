@@ -187,7 +187,7 @@
                             <div id="progress">
                                 <div id="tituloFechas" class="mx-auto">
                                     <p><img src="../img/inter/NOMBRE-04.png" alt="" class="mx-auto"></p>
-                                    <p class="text-center">Puntos de la fecha</p>
+                                    <p class="text-center uppercase">Puntos de la fecha</p>
                                     <p class="text-center">850</p>
                                 </div>
                                 <div id="bar" class="text-center">
