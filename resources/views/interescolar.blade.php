@@ -191,7 +191,12 @@
                                     <p class="text-center">850</p>
                                 </div>
                                 <div id="bar" class="text-center">
-                                    Barra
+                                    <div id="progressBar" class="flex justify-center items-center">
+                                        8/12
+                                    </div>
+                                </div>
+                                <div id="datedur">
+                                    <p>La competencia comienza en x días y x horas.</p>
                                 </div>
                             </div>
                             <div id="racesInter">
@@ -206,6 +211,9 @@
                                 <div class="botonRace">
                                     <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
                                 </div>
+                                <div id="raceLocked" class="flex justify-center items-center">
+                                <i class="fa-solid fa-lock"></i>
+                            </div>
                             </div>
                             <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo2.png);">
                                 <div class="position absolute">2</div>
