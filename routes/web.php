@@ -30,6 +30,15 @@ Route::get('/interacces', function () {
 Route::get('/boleteria', function () {
     return view('boleteria');
 });
+Route::get('/acertijo1', function () {
+    return view('acertijo1');
+});
+Route::get('/acertijo2', function () {
+    return view('acertijo2');
+});
+Route::get('/acertijo3', function () {
+    return view('acertijo3');
+});
 
 Route::middleware([
     'auth:sanctum',

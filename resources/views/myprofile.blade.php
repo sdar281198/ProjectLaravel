@@ -4,10 +4,10 @@
 <x-navsupuser/>
 </header>
 <div id="profilecontent" class="flex flex-col">
-        <h1 class="text-center"><img class="mx-auto" src="../img/MI-PERFIL}.PNG" alt=""></h1>
+        <h1 class="text-center"><img class="mx-auto" src="../img/landing/MI-PERFIL}.PNG" alt=""></h1>
         <div id="formprof" class="container mx-auto">
-        <p class="text-center text-white">Elige tu avatar</p>
-            <div id="circles" class="flex">
+        <p class="text-center text-white mt-5">Elige tu avatar</p>
+            <div id="circles" class="flex items-center">
                 <div class="circle"></div>
                 <div class="circle"></div>
                 <div class="circle"></div>
@@ -30,6 +30,10 @@
                 <input class="container rounded" placeholder="Contraseña actual" type="text">
                 <input class="container rounded" placeholder="Nueva contraseña" type="text">
                 <input class="container rounded" placeholder="Repite tu nueva contraseña" type="text">
+            </div>
+            <div id="profileButtons" class="flex flex-col justify-around items-center">
+                <button>Guardar cambios</button>
+                <button>Cerrar sesion</button>
             </div>
         </form>
 </div>
