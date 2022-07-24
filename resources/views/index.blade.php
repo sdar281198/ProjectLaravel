@@ -95,7 +95,7 @@
                 <div class="mx-auto my-auto race flex flex-col justify-center items-center relative">
                     <img src="../img/before/fbordeverd.png" alt="">
                     <div class="raceelements flex flex-col justify-center items-center absolute">
-                    <a href="#" class="raceTitle text-white text-center uppercase">Clásico</a>
+                    <a href="/clasico" class="raceTitle text-white text-center uppercase">Clásico</a>
                     <p class="raceDescription">
                         Resuelve cientos de acertijos
                     </p>

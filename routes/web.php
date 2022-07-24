@@ -39,6 +39,9 @@ Route::get('/acertijo2', function () {
 Route::get('/acertijo3', function () {
     return view('acertijo3');
 });
+Route::get('/clasico', function () {
+    return view('classic');
+});
 
 Route::middleware([
     'auth:sanctum',

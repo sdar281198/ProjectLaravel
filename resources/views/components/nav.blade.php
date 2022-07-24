@@ -8,7 +8,7 @@
         <ul class="flex justify-between grow">
             <li class="flex grow text-center uppercase"><a href="./interescolar" class="flex justify-center grow">Interescolar</a></li>
             <li class="flex grow text-center uppercase"><a href="" class="flex justify-center grow">Race</a></li>
-            <li class="flex grow text-center uppercase"><a href="" class="flex justify-center grow">Clásico</a></li>
+            <li class="flex grow text-center uppercase"><a href="/clasico" class="flex justify-center grow">Clásico</a></li>
         </ul>
         <div id="buttons" class="flex items-center justify-end grow">
             <li class="button-img list-none"><a href="./register" class="flex justify-end"><img src="../img/before/BOTON REGISTRARSE-07.png" alt=""></a></li>

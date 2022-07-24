@@ -20,6 +20,10 @@
   font-family: "Digital";
   src: url("../fonts/digital/wwDigital.ttf");
 }
+@font-face {
+  font-family: "Paytone";
+  src: url("../fonts/paytone/PaytoneOne.ttf");
+}
 #main {
   background: #001521;
 }
@@ -92,15 +96,25 @@
   border-radius: 0.8rem;
   transition: all 500ms;
 }
-#mobileMenu ul {
+#mobileMenu .mobileUl {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
 }
-#mobileMenu a {
-  font-family: "Latina bold" !important;
-  font-weight: bold;
+#mobileMenu .mobileUl li {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #fff;
+  border-radius: 10%;
+}
+#mobileMenu .mobileUl li a {
+  color: #831202;
+  font-family: "Latina ultra heavy";
+  font-size: 1.4rem;
+  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+  transition: all 0.6s;
+  padding: 5%;
 }
 #mobileMenu a img {
   width: 40%;
@@ -129,7 +143,7 @@
   color: #831202;
   font-family: "Latina ultra heavy";
   font-size: 1.4rem;
-  text-shadow: 0px 0 0 #b38b40, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
   transition: all 0.6s;
 }
 #navsup ul a:hover {
@@ -710,7 +724,7 @@ input[type=email] {
 }
 #maininter #schoolAndRanking #school {
   width: 25%;
-  height: 60%;
+  height: 70%;
   background-color: #001521;
   border-radius: 5%;
 }
@@ -1271,7 +1285,7 @@ input[type=email] {
   color: #831202;
   font-family: "Latina ultra heavy";
   font-size: 2.4rem;
-  text-shadow: 0px 0 0 #b38b40, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
   margin-top: 1%;
 }
 #rankingMenu .rankingContent table {
@@ -1292,7 +1306,7 @@ input[type=email] {
   color: #831202;
   font-family: "Latina ultra heavy";
   font-size: 2rem;
-  text-shadow: 0px 0 0 #b38b40, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
 }
 #ticketDivs #datesPrices {
   width: 55%;
@@ -1364,7 +1378,7 @@ input[type=email] {
 }
 #acertijoAll #barProg #barraProg p {
   font-size: 1.5rem;
-  font-family: "Latina bold";
+  font-family: "Paytone";
 }
 #acertijoAll #acertijo {
   width: 60%;
@@ -1379,7 +1393,7 @@ input[type=email] {
 }
 #acertijoAll #acertijo #acertijoTime p {
   font-size: 1.5rem;
-  font-family: "Latina bold";
+  font-family: "Paytone";
 }
 #acertijoAll #acertijo #acertijotext {
   width: 60%;
@@ -1428,6 +1442,87 @@ input[type=email] {
 #acertijoAll #acertijo #acertijobutton button img {
   width: 100%;
   height: 100%;
+}
+
+/*classic styles*/
+#mainclassic {
+  width: 100%;
+  background: rgb(0, 74, 61);
+  background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
+  height: auto;
+}
+#mainclassic #headerinter {
+  height: 10vh;
+  margin-bottom: 5%;
+}
+#mainclassic #classicContent {
+  height: 100vh;
+}
+#mainclassic #classicContent #classicTexts {
+  width: 100%;
+  height: 10%;
+}
+#mainclassic #classicContent #classicLevels {
+  width: 80%;
+  height: 70%;
+}
+#mainclassic #classicContent #classicLevels .classicLevel {
+  width: 30%;
+  height: 40%;
+  border: none;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#mainclassic #classicContent #classicLevels .classicLevel .levelLocked {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  margin-top: 0.5%;
+  border-radius: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: rgba(31, 27, 29, 0.66);
+  opacity: 1;
+  z-index: 1001;
+}
+#mainclassic #classicContent #classicLevels .classicLevel .levelItems {
+  width: 90%;
+  height: 60%;
+}
+#mainclassic #classicContent #classicLevels .classicLevel .levelItems .levelText {
+  font-family: "Latina bold";
+  font-size: 2.5rem;
+}
+#mainclassic #classicContent #classicLevels .classicLevel .levelBar {
+  width: 50%;
+  margin-top: none;
+}
+#mainclassic #classicContent #classicLevels .classicLevel .levelBar p {
+  font-family: "Latina ultra heavy";
+}
+#mainclassic #classicContent #classicLevels .classicLevel .levelBar img {
+  width: 30%;
+  z-index: 1000;
+}
+#mainclassic #classicContent #classicLevels .classicLevel .levelBar .bar {
+  width: 70%;
+  height: 50%;
+  right: 15%;
+  border: 2px solid #ce7318;
+  background: rgb(28, 25, 1);
+  background: linear-gradient(180deg, rgb(28, 25, 1) 0%, rgb(60, 44, 10) 50%);
+}
+#mainclassic #classicContent #announceClas {
+  width: 100%;
+  height: 15%;
+}
+#mainclassic #classicContent #announceClas #anounce {
+  width: 50%;
+  height: 90%;
 }
 
 /*# sourceMappingURL=styles.css.map */

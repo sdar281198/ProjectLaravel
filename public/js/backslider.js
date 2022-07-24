@@ -6,20 +6,6 @@ function choosePic() {
         "url(" + myPix[randomNum] + ")";
 }
 /*Scroll reveal effects */
-const menuOpen = document.getElementById('hambMenu');
-const menuClose = document.getElementById('hambMenuClose');
-const headerOverlay = document.getElementById('body');
-const mobileMenu = document.getElementById('mobileMenu');
-menuOpen.addEventListener('click', () => {
-    mobileMenu.classList.add('menu-opened');
-    headerOverlay.classList.add('menu-opened');
-});
-menuClose.addEventListener('click', () => {
-    mobileMenu.classList.remove('menu-opened');
-    headerOverlay.classList.remove('menu-opened');
-});
-
-
 window.sr = ScrollReveal();
 sr.reveal('#header',{
     duration: 3000,
@@ -41,6 +27,11 @@ sr.reveal('.race',{
     origin:'left',
     distance:'-100%'
 });
+sr.reveal('.classicLevel',{
+    duration:3500,
+    origin:'bottom',
+    distance:'-100%'
+});
 // window.onload = changePicture;
 // changeBorderNav();
 let swiper = new Swiper('.swiper',{
@@ -51,4 +42,17 @@ let swiper = new Swiper('.swiper',{
       pagination: {
         el: ".swiper-pagination",
       },
+});
+
+const menuOpen = document.getElementById('hambMenu');
+const menuClose = document.getElementById('hambMenuClose');
+const headerOverlay = document.getElementById('body');
+const mobileMenu = document.getElementById('mobileMenu');
+menuOpen.addEventListener('click', () => {
+    mobileMenu.classList.add('menu-opened');
+    headerOverlay.classList.add('menu-opened');
+});
+menuClose.addEventListener('click', () => {
+    mobileMenu.classList.remove('menu-opened');
+    headerOverlay.classList.remove('menu-opened');
 });
