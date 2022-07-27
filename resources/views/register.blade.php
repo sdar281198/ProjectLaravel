@@ -50,7 +50,7 @@
                 </div>
                 <div class="flex justify-center">
                     <button id="buttonregister" class="mx-auto outline-none p-3 rounded text-white" type="submit">
-                        <img src="../img/BOTON REGISTRATE-07.png" alt="">
+                        <img src="../img/landing/BOTON REGISTRATE-07.png" alt="">
                     </button>
                 </div>
                 <div class="mt-5">
