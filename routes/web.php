@@ -42,7 +42,9 @@ Route::get('/acertijo3', function () {
 Route::get('/clasico', function () {
     return view('classic');
 });
-
+Route::get('/clasicoac', function () {
+    return view('classicacertijos');
+});
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

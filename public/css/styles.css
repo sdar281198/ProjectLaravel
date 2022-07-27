@@ -1225,6 +1225,9 @@ input[type=email] {
   background: rgba(31, 27, 29, 0.66);
   opacity: 1;
 }
+.content-active #racesInter #raceLocked img {
+  width: 30%;
+}
 
 @keyframes fade-in {
   0% {
@@ -1523,6 +1526,57 @@ input[type=email] {
 #mainclassic #classicContent #announceClas #anounce {
   width: 50%;
   height: 90%;
+}
+
+#clasAcContent {
+  width: 100%;
+  height: 200vh;
+  overflow: auto;
+  margin-bottom: 5%;
+}
+#clasAcContent #listRiddle {
+  width: 85%;
+  height: 100%;
+}
+#clasAcContent #listRiddle .riddle {
+  width: 23%;
+  height: 12%;
+  margin-bottom: 2%;
+  background-size: 100% 100%;
+}
+#clasAcContent #listRiddle .riddle .number {
+  left: 10%;
+  font-family: "Latina regular";
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: rgba(132, 132, 132, 0.72);
+}
+#clasAcContent #listRiddle .riddle .botonRace img {
+  width: 50%;
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#clasAcContent #listRiddle .riddle .riddleLocked {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  margin-top: 0.5%;
+  border-radius: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: rgba(31, 27, 29, 0.66);
+  opacity: 1;
+  z-index: 1001;
+}
+#clasAcContent #listRiddle .riddle .riddleLocked img {
+  width: 30%;
 }
 
 /*# sourceMappingURL=styles.css.map */

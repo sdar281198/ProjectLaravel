@@ -1296,6 +1296,9 @@ input[type='email']{
                 left: 0;
                 background: rgba(31, 27, 29, 0.66);
                 opacity:1;
+                img{
+                    width: 30%;
+                }
             }
         }
     }
@@ -1606,6 +1609,58 @@ input[type='email']{
             #anounce{
                 width: 50%;
                 height: 90%;
+            }
+        }
+    }
+}
+#clasAcContent{
+    width: 100%;
+    height: 200vh;
+    overflow: auto;
+    margin-bottom: 5%;
+    #listRiddle{
+        width: 85%;
+        height: 100%;
+        .riddle{
+            width: 23%;
+            height: 12%;
+            margin-bottom: 2%;
+            background-size: 100% 100%;
+            .number{
+                left: 10%;
+                font-family: $latReg;
+                font-weight: bold;
+                font-size: 2.5rem;
+                color: rgba(132, 132, 132, 0.72);
+            }
+            .botonRace{
+                img{
+                    width: 50%;
+                    margin: 0;
+                    position: absolute;
+                    top: 55%;
+                    left: 50%;
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                }
+            }
+            .riddleLocked{
+                width: 95%;
+                height: 95%;
+                margin: auto;
+                margin-top: 0.5%;
+                border-radius: 10%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                background: rgba(31, 27, 29, 0.66);
+                opacity:1;
+                z-index: 1001;
+                img{
+                    width: 30%;
+                }
             }
         }
     }

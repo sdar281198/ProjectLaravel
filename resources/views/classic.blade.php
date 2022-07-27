@@ -11,7 +11,7 @@
             <div id="classicLevels" class="flex flex-wrap justify-between items-center mx-auto">
 
                 <div class="classicLevel flex flex-col justify-around items-center" style="background-image:url(../img/classic/fondo1.png);">
-                    <div class="levelItems flex flex-col justify-around items-center">
+                    <a href="clasicoac" class="levelItems flex flex-col justify-around items-center">
                         <div class="flex justify-center items-end">
                             <p class="text-white uppercase levelText">Nivel 1</p>
                         </div>
@@ -21,7 +21,7 @@
                                     <p class="text-white">0/40</p>
                                 </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="classicLevel flex flex-col justify-around items-center" style="background-image:url(../img/classic/fondo2.png);">
