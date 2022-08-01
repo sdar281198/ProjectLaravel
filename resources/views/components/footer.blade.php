@@ -26,5 +26,8 @@
 <script src="{{ config('app.url').'/js/backslider.js' }}" defer></script>
 <script src="{{ config('app.url').'/js/pagination.js' }}" defer></script>
 <script src="{{ config('app.url').'/js/ranking.js' }}" defer></script>
+<script src="{{ config('app.url').'/js/fail.js' }}" defer></script>
+<script src="{{ config('app.url').'/js/correct.js' }}" defer></script>
+<script src="{{ config('app.url').'/js/completed.js' }}" defer></script>
 </body>
 </html>

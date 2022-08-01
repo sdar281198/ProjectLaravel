@@ -20,4 +20,7 @@
 <body id="body" class="body">
 <x-mobilemenu/>
 <x-ranking/>
+<x-fail/>
+<x-correct/>
+<x-completed/>
 <main id="main" class="container h-max overflow-hidden mx-auto box-border">

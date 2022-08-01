@@ -9,7 +9,7 @@
             <div id="acertijoTime" class="flex justify-center items-center">
                 <p class="text-white">00:00:01</p>
             </div>
-            <div id="acertijotext" class="flex flex-col justify-around items-center">
+            <div id="acertijotext" class="flex flex-col justify-center items-center">
                 <p class="text-center uppercase text-white">ACERTIJO</p>
                 <p class="text-center text-white">
                     Los destinos con los que soñaste esperan por ti. Ingresa a
@@ -29,7 +29,7 @@
                 <input type="text" placeholder="Respuesta" class="mx-auto">
                 <p class="text-white">Recuerda: sin espacio ni signos</p>
             </div>
-            <div id="acertijobutton">
+            <div id="acertijobuttonCorrect" class="acertijobutton">
                 <button><img src="./../img/acertijos/BOTONACEPTAR-07.png" alt=""></button>
             </div>
         </div>

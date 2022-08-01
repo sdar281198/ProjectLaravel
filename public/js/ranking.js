@@ -45,3 +45,4 @@ option2.addEventListener('click',()=>{
     chose = 2
     changeOption();
 })
+

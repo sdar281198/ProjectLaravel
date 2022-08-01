@@ -1384,7 +1384,7 @@ input[type=email] {
   font-family: "Paytone";
 }
 #acertijoAll #acertijo {
-  width: 60%;
+  width: 65%;
   height: 85%;
 }
 #acertijoAll #acertijo #acertijoTime {
@@ -1397,18 +1397,21 @@ input[type=email] {
 #acertijoAll #acertijo #acertijoTime p {
   font-size: 1.5rem;
   font-family: "Paytone";
+  align-self: center;
+  height: 100%;
 }
 #acertijoAll #acertijo #acertijotext {
   width: 60%;
-  height: 50%;
+  height: 60%;
   border: 2px solid #ce7318;
   background: rgb(28, 25, 1);
   background: linear-gradient(180deg, rgb(28, 25, 1) 0%, rgb(60, 44, 10) 50%);
-  border-radius: 5%;
+  border-radius: 10%;
 }
 #acertijoAll #acertijo #acertijotext p:first-child {
   font-family: "Latina ultra heavy";
   font-size: 2rem;
+  margin-bottom: 5%;
 }
 #acertijoAll #acertijo #acertijotext p:nth-child(2) {
   width: 85%;
@@ -1434,17 +1437,139 @@ input[type=email] {
   height: 10%;
   font-size: 0.6rem;
 }
-#acertijoAll #acertijo #acertijobutton {
+#acertijoAll #acertijo .acertijobutton {
   width: 20%;
   height: 10%;
 }
-#acertijoAll #acertijo #acertijobutton button {
+#acertijoAll #acertijo .acertijobutton button {
   width: 100%;
   height: 100%;
 }
-#acertijoAll #acertijo #acertijobutton button img {
+#acertijoAll #acertijo .acertijobutton button img {
   width: 100%;
   height: 100%;
+}
+
+#failriddle {
+  position: fixed;
+  width: 40%;
+  height: 40%;
+  background: rgb(30, 26, 1);
+  background: linear-gradient(180deg, rgb(30, 26, 1) 0%, rgb(41, 33, 4) 34%, rgb(51, 38, 7) 64%, rgb(60, 44, 10) 100%);
+  display: flex;
+  top: -400%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  border-radius: 5%;
+  border: 4px solid #8c510f;
+  transition: all 500ms;
+}
+#failriddle #failClose img {
+  width: 10%;
+  position: absolute;
+  top: 0;
+  right: 2%;
+  cursor: pointer;
+}
+
+#correctriddle {
+  position: fixed;
+  width: 40%;
+  height: 40%;
+  background: rgb(30, 26, 1);
+  background: linear-gradient(180deg, rgb(30, 26, 1) 0%, rgb(41, 33, 4) 34%, rgb(51, 38, 7) 64%, rgb(60, 44, 10) 100%);
+  display: flex;
+  top: -400%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  border-radius: 5%;
+  border: 4px solid #8c510f;
+  transition: all 500ms;
+}
+
+.closePop img {
+  width: 10% !important;
+  position: absolute;
+  top: 0;
+  right: 2%;
+  cursor: pointer;
+}
+
+#completedriddle {
+  position: fixed;
+  width: 40%;
+  height: 40%;
+  background: rgb(30, 26, 1);
+  background: linear-gradient(180deg, rgb(30, 26, 1) 0%, rgb(41, 33, 4) 34%, rgb(51, 38, 7) 64%, rgb(60, 44, 10) 100%);
+  display: flex;
+  top: -400%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  border-radius: 5%;
+  border: 4px solid #8c510f;
+  transition: all 500ms;
+}
+#completedriddle #completedClose img {
+  width: 5%;
+  position: absolute;
+  top: 0;
+  right: 2%;
+  cursor: pointer;
+}
+#completedriddle #completedContent p:first-child {
+  color: #fcd20f;
+  font-size: 3rem;
+  font-family: "Latina bold";
+}
+#completedriddle #completedContent p:nth-child(2) {
+  font-size: 2.5rem;
+}
+#completedriddle #completedContent p:nth-child(3) span {
+  color: #f1a200;
+}
+#completedriddle #completedContent #buttonCompleted img {
+  width: 30%;
+}
+
+#failriddle #failContent p:first-child {
+  color: #881001;
+  font-family: "Latina bold";
+  font-size: 4rem;
+}
+#failriddle #failContent p:nth-child(2) {
+  font-size: 1.5rem;
+}
+#failriddle #failContent p:nth-child(2) span {
+  color: #f1a200;
+}
+#failriddle #buttonFail {
+  width: 30%;
+}
+
+#correctriddle #correctContent {
+  height: 70%;
+}
+#correctriddle #correctContent p {
+  color: #57c32c;
+  font-family: "Latina bold";
+  font-size: 2.5rem;
+}
+#correctriddle #correctContent #buttonCorrect img {
+  width: 30%;
+}
+
+.fail.fail-opened {
+  position: relative;
+  top: 25% !important;
+  z-index: 2999 !important;
+}
+
+.fail-opened.body::after {
+  opacity: 1;
+  transform: scale(1);
 }
 
 /*classic styles*/
