@@ -1,8 +1,8 @@
 <x-head/>
     <div id="acertijoAll" style="background-image: url(./../img/acertijos/FONDO1-07.png);">
         <div id="barProg" class="mx-auto flex justify-end items-center">
-            <div id="barraProg" class="flex items-center">
-                <p class="text-white my-auto mx-auto">0/3</p>
+            <div id="barraProg" class="flex items-center justify-center">
+                0/3
             </div>  
         </div>
         <div id="acertijo" class="mx-auto flex flex-col justify-around items-center">

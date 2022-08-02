@@ -336,7 +336,7 @@
   font-family: "Latina bold";
 }
 #raceSectionAndfaq #faq .accordionfaq .accordion-link {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-decoration: none;
   width: 100%;
   display: flex;
@@ -345,8 +345,10 @@
   padding: 0.3rem;
   margin-left: 1% !important;
   margin-top: 1%;
+  margin: auto;
 }
 #raceSectionAndfaq #faq .accordionfaq .accordion-link i {
+  font-size: 1.2rem;
   padding: 0.5rem;
   margin-right: 2%;
 }

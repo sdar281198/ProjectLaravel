@@ -289,9 +289,6 @@ $white : #fff;
         height: 250vh!important;
         flex-direction: column-reverse;
         align-items: center;
-        .raceInter{
-            height: 15%!important;
-        }
         #school{
             width: 45%!important;
             margin-top: 10%;
@@ -302,14 +299,51 @@ $white : #fff;
         #racesInter{
             flex-direction: column;
             align-items: center;
-            .raceInter{
-                width: 48%!important;
-            }
         }
     }
 
 }
-@media screen and (max-width:633px){
+@media screen and (max-width:800px){
+    #tabsGeneralContainer{
+        display: flex;
+        flex-direction: column;
+        #tabsTable{
+            width: 55%!important;
+            height: 20%!important;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .tabrank{
+        margin-bottom: 0.5rem!important;
+    }
+    #progress{
+        #tituloFechas{
+            p:first-child{
+                img{
+                    width: 60%;
+                }
+            }
+            p:nth-child(2){
+                font-size: 0.7rem;
+            }
+        }
+    }
+    #datedur{
+        font-size: 0.7rem;
+    }
+    #racesInter{
+        flex-wrap: nowrap!important;
+        overflow: auto!important;
+        .raceInter{
+            width: 70%!important;
+            height: 35%!important;
+        }
+    }
+    #school{
+        margin-top: 20%!important;
+    }
     .position{
         font-size: 1rem!important;
     }

@@ -278,9 +278,6 @@
     flex-direction: column-reverse;
     align-items: center;
   }
-  #schoolAndRanking .raceInter {
-    height: 15% !important;
-  }
   #schoolAndRanking #school {
     width: 45% !important;
     margin-top: 10%;
@@ -292,11 +289,48 @@
     flex-direction: column;
     align-items: center;
   }
-  #schoolAndRanking #racesInter .raceInter {
-    width: 48% !important;
-  }
 }
-@media screen and (max-width: 633px) {
+@media screen and (max-width: 800px) {
+  #tabsGeneralContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  #tabsGeneralContainer #tabsTable {
+    width: 55% !important;
+    height: 20% !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tabrank {
+    margin-bottom: 0.5rem !important;
+  }
+
+  #progress #tituloFechas p:first-child img {
+    width: 60%;
+  }
+  #progress #tituloFechas p:nth-child(2) {
+    font-size: 0.7rem;
+  }
+
+  #datedur {
+    font-size: 0.7rem;
+  }
+
+  #racesInter {
+    flex-wrap: nowrap !important;
+    overflow: auto !important;
+  }
+  #racesInter .raceInter {
+    width: 70% !important;
+    height: 35% !important;
+  }
+
+  #school {
+    margin-top: 20% !important;
+  }
+
   .position {
     font-size: 1rem !important;
   }

@@ -371,7 +371,7 @@ $sombrasLetras : 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c
             margin-bottom: 5px;
             font-family: $latBold;
         .accordion-link{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             text-decoration: none;
             width: 100%;
             display: flex;
@@ -380,7 +380,9 @@ $sombrasLetras : 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c
             padding: 0.3rem;
             margin-left: 1%!important;
             margin-top: 1%;
-            i{
+            margin: auto;
+            i{ 
+                font-size: 1.2rem;
                 padding: .5rem;
                 margin-right: 2%;
             }
