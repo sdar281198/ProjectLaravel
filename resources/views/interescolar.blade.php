@@ -195,9 +195,9 @@
                                         8/12
                                     </div>
                                 </div>
-                                <div id="datedur">
+                                <!-- <div id="datedur">
                                     <p>La competencia comienza en x días y x horas.</p>
-                                </div>
+                                </div> -->
                             </div>
                             <div id="racesInter">
                             <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo1.png);">
@@ -209,7 +209,7 @@
                                     </div>
                                 </div>
                                 <div class="botonRace">
-                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
                                 </div>
                                 <div id="raceLocked" class="flex justify-center items-center">
                                     <img src="../img/classic/CANDADO.png" alt="">
@@ -224,7 +224,7 @@
                                     </div>
                                 </div>
                                 <div class="botonRace">
-                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo3.png);">
@@ -236,7 +236,7 @@
                                     </div>
                                 </div>
                                 <div class="botonRace">
-                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo4.png);">
@@ -248,7 +248,7 @@
                                     </div>
                                 </div>
                                 <div class="botonRace">
-                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo5.png);">
@@ -260,7 +260,7 @@
                                     </div>
                                 </div>
                                 <div class="botonRace">
-                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo6.png);">
@@ -272,7 +272,7 @@
                                     </div>
                                 </div>
                                 <div class="botonRace">
-                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo1.png);">
@@ -284,7 +284,7 @@
                                     </div>
                                 </div>
                                 <div class="botonRace">
-                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo2.png);">
@@ -296,7 +296,7 @@
                                     </div>
                                 </div>
                                 <div class="botonRace">
-                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo3.png);">
@@ -308,7 +308,7 @@
                                     </div>
                                 </div>
                                 <div class="botonRace">
-                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo4.png);">
@@ -320,7 +320,7 @@
                                     </div>
                                 </div>
                                 <div class="botonRace">
-                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo5.png);">
@@ -332,7 +332,7 @@
                                     </div>
                                 </div>
                                 <div class="botonRace">
-                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo6.png);">
@@ -344,7 +344,7 @@
                                     </div>
                                 </div>
                                 <div class="botonRace">
-                                    <a href=""><img src="../img/inter/BOTON JUGAR-04.png" alt=""></a>
+                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
                                 </div>
                             </div>
                             </div>

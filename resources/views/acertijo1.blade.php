@@ -1,12 +1,12 @@
 <x-head/>
     <div id="acertijoAll" style="background-image: url(./../img/acertijos/FONDO1-07.png);">
         <div id="barProg" class="mx-auto flex justify-end items-center">
-            <div id="barraProg" class="flex items-center justify-center">
-                0/3
+            <div id="barraProg" class="flex items-center justify-center text-white">
+                <p class="mx-auto text-white">1/3</p>
             </div>  
         </div>
         <div id="acertijo" class="mx-auto flex flex-col justify-around items-center">
-            <div id="acertijoTime" class="flex justify-center">
+            <div id="acertijoTime" class="flex justify-center items-center">
                 <p class="text-white">00:00:01</p>
             </div>
             <div id="acertijotext" class="flex flex-col justify-center items-center">

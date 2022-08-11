@@ -328,11 +328,7 @@
   }
 
   #school {
-    margin-top: 20% !important;
-  }
-
-  .position {
-    font-size: 1rem !important;
+    margin-top: 30% !important;
   }
 
   .hour {
@@ -345,6 +341,108 @@
 
   .botonRace img {
     width: 50% !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  #tituloFechas p:first-child img {
+    width: 85% !important;
+  }
+
+  #progress #tituloFechas p:first-child img {
+    width: 95% !important;
+  }
+
+  #racesInter .raceInter {
+    height: 25% !important;
+  }
+}
+@media screen and (max-width: 330px) {
+  .botonRace img {
+    bottom: 0% !important;
+  }
+}
+/*Acertijo medias*/
+@media screen and (max-width: 1430px) {
+  #acertijotext p:first-child {
+    font-size: 1.8rem;
+  }
+  #acertijotext p:nth-child(2) {
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (max-width: 950px) {
+  #acertijoTime p {
+    font-size: 0.9rem !important;
+  }
+
+  #acertijotext p:first-child {
+    font-size: 1rem;
+  }
+  #acertijotext p:nth-child(2) {
+    font-size: 0.7rem !important;
+  }
+}
+@media screen and (max-width: 881px) {
+  #failContent p:first-child {
+    font-size: 2rem !important;
+  }
+  #failContent p:nth-child(2) {
+    font-size: 0.5rem !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  #barProg {
+    justify-content: center !important;
+  }
+  #barProg #barraProg {
+    width: 17% !important;
+  }
+
+  #acertijotext {
+    height: 45% !important;
+  }
+  #acertijotext p:first-child {
+    font-size: 0.8rem !important;
+  }
+  #acertijotext p:nth-child(2) {
+    font-size: 0.5rem !important;
+  }
+
+  #acertijoanswer input {
+    font-size: 0.5rem;
+  }
+  #acertijoanswer p {
+    font-size: 0.3rem !important;
+  }
+
+  .acertijobutton button img {
+    height: 80% !important;
+  }
+}
+@media screen and (max-width: 465px) {
+  #acertijoTime p {
+    font-size: 0.6rem !important;
+  }
+
+  #acertijotext p:nth-child(2) {
+    font-size: 5px !important;
+  }
+}
+@media screen and (max-width: 350px) {
+  #acertijoAll #barProg #barraProg p {
+    font-size: 8px !important;
+  }
+
+  #acertijoTime p {
+    font-size: 5px !important;
+  }
+
+  #acertijoanswer p {
+    font-size: 3px !important;
+  }
+
+  .acertijobutton button img {
+    height: 50% !important;
   }
 }
 

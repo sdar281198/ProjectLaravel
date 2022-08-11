@@ -1,8 +1,10 @@
 <x-head/>
     <div id="acertijoAll" style="background-image: url(./../img/acertijos/FONDO3-07.png);">
         <div id="barProg" class="mx-auto flex justify-end items-center">
-            <div id="barraProg" class="flex justify-center items-center">
-                <p class="text-white">2/3</p>
+            <div id="barraProg" class="flex items-center riddle3">
+                <p class="mx-auto text-white">2/3</p>
+                <div id="progressProg3" class="priddle3">
+                </div>
             </div>  
         </div>
         <div id="acertijo" class="mx-auto flex flex-col justify-around items-center">

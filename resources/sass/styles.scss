@@ -38,6 +38,12 @@ $gradient1: rgb(0,74,61);
 $gradient2: linear-gradient(180deg, rgba(0,74,61,1) 0%, rgba(0,57,53,1) 34%, rgba(0,38,44,1) 64%, rgba(0,21,33,1) 100%);
 $letraSombraColor : #831202;
 $sombrasLetras : 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+$backYellow1 : rgb(250,205,103);;
+$backYellow2 : linear-gradient(90deg, rgba(250,205,103,1) 0%, rgba(254,166,53,1) 60%);
+$borderYel : 4px solid #ce7318;
+$borderYellJust : #ce7318;
+$backBrowgrad: rgb(28,25,1);
+$backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%);
 //Main
 #main{
     background: $colorFondo;
@@ -748,8 +754,8 @@ input[type='email']{
     .buttonslog{
         width: 25%;
         li{
-            background: rgb(250,205,103);
-            background: linear-gradient(90deg, rgba(250,205,103,1) 0%, rgba(254,166,53,1) 60%);
+            background: $backYellow1;
+            background: $backYellow2;
             margin-left: 1.5%;
             border-radius: 100%;
         }
@@ -1461,13 +1467,50 @@ input[type='email']{
         width: 80%;
         height: 10%;
         #barraProg{
-            width: 15%;
-            height: 75%;
-            background-image: url(../img/acertijos/BARRAPROGRESO-07.png);
-            background-size: 100% 100%;
+            width: 13%;
+            height: 45%;
+            background:$backBrowgrad;
+            background: $backBrowgrad2;
+            font-size: 1.5rem;
+            font-weight: bold;
+            position: relative;
+            border: 2px solid $borderYellJust;
+            border-radius: 10px;
             p{
-                font-size: 1.5rem;
-                font-family: $paytone;
+                z-index: 2000;
+            }
+            // font-family: $paytone;
+            #progressProg{
+                position: absolute;
+                height: 100%;
+                background: rgb(250,205,103);
+                background: linear-gradient(90deg, rgba(250,205,103,1) 0%, rgba(254,166,53,1) 60%);
+                animation: bar-animation 3s forwards;
+                border-radius: 10px;
+            }
+            @keyframes bar-animation{
+                0%{
+                    width: 5%;
+                }
+                100%{
+                    width: 35%;
+                }
+            }
+        }
+        #progressProg3{
+            position: absolute;
+            height: 100%;
+            background: rgb(250,205,103);
+            background: linear-gradient(90deg, rgba(250,205,103,1) 0%, rgba(254,166,53,1) 60%);
+            animation: priddle3-animation 3s forwards;
+            border-radius: 10px;
+        }
+        @keyframes priddle3-animation{
+            0%{
+                width: 35%;
+            }
+            100%{
+                width: 65%;
             }
         }
     }
@@ -1484,7 +1527,6 @@ input[type='email']{
                 font-size: 1.5rem;
                 font-family: $paytone;
                 align-self: center;
-                height: 100%;
             }
         }
         #acertijotext{
@@ -1535,6 +1577,75 @@ input[type='email']{
                     height: 100%;
                 }
             }
+        }
+    }
+}
+#doneall{
+    background-size: 100% 100%;
+    #donecontent{
+        width: 100%;
+        height: 100%;
+        #calavera{
+            width: 15%;
+        }
+        #donemsg{
+            p{  
+                width: 100%;
+                font-size: 2.5rem;
+                font-family: $latUltHeav;
+                color: #fdcd0a;
+            }
+        }
+        #donehour{
+            width: 15%;
+            p{
+                font-family: $latBold;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+            #time{
+                width: 100%;
+                border: $borderYel;
+                background: $backBrowgrad;
+                background: $backBrowgrad2;
+                border-radius: 10px;
+                p{
+                    font-family: $digital;
+                    font-size: 2rem;
+                }
+            }
+        }
+        #donetable{
+            .rank{
+                color: $letraSombraColor;
+                font-family: $latUltHeav;
+                font-size: 1.4rem;
+                text-shadow: $sombrasLetras;
+            }
+            width: 40%;
+            height: 40%;
+            border: $borderYel;
+            background: $backBrowgrad;
+            background: $backBrowgrad2;
+            margin-top: 2%;
+            border-radius: 20px;
+            table{
+                width: 100%;
+                tr:first-child{
+                    font-family: $latUltHeav;
+                    // th{
+                    //     width: 50%;
+                    // }
+                }
+                .trInfo{
+                    img{
+                        width: 10%;
+                    }
+                }
+            }
+        }
+        #doneTableBut{
+            width: 15%;
         }
     }
 }
@@ -1641,10 +1752,8 @@ input[type='email']{
             font-size: 4rem;
         }
         p:nth-child(2){
-            font-size: 1.5rem;
-            span{
-                color: #f1a200;
-            }
+            font-size: 1rem;
+            font-weight: bold;
         }
     }
     #buttonFail{
@@ -1654,10 +1763,14 @@ input[type='email']{
 #correctriddle{
     #correctContent{
         height: 70%;
-        p{
+        p:first-child{
             color: #57c32c;
             font-family: $latBold;
             font-size: 2.5rem;
+        }
+        p:nth-child(2){
+            font-size: 2rem;
+            font-weight: bold;
         }
         #buttonCorrect{
             img{
@@ -1802,6 +1915,282 @@ input[type='email']{
                 z-index: 1001;
                 img{
                     width: 30%;
+                }
+            }
+        }
+    }
+}
+#viewGame{
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    #viewElements{
+        #calavera{
+            width: 65%;
+        }
+        #gameTitle{
+            font-size: 2rem;
+            font-family: $latBold;
+        }
+        #gameReward{
+            font-size: 2rem;
+            font-family: $latBold;
+            p:nth-child(2){
+                font-size: 3rem;
+            }
+        }
+        #gameDate{
+            width: 45%;
+            padding: 1%;
+            font-size: 1.5rem;
+            font-weight: bold;
+            background: rgb(30,26,1);
+            background: linear-gradient(180deg, rgba(30,26,1,1) 0%, rgba(41,33,4,1) 34%, rgba(51,38,7,1) 64%, rgba(60,44,10,1) 100%); 
+            // background: $gradient2;
+            border: 4px solid #8c510f;
+            border-radius: 10px;
+        }
+        #gameHour{
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+    }
+}
+#mainrace{
+    width: 100%;
+    height: auto;
+    background: $gradient1;
+    background: $gradient2;
+    #navsup{
+        height: 10vh;
+    }
+    #raceContent{
+        width: 100%;
+        height: auto;
+        #raceElements{
+            width: 100%;
+            height: 100vh;
+        #raceGames{
+            width: 85%;
+            height: 30%;
+            #boletLil{
+                width: 25%;
+                height: 80%;
+                margin-left: 2%;
+                .boletEl:first-child{
+                    border: 2px solid #ce7318;
+                    background: rgb(28,25,1);
+                    background: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%);
+                    span{
+                        color: #f7c603;
+                        font-weight: bold;
+                    }
+                }
+                .boletEl{
+                    width: 50%;
+                    p{
+                        span:first-child{
+                            font-family: $latReg;
+                            font-weight: bold;
+                        }
+                        span:nth-child(2){
+                            font-size: 0.5rem;
+                        }
+                    }
+                    img{
+                        margin-right: 5%;
+                    }
+                }
+            }
+            #titlePub{
+                width: 50%;
+                height: 100%;
+                #title{
+                    img{
+                    width: 50%;
+                    margin: auto;
+                    }
+                }
+                #pub{
+                    width: 100%;
+                    height: 40%;
+                    background-color: $white;
+                }
+                #pubText{
+                    p:nth-child(2){
+                        width: 80%;
+                    }
+                }
+            }
+            #officialHour{
+                width: 25%;
+                height: 20%;
+                p{
+                    font-family: $digital
+                }
+                img{
+                    width: 1rem;
+                    height: 1rem;
+                    margin-left: 0.5rem;
+                }
+            }
+        }
+        #racesTod{
+            width: 85%;
+            height: 70%;
+            margin: auto;
+            .racetod{
+                width: 28%;
+                height: 85%;
+                background-size: 100% 100%;
+                .raceTitle{
+                    width: 60%;
+                    height: 10%;
+                    background: $backYellow1;
+                    background: $backYellow2;
+                    border-radius: 10px;
+                    p{
+                        font-family: $latBold;
+                    }
+                }
+                .statusAndHour{
+                    width: 60%;
+                    height: 10%;
+                    .status{
+                        background: #ff4040;
+                        padding: 0.2rem;
+                    }
+                    .statusY{
+                        background: #feca00;
+                    }
+                    .hourst{
+                        width: 30%;
+                        font-family: $digital;
+                        color: #fac805;
+                        img{
+                            width: 80%;
+                        }
+                    }
+                }
+                .rewardst{
+                    width: 60%;
+                    height: 10%;
+                    p:nth-child(2){
+                        color: #fac805;
+                    }
+                }
+                .buttonAndDate{
+                    width: 100%;
+                    height: 25%;
+                    .buttonst{
+                        width: 50%;
+                        img{
+                            width: 40%;
+                            height: 40%;
+                            margin: auto;
+                        }
+                    }
+                    .datest{
+                        margin-left: -5%;
+                        img{
+                            width: 15%;
+                        }
+                        p{
+                            font-family: $digital;
+                            color: #fac805;
+                        }
+                    }
+                }
+            }
+        }
+    }
+        #allraces{
+            width: 100%;
+            height: 100vh;
+            margin-bottom: 10%;
+            #allracestitle{
+                font-size: 2.5rem;
+                font-weight: bold;
+                margin-bottom: 2rem;
+            }
+            #pubelements{
+                width: 85%;
+                height: 20%;
+                // .noth:first-child{
+                //     margin-left: 5%;
+                // }
+                .noth{
+                    width: 25%;
+                }
+                width: 85%;
+                #pub{
+                    width: 45%;
+                    background: $white;
+                    height: 50%;
+                }
+            }
+            #racesTable{
+                width: 85%;
+                height: 80%;
+                background: $backBrowgrad;
+                background: $backBrowgrad2;
+                border: $borderYel;
+                border-radius: 20px;
+                // table{
+                //     width: 85%;
+                //     height: 80%;
+                //     border: $borderYel;
+                //     background: $backBrowgrad;
+                //     background: $backBrowgrad2;
+                // }
+                table {
+                    width: 85%;
+                    height: 90%;
+                    border-collapse: collapse;
+                    tbody{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        tr:first-child{
+                            height: 10%;
+                        }
+                    }
+                    th{
+                        background: $backYellow1;
+                        background: $backYellow2;
+                        width: 18%;
+                        height: 100%;
+                        border-radius: 10px;
+                    }
+                    th:last-child{
+                        background: none;
+                    }
+                    td{
+                        // background: $backBrowgrad;
+                        // background: $backBrowgrad2;
+                        text-align: center;
+                        width: 18%;
+                        margin: none;
+                    }
+                    .trRaces{
+                        height: 20%!important;
+                        td{
+                            img{
+                                width: 50%;
+                                left: -35%;
+                            }
+                        }
+                        td:nth-child(2){
+                            font-family: $digital;
+                            color: #fac805;
+                        }
+                        td:last-child{
+                            a{
+                                width: 100%;
+                            }
+                        }
+                    }
                 }
             }
         }

@@ -1376,14 +1376,50 @@ input[type=email] {
   height: 10%;
 }
 #acertijoAll #barProg #barraProg {
-  width: 15%;
-  height: 75%;
-  background-image: url(../img/acertijos/BARRAPROGRESO-07.png);
-  background-size: 100% 100%;
+  width: 13%;
+  height: 45%;
+  background: rgb(28, 25, 1);
+  background: linear-gradient(180deg, rgb(28, 25, 1) 0%, rgb(60, 44, 10) 50%);
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+  border: 2px solid #ce7318;
+  border-radius: 10px;
 }
 #acertijoAll #barProg #barraProg p {
-  font-size: 1.5rem;
-  font-family: "Paytone";
+  z-index: 2000;
+}
+#acertijoAll #barProg #barraProg #progressProg {
+  position: absolute;
+  height: 100%;
+  background: rgb(250, 205, 103);
+  background: linear-gradient(90deg, rgb(250, 205, 103) 0%, rgb(254, 166, 53) 60%);
+  animation: bar-animation 3s forwards;
+  border-radius: 10px;
+}
+@keyframes bar-animation {
+  0% {
+    width: 5%;
+  }
+  100% {
+    width: 35%;
+  }
+}
+#acertijoAll #barProg #progressProg3 {
+  position: absolute;
+  height: 100%;
+  background: rgb(250, 205, 103);
+  background: linear-gradient(90deg, rgb(250, 205, 103) 0%, rgb(254, 166, 53) 60%);
+  animation: priddle3-animation 3s forwards;
+  border-radius: 10px;
+}
+@keyframes priddle3-animation {
+  0% {
+    width: 35%;
+  }
+  100% {
+    width: 65%;
+  }
 }
 #acertijoAll #acertijo {
   width: 65%;
@@ -1400,7 +1436,6 @@ input[type=email] {
   font-size: 1.5rem;
   font-family: "Paytone";
   align-self: center;
-  height: 100%;
 }
 #acertijoAll #acertijo #acertijotext {
   width: 60%;
@@ -1450,6 +1485,69 @@ input[type=email] {
 #acertijoAll #acertijo .acertijobutton button img {
   width: 100%;
   height: 100%;
+}
+
+#doneall {
+  background-size: 100% 100%;
+}
+#doneall #donecontent {
+  width: 100%;
+  height: 100%;
+}
+#doneall #donecontent #calavera {
+  width: 15%;
+}
+#doneall #donecontent #donemsg p {
+  width: 100%;
+  font-size: 2.5rem;
+  font-family: "Latina ultra heavy";
+  color: #fdcd0a;
+}
+#doneall #donecontent #donehour {
+  width: 15%;
+}
+#doneall #donecontent #donehour p {
+  font-family: "Latina bold";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#doneall #donecontent #donehour #time {
+  width: 100%;
+  border: 4px solid #ce7318;
+  background: rgb(28, 25, 1);
+  background: linear-gradient(180deg, rgb(28, 25, 1) 0%, rgb(60, 44, 10) 50%);
+  border-radius: 10px;
+}
+#doneall #donecontent #donehour #time p {
+  font-family: "Digital";
+  font-size: 2rem;
+}
+#doneall #donecontent #donetable {
+  width: 40%;
+  height: 40%;
+  border: 4px solid #ce7318;
+  background: rgb(28, 25, 1);
+  background: linear-gradient(180deg, rgb(28, 25, 1) 0%, rgb(60, 44, 10) 50%);
+  margin-top: 2%;
+  border-radius: 20px;
+}
+#doneall #donecontent #donetable .rank {
+  color: #831202;
+  font-family: "Latina ultra heavy";
+  font-size: 1.4rem;
+  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+}
+#doneall #donecontent #donetable table {
+  width: 100%;
+}
+#doneall #donecontent #donetable table tr:first-child {
+  font-family: "Latina ultra heavy";
+}
+#doneall #donecontent #donetable table .trInfo img {
+  width: 10%;
+}
+#doneall #donecontent #doneTableBut {
+  width: 15%;
 }
 
 #failriddle {
@@ -1542,10 +1640,8 @@ input[type=email] {
   font-size: 4rem;
 }
 #failriddle #failContent p:nth-child(2) {
-  font-size: 1.5rem;
-}
-#failriddle #failContent p:nth-child(2) span {
-  color: #f1a200;
+  font-size: 1rem;
+  font-weight: bold;
 }
 #failriddle #buttonFail {
   width: 30%;
@@ -1554,10 +1650,14 @@ input[type=email] {
 #correctriddle #correctContent {
   height: 70%;
 }
-#correctriddle #correctContent p {
+#correctriddle #correctContent p:first-child {
   color: #57c32c;
   font-family: "Latina bold";
   font-size: 2.5rem;
+}
+#correctriddle #correctContent p:nth-child(2) {
+  font-size: 2rem;
+  font-weight: bold;
 }
 #correctriddle #correctContent #buttonCorrect img {
   width: 30%;
@@ -1704,6 +1804,259 @@ input[type=email] {
 }
 #clasAcContent #listRiddle .riddle .riddleLocked img {
   width: 30%;
+}
+
+#viewGame {
+  width: 100%;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+#viewGame #viewElements #calavera {
+  width: 65%;
+}
+#viewGame #viewElements #gameTitle {
+  font-size: 2rem;
+  font-family: "Latina bold";
+}
+#viewGame #viewElements #gameReward {
+  font-size: 2rem;
+  font-family: "Latina bold";
+}
+#viewGame #viewElements #gameReward p:nth-child(2) {
+  font-size: 3rem;
+}
+#viewGame #viewElements #gameDate {
+  width: 45%;
+  padding: 1%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: rgb(30, 26, 1);
+  background: linear-gradient(180deg, rgb(30, 26, 1) 0%, rgb(41, 33, 4) 34%, rgb(51, 38, 7) 64%, rgb(60, 44, 10) 100%);
+  border: 4px solid #8c510f;
+  border-radius: 10px;
+}
+#viewGame #viewElements #gameHour {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#mainrace {
+  width: 100%;
+  height: auto;
+  background: rgb(0, 74, 61);
+  background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
+}
+#mainrace #navsup {
+  height: 10vh;
+}
+#mainrace #raceContent {
+  width: 100%;
+  height: auto;
+}
+#mainrace #raceContent #raceElements {
+  width: 100%;
+  height: 100vh;
+}
+#mainrace #raceContent #raceElements #raceGames {
+  width: 85%;
+  height: 30%;
+}
+#mainrace #raceContent #raceElements #raceGames #boletLil {
+  width: 25%;
+  height: 80%;
+  margin-left: 2%;
+}
+#mainrace #raceContent #raceElements #raceGames #boletLil .boletEl:first-child {
+  border: 2px solid #ce7318;
+  background: rgb(28, 25, 1);
+  background: linear-gradient(180deg, rgb(28, 25, 1) 0%, rgb(60, 44, 10) 50%);
+}
+#mainrace #raceContent #raceElements #raceGames #boletLil .boletEl:first-child span {
+  color: #f7c603;
+  font-weight: bold;
+}
+#mainrace #raceContent #raceElements #raceGames #boletLil .boletEl {
+  width: 50%;
+}
+#mainrace #raceContent #raceElements #raceGames #boletLil .boletEl p span:first-child {
+  font-family: "Latina regular";
+  font-weight: bold;
+}
+#mainrace #raceContent #raceElements #raceGames #boletLil .boletEl p span:nth-child(2) {
+  font-size: 0.5rem;
+}
+#mainrace #raceContent #raceElements #raceGames #boletLil .boletEl img {
+  margin-right: 5%;
+}
+#mainrace #raceContent #raceElements #raceGames #titlePub {
+  width: 50%;
+  height: 100%;
+}
+#mainrace #raceContent #raceElements #raceGames #titlePub #title img {
+  width: 50%;
+  margin: auto;
+}
+#mainrace #raceContent #raceElements #raceGames #titlePub #pub {
+  width: 100%;
+  height: 40%;
+  background-color: #fff;
+}
+#mainrace #raceContent #raceElements #raceGames #titlePub #pubText p:nth-child(2) {
+  width: 80%;
+}
+#mainrace #raceContent #raceElements #raceGames #officialHour {
+  width: 25%;
+  height: 20%;
+}
+#mainrace #raceContent #raceElements #raceGames #officialHour p {
+  font-family: "Digital";
+}
+#mainrace #raceContent #raceElements #raceGames #officialHour img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.5rem;
+}
+#mainrace #raceContent #raceElements #racesTod {
+  width: 85%;
+  height: 70%;
+  margin: auto;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod {
+  width: 28%;
+  height: 85%;
+  background-size: 100% 100%;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .raceTitle {
+  width: 60%;
+  height: 10%;
+  background: rgb(250, 205, 103);
+  background: linear-gradient(90deg, rgb(250, 205, 103) 0%, rgb(254, 166, 53) 60%);
+  border-radius: 10px;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .raceTitle p {
+  font-family: "Latina bold";
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .statusAndHour {
+  width: 60%;
+  height: 10%;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .statusAndHour .status {
+  background: #ff4040;
+  padding: 0.2rem;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .statusAndHour .statusY {
+  background: #feca00;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .statusAndHour .hourst {
+  width: 30%;
+  font-family: "Digital";
+  color: #fac805;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .statusAndHour .hourst img {
+  width: 80%;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .rewardst {
+  width: 60%;
+  height: 10%;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .rewardst p:nth-child(2) {
+  color: #fac805;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .buttonAndDate {
+  width: 100%;
+  height: 25%;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .buttonAndDate .buttonst {
+  width: 50%;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .buttonAndDate .buttonst img {
+  width: 40%;
+  height: 40%;
+  margin: auto;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .buttonAndDate .datest {
+  margin-left: -5%;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .buttonAndDate .datest img {
+  width: 15%;
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .buttonAndDate .datest p {
+  font-family: "Digital";
+  color: #fac805;
+}
+#mainrace #raceContent #allraces {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 10%;
+}
+#mainrace #raceContent #allraces #allracestitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+#mainrace #raceContent #allraces #pubelements {
+  width: 85%;
+  height: 20%;
+  width: 85%;
+}
+#mainrace #raceContent #allraces #pubelements .noth {
+  width: 25%;
+}
+#mainrace #raceContent #allraces #pubelements #pub {
+  width: 45%;
+  background: #fff;
+  height: 50%;
+}
+#mainrace #raceContent #allraces #racesTable {
+  width: 85%;
+  height: 80%;
+  background: rgb(28, 25, 1);
+  background: linear-gradient(180deg, rgb(28, 25, 1) 0%, rgb(60, 44, 10) 50%);
+  border: 4px solid #ce7318;
+  border-radius: 20px;
+}
+#mainrace #raceContent #allraces #racesTable table {
+  width: 85%;
+  height: 90%;
+  border-collapse: collapse;
+}
+#mainrace #raceContent #allraces #racesTable table tbody {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#mainrace #raceContent #allraces #racesTable table tbody tr:first-child {
+  height: 10%;
+}
+#mainrace #raceContent #allraces #racesTable table th {
+  background: rgb(250, 205, 103);
+  background: linear-gradient(90deg, rgb(250, 205, 103) 0%, rgb(254, 166, 53) 60%);
+  width: 18%;
+  height: 100%;
+  border-radius: 10px;
+}
+#mainrace #raceContent #allraces #racesTable table th:last-child {
+  background: none;
+}
+#mainrace #raceContent #allraces #racesTable table td {
+  text-align: center;
+  width: 18%;
+  margin: none;
+}
+#mainrace #raceContent #allraces #racesTable table .trRaces {
+  height: 20% !important;
+}
+#mainrace #raceContent #allraces #racesTable table .trRaces td img {
+  width: 50%;
+  left: -35%;
+}
+#mainrace #raceContent #allraces #racesTable table .trRaces td:nth-child(2) {
+  font-family: "Digital";
+  color: #fac805;
+}
+#mainrace #raceContent #allraces #racesTable table .trRaces td:last-child a {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

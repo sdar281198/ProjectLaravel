@@ -45,6 +45,15 @@ Route::get('/clasico', function () {
 Route::get('/clasicoac', function () {
     return view('classicacertijos');
 });
+Route::get('/viewgame', function () {
+    return view('viewgame');
+});
+Route::get('/race', function () {
+    return view('race');
+});
+Route::get('/done', function () {
+    return view('done');
+});
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

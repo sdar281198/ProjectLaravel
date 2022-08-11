@@ -4,7 +4,7 @@
     </div>
     <div id="failContent" class="flex flex-col justify-around items-center">
         <p class="uppercase">Fallaste</p>
-        <p class="text-white">Haz click en <span>aceptar</span> e intentalo de nuevo.</p>
+        <p class="text-white">¡No pierdas más tiempo e inténtalo de nuevo!</p>
         <div id="buttonFail">
             <button><img src="./../img/acertijos/BOTONACEPTAR-07.png" alt=""></button>
         </div>
