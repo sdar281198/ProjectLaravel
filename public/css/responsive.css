@@ -109,6 +109,10 @@
   }
 }
 @media screen and (max-width: 541px) {
+  #acertijotext {
+    width: 85% !important;
+  }
+
   #frase img {
     width: 55% !important;
   }
