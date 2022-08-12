@@ -21,11 +21,11 @@
                     <th class="uppercase text-white">Tiempo</th>
                 </tr>
                 <tr class="trInfo flex justify-around">
-                    <td class="text-white text-center flex items-center">
-                        <img src="../img/race/estrella.png" class="" alt="">
+                    <td class="text-white text-center flex items-center justify-center">
+                        <!-- <img src="../img/race/estrella.png" class="" alt=""> -->
                         <p>Nombre</p>
                     </td>
-                    <td class="text-white text-center">0.12</td>
+                    <td class="text-white text-center flex items-center justify-center">0.12</td>
                 </tr>
             </table>
         </div>

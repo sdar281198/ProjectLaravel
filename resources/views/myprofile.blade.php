@@ -1,8 +1,8 @@
 <x-head/>
 <div id="mainmyprof" class="flex flex-col">
-<header id="headerprof" class="flex justify-center">
+<!-- <header id="headerprof" class="flex justify-center"> -->
 <x-navsupuser/>
-</header>
+<!-- </header> -->
 <div id="profilecontent" class="flex flex-col">
         <h1 class="text-center"><img class="mx-auto" src="../img/landing/MI-PERFIL}.PNG" alt=""></h1>
         <div id="formprof" class="container mx-auto">

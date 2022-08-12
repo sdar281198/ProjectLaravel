@@ -142,7 +142,7 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
 }
 #navsup{
     width: 85%;
-    height: 10%;
+    height: 10vh;
     // padding: 2%;
     background: rgb(77,53,19);
     background: linear-gradient(90deg, rgba(77,53,19,1) 0%, rgba(70,48,16,1) 35%, rgba(70,48,16,1) 100%);
@@ -756,8 +756,8 @@ input[type='email']{
         li{
             background: $backYellow1;
             background: $backYellow2;
-            margin-left: 1.5%;
             border-radius: 100%;
+            margin-left: 1.5%!important;
         }
     }
     }
@@ -959,7 +959,14 @@ input[type='email']{
 .buttonslog{
     li{
         width: 20%!important;
-        text-align: end;
+        text-align: center;
+        background: $backYellow1;
+        background: $backYellow2;
+        border-radius: 100%;
+        margin-left: 1.5%!important;
+        img{
+            margin: auto;
+        }
     }
 }
 /*Myprofile styles*/
@@ -972,9 +979,9 @@ input[type='email']{
         .buttonslog{
             width: 25%;
             li{
-                background: rgb(250,205,103);
-                background: linear-gradient(90deg, rgba(250,205,103,1) 0%, rgba(254,166,53,1) 60%);
-                margin-left: 1.5%;
+                background: $backYellow1;
+                background: $backYellow2;
+                margin-left: 1.5%!important;
                 border-radius: 100%;
             }
         }
@@ -1536,10 +1543,15 @@ input[type='email']{
             background: rgb(28,25,1);
             background: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%);
             border-radius: 10%;
+            #riddleTitle{
+                width: 100%;
+                height: 20%;
+            }
             p:first-child{
                 font-family: $latUltHeav;
                 font-size: 2rem;
-                margin-bottom: 5%;
+                // margin-bottom: 5%;
+                // margin-top: 2%;
             }
             p:nth-child(2){
                 width: 85%;
@@ -1638,6 +1650,9 @@ input[type='email']{
                     // }
                 }
                 .trInfo{
+                    td{
+                        width: 50%;
+                    }
                     img{
                         width: 10%;
                     }

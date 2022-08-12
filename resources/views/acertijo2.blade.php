@@ -13,7 +13,9 @@
                 <p class="text-white">00:00:01</p>
             </div>
             <div id="acertijotext" class="flex flex-col justify-center items-center">
-                <p class="text-center uppercase text-white">ACERTIJO</p>
+                <div id="riddleTitle">
+                    <p class="text-center uppercase text-white">ACERTIJO</p>
+                </div>
                 <p class="text-center text-white">
                     Los destinos con los que soñaste esperan por ti. Ingresa a
                     peru.travel/pe y revisa la sección de destinos en busca de

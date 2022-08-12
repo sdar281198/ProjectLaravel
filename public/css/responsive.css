@@ -136,7 +136,16 @@
     font-weight: bold;
   }
 }
+@media screen and (max-width: 541px) {
+  #acertijoTime {
+    width: 30% !important;
+  }
+}
 @media screen and (max-width: 450px) {
+  #failriddle {
+    width: 50% !important;
+  }
+
   .caracteristic .text {
     font-size: 80% !important;
   }
@@ -406,10 +415,12 @@
     height: 45% !important;
   }
   #acertijotext p:first-child {
-    font-size: 0.8rem !important;
+    font-size: 1rem !important;
   }
   #acertijotext p:nth-child(2) {
-    font-size: 0.5rem !important;
+    font-size: 0.7rem !important;
+    overflow-x: auto;
+    margin-bottom: 5%;
   }
 
   #acertijoanswer input {
@@ -425,11 +436,11 @@
 }
 @media screen and (max-width: 465px) {
   #acertijoTime p {
-    font-size: 0.6rem !important;
+    font-size: 1rem !important;
   }
 
   #acertijotext p:nth-child(2) {
-    font-size: 5px !important;
+    font-size: 7px !important;
   }
 }
 @media screen and (max-width: 350px) {
@@ -438,7 +449,7 @@
   }
 
   #acertijoTime p {
-    font-size: 5px !important;
+    font-size: 10px !important;
   }
 
   #acertijoanswer p {
@@ -447,6 +458,73 @@
 
   .acertijobutton button img {
     height: 50% !important;
+  }
+}
+/*popups riddles medias*/
+@media screen and (max-width: 1190px) {
+  #correctContent p:first-child {
+    font-size: 20px !important;
+  }
+  #correctContent p:nth-child(2) {
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 605px) {
+  #correctContent p:first-child {
+    font-size: 15px !important;
+  }
+  #correctContent p:nth-child(2) {
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 465px) {
+  #correctContent p:first-child {
+    font-size: 10px !important;
+  }
+  #correctContent p:nth-child(2) {
+    font-size: 6px !important;
+  }
+}
+@media screen and (max-width: 315px) {
+  #correctContent p:first-child {
+    font-size: 10px !important;
+    text-align: center;
+  }
+  #correctContent p:nth-child(2) {
+    font-size: 6px !important;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 975px) {
+  #completedContent p:first-child {
+    font-size: 20px !important;
+  }
+  #completedContent p:nth-child(2) {
+    font-size: 15px !important;
+  }
+  #completedContent p:nth-child(3) {
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 620px) {
+  #completedContent p:nth-child(3) {
+    font-size: 6px !important;
+  }
+}
+@media screen and (max-width: 380px) {
+  #completedContent p:first-child {
+    font-size: 10px !important;
+  }
+  #completedContent p:nth-child(2) {
+    font-size: 7px !important;
+  }
+  #completedContent p:nth-child(3) {
+    font-size: 5px !important;
+    text-align: center;
+  }
+
+  #buttonCompleted img {
+    width: 45% !important;
   }
 }
 

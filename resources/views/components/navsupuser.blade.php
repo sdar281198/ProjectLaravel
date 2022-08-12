@@ -1,4 +1,4 @@
-<nav id="navsup" class="mt-10 flex justify-between items-center p-10 relative">
+<nav id="navsup" class="mt-10 flex justify-between items-center p-10 relative mx-auto">
         <div class="flex grow cursor-pointer items-center" id="logo">
             <a id='logo1' href="/home" class="flex absolute items-center">
                 <img src="../img/before/logo1.png" alt="">
