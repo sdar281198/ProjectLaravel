@@ -431,7 +431,8 @@ $white : #fff;
             font-size: 2rem!important;
         }
         p:nth-child(2){
-            font-size: 0.5rem!important;
+            font-size: 0.8rem!important;
+            text-align: center;
         }
     }
 }
@@ -527,10 +528,12 @@ $white : #fff;
 @media screen and (max-width:465px) {
     #correctContent{
         p:first-child{
-            font-size: 10px!important;
+            font-size: 1rem!important;
+            text-align: center;
         }
         p:nth-child(2){
-            font-size: 6px!important;
+            font-size: 0.8rem!important;
+            text-align: center;
         }
     }
     #acertijoTime{
@@ -552,11 +555,11 @@ $white : #fff;
     // }
     #correctContent{
         p:first-child{
-            font-size: 10px!important;
+            font-size: 0.7rem!important;
             text-align: center;
         }
         p:nth-child(2){
-            font-size: 6px!important;
+            font-size: 0.6rem!important;
             text-align: center;
         }
     }
@@ -590,13 +593,13 @@ $white : #fff;
 @media screen and (max-width:380px) {
     #completedContent{
         p:first-child{
-            font-size: 10px!important;
+            font-size: 1rem!important;
         }
         p:nth-child(2){
-            font-size: 7px!important;
+            font-size: 0.8rem!important;
         }
         p:nth-child(3){
-            font-size: 5px!important;
+            font-size: 0.6rem!important;
             text-align: center;
         }
     }

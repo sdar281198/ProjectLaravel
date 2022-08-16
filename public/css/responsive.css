@@ -410,7 +410,8 @@
     font-size: 2rem !important;
   }
   #failContent p:nth-child(2) {
-    font-size: 0.5rem !important;
+    font-size: 0.8rem !important;
+    text-align: center;
   }
 }
 @media screen and (max-width: 700px) {
@@ -491,10 +492,12 @@
 }
 @media screen and (max-width: 465px) {
   #correctContent p:first-child {
-    font-size: 10px !important;
+    font-size: 1rem !important;
+    text-align: center;
   }
   #correctContent p:nth-child(2) {
-    font-size: 6px !important;
+    font-size: 0.8rem !important;
+    text-align: center;
   }
 
   #acertijoTime p {
@@ -507,11 +510,11 @@
 }
 @media screen and (max-width: 315px) {
   #correctContent p:first-child {
-    font-size: 10px !important;
+    font-size: 0.7rem !important;
     text-align: center;
   }
   #correctContent p:nth-child(2) {
-    font-size: 6px !important;
+    font-size: 0.6rem !important;
     text-align: center;
   }
 }
@@ -533,13 +536,13 @@
 }
 @media screen and (max-width: 380px) {
   #completedContent p:first-child {
-    font-size: 10px !important;
+    font-size: 1rem !important;
   }
   #completedContent p:nth-child(2) {
-    font-size: 7px !important;
+    font-size: 0.8rem !important;
   }
   #completedContent p:nth-child(3) {
-    font-size: 5px !important;
+    font-size: 0.6rem !important;
     text-align: center;
   }
 
