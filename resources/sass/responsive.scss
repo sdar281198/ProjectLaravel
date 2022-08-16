@@ -305,6 +305,7 @@ $white : #fff;
             margin-top: 10%;
         }
         #ranking{
+            width: 98%!important;
             height: 100vh;
         }
         #racesInter{
@@ -359,16 +360,22 @@ $white : #fff;
     //     font-size: 1rem!important;
     // }
     .hour{
-        font-size: 1rem!important;
+        font-size: 2rem!important;
     }
     .tab{
         font-size: 0.5rem!important;
     }
     .botonRace img{
-        width: 50%!important;
+        width: 30%!important;
     }
 }
-
+@media screen and (max-width:540px){
+    #tabsGeneralContainer {
+        #tabsTable{
+            width: 80%!important;
+        }
+    }
+}
 @media screen and (max-width:480px){
     #tituloFechas p:first-child img{
         width: 85%!important;
@@ -380,11 +387,15 @@ $white : #fff;
         height: 25%!important;
     }
 }
+
 @media screen and (max-width:330px){
     .botonRace{
         img{
             bottom: 0%!important;
         }
+    }
+    .hour{
+        font-size: 1rem!important;
     }
 }
 /*Acertijo medias*/
@@ -428,10 +439,11 @@ $white : #fff;
     #barProg{
         justify-content: center!important;
         #barraProg{
-            width: 17%!important;
+            width: 20%!important;
         }
     }
     #acertijotext{
+        width: 85%!important;
         height: 45%!important;
         p:first-child{
             font-size: 1rem!important;
@@ -443,32 +455,22 @@ $white : #fff;
         }
     }
     #acertijoanswer{
+        width: 75%!important;
         input{
             font-size: 0.5rem;
         }
         p{
-            font-size: 0.3rem!important;
+            font-size: 0.5rem!important;
         }
+    }
+    #acertijoTime{
+        width: 30%!important;
     }
     .acertijobutton{
         button{
             img{
                 height: 80%!important;
             }
-        }
-    }
-}
-@media screen and (max-width:465px){
-    #acertijoTime{
-        p{
-            font-size: 1rem!important;
-        }
-    }
-    #acertijotext{
-        p:first-child{
-        }
-        p:nth-child(2){
-            font-size: 7px !important;
         }
     }
 }
@@ -484,15 +486,16 @@ $white : #fff;
     }
     #acertijoTime{
         p{
-            font-size: 10px!important;
+            font-size: 0.7rem!important;
         }
     }
     #acertijoanswer{
         p{
-            font-size: 3px!important;
+            font-size: 5px!important;
         }
     }
     .acertijobutton{
+        width: 40%!important;
         button{
             img{
                 height: 50%!important;
@@ -528,6 +531,18 @@ $white : #fff;
         }
         p:nth-child(2){
             font-size: 6px!important;
+        }
+    }
+    #acertijoTime{
+        p{
+            font-size: 10px!important;
+        }
+    }
+    #acertijotext{
+        p:first-child{
+        }
+        p:nth-child(2){
+            font-size: 10px !important;
         }
     }
 }
@@ -591,14 +606,3 @@ $white : #fff;
         }
     }
 }
-//     #school{
-//         display: none;
-//     }
-//     #racesInter{
-//         display: block!important;
-//         .raceInter{
-//             margin: 0px auto!important;
-//         }
-//     }
-
-// }
