@@ -301,8 +301,8 @@ $white : #fff;
         flex-direction: column-reverse;
         align-items: center;
         #school{
-            width: 45%!important;
-            margin-top: 10%;
+            width: 85%!important;
+            margin-top: 15%;
         }
         #ranking{
             width: 98%!important;
@@ -389,6 +389,9 @@ $white : #fff;
 }
 
 @media screen and (max-width:330px){
+    #school{
+        margin-top: 40%!important;
+    }
     .botonRace{
         img{
             bottom: 0%!important;
@@ -399,6 +402,13 @@ $white : #fff;
     }
 }
 /*Acertijo medias*/
+@media screen and (max-width:1500px){
+    #acertijotext{
+        #riddleSentence{
+            overflow: auto!important;
+            }
+        }
+}
 @media screen and (max-width:1430px){
     #acertijotext{
         p:first-child{
@@ -407,6 +417,130 @@ $white : #fff;
         p:nth-child(2){
             font-size: 0.8rem!important;
         }
+    }
+    /*done medias*/
+    #tab{
+        overflow: auto;
+    }
+}
+/*done medias*/
+@media screen and (max-width:1350px){
+    #time{
+        p{
+            font-size: 1rem!important;
+        }
+    }
+    #donePos{
+        #posit{
+            p:first-child{
+                font-size: 1.5rem!important;
+            }
+        }
+    }
+    #donemsg{
+        p{
+            font-size: 2.5rem!important;
+        }
+    }
+}
+@media screen and (max-width:1020px){
+    #donePos{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:930px){
+    #donehour{
+        width: 20%!important;
+    }
+    #donetable{
+        width: 35%!important;
+    }
+    .positNumber{
+        left: 0%!important;
+    }
+}
+@media screen and (max-width:735px){
+    #donePos{
+    #posit{
+        p:first-child{
+            font-size: 1rem !important;
+        }
+    }
+}
+}
+@media screen and (max-width:660px){
+    #donehour{
+        width: 25%!important;
+    }
+    #donemsg{
+        p{
+            font-size: 2rem!important;
+        }
+    }
+    #posImg{
+        width: 55px!important;
+        height: 55px!important;
+        p{
+            font-size: 2rem!important;
+        }
+    }
+    .rank{
+        font-size: 1rem!important;
+    }
+    #doneTable{
+        tbody{
+            tr:first-child{
+                font-size: 0.8rem!important;
+            }
+            .trInfo{
+                font-size: 0.8rem!important;
+            }
+        }
+    }
+    #calavera{
+        height: 30%!important;
+    }
+    #donetable{
+        width: 50%!important;
+    }
+    #donehour{
+        width: 35%!important;
+    }
+}
+@media screen and (max-width:490px){
+    #donemsg{
+        p{
+            font-size: 1.5rem!important;
+        }
+    }
+    #donePos{
+        width: 100%!important;
+    }
+    #time{
+        p{
+            font-size: 0.7rem!important;
+        }
+    }
+    #doneTableBut{
+        width: 25%!important;
+    }
+
+}
+@media screen and (max-width:350px){
+    #doneTable{
+        tbody{
+            tr:first-child{
+                font-size: 0.5rem!important;
+            }
+            .trInfo{
+                font-size: 0.5rem!important;
+            }
+        }
+    }
+}
+@media screen and (max-width:275px){
+    #donehour{
+        width: 50%!important;
     }
 }
 @media screen and (max-width:950px){
@@ -449,11 +583,11 @@ $white : #fff;
         p:first-child{
             font-size: 1rem!important;
         }
-        p:nth-child(2){
-            font-size: 0.7rem!important;
-            overflow-x: auto;
-            margin-bottom: 5%;
-        }
+        // p:nth-child(2){
+        //     font-size: 0.7rem!important;
+        //     overflow-x: auto;
+        //     margin-bottom: 5%;
+        // }
     }
     #acertijoanswer{
         width: 75%!important;

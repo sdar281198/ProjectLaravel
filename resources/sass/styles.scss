@@ -1441,10 +1441,21 @@ input[type='email']{
 
             }
             #priceTicket{
-                p{
-                    font-size: 2.5rem;
-                    font-family: $latReg
+                height: 40%;
+                width: 40%;
+                img{
+                    width: 10rem;
+                    bottom: -0%;
+                    left: -2%;
                 }
+            }
+            .price1{
+                background-image: url(../img/acertijos/cofre1.png);
+                background-size: 100% 100%;
+            }
+            .price2{
+                background-image: url(../img/acertijos/cofre2.png);
+                background-size: 100% 100%;
             }
         }
         #canjear{
@@ -1547,16 +1558,21 @@ input[type='email']{
                 width: 100%;
                 height: 20%;
             }
+            #riddleSentence{
+                width: 100%;
+                height: 55%;
+                // overflow-x: auto;
+                p{
+                    width: 85%;
+                    font-family: $latBold;
+                    font-size: 1rem;
+                }
+            }
             p:first-child{
                 font-family: $latUltHeav;
                 font-size: 2rem;
                 // margin-bottom: 5%;
                 // margin-top: 2%;
-            }
-            p:nth-child(2){
-                width: 85%;
-                font-family: $latBold;
-                font-size: 1rem;
             }
         }
         #acertijoanswer{
@@ -1599,19 +1615,20 @@ input[type='email']{
         height: 100%;
         #calavera{
             width: 15%;
+            height: 40%;
         }
         #donemsg{
             p{  
                 width: 100%;
-                font-size: 2.5rem;
+                font-size: 3.5rem;
                 font-family: $latUltHeav;
-                color: #fdcd0a;
+                color: #f1d638;
             }
         }
         #donehour{
             width: 15%;
             p{
-                font-family: $latBold;
+                font-family: Arial, Helvetica, sans-serif;
                 font-size: 1.5rem;
                 font-weight: bold;
             }
@@ -1622,25 +1639,63 @@ input[type='email']{
                 background: $backBrowgrad2;
                 border-radius: 10px;
                 p{
-                    font-family: $digital;
-                    font-size: 2rem;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        #donePos{
+            width: 35%;
+            margin: 0px auto;
+            p{
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            #posImg{
+                width: 80px;
+                height: 80px;
+                background-image: url(../../img/acertijos/circle.png);
+                background-size: 100% 100%;
+                margin-left: 10px;
+                p{
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: 0%;
+                    font-size: 3rem;
+                    background-color: $black;
+                    /* Create the gradient. */
+                    background-image: linear-gradient(45deg, #f6d236, #eda42a,#e19426);
+                    
+                    /* Set the background size and repeat properties. */
+                    background-size: 100%;
+                    background-repeat: repeat;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent; 
+                    -moz-background-clip: text;
+                    -moz-text-fill-color: transparent;
                 }
             }
         }
         #donetable{
+            width: 30%;
+            height: 40%;
+            border: $borderYel;
+            background: $backBrowgrad;
+            background: $backBrowgrad2;
+            margin-top: 1%;
+            border-radius: 20px;
+            overflow: hidden;
+            #tab{
+                width: 80%;
+                margin: 0px auto;
+                height: 80%;
+                // overflow-x: auto;
+            }
             .rank{
                 color: $letraSombraColor;
                 font-family: $latUltHeav;
                 font-size: 1.4rem;
                 text-shadow: $sombrasLetras;
             }
-            width: 40%;
-            height: 40%;
-            border: $borderYel;
-            background: $backBrowgrad;
-            background: $backBrowgrad2;
-            margin-top: 2%;
-            border-radius: 20px;
             table{
                 width: 100%;
                 tr:first-child{
@@ -1652,10 +1707,34 @@ input[type='email']{
                 .trInfo{
                     td{
                         width: 50%;
+                        margin-top: 2%;
+                        margin-bottom: 2%;
                     }
-                    img{
-                        width: 10%;
+                    .positNumber{
+                        width: 15%;
+                        height: 100%;
+                        left: 10%;
+                        background-image: url(../../img/acertijos/circle.png);
+                        background-size: 100% 100%;
+                        p{  
+                            font-family: $latUltHeav;
+                            background-color: $black;
+                            /* Create the gradient. */
+                            background-image: linear-gradient(45deg, #f6d236, #eda42a,#e19426);
+                            
+                            /* Set the background size and repeat properties. */
+                            background-size: 100%;
+                            background-repeat: repeat;
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent; 
+                            -moz-background-clip: text;
+                            -moz-text-fill-color: transparent;
+                        }
                     }
+                    // img{
+                    //     width: 15%;
+                    //     left:10%;
+                    // }
                 }
             }
         }
@@ -1772,12 +1851,12 @@ input[type='email']{
         }
     }
     #buttonFail{
-        width: 30%;
+        width: 40%;
     }
 }
 #correctriddle{
     #correctContent{
-        height: 70%;
+        height: 80%;
         p:first-child{
             color: #57c32c;
             font-family: $latBold;

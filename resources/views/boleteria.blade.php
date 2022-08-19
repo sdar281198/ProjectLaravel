@@ -11,26 +11,28 @@
                 <div id="pricesBol">
                     <div id="porFecha" class="flex flex-col justify-around items-center">
                         <div class="tituloPrices flex flex-col justify-center text-center">
-                        <p class="uppercase flex flex-col">Ticket <span>por fecha</span></p>
-                        <p class="text-white">Pago por día</p>
+                        <p class="uppercase flex flex-col">Interescolar</p>
+                        <p class="text-white">Juega 1 fecha</p>
                         </div>
-                        <div id="priceTicket" class="text-white text-center">
-                            <p>S/ 4.00</p>
+                        <div id="priceTicket" class="text-white text-center price1 relative">
+                            <!-- <img src="../img/acertijos/cofre1.png" class="" alt=""> -->
+                            <img src="../img/acertijos/brillo.png" class="absolute" alt="">
                         </div>
                         <div id="buyButton">
-                            <button><img src="../img/inter/comprar-07.png" alt=""></button>
+                            <button><img src="../img/acertijos/buy1.png" alt=""></button>
                         </div>
                     </div>
                     <div id="full" class="flex flex-col justify-around items-center">
                     <div class="tituloPrices flex flex-col justify-center text-center">
-                        <p class="uppercase flex flex-col">Ticket <span>Full</span></p>
-                        <p class="text-white">Pago por las 16 fechas</p>
+                        <p class="uppercase flex flex-col">Interescolar Full</p>
+                        <p class="text-white">Juega las 16 fechas</p>
                     </div>
-                        <div id="priceTicket" class="text-white text-center">
-                            <p>S/ 25.00</p>
+                        <div id="priceTicket" class="text-white text-center price2 relative">
+                            <!-- <img src="../img/acertijos/cofre2.png" alt=""> -->
+                            <img src="../img/acertijos/brillo.png" class="absolute" alt="">
                         </div>
                         <div id="buyButton">
-                            <button><img src="../img/inter/comprar-07.png" alt=""></button>
+                            <button><img src="../img/acertijos/buy2.png" alt=""></button>
                         </div>
                     </div>
                 </div>
