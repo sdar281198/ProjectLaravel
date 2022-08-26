@@ -1,18 +1,25 @@
 <x-head/>
-<div id="mainmyprof" class="flex flex-col">
-<!-- <header id="headerprof" class="flex justify-center"> -->
-<x-navsupuser/>
-<!-- </header> -->
+<div id="maininter">
+        <header id="headerinter" class="flex justify-center">
+            <x-navsupuser/>
+        </header>
 <div id="profilecontent" class="flex flex-col">
         <h1 class="text-center"><img class="mx-auto" src="../img/landing/MI-PERFIL}.PNG" alt=""></h1>
-        <div id="formprof" class="container mx-auto">
-        <p class="text-center text-white mt-5">Elige tu avatar</p>
+        <div id="formprof" class="container mx-auto mb-5">
+        <p class="text-center text-white mt-5 mb-5">Elige tu avatar</p>
             <div id="circles" class="flex items-center">
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
+                <div class="contCirc flex">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <!-- </div>
+                    <div class="contCirc flex grow justify-around"> -->
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <!-- </div>
+                    <div class="contCirc flex grow justify-around"> -->
+                    <div class="circle"></div>
+                    <!-- <div class="circle"></div> -->
+                </div>
             </div>
         </div>
         <form id="formProfile" class="mx-auto mt-5">

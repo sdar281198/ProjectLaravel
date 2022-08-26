@@ -4,24 +4,33 @@
             <x-navsupuser/>
         </header>
         <div id="schoolAndRanking" class="flex mx-auto mt-10 justify-between">
-            <div id="school" class="flex flex-col">
-                <div id="schoolpicandname" class="flex flex-col justify-center items-center">
+            <div id="school" class="flex flex-col coleg">
+                <div id="userAndName" class="flex items-center justify-between my-auto mx-auto">
+                    <div id="user">
+                        <img src="../img/inter/usuario-04.png" alt=""> 
+                    </div>
+                    <div id="downarrow">
+                        <i id="flechadown" class="fa-solid fa-arrow-down cursor-pointer"></i>
+                        <i id="flechaup" class="fa-solid fa-arrow-up cursor-pointer dissapear"></i>
+                    </div>
+                </div>
+                <div id="schoolpicandname" class="flex flex-col justify-center items-center dissapear">
                     <div id="pic">
                     </div>
                     <p id="name" class="uppercase">Colegio ABC</p>
                 </div>
-                <div id="position" class="flex flex-col justify-center">
+                <div id="position" class="flex flex-col justify-center dissapear">
                     <span class="flex justify-center">
                         <p class="self-center">2do</p>
                         <img src="../img/inter/copa.png" alt="">
                     </span>
                     <p class="text-center uppercase bold puesto">puesto</p>
                 </div>
-                <div id="rankingside" class="flex flex-col justify-center">
+                <div id="rankingside" class="flex flex-col justify-center dissapear">
                     <img src="../img/inter/CALAVERA-04.png" alt="" class="mx-auto">
                     <p class="text-center uppercase">Tabla de posiciones</p>
                 </div>
-                <div id="points" class="flex flex-col justify-center text-center uppercase">
+                <div id="points" class="flex flex-col justify-center text-center uppercase dissapear">
                     <p>Interescolar 2022</p>
                     <p>1150</p>
                     <p>puntos acumulados</p>
@@ -129,7 +138,7 @@
                                     <tr class="trDato">
                                         <td class="flex">
                                             <p>1.</p>
-                                            <img src="" alt="">
+                                            <!-- <img src="" alt=""> -->
                                             <p>Alumno A</p>
                                         </td>
                                         <td>
@@ -142,7 +151,7 @@
                                     <tr class="trDato">
                                         <td class="flex">
                                             <p>2.</p>
-                                            <img src="" alt="">
+                                            <!-- <img src="" alt=""> -->
                                             <p>Alumno A</p>
                                         </td>
                                         <td>
@@ -155,7 +164,7 @@
                                     <tr class="trDato">
                                         <td class="flex">
                                             <p>3.</p>
-                                            <img src="" alt="">
+                                            <!-- <img src="" alt=""> -->
                                             <p>Alumno A</p>
                                         </td>
                                         <td>
@@ -168,7 +177,7 @@
                                     <tr class="trDato">
                                         <td class="flex">
                                             <p>4.</p>
-                                            <img src="" alt="">
+                                            <!-- <img src="" alt=""> -->
                                             <p>Alumno A</p>
                                         </td>
                                         <td>

@@ -81,6 +81,14 @@ $white : #fff;
     .loginin{
         width: 75%!important;
     }
+    #headerinter{
+        #navsup{
+            #buttons{
+                display: none!important;
+            }
+        }
+    }
+    
 }
 @media screen and (max-width:841px){
     #contentfoot{
@@ -88,19 +96,17 @@ $white : #fff;
         flex-direction: column;
     }
     #menudown{
-        width: auto;
+        width: 100%!important;
         margin: auto;
         ul{
             flex-direction: column;
+            text-align: center;
         }
     }
     #footernet{
         width: auto!important;
         justify-content: center!important;
         margin-top: 9%;
-    }
-    #menudown{
-        width: 50%!important;
     }
 }
 @media screen and (max-width:758px){
@@ -295,14 +301,24 @@ $white : #fff;
 }
 /*Inter medias*/
 @media screen and (max-width:1000px){
+    .content{
+        height: 45%!important;
+    }
     #schoolAndRanking{
         width: 100%!important;
         height: 250vh!important;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         #school{
-            width: 85%!important;
-            margin-top: 15%;
+            width: 50%!important;
+            // // height: 10%!important;
+            .dissapear{
+                display: none!important;
+                transition: all 1000ms!important;
+            }
+            #userAndName{
+                display: flex!important;
+            }
         }
         #ranking{
             width: 98%!important;
@@ -353,9 +369,9 @@ $white : #fff;
             height: 35%!important;
         }
     }
-    #school{
-        margin-top: 30%!important;
-    }
+    // #school{
+    //     margin-top: 30%!important;
+    // }
     // .position{
     //     font-size: 1rem!important;
     // }
@@ -367,6 +383,13 @@ $white : #fff;
     }
     .botonRace img{
         width: 30%!important;
+    }
+}
+@media screen and (max-width:660px){
+    .botonRace{
+        img{
+            bottom: -5%!important;
+        }
     }
 }
 @media screen and (max-width:540px){
@@ -387,11 +410,15 @@ $white : #fff;
         height: 25%!important;
     }
 }
-
+// @media screen and (max-width:390px){
+//     #school{
+//         margin-top: 50%!important;
+//     }
+// }
 @media screen and (max-width:330px){
-    #school{
-        margin-top: 40%!important;
-    }
+    // #school{
+    //     margin-top: 60%!important;
+    // }
     .botonRace{
         img{
             bottom: 0%!important;
@@ -741,5 +768,73 @@ $white : #fff;
         img{
             width: 45%!important;
         }
+    }
+}
+/*perfil medias*/
+@media screen and (max-width:1106px) {
+    #profileButtons{
+        button:first-child{
+            width: 45%!important;
+        }
+        button:nth-child(2){
+            width: 35%!important;
+        }
+    }
+}
+@media screen and (max-width:790px) {
+    #profilecontent{
+        overflow: auto;
+    }
+    #nameandlast{
+        flex-direction: column!important;
+        input{
+            width: 100%!important;
+        }
+    }
+    #profileButtons{
+        button{
+            font-size: 10px!important;
+        }
+        button:first-child{
+            width: 60%!important;
+        }
+        button:nth-child(2){
+            width: 50%!important;
+        }
+    }
+}
+@media screen and (max-width:685px) {
+    #circles{
+        height: 95%!important;
+        overflow: auto!important;
+    }
+    #formProfile{
+        margin-top: 15%!important;
+    }
+    .contCirc{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .circle{
+            margin: auto!important;
+            margin-top: 10px!important;
+            margin-bottom: 10px!important;
+        }
+    }
+}
+@media screen and (max-width:460px){
+    #profilecontent{
+        img{
+            width: 55%!important;
+        }
+    }
+    #formProfile{
+        input{
+            font-size: 0.7rem!important;
+        }
+    }
+}
+@media screen and (max-width:360px){
+    #profileButtons{
+        width: 100%!important;
     }
 }

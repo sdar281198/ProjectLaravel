@@ -14,4 +14,7 @@
             <li class="list-none cursor-pointer"><img src="../img/inter/usuario-04.png" alt=""></li>
             <li class="list-none cursor-pointer"><img src="../img/inter/campana-04.png" alt=""></li>
         </div>
+        <div id="hambMenu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </nav>

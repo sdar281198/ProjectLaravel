@@ -8,7 +8,7 @@
         <li><a href="" class="flex justify-center text-white">Clásico</a></li>
     </ul>
     <div id="buttonsMobile" class="flex flex-col items-center justify-center">
-        <li class="list-none"><a href="/register" class="flex justify-center text-white"><img src="../img/BOTON REGISTRARSE-07.png" alt=""></a></li>
-        <li class="list-none"><a href="/login2" class="flex justify-center uppercase italic text-white">Iniciar sesion</a></li>
+        <li class="list-none"><a href="/register" class="flex justify-center uppercase text-white">Registrate</a></li>
+        <li class="list-none"><a href="/login2" class="flex justify-center uppercase text-white text-center">Iniciar sesion</a></li>
     </div>
 </div>

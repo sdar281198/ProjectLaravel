@@ -22,6 +22,7 @@
 </main>
 <!--<script src="../assets/js/backslider.js"></script>-->
 <!-- <script src="public/js/formulario.js"></script>  -->
+<script src="{{ config('app.url').'/js/userdata.js' }}" defer></script>
 <script src="{{config('app.url').'/js/formulario.js'}}" defer></script>
 <script src="{{ config('app.url').'/js/backslider.js' }}" defer></script>
 <script src="{{ config('app.url').'/js/pagination.js' }}" defer></script>
