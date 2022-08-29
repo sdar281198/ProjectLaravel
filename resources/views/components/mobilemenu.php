@@ -1,6 +1,7 @@
 <div id="mobileMenu" class="flex flex-col justify-center items-center menu">
-    <div id="hambMenuClose" clas="">
-        <i class="fa-solid fa-xmark cursor-pointer"></i>
+    <div id="hambMenuClose" class="">
+        <!-- <i class="fa-solid fa-xmark cursor-pointer"></i> -->
+        <img src="../img/landing/BOTON X-07.png" alt="">
     </div>
     <ul class="flex flex-col justify-center text-center mobileUl">
         <li><a href="/interescolar" class="flex justify-center text-white">Interescolar</a></li>

@@ -7,6 +7,7 @@ const cole = document.getElementById('school');
 const flechadown = document.getElementById('flechadown');
 const flechaup = document.getElementById('flechaup');
 const user = document.getElementById('user');
+const raceInter = document.getElementsByClassName('raceInter');
 
 flechadown.addEventListener('click', ()=>{
     schoolPicNm.classList.remove('dissapear');
@@ -35,7 +36,7 @@ flechaup.addEventListener('click',()=>{
 window.addEventListener("load", onLoadFunction);
 function onLoadFunction(e){ 
 
-    onResizeFunction(); 
+    onResizeFunction();
     window.addEventListener("resize", onResizeFunction);
 }
 function onResizeFunction(e){
@@ -45,7 +46,7 @@ function onResizeFunction(e){
     }else if (window.innerWidth > 1001) {
         cole.classList.add('coleg');
     }
-  }
+}
 onLoadFunction();
 
 

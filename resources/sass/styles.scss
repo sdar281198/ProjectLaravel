@@ -203,6 +203,11 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
     position: absolute;
     top: 0;
     right: 2%;
+    display: flex;
+    justify-content: end;
+    img{
+        width: 10%;
+    }
 }
 #logo{
     width: 20%;
@@ -796,7 +801,7 @@ input[type='email']{
             width: 25%;
             // height: 70%;
             background-color: $colorFondo;
-            border-radius: 5%;
+            border-radius: 1rem;
             transition: all 1000ms;
             #userAndName{
                 width: 90%;
@@ -854,7 +859,7 @@ input[type='email']{
     }
 }
 .grower{
-    height: 60%!important;
+    height: 90%!important;
     transition: all 1000ms;
 }
 .coleg{
@@ -1096,9 +1101,9 @@ input[type='email']{
     height: 100%;
     .buttons{
         min-width: 4%;
+        min-height: 50%;
         cursor: pointer;
         background-color: #66421b;
-        min-height: 50%;
         border: 2px solid #905a1e;
     }
     .tabs {
