@@ -22,7 +22,7 @@
                 <div id="position" class="flex flex-col justify-center dissapear">
                     <span class="flex justify-center">
                         <p class="self-center">2do</p>
-                        <img src="../img/inter/copa.png" alt="">
+                        <!-- <img src="../img/inter/copa.png" alt=""> -->
                     </span>
                     <p class="text-center uppercase bold puesto">puesto</p>
                 </div>

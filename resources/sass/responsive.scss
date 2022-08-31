@@ -1,4 +1,5 @@
 $white : #fff;
+$latBold : 'latina bold';
 @media screen and (max-width:1400px) {
     #buttons{
         li{
@@ -11,7 +12,7 @@ $white : #fff;
 @media screen and (max-width:1100px) {
     #logo{
         #logo1{
-            width: 30%;
+            width: 25%;
         }
     }
     #maininter{
@@ -101,6 +102,14 @@ $white : #fff;
         ul{
             flex-direction: column;
             text-align: center;
+            li{
+                transition: all 500ms;
+            }
+            li:hover{
+                font-family: $latBold;
+                font-size: 1.2rem;
+                transition: all 500ms;
+            }
         }
     }
     #footernet{
@@ -190,7 +199,7 @@ $white : #fff;
 @media screen and (max-width:680px){
     #logo{
         #logo1{
-            width: 40%;
+            width: 28%;
         }
     }
     #mainreg{
@@ -215,6 +224,16 @@ $white : #fff;
     }
     #got{
         font-size: 75%;
+    }
+}
+@media screen and (max-width:580px){
+    #logo{
+        a{
+            left: -7%;
+        }
+        #logo1{
+            width: 30%;
+        }
     }
 }
 @media screen and (max-width:380px){
@@ -315,7 +334,7 @@ $white : #fff;
         flex-direction: column;
         align-items: center;
         #school{
-            width: 73%!important;
+            width: 85%!important;
             margin-bottom: 3%!important;
             // // height: 10%!important;
             .dissapear{
@@ -338,7 +357,90 @@ $white : #fff;
             align-items: center;
         }
     }
+    .containerdate{
+        .tabs{
+            width: 85%!important;
+        }
+    }
 
+}
+@media screen and (max-width:960px){
+    #rankingMenu{
+        .rankingContent{
+            p{
+                font-size: 1.4rem!important;
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+@media screen and (max-width:575px){
+    #rankingMenu{
+        width: 74%;
+    }
+}
+@media screen and (max-width:420px){
+    #mobileMenu{
+        width: 77%!important;
+    }
+    #logo{
+        #logo1{
+            width: 40%;
+        }
+    }
+}
+@media screen and (max-width:330px){
+    #logo{
+        #logo1{
+            width: 55%;
+        }
+    }
+}
+@media screen and (max-width:275px){
+    #mobileMenu{
+        .mobileUl{
+            li{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+        .list-none{
+            a{
+                font-size: 0.8rem;
+            }
+        }
+        #hambMenuClose{
+            img{
+                width: 20%;
+            }
+        }
+    }
+    .containerdate{
+        #tabsGeneralContainer{
+            .tabrank{
+                width: 80%;
+            }
+        }
+    }
+
+}
+@media screen and (max-width:260px){
+    #rankingMenu{
+        .rankingContent{
+            p{
+                font-size: 1rem!important;
+            }
+        }
+    }
+    #rankingTable{
+        th{
+            font-size: 0.7rem;
+        }
+        tr{
+            font-size: 0.5rem;
+        }
+    }
 }
 @media screen and (max-width:800px){
     #tabsGeneralContainer{
@@ -374,8 +476,14 @@ $white : #fff;
         flex-wrap: nowrap!important;
         overflow: auto!important;
         .raceInter{
-            width: 70%!important;
-            height: 35%!important;
+            width: 86%!important;
+            height: 40%!important;
+        }
+    }
+    #progress{
+        width: 100%!important;
+        #bar{
+            width: 80%!important;
         }
     }
     // #school{
@@ -458,11 +566,6 @@ $white : #fff;
     }
 }
 @media screen and (max-width:320px){
-    #schoolAndRanking{
-        #school{
-            width: 80%!important;
-        }
-    }
     #racesInter{
         height: 110%!important;
     }
@@ -471,8 +574,40 @@ $white : #fff;
             height: 20%!important;
         }
     }
-    .tabs{
-        width: 80%!important;
+}
+/*table global,persona styles*/
+@media screen and (max-width:463px){
+    .trIndice{
+        font-size: 0.7rem;
+    }
+    .trDato{
+        font-size: 0.5rem;
+    }
+}
+@media screen and (max-width:510px){
+    #datesPrices{
+        width: 85%!important;
+    }
+}
+@media screen and (max-width:291px){
+    #rankingMenu{
+        width: 95%!important;
+    }
+    #navsup{
+        width: 95%!important;
+    }
+    #schoolAndRanking{
+        #school{
+            width: 95%!important;
+        }
+    }
+    .containerdate{
+        .tabs{
+            width: 95%!important;
+        }
+    }
+    #datesPrices{
+        width: 100%!important;
     }
 }
 /*Acertijo medias*/
@@ -883,5 +1018,68 @@ $white : #fff;
 @media screen and (max-width:360px){
     #profileButtons{
         width: 100%!important;
+    }
+}
+/*Boleteria medias*/
+@media screen and (max-width:1030px){
+    #ticketDivs
+        {
+            #tituloBol{
+                h1{
+                    margin-bottom: 1.5rem!important;
+                }
+            }
+        } 
+    #pricesBol{
+        height: 100%!important;
+        flex-direction: column;
+        #porFecha{
+            width: 90%!important;
+            margin-bottom: 1rem;
+        }
+        #full{
+            width: 90%!important;
+            margin-bottom: 1rem;
+        }
+        #priceTicket{
+            width: 30%!important;
+        }
+    }
+    #buyButton{
+        img{
+            width: 60%!important;
+        }
+    }
+    #canjear{
+        width: 90%!important;
+    }
+}
+@media screen and (max-width:770px){
+    #ticketDivs{
+        overflow: auto;
+    }
+    .tituloPrices{
+        p:first-child{
+            font-size: 1rem!important;
+        }
+    }
+    #canjear{
+        height: 20%!important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        input,
+        button{
+            height: 50%!important;
+            font-size: 0.7rem!important;
+            margin-bottom: 0.5rem;
+            margin-top: 0.5rem;
+        }
+        input{
+            width: 100%!important;
+        }
+        button{
+            width: 45%!important;
+        }
     }
 }

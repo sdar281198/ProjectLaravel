@@ -449,6 +449,13 @@
 #footer #footernet ul {
   width: 50%;
 }
+#footer #footernet ul a i {
+  transition: all 500ms;
+}
+#footer #footernet ul li:hover a i {
+  rotate: 360deg;
+  transition: all 500ms;
+}
 #footer #footernet ul li i {
   font-size: 25px;
 }
@@ -762,10 +769,15 @@ input[type=email] {
   border-bottom: 1px solid #fff;
 }
 #maininter #schoolAndRanking #school #schoolpicandname #pic {
-  width: 30%;
+  width: 25%;
   height: 60%;
   background-color: #fff;
   border-radius: 55%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#maininter #schoolAndRanking #school #schoolpicandname #name {
+  margin-bottom: 1rem;
 }
 #maininter #schoolAndRanking #school #position {
   width: 90%;
@@ -774,6 +786,8 @@ input[type=email] {
 }
 #maininter #schoolAndRanking #school #position span p {
   color: #ffc200;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 #maininter #schoolAndRanking #school #position .puesto {
   font-family: "Latina bold";
@@ -787,6 +801,13 @@ input[type=email] {
   border-top: 1px solid #fff;
   font-family: "Latina bold";
 }
+#maininter #schoolAndRanking #school #rankingside img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#maininter #schoolAndRanking #school #rankingside p {
+  margin-bottom: 1rem;
+}
 #maininter #schoolAndRanking #school #points {
   height: 25%;
 }
@@ -795,6 +816,8 @@ input[type=email] {
 }
 #maininter #schoolAndRanking #school #points p:nth-child(2) {
   color: #ffc200;
+  font-size: 2rem;
+  font-weight: bold;
 }
 #maininter #schoolAndRanking #ranking {
   width: 70%;
@@ -879,8 +902,16 @@ input[type=email] {
 #mainmail {
   background: rgb(0, 74, 61);
   background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
-  height: 100%;
+  height: 100vh;
   margin-bottom: 50px;
+}
+#mainmail #contentmail #logolog:hover {
+  rotate: 360deg;
+  transition: all 1500ms;
+}
+#mainmail #contentmail #logolog {
+  width: 15%;
+  transition: all 1500ms;
 }
 #mainmail #mail .mail {
   font-family: "Latina bold";
@@ -1138,7 +1169,7 @@ input[type=email] {
   justify-content: center;
   background-color: #221c02;
   border: 3px solid #c27520;
-  border-radius: 30%;
+  border-radius: 1rem;
   font-family: "Latina bold";
   cursor: pointer;
   transition: all 1000ms;
@@ -1323,10 +1354,10 @@ input[type=email] {
   transition: all 500ms;
 }
 #rankingMenu #rankingClose img {
-  width: 5%;
+  width: 8%;
   position: absolute;
-  top: 0;
-  right: 2%;
+  top: -1%;
+  right: 0%;
   cursor: pointer;
 }
 #rankingMenu .rankingContent {
@@ -1338,7 +1369,7 @@ input[type=email] {
   font-family: "Latina ultra heavy";
   font-size: 2.4rem;
   text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
-  margin-top: 1%;
+  margin-top: 2rem;
 }
 #rankingMenu .rankingContent table {
   width: 100%;
@@ -1387,9 +1418,10 @@ input[type=email] {
 }
 #ticketDivs #datesPrices #pricesBol .tituloPrices p:first-child {
   color: #ffb800;
-  font-family: "Latina regular";
-  font-size: 2rem;
-  margin-top: 5%;
+  font-family: "Latina bold";
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
 }
 #ticketDivs #datesPrices #pricesBol #priceTicket {
   height: 40%;
@@ -1416,13 +1448,13 @@ input[type=email] {
 #ticketDivs #datesPrices #canjear input {
   width: 80%;
   height: 100%;
-  border-radius: 40px;
+  border-radius: 1rem;
 }
 #ticketDivs #datesPrices #canjear button {
   background-color: #80a09c;
   width: 19%;
   font-family: "Latina bold";
-  border-radius: 40px;
+  border-radius: 1rem;
 }
 
 /*acertijos styles*/

@@ -19,7 +19,7 @@
                             <img src="../img/acertijos/brillo.png" class="absolute" alt="">
                         </div>
                         <div id="buyButton">
-                            <button><img src="../img/acertijos/buy1.png" alt=""></button>
+                            <button><img src="../img/acertijos/buy1.png" class="mx-auto" alt=""></button>
                         </div>
                     </div>
                     <div id="full" class="flex flex-col justify-around items-center">
@@ -32,11 +32,11 @@
                             <img src="../img/acertijos/brillo.png" class="absolute" alt="">
                         </div>
                         <div id="buyButton">
-                            <button><img src="../img/acertijos/buy2.png" alt=""></button>
+                            <button><img src="../img/acertijos/buy2.png" class="mx-auto" alt=""></button>
                         </div>
                     </div>
                 </div>
-                <div id="canjear">
+                <div id="canjear" class="mx-auto">
                     <label for="canjear"></label>
                     <input type="text" name="canjear" placeholder="Canjea tu código" class="uppercase">
                     <button class="text-white uppercase">Aplicar</button>

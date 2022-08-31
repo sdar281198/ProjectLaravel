@@ -5,7 +5,7 @@
 }
 @media screen and (max-width: 1100px) {
   #logo #logo1 {
-    width: 30%;
+    width: 25%;
   }
 
   #maininter #buttons {
@@ -92,6 +92,14 @@
   #menudown ul {
     flex-direction: column;
     text-align: center;
+  }
+  #menudown ul li {
+    transition: all 500ms;
+  }
+  #menudown ul li:hover {
+    font-family: "latina bold";
+    font-size: 1.2rem;
+    transition: all 500ms;
   }
 
   #footernet {
@@ -180,7 +188,7 @@
 /*Register medias*/
 @media screen and (max-width: 680px) {
   #logo #logo1 {
-    width: 40%;
+    width: 28%;
   }
 
   #mainreg #navsup {
@@ -207,6 +215,14 @@
 
   #got {
     font-size: 75%;
+  }
+}
+@media screen and (max-width: 580px) {
+  #logo a {
+    left: -7%;
+  }
+  #logo #logo1 {
+    width: 30%;
   }
 }
 @media screen and (max-width: 380px) {
@@ -301,7 +317,7 @@
     align-items: center;
   }
   #schoolAndRanking #school {
-    width: 73% !important;
+    width: 85% !important;
     margin-bottom: 3% !important;
   }
   #schoolAndRanking #school .dissapear {
@@ -321,6 +337,62 @@
   #schoolAndRanking #racesInter {
     flex-direction: column;
     align-items: center;
+  }
+
+  .containerdate .tabs {
+    width: 85% !important;
+  }
+}
+@media screen and (max-width: 960px) {
+  #rankingMenu .rankingContent p {
+    font-size: 1.4rem !important;
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  #rankingMenu {
+    width: 74%;
+  }
+}
+@media screen and (max-width: 420px) {
+  #mobileMenu {
+    width: 77% !important;
+  }
+
+  #logo #logo1 {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 330px) {
+  #logo #logo1 {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 275px) {
+  #mobileMenu .mobileUl li a {
+    font-size: 1rem;
+  }
+  #mobileMenu .list-none a {
+    font-size: 0.8rem;
+  }
+  #mobileMenu #hambMenuClose img {
+    width: 20%;
+  }
+
+  .containerdate #tabsGeneralContainer .tabrank {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 260px) {
+  #rankingMenu .rankingContent p {
+    font-size: 1rem !important;
+  }
+
+  #rankingTable th {
+    font-size: 0.7rem;
+  }
+  #rankingTable tr {
+    font-size: 0.5rem;
   }
 }
 @media screen and (max-width: 800px) {
@@ -353,8 +425,15 @@
     overflow: auto !important;
   }
   #racesInter .raceInter {
-    width: 70% !important;
-    height: 35% !important;
+    width: 86% !important;
+    height: 40% !important;
+  }
+
+  #progress {
+    width: 100% !important;
+  }
+  #progress #bar {
+    width: 80% !important;
   }
 
   .hour {
@@ -420,10 +499,6 @@
   }
 }
 @media screen and (max-width: 320px) {
-  #schoolAndRanking #school {
-    width: 80% !important;
-  }
-
   #racesInter {
     height: 110% !important;
   }
@@ -431,9 +506,41 @@
   .containerdate #progress {
     height: 20% !important;
   }
+}
+/*table global,persona styles*/
+@media screen and (max-width: 463px) {
+  .trIndice {
+    font-size: 0.7rem;
+  }
 
-  .tabs {
-    width: 80% !important;
+  .trDato {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (max-width: 510px) {
+  #datesPrices {
+    width: 85% !important;
+  }
+}
+@media screen and (max-width: 291px) {
+  #rankingMenu {
+    width: 95% !important;
+  }
+
+  #navsup {
+    width: 95% !important;
+  }
+
+  #schoolAndRanking #school {
+    width: 95% !important;
+  }
+
+  .containerdate .tabs {
+    width: 95% !important;
+  }
+
+  #datesPrices {
+    width: 100% !important;
   }
 }
 /*Acertijo medias*/
@@ -777,6 +884,65 @@
 @media screen and (max-width: 360px) {
   #profileButtons {
     width: 100% !important;
+  }
+}
+/*Boleteria medias*/
+@media screen and (max-width: 1030px) {
+  #ticketDivs #tituloBol h1 {
+    margin-bottom: 1.5rem !important;
+  }
+
+  #pricesBol {
+    height: 100% !important;
+    flex-direction: column;
+  }
+  #pricesBol #porFecha {
+    width: 90% !important;
+    margin-bottom: 1rem;
+  }
+  #pricesBol #full {
+    width: 90% !important;
+    margin-bottom: 1rem;
+  }
+  #pricesBol #priceTicket {
+    width: 30% !important;
+  }
+
+  #buyButton img {
+    width: 60% !important;
+  }
+
+  #canjear {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 770px) {
+  #ticketDivs {
+    overflow: auto;
+  }
+
+  .tituloPrices p:first-child {
+    font-size: 1rem !important;
+  }
+
+  #canjear {
+    height: 20% !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #canjear input,
+#canjear button {
+    height: 50% !important;
+    font-size: 0.7rem !important;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  #canjear input {
+    width: 100% !important;
+  }
+  #canjear button {
+    width: 45% !important;
   }
 }
 
