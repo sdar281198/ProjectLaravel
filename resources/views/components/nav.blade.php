@@ -1,4 +1,4 @@
-<nav id="navsup" class="mt-10 flex justify-between items-center p-10 relative">
+<nav id="navsup" class="mt-10 flex justify-between items-center relative">
         <div class="flex grow cursor-pointer items-center" id="logo">
             <a id='logo1' href="/home" class="flex absolute items-center">
                 <img src="../img/before/logo1.png" alt="">
@@ -14,7 +14,7 @@
             <li class="button-img list-none"><a href="./register" class="flex justify-end"><img src="../img/before/BOTON REGISTRARSE-07.png" alt=""></a></li>
             <li class="button-sign list-none"><a href="./login2" class="flex justify-center uppercase italic">Iniciar sesión</a></li>
         </div>
-        <div id="hambMenu">
+        <div id="hambMenu" style="margin-right:2%;">
         <i class="fa-solid fa-bars"></i>
         </div>
     </nav>

@@ -150,6 +150,7 @@
   border-image-slice: 1;
   z-index: 199;
   top: 0px;
+  padding: 2.5%;
 }
 #navsup ul {
   width: 45%;
@@ -192,9 +193,8 @@
   height: 50%;
 }
 #logo a img {
-  width: 50%;
-  height: 10%;
-  height: auto;
+  width: 115px;
+  height: 115px;
 }
 #frase {
   width: 73%;

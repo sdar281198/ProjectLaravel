@@ -177,6 +177,7 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
     border-image-slice:1;
     z-index: 199;
     top: 0px;
+    padding: 2.5%;
     ul{
         width: 45%;
         // img{
@@ -218,9 +219,9 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
             height: 50%;
         }
         img{
-            width: 50%;
-            height: 10%;
-            height: auto;
+            width: 115px;
+            height: 115px;
+            // height: auto;
         }
     }
     #logo1{
