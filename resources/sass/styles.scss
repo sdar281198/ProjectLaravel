@@ -516,6 +516,14 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
     font-family: $latReg;
     #menudown{
         width: 65%;
+        li{
+            transition: all 500ms;
+        }
+        li:hover{
+            font-family: $latBold;
+            font-size: 1.2rem;
+            transition: all 500ms;
+        }
     }
     #footernet{
         width: 30%;
@@ -1258,7 +1266,7 @@ input[type='email']{
         }
     }
     #contentTables{
-        width: 100%;
+        width: 90%;
         height: 90%;
     }
     .contentRank{

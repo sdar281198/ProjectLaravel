@@ -442,6 +442,14 @@
 #footer #menudown {
   width: 65%;
 }
+#footer #menudown li {
+  transition: all 500ms;
+}
+#footer #menudown li:hover {
+  font-family: "Latina bold";
+  font-size: 1.2rem;
+  transition: all 500ms;
+}
 #footer #footernet {
   width: 30%;
   justify-content: end;
@@ -1180,7 +1188,7 @@ input[type=email] {
   transition: all 1000ms;
 }
 .containerdate #contentTables {
-  width: 100%;
+  width: 90%;
   height: 90%;
 }
 .containerdate .contentRank {

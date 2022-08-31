@@ -66,7 +66,7 @@
                                     Personal
                                 </div>
                             </div>
-                            <div id="contentTables">
+                            <div id="contentTables" class="mx-auto">
                                 <div id="globalTableContainer" class="contentRank">
                                 <table id="rankTable" class="">
                                     <tr class="trIndice">
