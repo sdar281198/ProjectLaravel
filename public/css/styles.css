@@ -24,6 +24,11 @@
   font-family: "Paytone";
   src: url("../fonts/paytone/PaytoneOne.ttf");
 }
+.fullContent {
+  width: 100%;
+  height: 100vh;
+}
+
 #main {
   background: #001521;
 }
@@ -68,7 +73,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
 }
 
 #header::after {
@@ -189,6 +193,10 @@
   left: -4%;
   width: 20%;
 }
+#logo a img:first-child {
+  height: 100px;
+  margin-top: -0.5rem;
+}
 #logo a img:nth-child(2) {
   height: 50%;
 }
@@ -241,7 +249,6 @@
 }
 
 #bannerAndAnnounce {
-  height: 100vh;
   background-color: #001521;
 }
 #bannerAndAnnounce #banner {
@@ -561,7 +568,9 @@
 /* Color forms */
 input[type=text],
 input[type=password],
-input[type=email] {
+input[type=email],
+select,
+textarea {
   background: #001521;
   color: #fff;
   font-weight: bold;
@@ -843,8 +852,6 @@ input[type=email] {
 }
 
 #maininteracces {
-  width: 100%;
-  height: 100%;
   background: rgb(0, 74, 61);
   background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
 }
@@ -910,7 +917,6 @@ input[type=email] {
 #mainmail {
   background: rgb(0, 74, 61);
   background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
-  height: 100vh;
   margin-bottom: 50px;
 }
 #mainmail #contentmail #logolog:hover {
@@ -1149,7 +1155,7 @@ input[type=email] {
     width: 0%;
   }
   100% {
-    width: 100%;
+    width: 50%;
   }
 }
 .containerdate #progressWithouthRiddle {
@@ -1389,10 +1395,6 @@ input[type=email] {
 }
 
 /*Boleteria styles*/
-#ticketDivs {
-  width: 100%;
-  height: 100vh;
-}
 #ticketDivs #tituloBol h1 {
   color: #831202;
   font-family: "Latina ultra heavy";
@@ -1467,8 +1469,6 @@ input[type=email] {
 
 /*acertijos styles*/
 #acertijoAll {
-  width: 100%;
-  height: 100vh;
   background-size: 100% 100%;
 }
 #acertijoAll #barProg {
@@ -1596,10 +1596,6 @@ input[type=email] {
 
 #doneall {
   background-size: 100% 100%;
-}
-#doneall #donecontent {
-  width: 100%;
-  height: 100%;
 }
 #doneall #donecontent #calavera {
   width: 15%;
@@ -1842,7 +1838,6 @@ input[type=email] {
 
 /*classic styles*/
 #mainclassic {
-  width: 100%;
   background: rgb(0, 74, 61);
   background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
   height: auto;
@@ -1850,9 +1845,6 @@ input[type=email] {
 #mainclassic #headerinter {
   height: 10vh;
   margin-bottom: 5%;
-}
-#mainclassic #classicContent {
-  height: 100vh;
 }
 #mainclassic #classicContent #classicTexts {
   width: 100%;
@@ -2223,6 +2215,127 @@ input[type=email] {
 }
 #mainrace #raceContent #allraces #racesTable table .trRaces td:last-child a {
   width: 100%;
+}
+
+/*terminos styles*/
+#terminos #termsTitle p {
+  color: #831202;
+  font-family: "Latina ultra heavy";
+  font-size: 1.4rem;
+  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+}
+#terminos #termsText {
+  width: 50%;
+  height: 90%;
+  overflow: auto;
+}
+/*Libro styles*/
+#bookContent #bookTitle p {
+  color: #831202;
+  font-family: "Latina ultra heavy";
+  font-size: 2rem;
+  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+}
+#bookContent #formDivBokk {
+  width: 85%;
+  height: 85%;
+  overflow: auto;
+}
+#bookContent #formDivBokk .peoplePresent {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+#bookContent #formDivBokk .peoplePresent p {
+  margin-left: 0.3rem;
+}
+#bookContent #formDivBokk #formd {
+  width: 100%;
+  height: 100%;
+}
+#bookContent #formDivBokk #formd p {
+  font-family: "Latina bold";
+}
+#bookContent #formDivBokk .twoinp {
+  width: 100%;
+}
+#bookContent #formDivBokk .twoinp .inp {
+  width: 48%;
+}
+#bookContent #formDivBokk .twoinp .inp input {
+  width: 100%;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  border-radius: 1rem;
+}
+#bookContent #formDivBokk .threeinp {
+  width: 100%;
+}
+#bookContent #formDivBokk .threeinp .inpt {
+  width: 30%;
+}
+#bookContent #formDivBokk .threeinp input {
+  width: 100%;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  border-radius: 1rem;
+}
+#bookContent #formDivBokk #secondpart #oneinp {
+  width: 100%;
+}
+#bookContent #formDivBokk #secondpart #oneinp .oneinpt {
+  position: relative;
+  display: inline-block;
+  width: 48%;
+}
+#bookContent #formDivBokk #secondpart #oneinp .oneinpt select {
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../../img/arrow.ico) 97%/2% no-repeat #001521;
+}
+#bookContent #formDivBokk #thirdPart .radio1 {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+#bookContent #formDivBokk #thirdPart #twoRadios .radioTitle p {
+  margin-left: 0.3rem;
+}
+#bookContent #formDivBokk #thirdPart #twoRadios .radio {
+  width: 50%;
+  margin-top: 1rem;
+}
+#bookContent #formDivBokk #thirdPart #twoRadios .radio .radiocont {
+  width: 100%;
+}
+#bookContent #formDivBokk #thirdPart #twoRadios #ammount {
+  width: 100%;
+}
+#bookContent #formDivBokk #thirdPart #twoRadios #ammount input {
+  width: 96.5%;
+  border-radius: 1rem;
+}
+#bookContent #formDivBokk #fourthpart textarea {
+  width: 100%;
+  border-radius: 1rem;
+}
+#bookContent #formDivBokk #fifthpart {
+  width: 100%;
+}
+#bookContent #formDivBokk #fifthpart #threebuttons {
+  width: 60%;
+  margin-top: 2rem;
+}
+#bookContent #formDivBokk #fifthpart #threebuttons button {
+  width: 30%;
+  height: 5rem;
+  border-radius: 1rem;
+  background-color: #426264;
+  font-family: "Latina bold";
 }
 
 /*# sourceMappingURL=styles.css.map */

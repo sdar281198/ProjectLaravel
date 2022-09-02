@@ -117,6 +117,11 @@ $latBold : 'latina bold';
         justify-content: center!important;
         margin-top: 9%;
     }
+    #termsTitle{
+        p{
+            font-size: 1rem!important;
+        }
+    }
 }
 @media screen and (max-width:758px){
     .accordionfaq{
@@ -938,6 +943,16 @@ $latBold : 'latina bold';
             font-size: 6px!important;
         }
     }
+    #termsTitle{
+        p{
+            font-size: 0.7rem!important;
+        }
+    }
+    #termsText{
+        p{
+            font-size: 0.7rem!important;
+        }
+    }
 }
 @media screen and (max-width:380px) {
     #completedContent{
@@ -1086,6 +1101,48 @@ $latBold : 'latina bold';
         }
         button{
             width: 45%!important;
+        }
+    }
+}
+/*terminos medias*/
+/*book medias*/
+@media screen and (max-width:695px){
+    #formDivBokk{
+        .oneinpt{
+            width: 100%!important;
+        }
+    #formd{
+        .twoinp{
+            flex-direction: column!important;
+            .inp{
+                width: 100%;
+            }
+        }
+        .threeinp{
+            flex-direction: column!important;
+            .inpt{
+                width: 100%;
+            }
+        }
+    }
+    #threebuttons{
+        width: 100%!important;
+        flex-direction: column!important;
+        button{
+            width: 100%!important;
+            margin-bottom: 0.5rem;
+            height: 3rem!important;
+        }
+    }
+}
+}
+@media screen and (max-width:450px){
+    #formDivBokk{
+        #twoRadios{
+            flex-direction: column!important;
+            .radio{
+                width: 100%!important;
+            }
         }
     }
 }

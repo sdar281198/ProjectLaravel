@@ -1,6 +1,6 @@
 <x-head/>
-<div id="doneall" class="h-screen flex flex-col items-center" style="background-image: url(../img/race/fondoesf.png);">
-    <div id="donecontent" class="flex flex-col items-center">
+<div id="doneall" class="flex flex-col items-center" style="background-image: url(../img/race/fondoesf.png);">
+    <div id="donecontent" class="flex flex-col items-center fullContent">
         <div id="calavera">
             <!-- <img src="../img/race/calavera.png" alt=""> -->
         </div>

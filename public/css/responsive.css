@@ -107,6 +107,10 @@
     justify-content: center !important;
     margin-top: 9%;
   }
+
+  #termsTitle p {
+    font-size: 1rem !important;
+  }
 }
 @media screen and (max-width: 758px) {
   .accordionfaq {
@@ -809,6 +813,14 @@
   #completedContent p:nth-child(3) {
     font-size: 6px !important;
   }
+
+  #termsTitle p {
+    font-size: 0.7rem !important;
+  }
+
+  #termsText p {
+    font-size: 0.7rem !important;
+  }
 }
 @media screen and (max-width: 380px) {
   #completedContent p:first-child {
@@ -948,6 +960,42 @@
   }
   #canjear button {
     width: 45% !important;
+  }
+}
+/*terminos medias*/
+/*book medias*/
+@media screen and (max-width: 695px) {
+  #formDivBokk .oneinpt {
+    width: 100% !important;
+  }
+  #formDivBokk #formd .twoinp {
+    flex-direction: column !important;
+  }
+  #formDivBokk #formd .twoinp .inp {
+    width: 100%;
+  }
+  #formDivBokk #formd .threeinp {
+    flex-direction: column !important;
+  }
+  #formDivBokk #formd .threeinp .inpt {
+    width: 100%;
+  }
+  #formDivBokk #threebuttons {
+    width: 100% !important;
+    flex-direction: column !important;
+  }
+  #formDivBokk #threebuttons button {
+    width: 100% !important;
+    margin-bottom: 0.5rem;
+    height: 3rem !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  #formDivBokk #twoRadios {
+    flex-direction: column !important;
+  }
+  #formDivBokk #twoRadios .radio {
+    width: 100% !important;
   }
 }
 

@@ -1,5 +1,5 @@
 <x-head/>
-  <header id="header" class="container flex flex-col items-center">
+  <header id="header" class="container flex flex-col items-center fullContent">
     <x-nav/>
       <div id="frase" class="my-auto flex flex-col ">
         <p id="frase1" class="text-white italic uppercase">¡La suerte no juega!</p>
@@ -10,7 +10,7 @@
         </div>
       </div>
   </header>
-  <div id="bannerAndAnnounce" class="flex flex-col items-center">
+  <div id="bannerAndAnnounce" class="flex flex-col items-center fullContent">
             <div id="banner" class="flex mx-auto">
              <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -180,61 +180,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="faqDiv">
-                        <div class="faqImg relative">
-                            <img src="../img/CUADRADO PREGUNTAS FRECUENTES-06.png" alt="" class="relative mx-auto">
-                        </div>
-                        <div class="plus absolute flex">
-                            <i class="fa-solid fa-plus cursor-pointer"></i>
-                        </div>
-                        <div class="faqAnswer absolute">
-                            <p class="">¿Que es the online race?</p>
-                        </div>
-                    </div>
-                    <div class="faqDiv">
-                        <div class="faqImg relative">
-                            <img src="../img/CUADRADO PREGUNTAS FRECUENTES-06.png" alt="" class="relative mx-auto">
-                        </div>
-                        <div class="plus absolute flex">
-                            <i class="fa-solid fa-plus cursor-pointer"></i>
-                        </div>
-                        <div class="faqAnswer absolute">
-                            <p class="">Tengo problemas para acceder a mi cuenta</p>
-                        </div>
-                    </div>
-                    <div class="faqDiv">
-                        <div class="faqImg relative">
-                            <img src="../img/CUADRADO PREGUNTAS FRECUENTES-06.png" alt="" class="relative mx-auto">
-                        </div>
-                        <div class="plus absolute flex">
-                            <i class="fa-solid fa-plus cursor-pointer"></i>
-                        </div>
-                        <div class="faqAnswer absolute">
-                            <p class="">No puedo resolver un acertijo</p>
-                        </div>
-                    </div>
-                    <div class="faqDiv">
-                        <div class="faqImg relative">
-                            <img src="../img/CUADRADO PREGUNTAS FRECUENTES-06.png" alt="" class="relative mx-auto">
-                        </div>
-                        <div class="plus absolute flex">
-                            <i class="fa-solid fa-plus cursor-pointer"></i>
-                        </div>
-                        <div class="faqAnswer absolute">
-                            <p class="">¿Como puedo inscribir a mi colegio?</p>
-                        </div>
-                    </div>
-                    <div class="faqDiv">
-                        <div class="faqImg relative">
-                            <img src="../img/CUADRADO PREGUNTAS FRECUENTES-06.png" alt="" class="relative mx-auto">
-                        </div>
-                        <div class="plus absolute flex">
-                            <i class="fa-solid fa-plus cursor-pointer"></i>
-                        </div>
-                        <div class="faqAnswer absolute">
-                            <p class="">The online race es un juego gratuito</p>
-                        </div>
-                    </div> -->
                 </div>
             </div>
             <div id="announce2" class="mx-auto">

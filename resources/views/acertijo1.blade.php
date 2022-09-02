@@ -1,5 +1,5 @@
 <x-head/>
-    <div id="acertijoAll" style="background-image: url(./../img/acertijos/FONDO1-07.png);">
+    <div id="acertijoAll" class="fullContent" style="background-image: url(./../img/acertijos/FONDO1-07.png);">
         <div id="barProg" class="mx-auto flex justify-end items-center">
             <div id="barraProg" class="flex items-center justify-center text-white">
                 <p class="mx-auto text-white">1/3</p>

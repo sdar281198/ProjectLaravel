@@ -54,6 +54,15 @@ Route::get('/race', function () {
 Route::get('/done', function () {
     return view('done');
 });
+Route::get('/terminos', function () {
+    return view('terminos');
+});
+Route::get('/legal', function () {
+    return view('legal');
+});
+Route::get('/libro', function () {
+    return view('book');
+});
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

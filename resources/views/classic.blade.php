@@ -3,7 +3,7 @@
         <header id="headerinter" class="flex justify-center">
             <x-navsupuser/>
         </header>
-        <div id="classicContent">
+        <div id="classicContent" class="fullContent">
             <div id="classicTexts" class="mx-auto text-center">
                 <p id="titleClas"><img src="../img/classic/CLASICO.png" alt="" class="mx-auto"></p>
                 <p id="textClas" class="text-white">Resuelve los acertijos y pon a prueba tus habilidades</p>

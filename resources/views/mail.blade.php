@@ -1,5 +1,5 @@
 <x-head/>
-    <div id="mainmail" class="container">
+    <div id="mainmail" class="fullContent">
         <header id="headermail" class="flex justify-center">
             <x-nav/>
         </header>

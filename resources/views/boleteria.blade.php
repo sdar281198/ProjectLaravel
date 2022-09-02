@@ -3,7 +3,7 @@
         <header id="headerinter" class="flex justify-center">
             <x-navsupuser/>
         </header>
-        <div id="ticketDivs">
+        <div id="ticketDivs" class="fullContent">
             <div id="tituloBol" class="mt-10">
                 <h1 class="text-center uppercase">Boletería</h1>
             </div>

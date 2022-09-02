@@ -24,6 +24,10 @@
     font-family: 'Paytone';
     src: url('../fonts/paytone/PaytoneOne.ttf');
 }
+.fullContent{
+    width: 100%;
+    height: 100vh;
+}
 $colorFondo : #001521;
 $latBold: 'Latina bold';
 $latReg: 'Latina regular';
@@ -79,14 +83,12 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
 }
 //Header
 #header{
-    // background: url(../img/FONDO\ AMARILLO\ T-06-06.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
 }
 #header::after{
     content:"";
@@ -215,6 +217,10 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
     a{
         left: -4%;
         width: 20%;
+        img:first-child{
+            height: 100px;
+            margin-top: -0.5rem;
+        }
         img:nth-child(2){
             height: 50%;
         }
@@ -275,7 +281,7 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
     }
 }
 #bannerAndAnnounce{
-    height: 100vh;
+    // height: 100vh;
     background-color: $colorFondo;
     #banner{
         background-color: $white;
@@ -631,7 +637,9 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
 /* Color forms */
 input[type='text'],
 input[type='password'],
-input[type='email']{
+input[type='email'],
+select,
+textarea{
     background:$colorFondo;
     color: $white;
     font-weight: bold;
@@ -905,8 +913,6 @@ input[type='email']{
     transition: all 1000ms;
 }
 #maininteracces{
-    width: 100%;
-    height: 100%;
     background: $gradient1;
     background: $gradient2;
     // Interacces styles
@@ -976,7 +982,6 @@ input[type='email']{
 #mainmail{
     background: $gradient1;
     background: $gradient2;
-    height: 100vh;
     margin-bottom: 50px;
     #contentmail{
         #logolog:hover{
@@ -1226,7 +1231,7 @@ input[type='email']{
                 width: 0%;
             }
             100%{
-                width: 100%;
+                width: 50%;
             }
         }
     }
@@ -1487,8 +1492,6 @@ input[type='email']{
         }
 /*Boleteria styles*/
 #ticketDivs{
-    width: 100%;
-    height: 100vh;
     #tituloBol{
         h1{
             color: $letraSombraColor;
@@ -1568,8 +1571,6 @@ input[type='email']{
 }
 /*acertijos styles*/
 #acertijoAll{
-    width: 100%;
-    height: 100vh;
     background-size: 100% 100%;
     #barProg{
         width: 80%;
@@ -1701,8 +1702,6 @@ input[type='email']{
 #doneall{
     background-size: 100% 100%;
     #donecontent{
-        width: 100%;
-        height: 100%;
         #calavera{
             width: 15%;
             height: 40%;
@@ -1974,7 +1973,6 @@ input[type='email']{
 }
 /*classic styles*/
 #mainclassic{
-    width: 100%;
     background: $gradient1;
     background: $gradient2;
     height: auto;
@@ -1983,7 +1981,6 @@ input[type='email']{
         margin-bottom: 5%;
     }
     #classicContent{
-        height: 100vh;
         #classicTexts{
             width: 100%;
             height: 10%;
@@ -2375,6 +2372,164 @@ input[type='email']{
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+}
+/*terminos styles*/
+#terminos{
+    #termsTitle{
+        p{
+            color: $letraSombraColor;
+            font-family: $latUltHeav;
+            font-size: 1.4rem;
+            text-shadow: $sombrasLetras;
+        }
+    }
+    #termsText{
+        width: 50%;
+        height: 90%;
+        overflow: auto;
+        p{
+            // text-align: justify;
+        }
+    }
+}
+/*Libro styles*/
+#bookContent{
+    #bookTitle{
+        p{
+            color: $letraSombraColor;
+            font-family: $latUltHeav;
+            font-size: 2rem;
+            text-shadow: $sombrasLetras;
+        }
+    }
+    #formDivBokk{
+        width: 85%;
+        height: 85%;
+        overflow: auto;
+        form{
+            // .parts{
+            //     height: 25%;
+                // input{
+                //     height: 100%;
+                // }
+            // }
+            // .inps{
+            //     margin-bottom: 10px;
+            //     margin-top: 10px;
+            // }
+        }
+        .peoplePresent{
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            p{
+                margin-left: 0.3rem;
+            }
+        }
+        #formd{
+            width: 100%;
+            height: 100%;
+            p{
+                font-family: $latBold;
+            }
+        }
+        .twoinp{
+            width: 100%;
+            .inp{
+                width: 48%;
+                input{
+                    width: 100%;
+                    margin-top: 0.2rem;
+                    margin-bottom: 0.2rem;
+                    border-radius: 1rem;
+                }
+            }
+        }
+        .threeinp{
+            width: 100%;
+            .inpt{
+                width: 30%;
+            }
+            input{
+                width: 100%;
+                margin-top: 0.2rem;
+                margin-bottom: 0.2rem;
+                border-radius: 1rem;
+            }
+        }
+        #firstpart{
+        }
+        #secondpart{
+            #oneinp{
+                width: 100%;
+                .oneinpt{
+                    position: relative;
+                    display: inline-block;
+                    width: 48%;
+                    select{
+                        width: 100%;
+                        border-radius: 1rem;
+                        margin-top: 0.2rem;
+                        margin-bottom: 0.2rem;
+                        -webkit-appearance: none;
+                         -moz-appearance: none;
+                        appearance: none;
+                        background: url(../../img/arrow.ico) 97% / 2% no-repeat $colorFondo;
+                        // display: flex;
+                        // justify-content: center;
+                        // align-items: center;
+                    }
+                }
+            }
+        }
+        #thirdPart{
+            .radio1{
+                margin-right: 1rem;
+                margin-bottom: 1rem;
+                margin-left: 0.5rem;
+            }
+            #twoRadios{
+                .radioTitle{
+                    p{
+                        margin-left: 0.3rem;
+                    }
+                }
+                .radio{
+                    width: 50%;
+                    margin-top: 1rem;
+                    .radiocont{
+                        width: 100%;
+                    }
+                }
+                #ammount{
+                    width: 100%;
+                    input{
+                        width: 96.5%;
+                        border-radius: 1rem;
+                    }
+                }
+            }
+        }
+        #fourthpart{
+            textarea{
+                width: 100%;
+                border-radius: 1rem;
+            }
+        }
+        #fifthpart{
+            width: 100%;
+            #threebuttons{
+                width: 60%;
+                margin-top: 2rem;
+                button{
+                    width: 30%;
+                    height: 5rem;
+                    border-radius: 1rem;
+                    background-color: $colorHave;
+                    font-family: $latBold;
                 }
             }
         }
