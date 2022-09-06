@@ -229,23 +229,8 @@
 #buttons {
   width: 30%;
 }
-#buttons li {
-  width: 50%;
-  font-family: "Latina ultra heavy";
-  color: #fff;
-}
-#buttons li a {
-  font-size: 90%;
-}
 #buttons li a img {
   width: 80%;
-}
-#buttons .button-sign {
-  width: 35%;
-  border: 1px solid #fff;
-  padding: 0.7%;
-  border-radius: 10px;
-  font-size: 0.9rem;
 }
 
 #bannerAndAnnounce {
@@ -2336,6 +2321,166 @@ textarea {
   border-radius: 1rem;
   background-color: #426264;
   font-family: "Latina bold";
+}
+
+/*formpresent styles*/
+.latbold {
+  font-family: "Latina bold";
+}
+
+#interPresentcont1 {
+  background-image: url("../../img/landing/FONDO AMARILLO T-06-06.png");
+  background-size: 100% 100%;
+}
+#interPresentcont1 #interPresentHead {
+  width: 100%;
+  height: 20%;
+}
+#interPresentcont1 #interPresentHead nav {
+  width: 95%;
+  height: 90%;
+}
+#interPresentcont1 #interPresentHead nav #logoPres {
+  width: 30%;
+}
+#interPresentcont1 #interPresentHead nav #logoPres #logo1 {
+  width: 135px;
+  height: 135px;
+}
+#interPresentcont1 #interPresentHead nav #presMenu {
+  width: 40%;
+}
+#interPresentcont1 #interPresentHead nav #presMenu ul li {
+  font-family: "Latina bold";
+  font-size: 1.3rem;
+}
+#interPresentcont1 #contentPres {
+  width: 95%;
+  height: 80%;
+}
+#interPresentcont1 #contentPres #presTitle {
+  width: 100%;
+  height: 20%;
+}
+#interPresentcont1 #contentPres #presTitle p:first-child {
+  color: #831202;
+  font-family: "Latina ultra heavy";
+  font-size: 3.4rem;
+  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+}
+#interPresentcont1 #contentPres #presTitle p:nth-child(2) {
+  font-family: "Latina bold";
+}
+#interPresentcont1 #contentPres #imgandbutts {
+  width: 100%;
+  height: 80%;
+}
+#interPresentcont1 #contentPres #imgandbutts .things {
+  width: 50%;
+  height: 100%;
+}
+#interPresentcont1 #contentPres #imgandbutts #img img {
+  height: 100%;
+}
+#interPresentcont1 #contentPres #imgandbutts #butts .butt {
+  width: 80%;
+  height: 30%;
+  font-family: "Latina bold";
+  font-size: 2rem;
+  background: rgb(28, 25, 1);
+  background: linear-gradient(180deg, rgb(28, 25, 1) 0%, rgb(60, 44, 10) 50%);
+  border-radius: 1rem;
+  border: 4px solid #ce7318;
+  transition: all 500ms;
+}
+#interPresentcont1 #contentPres #imgandbutts #butts .butt:hover {
+  background: rgb(250, 205, 103);
+  background: linear-gradient(90deg, rgb(250, 205, 103) 0%, rgb(254, 166, 53) 60%);
+  transition: all 500ms;
+  border: none;
+}
+
+#interPresentcont2 {
+  background: rgb(13, 22, 38);
+  background: linear-gradient(180deg, rgb(13, 22, 38) 0%, rgb(44, 115, 82) 100%);
+}
+#interPresentcont2 #titlepres2 {
+  width: 100%;
+  height: 15%;
+}
+#interPresentcont2 #titlepres2 p {
+  font-size: 2.5rem;
+  font-family: "Latina bold";
+}
+#interPresentcont2 #textpres2 {
+  width: 90%;
+  height: 30%;
+  font-size: 1.3rem;
+  font-family: "Latina regular";
+}
+#interPresentcont2 #textpres2 span {
+  font-family: "Latina bold";
+}
+#interPresentcont2 #dynamicAndReward {
+  width: 100%;
+  height: 55%;
+}
+#interPresentcont2 #dynamicAndReward .thingsd {
+  width: 100%;
+  height: 100%;
+}
+#interPresentcont2 #dynamicAndReward .thingsd .modes {
+  width: 80%;
+  height: 80%;
+}
+#interPresentcont2 #dynamicAndReward .thingsd .modes .modesimg {
+  width: 30%;
+  height: 100%;
+}
+#interPresentcont2 #dynamicAndReward .thingsd .modes .ulmodes {
+  width: 50%;
+  height: 50%;
+  margin-top: 3.2rem;
+  font-size: 1rem;
+}
+#interPresentcont2 #dynamicAndReward .thingsd .modes .ulmodes p {
+  font-family: "Latina bold";
+  font-size: 1.5rem;
+}
+#interPresentcont2 #dynamicAndReward .thingsd .modes .ulmodes ul span:first-child {
+  font-family: "Latina bold";
+  color: #f2b203;
+}
+#interPresentcont2 #dynamicAndReward .thingsd .modes .ulmodes ul li {
+  color: #fff;
+  font-family: "Latina bold";
+}
+
+#interPresentcont3 #titlepres3 {
+  width: 100%;
+  height: 20%;
+}
+#interPresentcont3 #titlepres3 p {
+  font-size: 2.5rem;
+  font-family: "Latina bold";
+}
+#interPresentcont3 #competitors {
+  width: 100%;
+  height: 80%;
+}
+#interPresentcont3 #competitors .competitor {
+  width: 50%;
+  height: 80%;
+  font-family: "Latina bold";
+}
+#interPresentcont3 #competitors .competitor .modescomp {
+  width: 45%;
+}
+#interPresentcont3 #competitors .competitor .modescomp2 {
+  width: 50%;
+}
+#interPresentcont3 #competitors .competitor .modescomp2 p {
+  margin-top: 3rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

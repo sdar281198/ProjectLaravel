@@ -63,6 +63,9 @@ Route::get('/legal', function () {
 Route::get('/libro', function () {
     return view('book');
 });
+Route::get('/form', function () {
+    return view('formulario');
+});
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

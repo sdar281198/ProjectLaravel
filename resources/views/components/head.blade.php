@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="{{ config('app.url'). '/css/responsive.css' }}">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/6d77af7104.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/6d77af7104.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/784d868413.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Scripts -->
     <script src="{{config('app.url'). mix('js/app.js') }}"></script>

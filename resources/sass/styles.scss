@@ -262,22 +262,11 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
 #buttons{
     width:30%;
     li{
-        width: 50%;
-        font-family: $latUltHeav;
-        color: $white;
         a{
-            font-size: 90%;
             img{
                 width: 80%;
             }
         }
-    }
-    .button-sign{
-        width: 35%;
-        border: 1px solid $white;
-        padding: 0.7%;
-        border-radius: 10px;
-        font-size: 0.9rem;
     }
 }
 #bannerAndAnnounce{
@@ -2530,6 +2519,177 @@ textarea{
                     border-radius: 1rem;
                     background-color: $colorHave;
                     font-family: $latBold;
+                }
+            }
+        }
+    }
+}
+/*formpresent styles*/
+.latbold{
+    font-family: $latBold;
+}
+#interPresentcont1{
+    background-image: url("../../img/landing/FONDO AMARILLO T-06-06.png");
+    background-size: 100% 100%;
+    #interPresentHead{
+        width: 100%;
+        height: 20%;
+        nav{
+            width: 95%;
+            height: 90%;
+            #logoPres{
+                width: 30%;
+                #logo1{
+                    width: 135px;
+                    height: 135px;
+                }
+            }
+            #presMenu{
+                width: 40%;
+                ul{
+                    li{
+                        font-family: $latBold;
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+    #contentPres{
+        width: 95%;
+        height: 80%;
+        #presTitle{
+            width: 100%;
+            height: 20%;
+            p:first-child{
+                color: $letraSombraColor;
+                font-family: $latUltHeav;
+                font-size: 3.4rem;
+                text-shadow: $sombrasLetras;
+            }
+            p:nth-child(2){
+                font-family: $latBold;
+            }
+        }
+        #imgandbutts{
+            width: 100%;
+            height: 80%;
+            .things{
+                width: 50%;
+                height: 100%;
+            }
+            #img{
+                img{
+                    height: 100%;
+                }
+            }
+            #butts{
+                .butt{
+                    width: 80%;
+                    height: 30%;
+                    font-family: $latBold;
+                    font-size: 2rem;
+                    background: $backBrowgrad;
+                    background: $backBrowgrad2;
+                    border-radius: 1rem;
+                    border: $borderYel;
+                    transition: all 500ms;
+                }
+                .butt:hover{
+                    background: $backYellow1;
+                    background: $backYellow2;
+                    transition: all 500ms;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+#interPresentcont2{
+    background: rgb(13,22,38);
+    background: linear-gradient(180deg, rgba(13,22,38,1) 0%, rgba(44,115,82,1) 100%);
+    #titlepres2{
+        width: 100%;
+        height: 15%;
+        p{
+            font-size: 2.5rem;
+            font-family: $latBold;
+        }
+    }
+    #textpres2{
+        width: 90%;
+        height: 30%;
+        font-size: 1.3rem;
+        font-family: $latReg;
+        span{
+            font-family: $latBold;
+        }
+    }
+    #dynamicAndReward{
+        width: 100%;
+        height: 55%;
+        .thingsd{
+            width: 100%;
+            height: 100%;
+            .modes{
+                width: 80%;
+                height: 80%;
+                .modesimg{
+                    width: 30%;
+                    height: 100%;
+                    // img{
+                    //     width: 70%;
+                    // }
+                }
+                .ulmodes{
+                    width: 50%;
+                    height: 50%;
+                    margin-top: 3.2rem;
+                    font-size: 1rem;
+                    p{
+                        font-family: $latBold;
+                        font-size: 1.5rem;
+                    }
+                    ul{
+                        span:first-child{
+                            font-family: $latBold;
+                            color: #f2b203;
+                        }
+                        li{
+                            color: $white;
+                            font-family: $latBold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#interPresentcont3{
+    #titlepres3{
+        width: 100%;
+        height: 20%;
+        p{
+            font-size: 2.5rem;
+            font-family: $latBold;
+        }
+    }
+    #competitors{
+        width: 100%;
+        height: 80%;
+        .competitor{
+            width: 50%;
+            height: 80%;
+            font-family: $latBold;
+            .modescomp{
+                width: 45%;
+                .ulmodes{
+                }
+            }
+            .modescomp2{
+                width: 50%;
+                p{
+                    margin-top: 3rem;
                 }
             }
         }

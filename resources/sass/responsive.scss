@@ -1146,3 +1146,96 @@ $latBold : 'latina bold';
         }
     }
 }
+/*form view styles*/
+@media screen and (max-width:1080px){
+    #imgandbutts{
+        flex-direction: column-reverse;
+        overflow: auto;
+        justify-content: center;
+        align-items: center;
+        img{
+            margin-top: 2rem;
+        }
+        #butts{
+            align-items: center;
+            margin-top: 1.5rem;
+        }
+        .butt{
+            height: 5rem!important;
+            a{
+                font-size: 1rem;
+            }
+        }
+    }
+    #reward{
+        padding-bottom: 2rem;
+    }
+
+    #presnav{
+        #presMenu{
+            display: none;
+        }
+        #hambMenu{
+            display: block;
+            i{
+                color: $white;
+                font-size: 2rem;
+            }
+        }
+    }
+    #interPresentcont2{
+        overflow: auto;
+        #titlepres2{
+            p{
+                font-size: 1.5rem;
+            }
+        }
+        #textpres2{
+            font-size: 0.8rem;
+        }
+    }
+    #dynamicAndReward{
+        flex-direction: column;
+        .modes{
+            flex-direction: column;
+            .ulmodes{
+                text-align: left;
+            }
+        }
+    }
+    #interPresentcont3{
+        overflow: auto;
+        #competitors{
+            flex-direction: column;
+            .modescomp{
+                flex-direction: column;
+            }
+            .modescomp2{
+                flex-direction: column;
+            }
+        }
+    }
+    .ulmodes{
+        width: 100%!important;
+        text-align: center!important;
+    } 
+    .competitor{
+        width: 100%!important;
+    }
+    .butt{
+        width: 100%!important;
+    }
+    .things{
+        width: 100%!important;
+    }
+}
+@media screen and (max-width:660px){
+    #presTitle{
+        p:first-child{
+            font-size: 2rem!important;
+        }
+        p:nth-child(2){
+            font-size: 10px!important;
+        }
+    }
+}

@@ -32,6 +32,31 @@ sr.reveal('.classicLevel',{
     origin:'bottom',
     distance:'-100%'
 });
+sr.reveal('#presnav',{
+    duration:3500,
+    origin:'bottom',
+    distance:'-100%'
+});
+sr.reveal('#presTitle',{
+    duration:4000,
+    origin:'bottom',
+    distance:'-100%'
+});
+sr.reveal('#img',{
+    duration:4500,
+    origin:'right',
+    distance:'-100%'
+});
+// sr.reveal('.modesimg',{
+//     duration:4000,
+//     origin:'left',
+//     distance:'-100%'
+// });
+sr.reveal('#butts',{
+    duration:5000,
+    origin:'left',
+    distance:'-100%'
+});
 // window.onload = changePicture;
 // changeBorderNav();
 let swiper = new Swiper('.swiper',{

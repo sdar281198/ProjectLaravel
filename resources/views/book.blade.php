@@ -8,7 +8,7 @@
                 <p class="uppercase text-center">Libro de reclamaciones</p>
             </div>
             <div id="formDivBokk" class="mx-auto">
-                <form action="" id="formd" class="mx-auto">
+                <form id="formd" class="mx-auto" action="">
                     <div id="firstpart" class="parts">
                         <div class="peoplePresent">
                             <p class="text-white">Datos de la persona que presenta el reclamo</p>
