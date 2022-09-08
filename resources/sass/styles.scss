@@ -2570,6 +2570,9 @@ textarea{
         #presTitle{
             width: 100%;
             height: 20%;
+            span{
+                font-family: $paytone;
+            }
             p:first-child{
                 color: $letraSombraColor;
                 font-family: $latUltHeav;

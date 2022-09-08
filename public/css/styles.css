@@ -2373,6 +2373,9 @@ textarea {
   width: 100%;
   height: 20%;
 }
+#interPresentcont1 #contentPres #presTitle span {
+  font-family: "Paytone";
+}
 #interPresentcont1 #contentPres #presTitle p:first-child {
   color: #831202;
   font-family: "Latina ultra heavy";

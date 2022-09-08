@@ -23,7 +23,7 @@
             </header>
             <div id="contentPres" class="mx-auto">
                     <div id="presTitle">
-                        <p class="uppercase text-center">Interescolar 2022</p>
+                        <p class="uppercase text-center">Interescolar <span>2022</span></p>
                         <p class="text-white text-center">Siente la adrenalina mientras sumas puntos para tu colegio</p>
                     </div>
                     <div id="imgandbutts" class="flex">
