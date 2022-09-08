@@ -106,7 +106,6 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
     height: 50%;
     background-color: $gradient1;
     background: $gradient2;
-    display: flex;
     top: -400%;
     left: 50%;
     transform: translateX(-50%);
@@ -262,6 +261,7 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
 #buttons{
     width:30%;
     li{
+        width: 50%;
         a{
             img{
                 width: 80%;
@@ -668,7 +668,8 @@ textarea{
     }
 }
 #logolog{
-    width: 15%;
+    width: 150px;
+    height: 150px;
 }
 #loginboton{
     width: 20%;
@@ -2545,11 +2546,19 @@ textarea{
                 }
             }
             #presMenu{
-                width: 40%;
+                width: 38.5%;
                 ul{
                     li{
                         font-family: $latBold;
-                        font-size: 1.3rem;
+                        font-size: 1.5rem;
+                        a{
+                            transition: all 500ms;
+                        }
+                    }
+                    li>a:hover{
+                        font-family: $latBold;
+                        font-size: 1.5rem;
+                        transition: all 500ms;
                     }
                 }
             }
@@ -2569,6 +2578,7 @@ textarea{
             }
             p:nth-child(2){
                 font-family: $latBold;
+                font-size: 19px;
             }
         }
         #imgandbutts{
@@ -2581,11 +2591,12 @@ textarea{
             #img{
                 img{
                     height: 100%;
+                    margin-left: 1rem;
                 }
             }
             #butts{
                 .butt{
-                    width: 80%;
+                    width: 77%;
                     height: 30%;
                     font-family: $latBold;
                     font-size: 2rem;
@@ -2599,7 +2610,7 @@ textarea{
                     background: $backYellow1;
                     background: $backYellow2;
                     transition: all 500ms;
-                    border: none;
+                    border: $borderYellJust;
                 }
             }
         }
@@ -2626,10 +2637,18 @@ textarea{
         }
     }
     #dynamicAndReward{
-        width: 100%;
+        width: 70%;
         height: 55%;
+        .thingsd:nth-child(2){
+            .modes{
+                margin-top: 0.1rem;
+                .modesimg{
+                    margin-top: 0.7rem;
+                }
+            }
+        }
         .thingsd{
-            width: 100%;
+            width: 50%;
             height: 100%;
             .modes{
                 width: 80%;
@@ -2638,14 +2657,18 @@ textarea{
                     width: 30%;
                     height: 100%;
                     // img{
-                    //     width: 70%;
+                    //     width: 10rem;
                     // }
                 }
                 .ulmodes{
                     width: 50%;
                     height: 50%;
                     margin-top: 3.2rem;
+                    margin-left: 1rem;
                     font-size: 1rem;
+                    .modes200{
+                        width: 200%!important;
+                    }
                     p{
                         font-family: $latBold;
                         font-size: 1.5rem;
@@ -2661,11 +2684,15 @@ textarea{
                         }
                     }
                 }
+                .ulmodes2{
+                    margin-top: 4rem;
+                }
             }
         }
     }
 }
 #interPresentcont3{
+    height: 70vh;
     #titlepres3{
         width: 100%;
         height: 20%;
@@ -2675,7 +2702,7 @@ textarea{
         }
     }
     #competitors{
-        width: 100%;
+        width: 75%;
         height: 80%;
         .competitor{
             width: 50%;
@@ -2684,12 +2711,112 @@ textarea{
             .modescomp{
                 width: 45%;
                 .ulmodes{
+                    ul{
+                        width: 200%;
+                    }
+                    span{
+                        color: #f2b203;
+                    }
+                    p{
+                        width: 130%;
+                    }
                 }
             }
             .modescomp2{
                 width: 50%;
                 p{
                     margin-top: 3rem;
+                }
+            }
+        }
+    }
+}
+#formAlumn{
+    position: fixed;
+    width: 50%;
+    height: 90%;
+    // background: $gradient2;
+    display: flex;
+    top: -400%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 200;
+    border-radius: .8rem;
+    transition: all 500ms;
+}
+#formWorker{
+    position: fixed;
+    width: 50%;
+    height: 90%;
+    // background: $gradient2;
+    display: flex;
+    top: -400%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 200;
+    border-radius: .8rem;
+    transition: all 500ms;
+}
+
+.menuform{
+    background: $gradient1;
+    background: $gradient2;
+    overflow: auto;
+    .formclose{
+        width: 10%;
+        top: 1px;
+        right: 0;
+        img{
+            width: 80%;
+        }
+    }
+    #formContent{
+        width: 100%;
+        height: 100%;
+        #formTitleBox{
+            width: 60%;
+            height: 15%;
+            font-family: $latBold;
+            font-size: 1.5;
+            background: $backBrowgrad;
+            background: $backBrowgrad2;
+            border: $borderYel;
+            border-radius: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        #formend{
+            width: 100%;
+            height: 80%;
+            form{
+                width: 100%;
+                height: 100%;
+                .inp{
+                    width: 80%;
+                    height: 3rem;
+                    input,
+                    select{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 1rem;
+                    }
+                    select{
+                        -webkit-appearance: none;
+                         -moz-appearance: none;
+                        appearance: none;
+                        background: url(../../img/arrow.ico) 97% / 2% no-repeat $colorFondo;
+                    }
+                }
+                #buttonsend{
+                    width: 100%;
+                    height: 3rem;
+                    button{
+                        font-family: $latBold;
+                        width: 25%;
+                        height: 100%;
+                        border-radius: 1rem;
+                        background-color: $colorHave;
+                    }
                 }
             }
         }

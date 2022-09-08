@@ -24,4 +24,6 @@
 <x-fail/>
 <x-correct/>
 <x-completed/>
+<x-formalumn/>
+<x-formworker/>
 <main id="main" class="container h-max overflow-hidden mx-auto box-border">

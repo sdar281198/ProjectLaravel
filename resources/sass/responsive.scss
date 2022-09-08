@@ -167,6 +167,9 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:450px){
+    .modes{
+        margin-top: 2rem;
+    }
     #failriddle{
         width: 50%!important;
     }
@@ -228,7 +231,16 @@ $latBold : 'latina bold';
         font-size: 70%;
     }
     #got{
+        width: 90%;
+        border-radius: 1rem;
         font-size: 75%;
+    }
+    #redes{
+        width: 90%;
+        a{
+            width: 49%;
+            border-radius: 1rem;
+        }
     }
 }
 @media screen and (max-width:580px){
@@ -252,8 +264,7 @@ $latBold : 'latina bold';
         flex-direction: column;
         a{
             width: 100%;
-            border-radius: 20%;
-            margin-bottom: 5px;
+            margin-bottom: 1rem;
         }
     }
 }
@@ -278,7 +289,7 @@ $latBold : 'latina bold';
 @media screen and (max-width:760px){
     #formlog{
         .loginin{
-        width: 75%!important;
+        width: 95%!important;
     }
     #loginboton{
         width: 35%!important;
@@ -291,14 +302,16 @@ $latBold : 'latina bold';
     }
   }
   #redeslog{
-    width: 20%;
-  }
-}
-@media screen and (max-width:726px){
-    #createlog{
-        width: 35%;
-        font-size: 70%;
+    width: 90%;
+    a{
+        width: 49%;
+        border-radius: 1rem;
     }
+  }
+  #createlog{
+    width: 95%;
+    border-radius: 1rem;
+  }
 }
 @media screen and (max-width:401px){
     // #logo{
@@ -310,17 +323,13 @@ $latBold : 'latina bold';
         }
     }
     #redeslog{
-        width: 40%;
         display: flex;
         flex-direction: column;
         align-items: center;
         a{
-            border-radius: 20%;
-            margin-bottom: 4px;
+            width: 100%;
+            margin-bottom: 1rem;
         }
-    }
-    #createlog{
-        font-size: 45%;
     }
 }
 /*Inter medias*/
@@ -552,6 +561,7 @@ $latBold : 'latina bold';
     #progress #tituloFechas p:first-child img{
         width: 95%!important;
     }
+    
 }
 // @media screen and (max-width:390px){
 //     #school{
@@ -744,7 +754,6 @@ $latBold : 'latina bold';
     #doneTableBut{
         width: 25%!important;
     }
-
 }
 @media screen and (max-width:350px){
     #doneTable{
@@ -1146,7 +1155,7 @@ $latBold : 'latina bold';
         }
     }
 }
-/*form view styles*/
+/*form medias view*/
 @media screen and (max-width:1080px){
     #imgandbutts{
         flex-direction: column-reverse;
@@ -1166,6 +1175,10 @@ $latBold : 'latina bold';
                 font-size: 1rem;
             }
         }
+    }
+    .modescomp2{
+        height: 75%!important;
+        margin-top: 3rem;
     }
     #reward{
         padding-bottom: 2rem;
@@ -1193,20 +1206,40 @@ $latBold : 'latina bold';
         #textpres2{
             font-size: 0.8rem;
         }
-    }
-    #dynamicAndReward{
-        flex-direction: column;
-        .modes{
+        #dynamicAndReward{
+            width: 100%;
             flex-direction: column;
-            .ulmodes{
-                text-align: left;
+            .modes{
+                flex-direction: column;
+                .ulmodes{
+                    text-align: left;
+                    margin-left: 0!important;
+                }
+            }
+            .thingsd{
+                .modes{
+                    .ulmodes{
+                        .modes200{
+                            width: 100%!important;
+                        }
+                    }
+                }
             }
         }
     }
     #interPresentcont3{
+        height: 100vh!important;
         overflow: auto;
         #competitors{
             flex-direction: column;
+            .ulmodes{
+                ul{
+                    width: 100%!important;
+                }
+                p{
+                    width: 100%!important;
+                }
+            }
             .modescomp{
                 flex-direction: column;
             }
@@ -1230,6 +1263,9 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:660px){
+    .menuform{
+        width: 95%!important;
+    }
     #presTitle{
         p:first-child{
             font-size: 2rem!important;
@@ -1237,5 +1273,30 @@ $latBold : 'latina bold';
         p:nth-child(2){
             font-size: 10px!important;
         }
+    }
+}
+@media screen and (max-width:490px){
+    #interPresentcont2{
+        #dynamicAndReward{
+            .thingsd{
+            width: 100%!important;
+            }
+            .modes{
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width:430px){
+    #formTitleBox{
+        width: 90%!important;
+    }
+    #formend{
+        .inp{
+            width: 95%!important;
+        }
+    }
+    .butt{
+        font-size: 1rem!important;
     }
 }

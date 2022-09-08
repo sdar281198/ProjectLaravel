@@ -1,5 +1,5 @@
 <div id="rankingMenu" class="menu">
-    <div id="rankingClose" clas="">
+    <div id="rankingClose" class="">
         <img src="../img/landing/BOTON X-07.png" alt="">
     </div>
     <div class="rankingContent">

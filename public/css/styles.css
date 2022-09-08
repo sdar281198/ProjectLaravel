@@ -92,7 +92,6 @@
   height: 50%;
   background-color: rgb(0, 74, 61);
   background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
-  display: flex;
   top: -400%;
   left: 50%;
   transform: translateX(-50%);
@@ -228,6 +227,9 @@
 
 #buttons {
   width: 30%;
+}
+#buttons li {
+  width: 50%;
 }
 #buttons li a img {
   width: 80%;
@@ -597,7 +599,8 @@ textarea {
 }
 
 #logolog {
-  width: 15%;
+  width: 150px;
+  height: 150px;
 }
 
 #loginboton {
@@ -2348,11 +2351,19 @@ textarea {
   height: 135px;
 }
 #interPresentcont1 #interPresentHead nav #presMenu {
-  width: 40%;
+  width: 38.5%;
 }
 #interPresentcont1 #interPresentHead nav #presMenu ul li {
   font-family: "Latina bold";
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+}
+#interPresentcont1 #interPresentHead nav #presMenu ul li a {
+  transition: all 500ms;
+}
+#interPresentcont1 #interPresentHead nav #presMenu ul li > a:hover {
+  font-family: "Latina bold";
+  font-size: 1.5rem;
+  transition: all 500ms;
 }
 #interPresentcont1 #contentPres {
   width: 95%;
@@ -2370,6 +2381,7 @@ textarea {
 }
 #interPresentcont1 #contentPres #presTitle p:nth-child(2) {
   font-family: "Latina bold";
+  font-size: 19px;
 }
 #interPresentcont1 #contentPres #imgandbutts {
   width: 100%;
@@ -2381,9 +2393,10 @@ textarea {
 }
 #interPresentcont1 #contentPres #imgandbutts #img img {
   height: 100%;
+  margin-left: 1rem;
 }
 #interPresentcont1 #contentPres #imgandbutts #butts .butt {
-  width: 80%;
+  width: 77%;
   height: 30%;
   font-family: "Latina bold";
   font-size: 2rem;
@@ -2397,7 +2410,7 @@ textarea {
   background: rgb(250, 205, 103);
   background: linear-gradient(90deg, rgb(250, 205, 103) 0%, rgb(254, 166, 53) 60%);
   transition: all 500ms;
-  border: none;
+  border: #ce7318;
 }
 
 #interPresentcont2 {
@@ -2422,11 +2435,17 @@ textarea {
   font-family: "Latina bold";
 }
 #interPresentcont2 #dynamicAndReward {
-  width: 100%;
+  width: 70%;
   height: 55%;
 }
+#interPresentcont2 #dynamicAndReward .thingsd:nth-child(2) .modes {
+  margin-top: 0.1rem;
+}
+#interPresentcont2 #dynamicAndReward .thingsd:nth-child(2) .modes .modesimg {
+  margin-top: 0.7rem;
+}
 #interPresentcont2 #dynamicAndReward .thingsd {
-  width: 100%;
+  width: 50%;
   height: 100%;
 }
 #interPresentcont2 #dynamicAndReward .thingsd .modes {
@@ -2441,7 +2460,11 @@ textarea {
   width: 50%;
   height: 50%;
   margin-top: 3.2rem;
+  margin-left: 1rem;
   font-size: 1rem;
+}
+#interPresentcont2 #dynamicAndReward .thingsd .modes .ulmodes .modes200 {
+  width: 200% !important;
 }
 #interPresentcont2 #dynamicAndReward .thingsd .modes .ulmodes p {
   font-family: "Latina bold";
@@ -2455,7 +2478,13 @@ textarea {
   color: #fff;
   font-family: "Latina bold";
 }
+#interPresentcont2 #dynamicAndReward .thingsd .modes .ulmodes2 {
+  margin-top: 4rem;
+}
 
+#interPresentcont3 {
+  height: 70vh;
+}
 #interPresentcont3 #titlepres3 {
   width: 100%;
   height: 20%;
@@ -2465,7 +2494,7 @@ textarea {
   font-family: "Latina bold";
 }
 #interPresentcont3 #competitors {
-  width: 100%;
+  width: 75%;
   height: 80%;
 }
 #interPresentcont3 #competitors .competitor {
@@ -2476,11 +2505,111 @@ textarea {
 #interPresentcont3 #competitors .competitor .modescomp {
   width: 45%;
 }
+#interPresentcont3 #competitors .competitor .modescomp .ulmodes ul {
+  width: 200%;
+}
+#interPresentcont3 #competitors .competitor .modescomp .ulmodes span {
+  color: #f2b203;
+}
+#interPresentcont3 #competitors .competitor .modescomp .ulmodes p {
+  width: 130%;
+}
 #interPresentcont3 #competitors .competitor .modescomp2 {
   width: 50%;
 }
 #interPresentcont3 #competitors .competitor .modescomp2 p {
   margin-top: 3rem;
+}
+
+#formAlumn {
+  position: fixed;
+  width: 50%;
+  height: 90%;
+  display: flex;
+  top: -400%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  border-radius: 0.8rem;
+  transition: all 500ms;
+}
+
+#formWorker {
+  position: fixed;
+  width: 50%;
+  height: 90%;
+  display: flex;
+  top: -400%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  border-radius: 0.8rem;
+  transition: all 500ms;
+}
+
+.menuform {
+  background: rgb(0, 74, 61);
+  background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
+  overflow: auto;
+}
+.menuform .formclose {
+  width: 10%;
+  top: 1px;
+  right: 0;
+}
+.menuform .formclose img {
+  width: 80%;
+}
+.menuform #formContent {
+  width: 100%;
+  height: 100%;
+}
+.menuform #formContent #formTitleBox {
+  width: 60%;
+  height: 15%;
+  font-family: "Latina bold";
+  font-size: 1.5;
+  background: rgb(28, 25, 1);
+  background: linear-gradient(180deg, rgb(28, 25, 1) 0%, rgb(60, 44, 10) 50%);
+  border: 4px solid #ce7318;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.menuform #formContent #formend {
+  width: 100%;
+  height: 80%;
+}
+.menuform #formContent #formend form {
+  width: 100%;
+  height: 100%;
+}
+.menuform #formContent #formend form .inp {
+  width: 80%;
+  height: 3rem;
+}
+.menuform #formContent #formend form .inp input,
+.menuform #formContent #formend form .inp select {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.menuform #formContent #formend form .inp select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../../img/arrow.ico) 97%/2% no-repeat #001521;
+}
+.menuform #formContent #formend form #buttonsend {
+  width: 100%;
+  height: 3rem;
+}
+.menuform #formContent #formend form #buttonsend button {
+  font-family: "Latina bold";
+  width: 25%;
+  height: 100%;
+  border-radius: 1rem;
+  background-color: #426264;
 }
 
 /*# sourceMappingURL=styles.css.map */

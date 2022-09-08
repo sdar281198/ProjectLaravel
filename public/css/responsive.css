@@ -155,6 +155,10 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .modes {
+    margin-top: 2rem;
+  }
+
   #failriddle {
     width: 50% !important;
   }
@@ -218,7 +222,17 @@
   }
 
   #got {
+    width: 90%;
+    border-radius: 1rem;
     font-size: 75%;
+  }
+
+  #redes {
+    width: 90%;
+  }
+  #redes a {
+    width: 49%;
+    border-radius: 1rem;
   }
 }
 @media screen and (max-width: 580px) {
@@ -240,8 +254,7 @@
   }
   #redes a {
     width: 100%;
-    border-radius: 20%;
-    margin-bottom: 5px;
+    margin-bottom: 1rem;
   }
 }
 @media screen and (max-width: 330px) {
@@ -262,7 +275,7 @@
 }
 @media screen and (max-width: 760px) {
   #formlog .loginin {
-    width: 75% !important;
+    width: 95% !important;
   }
   #formlog #loginboton {
     width: 35% !important;
@@ -275,13 +288,16 @@
   }
 
   #redeslog {
-    width: 20%;
+    width: 90%;
   }
-}
-@media screen and (max-width: 726px) {
+  #redeslog a {
+    width: 49%;
+    border-radius: 1rem;
+  }
+
   #createlog {
-    width: 35%;
-    font-size: 70%;
+    width: 95%;
+    border-radius: 1rem;
   }
 }
 @media screen and (max-width: 401px) {
@@ -290,18 +306,13 @@
   }
 
   #redeslog {
-    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   #redeslog a {
-    border-radius: 20%;
-    margin-bottom: 4px;
-  }
-
-  #createlog {
-    font-size: 45%;
+    width: 100%;
+    margin-bottom: 1rem;
   }
 }
 /*Inter medias*/
@@ -998,7 +1009,7 @@
     width: 100% !important;
   }
 }
-/*form view styles*/
+/*form medias view*/
 @media screen and (max-width: 1080px) {
   #imgandbutts {
     flex-direction: column-reverse;
@@ -1018,6 +1029,11 @@
   }
   #imgandbutts .butt a {
     font-size: 1rem;
+  }
+
+  .modescomp2 {
+    height: 75% !important;
+    margin-top: 3rem;
   }
 
   #reward {
@@ -1044,22 +1060,33 @@
   #interPresentcont2 #textpres2 {
     font-size: 0.8rem;
   }
-
-  #dynamicAndReward {
+  #interPresentcont2 #dynamicAndReward {
+    width: 100%;
     flex-direction: column;
   }
-  #dynamicAndReward .modes {
+  #interPresentcont2 #dynamicAndReward .modes {
     flex-direction: column;
   }
-  #dynamicAndReward .modes .ulmodes {
+  #interPresentcont2 #dynamicAndReward .modes .ulmodes {
     text-align: left;
+    margin-left: 0 !important;
+  }
+  #interPresentcont2 #dynamicAndReward .thingsd .modes .ulmodes .modes200 {
+    width: 100% !important;
   }
 
   #interPresentcont3 {
+    height: 100vh !important;
     overflow: auto;
   }
   #interPresentcont3 #competitors {
     flex-direction: column;
+  }
+  #interPresentcont3 #competitors .ulmodes ul {
+    width: 100% !important;
+  }
+  #interPresentcont3 #competitors .ulmodes p {
+    width: 100% !important;
   }
   #interPresentcont3 #competitors .modescomp {
     flex-direction: column;
@@ -1086,11 +1113,36 @@
   }
 }
 @media screen and (max-width: 660px) {
+  .menuform {
+    width: 95% !important;
+  }
+
   #presTitle p:first-child {
     font-size: 2rem !important;
   }
   #presTitle p:nth-child(2) {
     font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 490px) {
+  #interPresentcont2 #dynamicAndReward .thingsd {
+    width: 100% !important;
+  }
+  #interPresentcont2 #dynamicAndReward .modes {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 430px) {
+  #formTitleBox {
+    width: 90% !important;
+  }
+
+  #formend .inp {
+    width: 95% !important;
+  }
+
+  .butt {
+    font-size: 1rem !important;
   }
 }
 

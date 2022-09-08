@@ -10,7 +10,7 @@
             <li class="flex grow text-center uppercase"><a href="/race" class="flex justify-center grow">Race</a></li>
             <li class="flex grow text-center uppercase"><a href="/clasico" class="flex justify-center grow">Clásico</a></li>
         </ul>
-        <div id="buttons" class="flex items-center justify-end grow">
+        <div id="buttons" class="flex grow">
             <li class="button-img list-none"><a href="./register" class="flex justify-end"><img src="../img/landing/registrar.png" alt=""></a></li>
             <li class="button-sign list-none"><a href="./login2" class="flex justify-end"><img src="../img/landing/iniciar.png" alt=""></a></li>
         </div>

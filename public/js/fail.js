@@ -10,3 +10,6 @@ failClose.addEventListener('click', () => {
     failPop.classList.remove('fail-opened');
     tapar.classList.remove('fail-opened');
 });
+
+
+
