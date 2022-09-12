@@ -26,4 +26,5 @@
 <x-completed/>
 <x-formalumn/>
 <x-formworker/>
+<x-mobilemenuform/>
 <main id="main" class="container h-max overflow-hidden mx-auto box-border">

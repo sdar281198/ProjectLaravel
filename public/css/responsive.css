@@ -1145,5 +1145,41 @@
     font-size: 1rem !important;
   }
 }
+/*support medias*/
+@media screen and (max-width: 600px) {
+  #supportElements {
+    overflow: auto;
+  }
+
+  #supportInfo {
+    width: 100% !important;
+    align-items: center;
+  }
+  #supportInfo #supportInfTit {
+    margin-bottom: 10px;
+  }
+  #supportInfo div {
+    flex-direction: column;
+  }
+  #supportInfo div i {
+    margin-right: 0px !important;
+  }
+
+  #supportForm p {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  #supportButton button {
+    width: 100% !important;
+  }
+
+  #supportNet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 /*# sourceMappingURL=responsive.css.map */

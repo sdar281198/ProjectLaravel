@@ -124,6 +124,44 @@
   width: 40%;
 }
 
+#mobileMenuform {
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  background-color: rgb(0, 74, 61);
+  background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
+  top: -400%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  border-radius: 0.8rem;
+  transition: all 500ms;
+  padding: 15%;
+}
+#mobileMenuform .mobileUl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+#mobileMenuform .mobileUl li {
+  width: 120%;
+  height: 100%;
+  border: 4px solid #ce7318;
+  border-radius: 20px;
+}
+#mobileMenuform .mobileUl li a {
+  color: #831202;
+  font-family: "Latina ultra heavy";
+  font-size: 1.5rem;
+  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+  transition: all 0.6s;
+  padding: 1%;
+}
+#mobileMenuform a img {
+  width: 40%;
+}
+
 #buttonsMobile {
   margin-top: 5%;
 }
@@ -2613,6 +2651,78 @@ textarea {
   height: 100%;
   border-radius: 1rem;
   background-color: #426264;
+}
+
+/*support styles*/
+#supportContent #supportElements {
+  width: 85%;
+  height: 100%;
+}
+#supportContent #supportElements #supportTitle {
+  width: 100%;
+}
+#supportContent #supportElements #supportTitle p {
+  color: #831202;
+  font-family: "Latina ultra heavy";
+  font-size: 2rem;
+  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+}
+#supportContent #supportElements #supportInfo {
+  width: 50%;
+  height: 20%;
+}
+#supportContent #supportElements #supportInfo #supportInfTit {
+  height: 15%;
+}
+#supportContent #supportElements #supportInfo #supportInfTit p {
+  font-family: "Latina bold";
+}
+#supportContent #supportElements #supportInfo #support2info {
+  height: 85%;
+}
+#supportContent #supportElements #supportInfo #support2info i {
+  font-size: 2.5rem;
+  margin-right: 2.5rem;
+}
+#supportContent #supportElements #supportForm {
+  width: 100%;
+  height: 40%;
+}
+#supportContent #supportElements #supportForm p {
+  font-family: "Latina bold";
+}
+#supportContent #supportElements #supportForm form {
+  width: 100%;
+  height: 70%;
+}
+#supportContent #supportElements #supportForm form .inpt {
+  width: 100%;
+}
+#supportContent #supportElements #supportForm form .inpt input,
+#supportContent #supportElements #supportForm form .inpt textarea {
+  width: 100%;
+  border-radius: 1rem;
+}
+#supportContent #supportElements #supportForm form #supportButton button {
+  font-family: "Latina bold";
+  background-color: #426264;
+  width: 15%;
+  height: 2rem;
+  border-radius: 1rem;
+}
+#supportContent #supportElements #supportNet {
+  width: 100%;
+  height: 30%;
+}
+#supportContent #supportElements #supportNet p {
+  font-family: "Latina bold";
+}
+#supportContent #supportElements #supportNet ul {
+  width: 50%;
+  height: 80%;
+}
+#supportContent #supportElements #supportNet ul li {
+  font-size: 2.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

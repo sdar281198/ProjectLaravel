@@ -66,6 +66,9 @@ Route::get('/libro', function () {
 Route::get('/form', function () {
     return view('formulario');
 });
+Route::get('/soporte', function () {
+    return view('support');
+});
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

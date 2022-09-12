@@ -140,6 +140,46 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
         }
     }
 }
+#mobileMenuform{
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    background-color: $gradient1;
+    background: $gradient2;
+    top: -400%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    border-radius: .8rem;
+    transition: all 500ms;
+    padding: 15%;
+    .mobileUl{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        li{
+            width: 120%;
+            height: 100%;
+            border: $borderYel;
+            // border: $borderYellJust;
+            border-radius: 20px;
+            a{
+                color: $letraSombraColor;
+                font-family: $latUltHeav;
+                font-size: 1.5rem;
+                text-shadow: $sombrasLetras;
+                transition: all 0.6s;
+                padding: 1%;
+            }
+        }
+    }
+    a{
+        img{
+            width: 40%;
+        }
+    }
+}
 #buttonsMobile{
     margin-top: 5%;
     li{
@@ -2820,6 +2860,81 @@ textarea{
                         border-radius: 1rem;
                         background-color: $colorHave;
                     }
+                }
+            }
+        }
+    }
+}
+/*support styles*/
+#supportContent{
+    #supportElements{
+        width: 85%;
+        height: 100%;
+        #supportTitle{
+            width: 100%;
+            p{
+                color: $letraSombraColor;
+                font-family: $latUltHeav;
+                font-size: 2rem;
+                text-shadow: $sombrasLetras;
+            }
+        }
+        #supportInfo{
+            width: 50%;
+            height: 20%;
+            #supportInfTit{
+                height: 15%;
+                p{
+                    font-family: $latBold;
+                }
+            }
+            #support2info{
+                height: 85%;
+                i{
+                    font-size: 2.5rem;
+                    margin-right: 2.5rem;
+                }
+            }
+        }
+        #supportForm{
+            width: 100%;
+            height: 40%;
+            p{
+                font-family: $latBold;
+            }
+            form{
+                width: 100%;
+                height: 70%;
+                .inpt{
+                    width: 100%;
+                    input,
+                    textarea{
+                        width: 100%;
+                        border-radius: 1rem;
+                    }
+                }
+                #supportButton{
+                    button{
+                        font-family: $latBold;
+                        background-color: $colorHave;
+                        width: 15%;
+                        height: 2rem;
+                        border-radius: 1rem;
+                    }
+                }
+            }
+        }
+        #supportNet{
+            width: 100%;
+            height: 30%;
+            p{
+                font-family: $latBold;
+            }
+            ul{
+                width: 50%;
+                height: 80%;
+                li{
+                    font-size: 2.5rem;
                 }
             }
         }
