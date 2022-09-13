@@ -1318,7 +1318,14 @@ $latBold : 'latina bold';
             }
         }
     }
+    #supportInfo{
+        height: 25%!important;
+        #phone{
+            margin-top: 1rem!important;
+        }
+    }
     #supportForm{
+        height: 80%!important;
         p{
             text-align: center;
             margin-top: 1rem;
@@ -1327,6 +1334,7 @@ $latBold : 'latina bold';
     #supportButton{
         button{
             width: 100%!important;
+            margin-top: 1rem;
         }
     }
     #supportNet{
@@ -1334,5 +1342,11 @@ $latBold : 'latina bold';
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        ul{
+            width: 55%!important;
+            li{
+                font-size: 1.6rem!important;
+            }
+        }
     }
 }

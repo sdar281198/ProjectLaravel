@@ -1165,6 +1165,16 @@
     margin-right: 0px !important;
   }
 
+  #supportInfo {
+    height: 25% !important;
+  }
+  #supportInfo #phone {
+    margin-top: 1rem !important;
+  }
+
+  #supportForm {
+    height: 80% !important;
+  }
   #supportForm p {
     text-align: center;
     margin-top: 1rem;
@@ -1172,6 +1182,7 @@
 
   #supportButton button {
     width: 100% !important;
+    margin-top: 1rem;
   }
 
   #supportNet {
@@ -1179,6 +1190,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  #supportNet ul {
+    width: 55% !important;
+  }
+  #supportNet ul li {
+    font-size: 1.6rem !important;
   }
 }
 

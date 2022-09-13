@@ -2664,7 +2664,7 @@ textarea {
 #supportContent #supportElements #supportTitle p {
   color: #831202;
   font-family: "Latina ultra heavy";
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
 }
 #supportContent #supportElements #supportInfo {
@@ -2718,7 +2718,7 @@ textarea {
   font-family: "Latina bold";
 }
 #supportContent #supportElements #supportNet ul {
-  width: 50%;
+  width: 35%;
   height: 80%;
 }
 #supportContent #supportElements #supportNet ul li {
