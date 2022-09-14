@@ -400,6 +400,15 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:420px){
+    #mobileMenuform{
+        width: 77%!important;
+        .mobileUl{
+            gap: 2.5rem!important;
+            a{
+                font-size: 1rem!important;
+            }
+        }
+    }
     #mobileMenu{
         width: 77%!important;
     }
@@ -1347,6 +1356,20 @@ $latBold : 'latina bold';
             li{
                 font-size: 1.6rem!important;
             }
+        }
+    }
+}
+/*mailconf medias*/
+@media screen and (max-width:850px){
+    #middleText{
+        p{
+            font-size: 1rem!important;
+            width: 90%;
+        }
+    }
+    #buttonconf{
+        button{
+            width: 90%!important;
         }
     }
 }

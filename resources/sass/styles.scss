@@ -1087,6 +1087,58 @@ textarea{
         }
     }
 }
+/*mailconf styles*/
+#mailconfcontent{
+    background: $gradient1;
+    background: $gradient2;
+    border-radius: 1rem;
+    width: 80%;
+    height: 80%;
+    #logoandtext{
+        width: 100%;
+        height: 40%;
+        .logo{
+            width: 50%;
+            img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .text{
+            font-family: $latBold;
+            font-size: 2rem;
+        }
+    }
+    .samewh{
+        width: 100%;
+        height: 20%;
+    }
+    #middleText{
+        p{
+            font-size: 1.5rem;
+            font-family: $latReg;
+            span{
+                font-family: $latBold;
+            }
+        }
+    }
+    #buttonconf{
+        button{
+            width: 25%;
+            height: 3rem;
+            background: $backBrowgrad;
+            background: $backBrowgrad2;
+            font-family: $latBold;
+            border: $borderYel;
+            border-radius: 1rem;
+        }
+    }
+    #doubt{
+        p{
+            font-family: $latReg;
+        }
+    }
+}
 /*Myprofile styles*/
 #mainmyprof{
     background: $gradient1;
