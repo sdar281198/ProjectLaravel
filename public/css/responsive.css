@@ -369,6 +369,13 @@
   }
 }
 @media screen and (max-width: 575px) {
+  #profilecontent {
+    width: 90% !important;
+  }
+  #profilecontent #formProfile {
+    width: 100% !important;
+  }
+
   #rankingMenu {
     width: 74%;
   }
