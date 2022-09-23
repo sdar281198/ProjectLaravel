@@ -3,7 +3,7 @@
         <img src="../img/landing/BOTON X-07.png" alt="">
     </div>
     <div class="rankingContent">
-        <p class="uppercase">Tabla de posiciones</p>
+        <p class="uppercase shadowspecial text-center">Tabla de posiciones</p>
             <table id="rankingTable">
                 <tr>
                     <th class="uppercase">Nombre</th>

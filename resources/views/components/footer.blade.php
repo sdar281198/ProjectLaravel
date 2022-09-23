@@ -2,11 +2,11 @@
         <div id="contentfoot" class="flex justify-between">
             <div class="" id="menudown">
                 <ul id="" class="flex justify-between text-white">
-                    <li><a href="">¿Como jugar?</a></li>
-                    <li><a href="">Legal</a></li>
-                    <li><a href="">Libro de reclamaciones</a></li>
-                    <li><a href="">Soporte</a></li>
-                    <li><a href="">Foro</a></li>
+                    <li><a href="/como">¿Como jugar?</a></li>
+                    <li><a href="/legal">Legal</a></li>
+                    <li><a href="/libro">Libro de reclamaciones</a></li>
+                    <li><a href="/soporte">Soporte</a></li>
+                    <!-- <li><a href="">Foro</a></li> -->
                 </ul>
             </div>
             <div class="flex" id="footernet">

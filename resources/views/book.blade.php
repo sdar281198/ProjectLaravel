@@ -5,7 +5,7 @@
         </header>
         <div id="bookContent" class="fullContent">
             <div id="bookTitle" class="mx-auto mt-10">
-                <p class="uppercase text-center">Libro de reclamaciones</p>
+                <p class="uppercase text-center shadowspecial">Libro de reclamaciones</p>
             </div>
             <div id="formDivBokk" class="mx-auto">
                 <form id="formd" class="mx-auto" action="">

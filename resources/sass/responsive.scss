@@ -347,6 +347,9 @@ $latBold : 'latina bold';
             width: 100%;
             margin: auto;
         }
+        .tabs{
+            width: 87%!important;
+        }
     }
     #schoolAndRanking{
         width: 100%!important;
@@ -377,12 +380,6 @@ $latBold : 'latina bold';
             align-items: center;
         }
     }
-    .containerdate{
-        .tabs{
-            width: 85%!important;
-        }
-    }
-
 }
 @media screen and (max-width:960px){
     #rankingMenu{
@@ -531,8 +528,20 @@ $latBold : 'latina bold';
         align-items: center;
         font-size: 0.8rem!important;
     }
-    .botonRace img{
-        width: 30%!important;
+    #schoolAndRanking{
+        .botonRace img{
+            width: 30%!important;
+        }
+    }
+    /*classicoac medias*/
+    #clasAcContent{
+        margin-top: 4rem!important;
+        .riddle{
+            width: 48%!important;
+        }
+        #classicTexts{
+            margin-top: 2.5rem!important;
+        }
     }
 }
 @media screen and (max-width:660px){
@@ -782,6 +791,9 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:950px){
+    #logo1{
+        left: -9%!important;
+    }
     #acertijoTime{
         p{
             font-size: 0.9rem!important;
@@ -1043,6 +1055,23 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:460px){
+    #competitors{
+        .competitor{
+            .modesimg:first-child{
+                margin-top: 30%;
+            }
+            .ulmodes:nth-child(2){
+                margin-bottom: 30%;
+            }
+            .modescomp{
+                width: 100%!important;
+                margin-top: 10%;
+                .ulmodes{
+                    margin-top: 25%!important;
+                }
+            }
+        }
+    }
     #profilecontent{
         img{
             width: 55%!important;
@@ -1053,6 +1082,28 @@ $latBold : 'latina bold';
             font-size: 0.7rem!important;
         }
     }
+    /*classicoac medias*/
+    #clasAcContent{
+        .riddle{
+            width: 95%!important;
+            height: 15%!important;
+            .botonRace{
+                img{
+                    width: 24%!important;
+                }
+            }
+        }
+        #classicTexts{
+            p:first-child{
+                font-size: 2rem!important;
+            }
+            p:nth-child(2){
+                width: 80%!important;
+                margin: auto!important;
+            }
+        }
+    }
+
 }
 @media screen and (max-width:360px){
     #profileButtons{
@@ -1311,6 +1362,9 @@ $latBold : 'latina bold';
 }
 /*support medias*/
 @media screen and (max-width:600px){
+    .answer{
+        overflow: auto!important;
+    }
     #supportElements{
         overflow: auto;
     }
@@ -1371,5 +1425,93 @@ $latBold : 'latina bold';
         button{
             width: 90%!important;
         }
+    }
+}
+@media screen and (max-width:400px){
+    #mailconfcontent{
+        #logoandtext{
+            .logo{
+                img{
+                    width: 100px!important;
+                    height: 100px!important;
+                }
+            }
+            .text{
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+/*how medias*/
+@media screen and (max-width:1230px){
+        .howdiv{
+                p{
+                    font-size: 1.5rem!important;
+                }
+        }
+}
+@media screen and (max-width:865px){
+    .howdiv{
+        width: 85%!important;
+    }
+}
+@media screen and (max-width:510px){
+    #howtitle{
+        p{
+            font-size: 2rem!important;
+        }
+    }
+    .howdiv{
+        img{
+            width: 90%!important;
+        }
+        p{
+            font-size: 1rem!important;
+        }
+        .star{
+            width: 20%!important;
+        }
+    }
+}
+/*classic medias*/
+@media screen and (max-width:900px){
+    #mainclassic{
+        overflow: auto;
+        margin-bottom: 2%;
+        #classicLevels{
+            width: 85%!important;
+            overflow: auto;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            .classicLevel{
+                width: 50%!important;
+                height: 55%!important;
+            }
+        }
+    }
+}
+@media screen and (max-width:650px){
+    /*classicoac medias*/
+    #mainclassic{
+        #classicLevels{
+            width: 95%!important;
+            .classicLevel{
+                width: 95%!important;
+                height: 65%!important;
+                margin: auto;
+            }
+        }
+    }
+
+}
+@media screen and (max-width:450px){
+    #classicTexts{
+        margin-top: 5rem;
+    }
+    #titleClas{
+        font-size: 2rem!important;
+    }
+    #textClas{
+        font-size: 10px;
     }
 }

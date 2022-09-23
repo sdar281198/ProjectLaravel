@@ -72,6 +72,9 @@ Route::get('/soporte', function () {
 Route::get('/mail2', function () {
     return view('mailconf');
 });
+Route::get('/como', function () {
+    return view('how');
+});
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

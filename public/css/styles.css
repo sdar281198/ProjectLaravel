@@ -47,6 +47,12 @@
   z-index: 2999 !important;
 }
 
+.shadowspecial {
+  color: #831202;
+  font-family: "Latina ultra heavy";
+  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+}
+
 .body::after {
   content: "";
   position: fixed;
@@ -113,10 +119,7 @@
   border-radius: 20px;
 }
 #mobileMenu .mobileUl li a {
-  color: #831202;
-  font-family: "Latina ultra heavy";
   font-size: 1.5rem;
-  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
   transition: all 0.6s;
   padding: 1%;
 }
@@ -151,10 +154,6 @@
   border-radius: 20px;
 }
 #mobileMenuform .mobileUl li a {
-  color: #831202;
-  font-family: "Latina ultra heavy";
-  font-size: 1.5rem;
-  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
   transition: all 0.6s;
   padding: 1%;
 }
@@ -163,21 +162,16 @@
 }
 
 #buttonsMobile {
-  margin-top: 5%;
+  margin-top: 1.5rem;
 }
 #buttonsMobile li {
   width: 100%;
   height: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  background: rgb(250, 205, 103);
-  background: linear-gradient(90deg, rgb(250, 205, 103) 0%, rgb(254, 166, 53) 60%);
-  border-radius: 20px;
-  padding: 1%;
 }
-#buttonsMobile li a {
-  font-family: "Latina regular";
-  font-size: 1.2rem;
+#buttonsMobile li a img {
+  width: 100%;
 }
 
 #navsup {
@@ -197,10 +191,7 @@
   width: 45%;
 }
 #navsup ul a {
-  color: #831202;
-  font-family: "Latina ultra heavy";
   font-size: 1.4rem;
-  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
   transition: all 0.6s;
 }
 #navsup ul a:hover {
@@ -1157,11 +1148,13 @@ textarea {
   height: 100%;
 }
 .containerdate .buttons {
-  min-width: 4%;
-  min-height: 50%;
+  width: 2rem;
   cursor: pointer;
-  background-color: #66421b;
-  border: 2px solid #905a1e;
+}
+.containerdate .buttons i {
+  font-size: 2rem;
+  color: #66421b;
+  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
 }
 .containerdate .tabs {
   display: flex;
@@ -1170,7 +1163,7 @@ textarea {
   overflow: hidden !important;
   align-items: center;
   justify-content: space-between;
-  width: 74%;
+  width: 78%;
 }
 .containerdate .tabs .contentTabs {
   width: 200%;
@@ -1451,11 +1444,7 @@ textarea {
   width: 100%;
 }
 #rankingMenu .rankingContent p {
-  text-align: center;
-  color: #831202;
-  font-family: "Latina ultra heavy";
   font-size: 2.4rem;
-  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
   margin-top: 2rem;
 }
 #rankingMenu .rankingContent table {
@@ -1469,10 +1458,7 @@ textarea {
 
 /*Boleteria styles*/
 #ticketDivs #tituloBol h1 {
-  color: #831202;
-  font-family: "Latina ultra heavy";
   font-size: 2rem;
-  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
 }
 #ticketDivs #datesPrices {
   width: 55%;
@@ -1745,10 +1731,7 @@ textarea {
   height: 80%;
 }
 #doneall #donecontent #donetable .rank {
-  color: #831202;
-  font-family: "Latina ultra heavy";
   font-size: 1.4rem;
-  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
 }
 #doneall #donecontent #donetable table {
   width: 100%;
@@ -1923,6 +1906,9 @@ textarea {
   width: 100%;
   height: 10%;
 }
+#mainclassic #classicContent #classicTexts p:first-child {
+  font-size: 2.5rem;
+}
 #mainclassic #classicContent #classicLevels {
   width: 80%;
   height: 70%;
@@ -1991,6 +1977,9 @@ textarea {
   height: 200vh;
   overflow: auto;
   margin-bottom: 5%;
+}
+#clasAcContent #titleClas {
+  font-size: 2.5rem;
 }
 #clasAcContent #listRiddle {
   width: 85%;
@@ -2291,11 +2280,11 @@ textarea {
 }
 
 /*terminos styles*/
+#terminos {
+  margin-bottom: 4%;
+}
 #terminos #termsTitle p {
-  color: #831202;
-  font-family: "Latina ultra heavy";
-  font-size: 1.4rem;
-  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+  font-size: 2.5rem;
 }
 #terminos #termsText {
   width: 50%;
@@ -2304,10 +2293,7 @@ textarea {
 }
 /*Libro styles*/
 #bookContent #bookTitle p {
-  color: #831202;
-  font-family: "Latina ultra heavy";
   font-size: 2rem;
-  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
 }
 #bookContent #formDivBokk {
   width: 85%;
@@ -2462,10 +2448,7 @@ textarea {
   font-family: "Paytone";
 }
 #interPresentcont1 #contentPres #presTitle p:first-child {
-  color: #831202;
-  font-family: "Latina ultra heavy";
   font-size: 3.4rem;
-  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
 }
 #interPresentcont1 #contentPres #presTitle p:nth-child(2) {
   font-family: "Latina bold";
@@ -2700,6 +2683,45 @@ textarea {
   background-color: #426264;
 }
 
+/*como styles*/
+#howcontent #howtitle p {
+  font-size: 2.5rem;
+}
+#howcontent #howDivs {
+  width: 85%;
+  height: 45%;
+}
+#howcontent #howDivs .howdiv:hover {
+  background: rgb(250, 205, 103);
+  background: linear-gradient(90deg, rgb(250, 205, 103) 0%, rgb(254, 166, 53) 60%);
+  transition: all 500ms;
+}
+#howcontent #howDivs .howdiv {
+  width: 40%;
+  height: 15%;
+  background: rgb(28, 25, 1);
+  background: linear-gradient(180deg, rgb(28, 25, 1) 0%, rgb(60, 44, 10) 50%);
+  transition: all 500ms;
+  border-top: 2px solid #ce7318;
+  border-bottom: 2px solid #ce7318;
+}
+#howcontent #howDivs .howdiv .star {
+  width: 15%;
+  height: 150%;
+  background-image: url(../img/race/estrella.png);
+  background-size: 100% 100%;
+}
+#howcontent #howDivs .howdiv .starLeft {
+  left: -8%;
+}
+#howcontent #howDivs .howdiv .starRight {
+  right: -8%;
+}
+#howcontent #howDivs .howdiv p {
+  font-family: "Latina bold";
+  font-size: 2rem;
+}
+
 /*support styles*/
 #supportContent #supportElements {
   width: 85%;
@@ -2709,10 +2731,7 @@ textarea {
   width: 100%;
 }
 #supportContent #supportElements #supportTitle p {
-  color: #831202;
-  font-family: "Latina ultra heavy";
   font-size: 2.5rem;
-  text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
 }
 #supportContent #supportElements #supportInfo {
   width: 50%;

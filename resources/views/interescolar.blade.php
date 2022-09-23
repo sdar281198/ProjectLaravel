@@ -41,14 +41,18 @@
                 <div class="list" id="list"></div> -->
                 <div class="containerdate">
                     <div class="tabs mx-auto">
-                        <div class="previous buttons box"></div>
+                        <div class="previous buttons box flex items-center justify-center">
+                            <i class="fa-solid fa-caret-left"></i>
+                        </div>
                         <!-- <div class="contentTabs"> -->
                         <div id="fecha1" class="fecha tab">Fecha 1</div>
                         <div id="fecha2" class="fecha tab">Fecha 2</div>
                         <div id="fecha3" class="fecha tab">Fecha 3</div>
                         <div id="fecha4" class="fecha tab">Fecha 4</div>
                         <div id="fecha5" class="fecha tab">Fecha 5</div>
-                        <div class="next buttons"></div>
+                        <div class="next buttons flex items-center justify-center">
+                            <i class="fa-solid fa-caret-right"></i>
+                        </div>
                     </div>
                     <div class="contents">
                         <div id="fecha1" class="content fecha">

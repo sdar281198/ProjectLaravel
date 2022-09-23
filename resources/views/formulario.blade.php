@@ -23,7 +23,7 @@
             </header>
             <div id="contentPres" class="mx-auto">
                     <div id="presTitle">
-                        <p class="uppercase text-center">Interescolar <span>2022</span></p>
+                        <p class="uppercase text-center shadowspecial">Interescolar <span>2022</span></p>
                         <p class="text-white text-center">Siente la adrenalina mientras sumas puntos para tu colegio</p>
                     </div>
                     <div id="imgandbutts" class="flex">
@@ -129,7 +129,7 @@
         <div id="contentfoot" class="flex justify-between">
             <div class="" id="menudown">
                 <ul id="" class="flex justify-between text-white">
-                    <li>Enterate mas en: <a href="https://testdesign.theonlinerace.com/home">The online race</a></li>
+                    <li>Enterate mas en: <a href="https://testdesign.theonlinerace.com/home">The Online Race</a></li>
                     <!-- <li><a href="">Legal</a></li>
                     <li><a href="">Libro de reclamaciones</a></li>
                     <li><a href="">Soporte</a></li>

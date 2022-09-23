@@ -16,7 +16,7 @@
             <button class="text-white uppercase">verificar correo</button>
         </div>
         <div id="doubt" class="samewh flex justify-center items-center">
-            <p class="text-white">¿Tienes alguna duda? Contáctanos</p>
+            <p class="text-white text-center">¿Tienes alguna duda? Contáctanos</p>
         </div>
     </div>
 </div>

@@ -27,11 +27,11 @@ sr.reveal('.race',{
     origin:'left',
     distance:'-100%'
 });
-sr.reveal('.classicLevel',{
-    duration:3500,
-    origin:'bottom',
-    distance:'-100%'
-});
+// sr.reveal('.classicLevel',{
+//     duration:3500,
+//     origin:'bottom',
+//     distance:'-100%'
+// });
 sr.reveal('#presnav',{
     duration:3500,
     origin:'bottom',

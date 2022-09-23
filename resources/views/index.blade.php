@@ -4,7 +4,8 @@
       <div id="frase" class="my-auto flex flex-col ">
         <p id="frase1" class="text-white italic uppercase">¡La suerte no juega!</p>
         <p id="frase2" class="text-white">Navega por internet y encuentra las <br>
-        respuestas a cientos de acertijos.</p>
+        respuestas a cientos de acertijos.
+        </p>
         <div>
         <img class="cursor-pointer" src="../img/before/jugar-ahora.png" alt="">
         </div>

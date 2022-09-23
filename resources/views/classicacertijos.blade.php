@@ -5,7 +5,7 @@
         </header>
         <div id="clasAcContent">
             <div id="classicTexts" class="mx-auto text-center mb-10">
-                <p id="titleClas"><img src="../img/classic/CLASICO.png" alt="" class="mx-auto"></p>
+                <p id="titleClas" class="uppercase shadowspecial">clásico</p>
                 <p id="textClas" class="text-white">Resuelve los acertijos y pon a prueba tus habilidades</p>
             </div>
             <div id="listRiddle" class="flex flex-wrap justify-around mx-auto">

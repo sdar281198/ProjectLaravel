@@ -42,6 +42,7 @@ $gradient1: rgb(0,74,61);
 $gradient2: linear-gradient(180deg, rgba(0,74,61,1) 0%, rgba(0,57,53,1) 34%, rgba(0,38,44,1) 64%, rgba(0,21,33,1) 100%);
 $letraSombraColor : #831202;
 $sombrasLetras : 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
+$sombrasFlechas : 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
 $backYellow1 : rgb(250,205,103);;
 $backYellow2 : linear-gradient(90deg, rgba(250,205,103,1) 0%, rgba(254,166,53,1) 60%);
 $borderYel : 4px solid #ce7318;
@@ -63,6 +64,11 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
     position: relative;
     top: 40px!important;
     z-index: 2999!important;
+}
+.shadowspecial{
+    color: $letraSombraColor;
+    font-family: $latUltHeav;
+    text-shadow: $sombrasLetras;
 }
 .body::after{
     content: "";
@@ -125,10 +131,7 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
             // border: $borderYellJust;
             border-radius: 20px;
             a{
-                color: $letraSombraColor;
-                font-family: $latUltHeav;
                 font-size: 1.5rem;
-                text-shadow: $sombrasLetras;
                 transition: all 0.6s;
                 padding: 1%;
             }
@@ -165,10 +168,6 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
             // border: $borderYellJust;
             border-radius: 20px;
             a{
-                color: $letraSombraColor;
-                font-family: $latUltHeav;
-                font-size: 1.5rem;
-                text-shadow: $sombrasLetras;
                 transition: all 0.6s;
                 padding: 1%;
             }
@@ -181,19 +180,16 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
     }
 }
 #buttonsMobile{
-    margin-top: 5%;
+    margin-top: 1.5rem;
     li{
         width: 100%;
         height: 100%;
         margin-top: 10px;
         margin-bottom: 10px;
-        background: $backYellow1;
-        background: $backYellow2;
-        border-radius: 20px;
-        padding: 1%;
         a{
-            font-family: $latReg;
-            font-size: 1.2rem;
+            img{
+                width: 100%;
+            }
         }
     }
     
@@ -226,10 +222,7 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
         //     transition: all 0.6s;
         // }
         a{
-            color: $letraSombraColor;
-            font-family: $latUltHeav;
             font-size: 1.4rem;
-            text-shadow: $sombrasLetras;
             transition: all 0.6s;
         }
         a:hover{
@@ -574,7 +567,7 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
                 a{
                     i{
                         rotate: 360deg;
-                        transition: all 500ms;
+                         transition: all 500ms;
                     }
                 }
             }
@@ -1235,13 +1228,19 @@ textarea{
     width: 100%;
     height: 100%;
     .buttons{
-        min-width: 4%;
-        min-height: 50%;
+        width: 2rem;
+        i{
+            font-size: 2rem;
+            color: #66421b;
+            text-shadow: $sombrasFlechas;
+        }
+        // min-width: 4%;
+        // min-height: 50%;
         cursor: pointer;
-        background-color: #66421b;
-        border: 2px solid #905a1e;
+        // background-color: #66421b;
+        // border: 2px solid #905a1e;
     }
-    .tabs {
+    .tabs{
         // position: absolute;
         display: flex;
         flex-wrap: nowrap;
@@ -1251,7 +1250,7 @@ textarea{
         overflow: hidden!important;
         align-items: center;
         justify-content: space-between;
-        width: 74%;
+        width: 78%;
         .contentTabs{
             // position: absolute;
             width: 200%;
@@ -1553,11 +1552,7 @@ textarea{
             .rankingContent{
                 width: 100%;
                 p{  
-                    text-align: center;
-                    color: $letraSombraColor;
-                    font-family: $latUltHeav;
                     font-size: 2.4rem;
-                    text-shadow: $sombrasLetras;
                     margin-top: 2rem;
                 }
                 table{
@@ -1576,10 +1571,7 @@ textarea{
 #ticketDivs{
     #tituloBol{
         h1{
-            color: $letraSombraColor;
-            font-family: $latUltHeav;
             font-size: 2rem;
-            text-shadow: $sombrasLetras;
         }
     }
     #datesPrices{
@@ -1862,10 +1854,7 @@ textarea{
                 // overflow-x: auto;
             }
             .rank{
-                color: $letraSombraColor;
-                font-family: $latUltHeav;
                 font-size: 1.4rem;
-                text-shadow: $sombrasLetras;
             }
             table{
                 width: 100%;
@@ -2066,6 +2055,9 @@ textarea{
         #classicTexts{
             width: 100%;
             height: 10%;
+            p:first-child{
+                font-size: 2.5rem;
+            }
         }
         #classicLevels{
             width: 80%;
@@ -2136,6 +2128,9 @@ textarea{
     height: 200vh;
     overflow: auto;
     margin-bottom: 5%;
+    #titleClas{
+        font-size: 2.5rem;
+    }
     #listRiddle{
         width: 85%;
         height: 100%;
@@ -2461,12 +2456,10 @@ textarea{
 }
 /*terminos styles*/
 #terminos{
+    margin-bottom: 4%;
     #termsTitle{
         p{
-            color: $letraSombraColor;
-            font-family: $latUltHeav;
-            font-size: 1.4rem;
-            text-shadow: $sombrasLetras;
+            font-size: 2.5rem;
         }
     }
     #termsText{
@@ -2482,10 +2475,7 @@ textarea{
 #bookContent{
     #bookTitle{
         p{
-            color: $letraSombraColor;
-            font-family: $latUltHeav;
             font-size: 2rem;
-            text-shadow: $sombrasLetras;
         }
     }
     #formDivBokk{
@@ -2666,10 +2656,7 @@ textarea{
                 font-family: $paytone;
             }
             p:first-child{
-                color: $letraSombraColor;
-                font-family: $latUltHeav;
                 font-size: 3.4rem;
-                text-shadow: $sombrasLetras;
             }
             p:nth-child(2){
                 font-family: $latBold;
@@ -2917,6 +2904,52 @@ textarea{
         }
     }
 }
+/*como styles*/
+#howcontent{
+    #howtitle{
+        p{
+            font-size: 2.5rem;
+        }
+    }
+    #howDivs{
+        width: 85%;
+        height: 45%;
+        .howdiv:hover{
+            background: $backYellow1;
+            background: $backYellow2;
+            transition: all 500ms;
+        }
+        .howdiv{
+            width: 40%;
+            height: 15%;
+            background: $backBrowgrad;
+            background: $backBrowgrad2;
+            transition: all 500ms;
+            border-top: 2px solid $borderYellJust;
+            border-bottom: 2px solid $borderYellJust;
+            .star{
+                width: 15%;
+                height: 150%;
+                background-image: url(../img/race/estrella.png);
+                background-size: 100% 100%;
+                // img{
+                //     width: 70%;
+                //     height: 60px;
+                //}
+            }
+            .starLeft{
+                left: -8%;
+            }
+            .starRight{
+                right: -8%;
+            }
+            p{
+                font-family: $latBold;
+                font-size: 2rem;
+            }
+        }
+    }
+}
 /*support styles*/
 #supportContent{
     #supportElements{
@@ -2925,10 +2958,7 @@ textarea{
         #supportTitle{
             width: 100%;
             p{
-                color: $letraSombraColor;
-                font-family: $latUltHeav;
                 font-size: 2.5rem;
-                text-shadow: $sombrasLetras;
             }
         }
         #supportInfo{

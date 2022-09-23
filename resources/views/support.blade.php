@@ -6,7 +6,7 @@
         <div id="supportContent" class="fullContent">
             <div id="supportElements" class="mx-auto flex flex-col">
                 <div id="supportTitle" class="text-center mt-5">
-                    <p class="uppercase">Soporte</p>
+                    <p class="uppercase shadowspecial">Soporte</p>
                 </div>
                 <div id="supportInfo" class="flex flex-col justify-between">
                     <div id="supportInfTit">

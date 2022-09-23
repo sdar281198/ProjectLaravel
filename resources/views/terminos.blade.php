@@ -5,7 +5,7 @@
         </header>
         <div id="terminos" class="fullContent">
             <div id="termsTitle" class="mx-auto mt-10 mb-5">
-                <p class="text-center">TÉRMINOS Y CONDICIONES DE USO</p>
+                <p class="text-center shadowspecial">TÉRMINOS Y CONDICIONES DE USO</p>
             </div>
             <div id="termsText" class="mx-auto">
                 <p class="text-white">

@@ -25,7 +25,7 @@
         </div> 
         <div id="donetable" class="flex justify-center items-center">
             <div id="tab" class="">
-                <p class="uppercase text-center rank">Ranking</p>
+                <p class="uppercase text-center rank shadowspecial">Ranking</p>
                 <table id="doneTable">
                     <tr class="flex justify-around">
                         <th class="uppercase text-white">Nombre</th>
