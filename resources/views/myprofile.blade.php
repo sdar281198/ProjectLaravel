@@ -4,7 +4,7 @@
             <x-navsupuser/>
         </header>
 <div id="profilecontent" class="flex flex-col">
-        <h1 class="text-center"><img class="mx-auto" src="../img/landing/MI-PERFIL}.PNG" alt=""></h1>
+        <h1 class="text-center shadowspecial">Mi Perfil</h1>
         <div id="formprof" class="container mx-auto mb-5">
         <p class="text-center text-white mt-5 mb-5">Elige tu avatar</p>
             <div id="circles" class="flex items-center">

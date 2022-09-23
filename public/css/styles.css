@@ -1078,6 +1078,9 @@ textarea {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+#profilecontent h1 {
+  font-size: 2.5rem;
+}
 #profilecontent #formprof {
   width: 80%;
   height: 20%;
