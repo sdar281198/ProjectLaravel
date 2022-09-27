@@ -4,6 +4,19 @@
   }
 }
 @media screen and (max-width: 1100px) {
+  #mainmail {
+    overflow: auto !important;
+  }
+  #mainmail #buttonsreceive {
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  #mainmail #buttonsreceive a {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
   #logo #logo1 {
     width: 25%;
   }
@@ -66,6 +79,7 @@
   }
   #races .race {
     width: 50% !important;
+    margin-bottom: 1.5rem;
   }
 
   #buttons {
@@ -381,6 +395,13 @@
   }
 }
 @media screen and (max-width: 420px) {
+  #mail p:first-child {
+    font-size: 1.5rem !important;
+  }
+  #mail p:nth-child(2) {
+    font-size: 9px !important;
+  }
+
   #mobileMenuform {
     width: 77% !important;
   }
@@ -392,7 +413,7 @@
   }
 
   #mobileMenu {
-    width: 77% !important;
+    width: 80% !important;
   }
 
   #logo #logo1 {
@@ -565,6 +586,14 @@
   }
 }
 @media screen and (max-width: 510px) {
+  #redesbuttons a {
+    width: 90% !important;
+  }
+
+  #netbuttons {
+    width: 90% !important;
+  }
+
   #datesPrices {
     width: 85% !important;
   }
@@ -1288,6 +1317,10 @@
   .howdiv p {
     font-size: 1.5rem !important;
   }
+
+  #mainrace .raceTitle {
+    width: 80% !important;
+  }
 }
 @media screen and (max-width: 865px) {
   .howdiv {
@@ -1295,6 +1328,14 @@
   }
 }
 @media screen and (max-width: 510px) {
+  #mainmail #buttonsreceive {
+    width: 100% !important;
+  }
+  #mainmail #buttonsreceive a {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
   #howtitle p {
     font-size: 2rem !important;
   }
@@ -1311,6 +1352,23 @@
 }
 /*classic medias*/
 @media screen and (max-width: 900px) {
+  #redesbuttons {
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+  }
+  #redesbuttons a {
+    margin-bottom: 1rem;
+  }
+
+  #dontreceive p {
+    font-size: 1rem !important;
+  }
+
+  #netbuttons {
+    font-size: 9px !important;
+  }
+
   #mainclassic {
     overflow: auto;
     margin-bottom: 2%;

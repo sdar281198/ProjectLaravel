@@ -10,11 +10,11 @@
                 <p class="text-center text-white mail">correo@correo.com</p>
                 <p class="text-center text-white frasemail">Ingresa a tu correo para completar el registro</p>
             </div>
-            <div id="dontreceive" class="mt-10">
-                <p class="text-center text-white flex flex-col">¿No recibiste el correo?</p>
-                <div id="buttonsreceive" class="flex items-center mx-auto justify-center">
-                    <a href="" class=""><img src="../img/landing/BOTON ENVIAR DE NUEVO-07.png" alt=""></a>
-                    <a href="" class="text-end end text-white changebut italic bold">Cambiar correo</a>
+            <div id="dontreceive" class="mt-10 flex flex-col justify-between">
+                <p class="text-center text-white">¿No recibiste el correo?</p>
+                <div id="buttonsreceive" class="flex mx-auto">
+                    <a href="" class="flex justify-center"><img src="../img/landing/enviardenuevo.png" alt=""></a>
+                    <a href="" class="flex justify-center"><img src="../img/landing/cambiar.png" alt=""></a>
                 </div>
             </div>
             <div id="netbuttons" class="mt-10">

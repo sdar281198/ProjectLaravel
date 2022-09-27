@@ -50,6 +50,9 @@ $borderYellJust : #ce7318;
 $backBrowgrad: rgb(28,25,1);
 $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%);
 //Main
+.paytone{
+    font-family: $paytone;
+}
 #main{
     background: $colorFondo;
 }
@@ -364,10 +367,84 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
         margin-top: 5%;
         margin-bottom: 5%;
         .race{
+            position: relative;
             width: 31%;
             height: 40%;
             z-index: 60;
+            overflow: hidden;
+            border-image-slice:1;
+            border-radius: 1rem;
             cursor: pointer;
+            img{
+                transition: all 400ms ease-out;
+                will-change: transform;
+            }
+            .capa{
+                background: rgba(15, 22, 35, 0.342);
+                 opacity: 0;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                transition: all 400ms ease-out;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                border-radius: 1rem;
+                opacity: 0;
+                visibility: hidden;
+                text-align: center;
+                p:first-child{
+                    font-family: $latUltHeav;
+                    font-size: 1.5rem;
+                }
+                p:nth-child(2){
+                    color: #f7c603;
+                    width: 90%;
+                    font-family: $latBold
+                }
+            }
+        }
+        .race::after{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border: 10px solid;
+            border-image: -webkit-gradient(
+                linear,
+                right bottom,
+                left top,
+                from(#7e5023),
+                to(#dcae19)
+            );
+            border-image: linear-gradient(right,
+            #7e5023,
+            #dcae19);
+            border-image-slice:1;
+            content: '';
+            border-radius: 4rem;
+        }
+        .race:hover .raceelements{
+            display: none;
+        }
+        .race:hover .capa{
+            opacity: 1;
+            visibility: visible;
+        }
+        .race:hover .capa p:first-child{
+            margin-top: 15%;
+            margin-bottom: 5%;
+        }
+        .race:hover img{
+            transform: scale(1.3);
+            // transition: all 400ms ease-out;
+        }
+        .race .capa p:first-child{
+            margin-bottom: 120px;
+            transition: all 400ms ease-out;
+            margin-top: 30px;
         }
     }
     .raceTitle{
@@ -1007,12 +1084,9 @@ textarea{
     background: $gradient2;
     margin-bottom: 50px;
     #contentmail{
-        #logolog:hover{
-            rotate: 360deg;
-            transition: all 1500ms;
-        }
         #logolog{
-            width: 15%;
+            width: 200px;
+            height: 200px;
             transition: all 1500ms;
         }
     }
@@ -1035,15 +1109,16 @@ textarea{
         }
     }
     #buttonsreceive{
-        width: 60%;
+        width: 70%;
         a{
             width: 50%;
+            img{
+                width: 200px;
+                height: 30px;
+            }
         }
         .end{
             text-align: end;
-        }
-        img{
-            width: 100%;
         }
         .changebut{
             font-family: $latBold;
@@ -1059,7 +1134,7 @@ textarea{
         width: 10%;
         a{
             width: 40%;
-            border-radius: 40%;
+            border-radius: 1rem;
             i{
                 color: $white;
                 font-size: 20px;
@@ -1289,7 +1364,6 @@ textarea{
                 font-family: $latBold;
             }
             p:nth-child(3){
-
                 font-size: 2rem;
             }
         }
@@ -1324,6 +1398,9 @@ textarea{
         height: 10%;
         display: flex;
         align-items: center;
+        #tituloFechas{
+            font-size: 2rem;
+        }
     }
     #tabsGeneralContainer{
         width: 90%;
@@ -2236,7 +2313,7 @@ textarea{
             height: 30%;
             #boletLil{
                 width: 25%;
-                height: 80%;
+                height: 95%;
                 margin-left: 2%;
                 .boletEl:first-child{
                     border: 2px solid #ce7318;
@@ -2245,6 +2322,9 @@ textarea{
                     span{
                         color: #f7c603;
                         font-weight: bold;
+                        i{
+                            font-size: 4px;
+                        }
                     }
                 }
                 .boletEl{
@@ -2267,20 +2347,14 @@ textarea{
                 width: 50%;
                 height: 100%;
                 #title{
-                    img{
-                    width: 50%;
-                    margin: auto;
+                    p{
+                        font-size: 2rem;
                     }
                 }
                 #pub{
                     width: 100%;
-                    height: 40%;
+                    height: 50%;
                     background-color: $white;
-                }
-                #pubText{
-                    p:nth-child(2){
-                        width: 80%;
-                    }
                 }
             }
             #officialHour{
@@ -2293,7 +2367,13 @@ textarea{
                     width: 1rem;
                     height: 1rem;
                     margin-left: 0.5rem;
+                    margin-top: 4.5px;
                 }
+            }
+        }
+        #pubText{
+            p:nth-child(2){
+                width: 40%;
             }
         }
         #racesTod{
@@ -2320,9 +2400,11 @@ textarea{
                     .status{
                         background: #ff4040;
                         padding: 0.2rem;
+                        font-family: $latBold;
                     }
                     .statusY{
                         background: #feca00;
+                        font-family: $latBold;
                     }
                     .hourst{
                         width: 30%;
@@ -2438,7 +2520,7 @@ textarea{
                         height: 20%!important;
                         td{
                             img{
-                                width: 50%;
+                                width: 20%;
                                 left: -35%;
                             }
                         }
@@ -2449,6 +2531,9 @@ textarea{
                         td:last-child{
                             a{
                                 width: 100%;
+                                img{
+                                    width: 70%;
+                                }
                             }
                         }
                     }

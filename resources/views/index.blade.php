@@ -75,6 +75,12 @@
 
                 <div class="mx-auto my-auto race flex flex-col justify-center items-center relative">
                     <img src="../img/before/fbordemorad.png" alt="">
+                    <div class="capa">
+                        <p class="text-white uppercase">Interescolar</p>
+                        <p class="mx-auto">¿Listo para la aventura? Competirás contra estudiantes de otros colegios por varias fechas 
+                            resolviendo acertijos educativos con el objetivo de conseguir el ansiado premio que estará en juego. 
+                        </p>
+                    </div>
                     <div class="raceelements flex flex-col justify-center items-center absolute">
                     <a href="/interescolar" class="raceTitle text-white text-center uppercase">Interescolar</a>
                     <p class="raceDescription">
@@ -85,6 +91,12 @@
 
                 <div class="mx-auto my-auto race flex flex-col justify-center items-center relative">
                     <img src="../img/before/fbordeama.png" alt="">
+                    <div class="capa">
+                        <p class="text-white uppercase">Race</p>
+                        <p class="mx-auto">¡La carrera ya va a comenzar! Tendrás varios oponentes que, al igual que tú, pondrán a prueba 
+                            sus conocimientos y habilidades. ¿Quién será el primero en culminar el acertijo?  
+                        </p>
+                    </div>
                     <div class="raceelements flex flex-col justify-center items-center absolute">
                     <a href="#" class="raceTitle text-white text-center uppercase">Race</a>
                     <p class="raceDescription">
@@ -95,6 +107,13 @@
 
                 <div class="mx-auto my-auto race flex flex-col justify-center items-center relative">
                     <img src="../img/before/fbordeverd.png" alt="">
+                    <div class="capa">
+                        <p class="text-white uppercase">Clásico</p>
+                        <p class="mx-auto">
+                            ¿Nuevo por aquí? Descubre interesantes acertijos que esperan ser descifrados. En cada etapa, podrás
+                             mostrar tu destreza e ingenio. 
+                        </p>
+                    </div>
                     <div class="raceelements flex flex-col justify-center items-center absolute">
                     <a href="/clasico" class="raceTitle text-white text-center uppercase">Clásico</a>
                     <p class="raceDescription">

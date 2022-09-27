@@ -8,9 +8,9 @@
                 <div id="raceGames" class="mx-auto flex">   
                     <div id="boletLil" class="flex flex-col justify-around">
                         <div class="flex justify-center items-center boletEl text-white text-center">
-                            <span>..</span>
+                            <span class="flex justify-between"><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i></span>
                             <span class="uppercase">Boletería</span>
-                            <span>..</span>
+                            <span class="flex justify-between"><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i></span>
                         </div>
                         <div class="boletEl flex">
                             <img src="../img/race/gema.png" alt="">
@@ -36,15 +36,21 @@
                     </div>
                     <div id="titlePub" class="flex flex-col justify-between">
                         <div id="title">
-                            <p class="flex flex-col text-center text-white">
-                                <img src="../img/race/elige.png" alt="">
-                                <span>Selecciona  tu carrera favorita</span>
-                            </p>
+                            <div class="flex flex-col">
+                                <p class="uppercase shadowspecial text-center">Elige y juega</p>
+                                <span class="text-white text-center mx-auto">Selecciona  tu carrera favorita</span>
+                            </div>
                         </div>
                         <div id="pub">
 
                         </div>
-                        <div id="pubText">
+                    </div>
+                    <div id="officialHour" class="flex justify-end items-start">
+                        <p class="uppercase text-end text-white">Hora oficial 23:56:56</p>
+                        <img src="../img/race/peru.png" alt="">
+                    </div>      
+                </div>
+                <div id="pubText">
                             <p id="title" class="text-white text-center mb-3 font-bold">
                                 ¡Tu próxima aventura está por comenzar!
                             </p>
@@ -53,18 +59,12 @@
                                 a sacarte del camino para alcanzar la recompensa.
                             </p>
                         </div>
-                    </div>
-                    <div id="officialHour" class="flex justify-end items-center">
-                        <p class="uppercase text-end text-white">Hora oficial 23:56:56</p>
-                        <img src="../img/race/peru.png" alt="">
-                    </div>      
-                </div>
                 <div id="racesTod" class="flex justify-between items-center">
                     <div class="racetod flex flex-col justify-around" style="background-image:url(img/race/fondo1.png)">
                         <div class="raceTitle flex justify-center items-center mx-auto">
                             <p class="text-white text-center">La isla del diablo azul</p>
                         </div>
-                        <div class="statusAndHour flex flex-col justify-center items-center mx-auto">
+                        <div class="statusAndHour flex flex-col justify-center items-center mx-auto uppercase">
                             <div class="status text-white">
                                 <p><span>.</span>Live</p>
                             </div>
@@ -90,7 +90,7 @@
                             <p class="text-white text-center">La isla del diablo azul</p>
                         </div>
                         <div class="statusAndHour flex flex-col justify-center items-center mx-auto">
-                            <div class="statusY text-black">
+                            <div class="statusY uppercase text-black">
                                 <p>Inicio</p>
                             </div>
                             <div class="hourst flex justify-center items-center">
@@ -115,7 +115,7 @@
                             <p class="text-white text-center">La isla del diablo azul</p>
                         </div>
                         <div class="statusAndHour flex flex-col justify-center items-center mx-auto">
-                            <div class="statusY text-black">
+                            <div class="statusY uppercase text-black">
                                 <p>Inicio</p>
                             </div>
                             <div class="hourst flex justify-center items-center">
