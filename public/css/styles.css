@@ -372,12 +372,12 @@
   height: 100%;
   top: 0;
   left: 0;
-  border: 10px solid;
+  border: 0.5rem solid;
   border-image: -webkit-gradient(linear, right bottom, left top, from(#7e5023), to(#dcae19));
   border-image: linear-gradient(right, #7e5023, #dcae19);
   border-image-slice: 1;
   content: "";
-  border-radius: 4rem;
+  box-sizing: border-box;
 }
 #raceSectionAndfaq #races .race:hover .raceelements {
   display: none;
@@ -400,7 +400,7 @@
 }
 #raceSectionAndfaq .raceTitle {
   font-family: "Latina ultra heavy";
-  font-size: 200%;
+  font-size: 1.6rem;
 }
 #raceSectionAndfaq .raceDescription {
   color: #ffb800;

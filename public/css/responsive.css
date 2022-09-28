@@ -169,6 +169,11 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .raceTitle a,
+.raceTitle p {
+    font-size: 1rem !important;
+  }
+
   .modes {
     margin-top: 2rem;
   }
@@ -182,7 +187,7 @@
   }
 
   .raceTitle {
-    font-size: 125% !important;
+    font-size: 1rem !important;
   }
 
   .raceDescription {
@@ -199,10 +204,6 @@
   }
 }
 @media screen and (max-width: 310px) {
-  .raceTitle {
-    font-size: 100% !important;
-  }
-
   .raceDescription {
     font-size: 5px !important;
   }
@@ -716,6 +717,10 @@
   }
 }
 @media screen and (max-width: 490px) {
+  #tituloFechas {
+    font-size: 1.5rem !important;
+  }
+
   #donemsg p {
     font-size: 1.5rem !important;
   }

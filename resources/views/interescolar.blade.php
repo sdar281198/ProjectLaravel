@@ -58,7 +58,7 @@
                         <div id="fecha1" class="content fecha">
                             <div id="progressWithouthRiddle">
                                 <div id="tituloFechas" class="mx-auto">
-                                    <p class="uppercase shadowspecial">interescolar <span class="paytone">2022</span></p>
+                                    <p class="uppercase shadowspecial text-center">interescolar <span class="paytone">2022</span></p>
                                 </div>
                             </div>
                             <div id="tabsGeneralContainer">

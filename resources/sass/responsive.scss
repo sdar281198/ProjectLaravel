@@ -180,6 +180,12 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:450px){
+    .raceTitle{
+        a,
+        p{
+            font-size: 1rem!important;
+        }
+    }
     .modes{
         margin-top: 2rem;
     }
@@ -192,7 +198,7 @@ $latBold : 'latina bold';
         }
     }
     .raceTitle{
-        font-size: 125%!important;
+        font-size: 1rem!important;
     }
     .raceDescription{
         font-size: 10px!important;
@@ -209,9 +215,9 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:310px){
-    .raceTitle{
-        font-size: 100%!important;
-    }
+    // .raceTitle{
+    //     font-size: 100%!important;
+    // }
     .raceDescription{
         font-size: 5px!important;
     }
@@ -792,6 +798,9 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:490px){
+    #tituloFechas{
+        font-size: 1.5rem!important;
+    }
     #donemsg{
         p{
             font-size: 1.5rem!important;

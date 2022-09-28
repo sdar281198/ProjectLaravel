@@ -411,7 +411,7 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
             height: 100%;
             top: 0;
             left: 0;
-            border: 10px solid;
+            border: 0.5rem solid;
             border-image: -webkit-gradient(
                 linear,
                 right bottom,
@@ -424,7 +424,11 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
             #dcae19);
             border-image-slice:1;
             content: '';
-            border-radius: 4rem;
+            box-sizing: border-box;
+            // border-radius: 40rem;
+            // border-style: solid;
+            // border-width: 0.5rem;
+            // overflow: hidden;
         }
         .race:hover .raceelements{
             display: none;
@@ -449,7 +453,7 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
     }
     .raceTitle{
         font-family: $latUltHeav;
-        font-size: 200%;
+        font-size: 1.6rem;
     }
     .raceDescription{
         color: #ffb800;
