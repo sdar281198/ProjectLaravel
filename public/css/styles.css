@@ -366,19 +366,6 @@
   width: 90%;
   font-family: "Latina bold";
 }
-#raceSectionAndfaq #races .race::after {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border: 0.5rem solid;
-  border-image: -webkit-gradient(linear, right bottom, left top, from(#7e5023), to(#dcae19));
-  border-image: linear-gradient(right, #7e5023, #dcae19);
-  border-image-slice: 1;
-  content: "";
-  box-sizing: border-box;
-}
 #raceSectionAndfaq #races .race:hover .raceelements {
   display: none;
 }
@@ -2869,6 +2856,73 @@ textarea {
 }
 #supportContent #supportElements #supportNet ul li {
   font-size: 2.5rem;
+}
+
+/*toggle*/
+#divNav {
+  position: fixed;
+  top: 15%;
+  right: 0;
+  width: 80px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+}
+#divNav .divnav-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-45deg);
+}
+#divNav .divnav-content .toggle-btn,
+#divNav .divnav-content span a {
+  height: 60px;
+  width: 60px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+#divNav .divnav-content .toggle-btn {
+  font-size: 35px;
+  color: black;
+  z-index: 100;
+  cursor: pointer;
+  transform: rotate(-225deg);
+  transition: all 0.6s ease;
+}
+#divNav .divnav-content span {
+  position: absolute;
+  transition: all 0.6s ease;
+  opacity: 0;
+}
+#divNav .divnav-content span a {
+  text-decoration: none;
+  transform: rotate(45deg);
+}
+#divNav .divnav-content span a i {
+  font-size: 24px;
+  color: black;
+  transform: rotate(calc(var(--i) * -45deg));
+  opacity: 0.8;
+  transition: 2s;
+}
+
+#divNav.open .toggle-btn {
+  transform: rotate(0deg);
+}
+
+#divNav.open .divnav-content span {
+  transform: rotate(calc(var(--i) * 45deg)) translateY(120px);
+  opacity: 1;
+}
+
+.divnav-content span a .divnav-content span a:hover i {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */

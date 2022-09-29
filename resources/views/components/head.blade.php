@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ config('app.url'). '/css/styles.css' }}">
     <link rel="stylesheet" href="{{ config('app.url'). '/css/responsive.css' }}">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <!-- <script src="https://kit.fontawesome.com/6d77af7104.js" crossorigin="anonymous"></script> -->
     <script src="https://kit.fontawesome.com/784d868413.js" crossorigin="anonymous"></script>

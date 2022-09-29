@@ -1,4 +1,5 @@
 <x-head/>
+<x-toggle/>
     <div id="mainrace">
         <header id="headerinter" class="flex justify-center">
             <x-navsupuser/>

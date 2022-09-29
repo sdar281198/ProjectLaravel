@@ -31,5 +31,6 @@
 <script src="{{ config('app.url').'/js/correct.js' }}" defer></script>
 <script src="{{ config('app.url').'/js/completed.js' }}" defer></script>
 <script src="{{ config('app.url').'/js/formPopUp.js' }}" defer></script>
+<script src="{{ config('app.url').'/js/toggle.js' }}" defer></script>
 </body>
 </html>

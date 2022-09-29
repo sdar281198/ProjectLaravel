@@ -1357,6 +1357,10 @@
 }
 /*classic medias*/
 @media screen and (max-width: 900px) {
+  #divNav {
+    visibility: visible !important;
+  }
+
   #redesbuttons {
     flex-direction: column;
     align-items: center;
