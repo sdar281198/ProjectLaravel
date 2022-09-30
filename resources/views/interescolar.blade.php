@@ -1,10 +1,10 @@
 <x-head/>
-<x-toggle/>
     <div id="maininter">
         <header id="headerinter" class="flex justify-center">
             <x-navsupuser/>
         </header>
-        <div id="schoolAndRanking" class="flex mx-auto mt-10 justify-between">
+        <div id="schoolAndRanking" class="flex mx-auto mt-10 justify-between relative">
+        <x-toggle/>
             <div id="school" class="flex flex-col coleg">
                 <div id="userAndName" class="flex items-center justify-between my-auto mx-auto">
                     <div id="user">

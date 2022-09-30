@@ -1,4 +1,4 @@
-<div id="divNav">
+<div id="divNav" class="fixed">
         <div class="divnav-content">
             <div class="toggle-btn">
             <i class='bx bx-plus'></i>

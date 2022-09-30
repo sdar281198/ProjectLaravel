@@ -2384,6 +2384,22 @@ textarea{
             width: 85%;
             height: 70%;
             margin: auto;
+            #swipRace{
+                margin-top: 1rem;
+                display: none;
+                .swiper {
+                    width: 100%;
+                    height: 100%;
+                  }
+                  
+                  .swiper-slide {
+                    // background-position: center;
+                    // background-size: cover;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 1rem;
+                  }
+            }
             .racetod{
                 width: 28%;
                 height: 85%;
@@ -3116,8 +3132,7 @@ textarea{
 }
 /*toggle*/
 #divNav{
-    // visibility: hidden;
-    position: fixed;
+    visibility: hidden;
     top: 15%;
     right: 0;
     width: 80px;
@@ -3135,7 +3150,9 @@ textarea{
             span a{
             height: 60px;
             width: 60px;
-            background: #fff;
+            // background: #fff;
+            background: $backYellow1;
+            background: $backYellow2;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -3143,8 +3160,8 @@ textarea{
             box-shadow: 0 0 20px rgba(0,0,0,0.2);
         }
         .toggle-btn{
-            font-size: 35px;
-            color: black;
+            font-size: 3rem;
+            color: $white;
             z-index: 100;
             cursor: pointer;
             transform: rotate(-225deg);

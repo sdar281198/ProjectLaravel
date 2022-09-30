@@ -295,6 +295,9 @@ $latBold : 'latina bold';
 }
 /*Login medias*/
 @media screen and (max-width:1210px){
+    #racesTable{
+        font-size: 10.5px!important;
+    }
     #createlog{
         width: 25%;
     }
@@ -836,6 +839,9 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:950px){
+    #raceContent{
+        overflow: auto;
+    }
     #logo1{
         left: -9%!important;
     }
@@ -1060,6 +1066,24 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:790px) {
+    .racetod{
+        display: none!important;
+    }
+    #racesTod{
+        #swipRace{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            display: block!important;
+            .swiper-slide{
+                .racetod{
+                    width: 55%!important;
+                    margin: auto;
+                    display: flex!important;
+                }
+            }
+        }
+    }
     #profilecontent{
         overflow: auto;
     }
@@ -1537,6 +1561,9 @@ $latBold : 'latina bold';
     #divNav{
         visibility: visible!important;
     }
+    .racetod{
+        width: 32%!important;
+    }
     #redesbuttons{
         flex-direction: column;
         align-items: center;
@@ -1591,5 +1618,25 @@ $latBold : 'latina bold';
     }
     #textClas{
         font-size: 10px;
+    }
+}
+/*race medias*/
+@media screen and (max-width:990px){
+    #divNav{
+        visibility: visible;
+    }
+    #boletLil{
+        display: none;
+    }
+    #officialHour{
+        display: none;
+    }
+    #titlePub{
+        width: 100%!important;
+        margin: auto;
+        #pub{
+            width: 80%!important;
+            margin: auto;
+        }
     }
 }

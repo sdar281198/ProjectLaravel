@@ -279,6 +279,10 @@
 }
 /*Login medias*/
 @media screen and (max-width: 1210px) {
+  #racesTable {
+    font-size: 10.5px !important;
+  }
+
   #createlog {
     width: 25%;
   }
@@ -751,6 +755,10 @@
   }
 }
 @media screen and (max-width: 950px) {
+  #raceContent {
+    overflow: auto;
+  }
+
   #logo1 {
     left: -9% !important;
   }
@@ -924,6 +932,22 @@
   }
 }
 @media screen and (max-width: 790px) {
+  .racetod {
+    display: none !important;
+  }
+
+  #racesTod #swipRace {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block !important;
+  }
+  #racesTod #swipRace .swiper-slide .racetod {
+    width: 55% !important;
+    margin: auto;
+    display: flex !important;
+  }
+
   #profilecontent {
     overflow: auto;
   }
@@ -1361,6 +1385,10 @@
     visibility: visible !important;
   }
 
+  .racetod {
+    width: 32% !important;
+  }
+
   #redesbuttons {
     flex-direction: column;
     align-items: center;
@@ -1415,6 +1443,29 @@
 
   #textClas {
     font-size: 10px;
+  }
+}
+/*race medias*/
+@media screen and (max-width: 990px) {
+  #divNav {
+    visibility: visible;
+  }
+
+  #boletLil {
+    display: none;
+  }
+
+  #officialHour {
+    display: none;
+  }
+
+  #titlePub {
+    width: 100% !important;
+    margin: auto;
+  }
+  #titlePub #pub {
+    width: 80% !important;
+    margin: auto;
   }
 }
 

@@ -61,6 +61,94 @@
                             </p>
                         </div>
                 <div id="racesTod" class="flex justify-between items-center">
+                <div id="swipRace">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="racetod flex flex-col justify-around" style="background-image:url(img/race/fondo1.png)">
+                            <div class="raceTitle flex justify-center items-center mx-auto">
+                                <p class="text-white text-center">La isla del diablo azul</p>
+                            </div>
+                            <div class="statusAndHour flex flex-col justify-center items-center mx-auto uppercase">
+                                <div class="status text-white">
+                                    <p><span>.</span>Live</p>
+                                </div>
+                                <div class="hourst flex justify-center items-center">
+                                    <img src="../img/race/reloj.png" alt="">
+                                    <p>00:00:49</p>
+                                </div>
+                            </div>
+                            <div class="rewardst text-center mx-auto">
+                                <p class="text-white">Premio</p>
+                                <p class="uppercase">20 gemas</p>
+                            </div>
+                            <div class="buttonAndDate">
+                                <a href="" class="buttonst"><img class="" src="../img/race/jugar.png" alt=""></a>
+                                <div class="datest flex justify-center items-center">
+                                    <img src="../img/race/calendario.png" alt="">
+                                    <p>20/08/21</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <div class="racetod flex flex-col justify-around" style="background-image:url(img/race/fondo2.png)">
+                            <div class="raceTitle flex justify-center items-center mx-auto">
+                                <p class="text-white text-center">La isla del diablo azul</p>
+                            </div>
+                            <div class="statusAndHour flex flex-col justify-center items-center mx-auto uppercase">
+                                <div class="status text-white">
+                                    <p><span>.</span>Live</p>
+                                </div>
+                                <div class="hourst flex justify-center items-center">
+                                    <img src="../img/race/reloj.png" alt="">
+                                    <p>00:00:49</p>
+                                </div>
+                            </div>
+                            <div class="rewardst text-center mx-auto">
+                                <p class="text-white">Premio</p>
+                                <p class="uppercase">20 gemas</p>
+                            </div>
+                            <div class="buttonAndDate">
+                                <a href="" class="buttonst"><img class="" src="../img/race/jugar.png" alt=""></a>
+                                <div class="datest flex justify-center items-center">
+                                    <img src="../img/race/calendario.png" alt="">
+                                    <p>20/08/21</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <div class="racetod flex flex-col justify-around" style="background-image:url(img/race/fondo3.png)">
+                            <div class="raceTitle flex justify-center items-center mx-auto">
+                                <p class="text-white text-center">La isla del diablo azul</p>
+                            </div>
+                            <div class="statusAndHour flex flex-col justify-center items-center mx-auto uppercase">
+                                <div class="status text-white">
+                                    <p><span>.</span>Live</p>
+                                </div>
+                                <div class="hourst flex justify-center items-center">
+                                    <img src="../img/race/reloj.png" alt="">
+                                    <p>00:00:49</p>
+                                </div>
+                            </div>
+                            <div class="rewardst text-center mx-auto">
+                                <p class="text-white">Premio</p>
+                                <p class="uppercase">20 gemas</p>
+                            </div>
+                            <div class="buttonAndDate">
+                                <a href="" class="buttonst"><img class="" src="../img/race/jugar.png" alt=""></a>
+                                <div class="datest flex justify-center items-center">
+                                    <img src="../img/race/calendario.png" alt="">
+                                    <p>20/08/21</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                </div>
+            </div>
                     <div class="racetod flex flex-col justify-around" style="background-image:url(img/race/fondo1.png)">
                         <div class="raceTitle flex justify-center items-center mx-auto">
                             <p class="text-white text-center">La isla del diablo azul</p>
