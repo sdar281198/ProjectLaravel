@@ -136,6 +136,17 @@
   }
 }
 @media screen and (max-width: 541px) {
+  #acertijoTime {
+    width: 30% !important;
+  }
+
+  #allraces #allracestitle {
+    font-size: 1.5rem !important;
+  }
+  #allraces #racesTable {
+    font-size: 7px !important;
+  }
+
   #acertijotext {
     width: 85% !important;
   }
@@ -161,11 +172,6 @@
   #textandline p {
     font-size: 38%;
     font-weight: bold;
-  }
-}
-@media screen and (max-width: 541px) {
-  #acertijoTime {
-    width: 30% !important;
   }
 }
 @media screen and (max-width: 450px) {
@@ -894,6 +900,10 @@
   }
 }
 @media screen and (max-width: 620px) {
+  #racesTable table .trRaces td:last-child a img {
+    width: 100% !important;
+  }
+
   #completedContent p:nth-child(3) {
     font-size: 6px !important;
   }
@@ -934,6 +944,10 @@
 @media screen and (max-width: 790px) {
   .racetod {
     display: none !important;
+  }
+
+  #pubText p:nth-child(2) {
+    width: 70% !important;
   }
 
   #racesTod #swipRace {
@@ -990,6 +1004,10 @@
   }
 }
 @media screen and (max-width: 460px) {
+  #racesTod #swipRace .swiper-slide .racetod {
+    width: 85% !important;
+  }
+
   #competitors .competitor .modesimg:first-child {
     margin-top: 30%;
   }

@@ -73,6 +73,14 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
     font-family: $latUltHeav;
     text-shadow: $sombrasLetras;
 }
+.swiper-pagination-bullet-active{
+    background: $backYellow1!important;
+    background: $backYellow2!important;
+}
+.swiper-button-next, .swiper-button-prev{
+    color: $backYellow1!important;
+    color: $backYellow2!important;
+}
 .body::after{
     content: "";
     position: fixed;
@@ -3140,6 +3148,7 @@ textarea{
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 950;
     cursor: grab;
     .divnav-content{
         display: flex;

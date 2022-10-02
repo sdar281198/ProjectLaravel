@@ -57,6 +57,16 @@
   text-shadow: 0px 0 0 #dd8f4a, 0px 0 0 #d68a35, 0 0px 0 #7c6734, 0 0px 0 #f4c965, 2px 1px #e0a85a, -1px -1px 0 #efa641, 1px -1px 0 #b3863a, -1px 1px 0 #bd813f;
 }
 
+.swiper-pagination-bullet-active {
+  background: rgb(250, 205, 103) !important;
+  background: linear-gradient(90deg, rgb(250, 205, 103) 0%, rgb(254, 166, 53) 60%) !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: rgb(250, 205, 103) !important;
+  color: linear-gradient(90deg, rgb(250, 205, 103) 0%, rgb(254, 166, 53) 60%) !important;
+}
+
 .body::after {
   content: "";
   position: fixed;
@@ -2881,6 +2891,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 950;
   cursor: grab;
 }
 #divNav .divnav-content {

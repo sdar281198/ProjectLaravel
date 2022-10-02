@@ -145,6 +145,17 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:541px){
+    #acertijoTime{
+        width: 30%!important;
+    }
+    #allraces{
+        #allracestitle{
+            font-size: 1.5rem!important;
+        }
+        #racesTable{
+            font-size: 7px!important;
+        }
+    }
     #acertijotext{
         width: 85%!important;
     }
@@ -173,11 +184,6 @@ $latBold : 'latina bold';
         font-weight: bold;
     }
 }
-}
-@media screen and (max-width:541px){
-    #acertijoTime{
-        width: 30%!important;
-    }
 }
 @media screen and (max-width:450px){
     .raceTitle{
@@ -1013,13 +1019,20 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:620px) {
+    #racesTable{
+        table{
+            .trRaces{
+                td:last-child{
+                    a{
+                        img{
+                            width: 100%!important;
+                        }
+                    }
+                }
+            }
+        }
+    }
     #completedContent{
-        // p:first-child{
-        //     font-size: 20px!important;
-        // }
-        // p:nth-child(2){
-        //     font-size: 15px!important;
-        // }
         p:nth-child(3){
             font-size: 6px!important;
         }
@@ -1068,6 +1081,11 @@ $latBold : 'latina bold';
 @media screen and (max-width:790px) {
     .racetod{
         display: none!important;
+    }
+    #pubText{
+        p:nth-child(2){
+            width: 70%!important;
+        }
     }
     #racesTod{
         #swipRace{
@@ -1124,6 +1142,15 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:460px){
+    #racesTod{
+        #swipRace{
+            .swiper-slide{
+                .racetod{
+                    width: 85%!important;
+                }
+            }
+        }
+    }
     #competitors{
         .competitor{
             .modesimg:first-child{
