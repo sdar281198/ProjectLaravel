@@ -3,7 +3,7 @@
 <x-nav/>
     <div class="mt-10">
         <p class="container text-center text-white text-3xl font-bold" id="titreg">Crear cuenta</p>
-        <p class="container text-white text-center mt-4" id="textreg">Te enviaremos un enlace de verificación.<br>Ingresa a tu correo para completar el registro.</p>
+        <p class="container text-white text-center mt-4 mx-auto" id="textreg">Te enviaremos un enlace de verificación.<br>Ingresa a tu correo para completar el registro.</p>
     </div>
         <div id="registerdiv" class="mx-auto mt-5" id="register">
             <form id="form" class="mx-auto flex flex-col" action="">
@@ -44,7 +44,7 @@
                     <i class="formulario__validacion-estado fas fa-times-circle"></i>
                     <p class="formulario__input-error">Ambas contraseñas deben ser iguales.</p>
                 </div>
-                <div id="grupo__terminos" class="text-white mb-5">
+                <div id="grupo__terminos" class="text-white mb-5 flex">
                     <label for="checkbox"></label>
                     <input class="rounded" type="checkbox" name="terminos" value="first_checkbox" id="terminos">Acepto los terminos y condiciones
                 </div>

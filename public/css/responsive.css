@@ -406,6 +406,10 @@
   }
 }
 @media screen and (max-width: 420px) {
+  #textreg {
+    width: 90% !important;
+  }
+
   #mail p:first-child {
     font-size: 1.5rem !important;
   }
