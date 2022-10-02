@@ -132,7 +132,7 @@ $latBold : 'latina bold';
     }
     #termsTitle{
         p{
-            font-size: 1rem!important;
+            font-size: 2rem!important;
         }
     }
 }
@@ -1039,7 +1039,7 @@ $latBold : 'latina bold';
     }
     #termsTitle{
         p{
-            font-size: 0.7rem!important;
+            font-size: 1.7rem!important;
         }
     }
     #termsText{
@@ -1079,6 +1079,11 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:790px) {
+    #termsText{
+        width: 85%!important;
+        p{
+        }
+    }
     .racetod{
         display: none!important;
     }
