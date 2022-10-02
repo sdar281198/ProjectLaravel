@@ -949,6 +949,9 @@ textarea{
             #userAndName{
                 width: 90%;
                 display: none;
+                #downarrow{
+                    z-index: 951;
+                }
             }
             #schoolpicandname{
                 width: 90%;

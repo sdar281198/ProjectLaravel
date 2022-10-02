@@ -861,6 +861,9 @@ textarea {
   width: 90%;
   display: none;
 }
+#maininter #schoolAndRanking #school #userAndName #downarrow {
+  z-index: 951;
+}
 #maininter #schoolAndRanking #school #schoolpicandname {
   width: 90%;
   height: 25%;
