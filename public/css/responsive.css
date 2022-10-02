@@ -1465,6 +1465,14 @@
 }
 /*race medias*/
 @media screen and (max-width: 990px) {
+  .noth {
+    display: none !important;
+  }
+
+  #pub {
+    width: 80% !important;
+  }
+
   #divNav {
     visibility: visible;
   }
