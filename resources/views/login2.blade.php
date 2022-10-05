@@ -12,9 +12,10 @@
             <i class="symbol fa fa-user text-primarycolor text-xl"></i>
             <input type="text" placeholder="Usuario/Email" class="p-2 outline-none rounded text-center">
         </div>
-        <div class="loginin mt-8">
+        <div id="loginpass" class="loginin mt-8">
             <i class="symbol fa fa-lock text-primarycolor text-xl"></i>
-            <input type="password" placeholder="contraseña" class="p-2 outline-none rounded text-center">
+            <span class="show-btn"><i id="eye" class="fa-solid fa-eye text-white text-xl cursor-pointer"></i></span>
+            <input id="loginpassinput" type="password" placeholder="contraseña" class="p-2 outline-none rounded text-center" required>
         </div>
         <button href="#" id="loginboton" class="p-2 rounded-xl font-bold uppercase text-lg mt-4 transform hover:translate-y-1 transition-all duration-500">
             <img src="../img/landing/BOTON INICIAR SESION-07.png" alt="">

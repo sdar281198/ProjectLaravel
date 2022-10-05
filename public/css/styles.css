@@ -366,6 +366,7 @@
   opacity: 0;
   visibility: hidden;
   text-align: center;
+  overflow: auto;
 }
 #raceSectionAndfaq #races .race .capa p:first-child {
   font-family: "Latina ultra heavy";
@@ -375,6 +376,7 @@
   color: #f7c603;
   width: 90%;
   font-family: "Latina bold";
+  font-size: 0.9rem;
 }
 #raceSectionAndfaq #races .race:hover .raceelements {
   display: none;
@@ -384,16 +386,16 @@
   visibility: visible;
 }
 #raceSectionAndfaq #races .race:hover .capa p:first-child {
-  margin-top: 15%;
+  margin-top: 10%;
   margin-bottom: 5%;
 }
 #raceSectionAndfaq #races .race:hover img {
   transform: scale(1.3);
 }
 #raceSectionAndfaq #races .race .capa p:first-child {
-  margin-bottom: 120px;
+  margin-bottom: 30%;
   transition: all 400ms ease-out;
-  margin-top: 30px;
+  margin-top: 25%;
 }
 #raceSectionAndfaq .raceTitle {
   font-family: "Latina ultra heavy";
@@ -679,18 +681,29 @@ textarea {
 }
 #mainlog #login #formlog .loginin {
   display: flex;
-  justify-content: center;
   width: 40%;
   position: relative;
 }
 #mainlog #login #formlog .loginin input {
   width: 100%;
 }
-#mainlog #login #formlog .loginin i {
+#mainlog #login #formlog .loginin i:first-child {
   position: absolute;
-  top: 30%;
-  left: 2%;
+  transform: translateX(-50%);
+  left: 5%;
   color: #fff;
+}
+#mainlog #login #formlog #loginpass span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 5%;
+}
+#mainlog #login #formlog #loginpass span i.hide-btn::before {
+  content: "\f070";
 }
 
 #logolog {
@@ -1218,6 +1231,7 @@ textarea {
 }
 .containerdate .buttons {
   width: 2rem;
+  z-index: 949;
   cursor: pointer;
 }
 .containerdate .buttons i {
@@ -2889,10 +2903,10 @@ textarea {
 /*toggle*/
 #divNav {
   visibility: hidden;
-  top: 15%;
+  top: 35%;
   right: 0;
-  width: 80px;
-  height: 300px;
+  width: 20%;
+  height: 10%;
   display: flex;
   align-items: center;
   justify-content: center;

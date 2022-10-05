@@ -4,6 +4,13 @@
   }
 }
 @media screen and (max-width: 1100px) {
+  .capa p:first-child {
+    font-size: 2rem !important;
+  }
+  .capa p:nth-child(2) {
+    font-size: 1.3rem !important;
+  }
+
   #mainmail {
     overflow: auto !important;
   }
@@ -299,6 +306,13 @@
   }
 }
 @media screen and (max-width: 760px) {
+  .capa p:first-child {
+    font-size: 1.5rem !important;
+  }
+  .capa p:nth-child(2) {
+    font-size: 0.9rem !important;
+  }
+
   #formlog .loginin {
     width: 95% !important;
   }
@@ -1146,6 +1160,13 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .capa p:first-child {
+    font-size: 1rem !important;
+  }
+  .capa p:nth-child(2) {
+    font-size: 0.6rem !important;
+  }
+
   #formDivBokk #twoRadios {
     flex-direction: column !important;
   }

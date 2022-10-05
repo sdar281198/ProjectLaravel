@@ -403,6 +403,7 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
                 opacity: 0;
                 visibility: hidden;
                 text-align: center;
+                overflow: auto;
                 p:first-child{
                     font-family: $latUltHeav;
                     font-size: 1.5rem;
@@ -410,35 +411,11 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
                 p:nth-child(2){
                     color: #f7c603;
                     width: 90%;
-                    font-family: $latBold
+                    font-family: $latBold;
+                    font-size: 0.9rem;
                 }
             }
         }
-        // .race::after{
-        //     position: absolute;
-        //     width: 100%;
-        //     height: 100%;
-        //     top: 0;
-        //     left: 0;
-        //     border: 0.5rem solid;
-        //     border-image: -webkit-gradient(
-        //         linear,
-        //         right bottom,
-        //         left top,
-        //         from(#7e5023),
-        //         to(#dcae19)
-        //     );
-        //     border-image: linear-gradient(right,
-        //     #7e5023,
-        //     #dcae19);
-        //     border-image-slice:1;
-        //     content: '';
-        //     box-sizing: border-box;
-        //     // border-radius: 40rem;
-        //     // border-style: solid;
-        //     // border-width: 0.5rem;
-        //     // overflow: hidden;
-        // }
         .race:hover .raceelements{
             display: none;
         }
@@ -447,7 +424,7 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
             visibility: visible;
         }
         .race:hover .capa p:first-child{
-            margin-top: 15%;
+            margin-top: 10%;
             margin-bottom: 5%;
         }
         .race:hover img{
@@ -455,9 +432,9 @@ $backBrowgrad2: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%
             // transition: all 400ms ease-out;
         }
         .race .capa p:first-child{
-            margin-bottom: 120px;
+            margin-bottom:30%;
             transition: all 400ms ease-out;
-            margin-top: 30px;
+            margin-top: 25%;
         }
     }
     .raceTitle{
@@ -774,17 +751,33 @@ textarea{
             width: 100%;
             .loginin{
                 display: flex;
-                justify-content: center;
                 width: 40%;
                 position: relative;
                 input{
                     width: 100%;
                 }
-                i{
+                // i{
+                //     position: absolute;
+                // }
+                i:first-child{
                     position: absolute;
-                    top: 30%;
-                    left: 2%;
+                    transform: translateX(-50%);
+                    left: 5%;
                     color: $white;
+                }
+            }
+            #loginpass{
+                span{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    transform: translateY(-50%);
+                    top:50%; 
+                    right:5%;                
+                }
+                span i.hide-btn::before {
+                    content: "\f070";
                 }
             }
         }
@@ -1322,6 +1315,7 @@ textarea{
     height: 100%;
     .buttons{
         width: 2rem;
+        z-index: 949;
         i{
             font-size: 2rem;
             color: #66421b;
@@ -3146,10 +3140,10 @@ textarea{
 /*toggle*/
 #divNav{
     visibility: hidden;
-    top: 15%;
+    top: 35%;
     right: 0;
-    width: 80px;
-    height: 300px;
+    width: 20%;
+    height: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
