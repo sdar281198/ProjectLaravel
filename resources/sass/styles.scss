@@ -2502,17 +2502,18 @@ textarea{
             #pubelements{
                 width: 85%;
                 height: 20%;
-                // .noth:first-child{
-                //     margin-left: 5%;
-                // }
                 .noth{
                     width: 25%;
                 }
-                width: 85%;
                 #pub{
-                    width: 45%;
-                    background: $white;
+                    width: 50%;
                     height: 50%;
+                    #pubT{
+                        width: 100%;
+                        height: 100%;
+                        background-color: $white;
+                        // margin-right: -19px;
+                    }
                 }
             }
             #racesTable{

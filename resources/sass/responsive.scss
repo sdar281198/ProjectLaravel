@@ -1686,6 +1686,9 @@ $latBold : 'latina bold';
     }
     #pub{
         width: 80%!important;
+        margin: auto!important;
+        #pubT{
+        }
     }
     #divNav{
         visibility: visible;

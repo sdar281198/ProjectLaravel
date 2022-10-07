@@ -1499,8 +1499,8 @@
 
   #pub {
     width: 80% !important;
+    margin: auto !important;
   }
-
   #divNav {
     visibility: visible;
   }

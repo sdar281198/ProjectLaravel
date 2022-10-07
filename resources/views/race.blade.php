@@ -229,13 +229,13 @@
                     </div>
                 </div>
             </div>
-            <div id="allraces">
-                <div id="pubelements" class="mx-auto flex">
-                    <div class="noth"></div>
-                    <div id="pub" class="mx-auto my-auto">
-
+            <div id="allraces" class="flex flex-col justify-around items-center">
+                <div id="pubelements" class="flex">
+                    <!-- <div class="noth"></div> -->
+                    <div id="pub" class="mx-auto">
+                        <div id="pubT" class="mx-auto"></div>
                     </div>
-                    <div class="noth"></div>
+                    <!-- <div class="noth"></div> -->
                 </div>
                 <div id="allracestitle">
                     <p class="text-white text-center uppercase">Todas las carreras</p>

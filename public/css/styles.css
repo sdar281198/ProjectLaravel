@@ -2339,15 +2339,18 @@ textarea {
 #mainrace #raceContent #allraces #pubelements {
   width: 85%;
   height: 20%;
-  width: 85%;
 }
 #mainrace #raceContent #allraces #pubelements .noth {
   width: 25%;
 }
 #mainrace #raceContent #allraces #pubelements #pub {
-  width: 45%;
-  background: #fff;
+  width: 50%;
   height: 50%;
+}
+#mainrace #raceContent #allraces #pubelements #pub #pubT {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
 }
 #mainrace #raceContent #allraces #racesTable {
   width: 85%;
