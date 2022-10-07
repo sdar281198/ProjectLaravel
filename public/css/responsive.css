@@ -655,6 +655,10 @@
   }
 }
 @media screen and (max-width: 1430px) {
+  .capa {
+    overflow: auto !important;
+  }
+
   #acertijotext p:first-child {
     font-size: 1.8rem;
   }
@@ -1025,8 +1029,17 @@
   }
 }
 @media screen and (max-width: 460px) {
+  #racesTod #swipRace .swiperButts::after {
+    font-size: 1.5rem !important;
+  }
   #racesTod #swipRace .swiper-slide .racetod {
     width: 85% !important;
+  }
+  #racesTod #swipRace .swiperButtonraceNext {
+    right: -5px;
+  }
+  #racesTod #swipRace .swiperButtonracePrev {
+    left: -5px;
   }
 
   #competitors .competitor .modesimg:first-child {

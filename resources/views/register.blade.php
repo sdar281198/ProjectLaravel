@@ -1,6 +1,8 @@
 <x-head/>
-<div id="mainreg" class="flex flex-col items-center">
-<x-nav/>
+<div id="maininter" class="">
+    <header id="headerinter" class="flex justify-center">
+        <x-nav/>
+    </header>
     <div class="mt-10">
         <p class="container text-center text-white text-3xl font-bold" id="titreg">Crear cuenta</p>
         <p class="container text-white text-center mt-4 mx-auto" id="textreg">Te enviaremos un enlace de verificación.<br>Ingresa a tu correo para completar el registro.</p>

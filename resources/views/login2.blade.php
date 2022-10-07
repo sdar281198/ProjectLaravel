@@ -1,7 +1,6 @@
-    <!--  -->
     <x-head/>
     <div id="mainlog">
-    <header id="headerLog" class="flex justify-center">
+    <header class="flex justify-center">
     <x-nav/>
     </header>
     <div id="login" class="mt-20">

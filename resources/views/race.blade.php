@@ -149,6 +149,8 @@
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
+                <div class="swiper-button-next swiperButtonraceNext swiperButts"></div>
+                <div class="swiper-button-prev swiperButtonracePrev swiperButts"></div>
                 </div>
             </div>
                     <div class="racetod flex flex-col justify-around" style="background-image:url(img/race/fondo1.png)">
