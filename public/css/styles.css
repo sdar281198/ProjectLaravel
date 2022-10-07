@@ -2203,6 +2203,7 @@ textarea {
 }
 #mainrace #raceContent #raceElements #raceGames #titlePub #title p {
   font-size: 2rem;
+  margin-top: -3.5px;
 }
 #mainrace #raceContent #raceElements #raceGames #titlePub #pub {
   width: 100%;
@@ -2212,6 +2213,7 @@ textarea {
 #mainrace #raceContent #raceElements #raceGames #officialHour {
   width: 25%;
   height: 20%;
+  margin-top: -1px;
 }
 #mainrace #raceContent #raceElements #raceGames #officialHour p {
   font-family: "Digital";
@@ -2262,19 +2264,30 @@ textarea {
   width: 60%;
   height: 10%;
 }
+#mainrace #raceContent #raceElements #racesTod .racetod .statusAndHour .statuss {
+  width: 30%;
+  font-family: "Latina ultra heavy";
+  font-weight: bold;
+  font-size: 0.7rem;
+  text-align: center;
+  border-radius: 0.2rem;
+}
 #mainrace #raceContent #raceElements #racesTod .racetod .statusAndHour .status {
   background: #ff4040;
-  padding: 0.2rem;
-  font-family: "Latina bold";
+}
+#mainrace #raceContent #raceElements #racesTod .racetod .statusAndHour .status i {
+  font-size: 7px;
 }
 #mainrace #raceContent #raceElements #racesTod .racetod .statusAndHour .statusY {
   background: #feca00;
-  font-family: "Latina bold";
 }
 #mainrace #raceContent #raceElements #racesTod .racetod .statusAndHour .hourst {
   width: 30%;
   font-family: "Digital";
+  font-weight: bold;
+  font-size: 1.5rem;
   color: #fac805;
+  margin-left: -1rem;
 }
 #mainrace #raceContent #raceElements #racesTod .racetod .statusAndHour .hourst img {
   width: 80%;
@@ -2283,8 +2296,13 @@ textarea {
   width: 60%;
   height: 10%;
 }
+#mainrace #raceContent #raceElements #racesTod .racetod .rewardst p:first-child {
+  font-family: "Latina bold";
+}
 #mainrace #raceContent #raceElements #racesTod .racetod .rewardst p:nth-child(2) {
   color: #fac805;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 #mainrace #raceContent #raceElements #racesTod .racetod .buttonAndDate {
   width: 100%;

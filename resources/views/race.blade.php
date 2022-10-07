@@ -70,14 +70,16 @@
                                 <p class="text-white text-center">La isla del diablo azul</p>
                             </div>
                             <div class="statusAndHour flex flex-col justify-center items-center mx-auto uppercase">
-                                <div class="status text-white">
-                                    <p><span>.</span>Live</p>
+                                <div class="status text-white statuss flex justify-around items-center">
+                                    <span class="flex"><i class="fa-solid fa-circle"></i></span>
+                                    <p>Live</p>
                                 </div>
                                 <div class="hourst flex justify-center items-center">
                                     <img src="../img/race/reloj.png" alt="">
                                     <p>00:00:49</p>
                                 </div>
                             </div>
+                            
                             <div class="rewardst text-center mx-auto">
                                 <p class="text-white">Premio</p>
                                 <p class="uppercase">20 gemas</p>
@@ -96,9 +98,9 @@
                             <div class="raceTitle flex justify-center items-center mx-auto">
                                 <p class="text-white text-center">La isla del diablo azul</p>
                             </div>
-                            <div class="statusAndHour flex flex-col justify-center items-center mx-auto uppercase">
-                                <div class="status text-white">
-                                    <p><span>.</span>Live</p>
+                            <div class="statusAndHour flex flex-col justify-center items-center mx-auto">
+                                <div class="statusY uppercase text-black statuss">
+                                    <p>Inicio</p>
                                 </div>
                                 <div class="hourst flex justify-center items-center">
                                     <img src="../img/race/reloj.png" alt="">
@@ -123,9 +125,9 @@
                             <div class="raceTitle flex justify-center items-center mx-auto">
                                 <p class="text-white text-center">La isla del diablo azul</p>
                             </div>
-                            <div class="statusAndHour flex flex-col justify-center items-center mx-auto uppercase">
-                                <div class="status text-white">
-                                    <p><span>.</span>Live</p>
+                            <div class="statusAndHour flex flex-col justify-center items-center mx-auto">
+                                <div class="statusY uppercase text-black statuss">
+                                    <p>Inicio</p>
                                 </div>
                                 <div class="hourst flex justify-center items-center">
                                     <img src="../img/race/reloj.png" alt="">
@@ -154,8 +156,9 @@
                             <p class="text-white text-center">La isla del diablo azul</p>
                         </div>
                         <div class="statusAndHour flex flex-col justify-center items-center mx-auto uppercase">
-                            <div class="status text-white">
-                                <p><span>.</span>Live</p>
+                            <div class="status text-white statuss flex justify-around items-center">
+                                <span class="flex"><i class="fa-solid fa-circle"></i></span>
+                                <p>Live</p>
                             </div>
                             <div class="hourst flex justify-center items-center">
                                 <img src="../img/race/reloj.png" alt="">
@@ -179,7 +182,7 @@
                             <p class="text-white text-center">La isla del diablo azul</p>
                         </div>
                         <div class="statusAndHour flex flex-col justify-center items-center mx-auto">
-                            <div class="statusY uppercase text-black">
+                            <div class="statusY uppercase text-black statuss">
                                 <p>Inicio</p>
                             </div>
                             <div class="hourst flex justify-center items-center">
@@ -204,7 +207,7 @@
                             <p class="text-white text-center">La isla del diablo azul</p>
                         </div>
                         <div class="statusAndHour flex flex-col justify-center items-center mx-auto">
-                            <div class="statusY uppercase text-black">
+                            <div class="statusY uppercase text-black statuss">
                                 <p>Inicio</p>
                             </div>
                             <div class="hourst flex justify-center items-center">

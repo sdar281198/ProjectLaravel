@@ -2358,6 +2358,7 @@ textarea{
                 #title{
                     p{
                         font-size: 2rem;
+                        margin-top: -3.5px;
                     }
                 }
                 #pub{
@@ -2369,6 +2370,7 @@ textarea{
             #officialHour{
                 width: 25%;
                 height: 20%;
+                margin-top: -1px;
                 p{
                     font-family: $digital
                 }
@@ -2422,19 +2424,30 @@ textarea{
                 .statusAndHour{
                     width: 60%;
                     height: 10%;
+                    .statuss{
+                        width: 30%;
+                        font-family: $latUltHeav;
+                        font-weight: bold;
+                        font-size: 0.7rem;
+                        text-align: center;
+                        border-radius: 0.2rem;
+                    }
                     .status{
                         background: #ff4040;
-                        padding: 0.2rem;
-                        font-family: $latBold;
+                        i{
+                            font-size: 7px;
+                        }
                     }
                     .statusY{
                         background: #feca00;
-                        font-family: $latBold;
                     }
                     .hourst{
                         width: 30%;
                         font-family: $digital;
+                        font-weight: bold;
+                        font-size: 1.5rem;
                         color: #fac805;
+                        margin-left: -1rem;
                         img{
                             width: 80%;
                         }
@@ -2443,8 +2456,13 @@ textarea{
                 .rewardst{
                     width: 60%;
                     height: 10%;
+                    p:first-child{
+                        font-family: $latBold;
+                    }
                     p:nth-child(2){
                         color: #fac805;
+                        font-weight: bold;
+                        font-size: 1.5rem;
                     }
                 }
                 .buttonAndDate{
