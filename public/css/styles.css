@@ -2170,6 +2170,7 @@ textarea {
   border: 2px solid #ce7318;
   background: rgb(28, 25, 1);
   background: linear-gradient(180deg, rgb(28, 25, 1) 0%, rgb(60, 44, 10) 50%);
+  margin-top: -0.6rem;
 }
 #mainrace #raceContent #raceElements #raceGames #boletLil .boletEl:first-child span {
   color: #f7c603;

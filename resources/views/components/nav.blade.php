@@ -6,9 +6,9 @@
             </a>
         </div>
         <ul class="flex justify-between grow">
-            <li class="flex grow text-center uppercase"><a href="./interescolar" class="flex justify-center grow shadowspecial">Interescolar</a></li>
-            <li class="flex grow text-center uppercase"><a href="/race" class="flex justify-center grow shadowspecial">Race</a></li>
-            <li class="flex grow text-center uppercase"><a href="/clasico" class="flex justify-center grow shadowspecial">Clásico</a></li>
+            <li class="flex grow text-center uppercase cursor-pointer"><a href="./interescolar" class="flex justify-center grow shadowspecial cursor-pointer">Interescolar</a></li>
+            <li class="flex grow text-center uppercase cursor-pointer"><a href="/race" class="flex justify-center grow shadowspecial cursor-pointer">Race</a></li>
+            <li class="flex grow text-center uppercase cursor-pointer"><a href="/clasico" class="flex justify-center grow shadowspecial cursor-pointer">Clásico</a></li>
         </ul>
         <div id="buttons" class="flex grow">
             <li class="button-img list-none"><a href="./register" class="flex justify-end"><img src="../img/landing/registrar.png" alt=""></a></li>
