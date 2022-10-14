@@ -128,13 +128,13 @@
                     <div id="line"></div>
                 </div>
                 <div id="faqs" class="mx-auto">
-                <div class="accordionfaq text-white" id="question1">
-                        <a class="accordion-link text-white" href="#question1">
+                    <div class="accordionfaq text-white accordfaq">
+                        <div class="accordion-link text-white accordion">
                             ¿Que es the online race?
-                            <i class="fa-solid fa-plus text-white"></i>
-                            <i class="fa-solid fa-minus text-white"></i>
-                        </a>
-                        <div class="answer">
+                            <i class="fa-solid fa-plus text-white imas"></i>
+                            <i class="fa-solid fa-minus text-white imenos"></i>
+                        </div>
+                        <div class="answer answerrespT">
                             <p>
                             Es una plataforma educativa que ofrece competencias basadas en el aprendizaje a través de la metodología ABJ (aprendizaje basado en juegos). --> éste es en realidad el término correcto
                             Nuestras carreras potencian el desarrollo de habilidades como el trabajo en equipo, liderazgo, análisis matemático, razonamiento verbal, compromiso, resistencia, sociabilidad, entre otros.
@@ -148,49 +148,49 @@
                             </p>
                         </div>
                     </div>
-                    <div class="accordionfaq text-white" id="question2">
-                        <a class="accordion-link text-white" href="#question2">
+                    <div class="accordionfaq text-white accordfaq">
+                        <a class="accordion-link text-white accordion">
                             Tengo problemas para acceder a mi cuenta
-                            <i class="fa-solid fa-plus text-white"></i>
-                            <i class="fa-solid fa-minus text-white"></i>
+                            <i class="fa-solid fa-plus text-white imas"></i>
+                            <i class="fa-solid fa-minus text-white imenos"></i>
                         </a>
-                        <div class="answer">
+                        <div class="answer answerrespT">
                             <p>
                             Si tienes problemas para acceder a tu cuenta escríbenos a <span class="underline">soporte@theonlinerace.com</span>
                             </p>
                         </div>
                     </div>
-                    <div class="accordionfaq text-white" id="question3">
-                        <a class="accordion-link text-white" href="#question3">
+                    <div class="accordionfaq text-white">
+                        <a class="accordion-link text-white">
                             No puedo resolver un acertijo
-                            <i class="fa-solid fa-plus text-white"></i>
-                            <i class="fa-solid fa-minus text-white"></i>
+                            <i class="fa-solid fa-plus text-white imas"></i>
+                            <i class="fa-solid fa-minus text-white imenos"></i>
                         </a>
-                        <div class="answer">
+                        <div class="answer answerrespT">
                             <p>
                             Descubre cómo resolver un acertijo en <a href="#" class="underline">¿Como jugar?</a>
                             </p>
                         </div>
                     </div>
-                    <div class="accordionfaq text-white" id="question4">
-                        <a class="accordion-link text-white" href="#question4">
+                    <div class="accordionfaq text-white">
+                        <a class="accordion-link text-white">
                             ¿Como puedo inscribir a mi colegio?
-                            <i class="fa-solid fa-plus text-white"></i>
-                            <i class="fa-solid fa-minus text-white"></i>
+                            <i class="fa-solid fa-plus text-white imas"></i>
+                            <i class="fa-solid fa-minus text-white imenos"></i>
                         </a>
-                        <div class="answer">
+                        <div class="answer answerrespT">
                              <p>
                              Si quieres participar con tu colegio escríbenos a <span class="underline">comercial@theonlinerace.com</span>.
                             </p>
                         </div>
                     </div>
-                    <div class="accordionfaq text-white" id="question5">
-                        <a class="accordion-link text-white" href="#question5">
+                    <div class="accordionfaq text-white">
+                        <a class="accordion-link text-white">
                             ¿The online race es un juego gratuito?
-                            <i class="fa-solid fa-plus text-white"></i>
-                            <i class="fa-solid fa-minus text-white"></i>
+                            <i class="fa-solid fa-plus text-white imas"></i>
+                            <i class="fa-solid fa-minus text-white imenos"></i>
                         </a>
-                        <div class="answer">
+                        <div class="answer answerrespT">
                             <div class="flex flex-col">
                                 <p>
                                 Sí, The Online Race cuenta con distintas modalidades gratuitas que podrás disfrutar solo y 
@@ -207,4 +207,5 @@
             </div>
         </div>
         <script src="{{ config('app.url').'/js/backslider.js' }}" defer></script>
+        <script src="{{ config('app.url').'/js/faqs.js' }}" defer></script>
   <x-footer/>

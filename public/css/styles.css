@@ -497,6 +497,18 @@
   display: block;
 }
 
+.answerresp {
+  max-height: 20rem !important;
+}
+
+.noneans {
+  display: none !important;
+}
+
+.blockansw {
+  display: block !important;
+}
+
 #announce2 {
   background-color: #fff;
   width: 40%;
