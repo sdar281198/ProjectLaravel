@@ -13,18 +13,20 @@
                 <div id="riddleTitle">
                     <p class="text-center uppercase text-white">ACERTIJO</p>
                 </div>
-                <p class="text-center text-white">
-                    Los destinos con los que soñaste esperan por ti. Ingresa a
-                    peru.travel/pe y revisa la sección de destinos en busca de
-                    sus hermosos valles. ¿Listo? Tendrás que guardar el
-                    nombre de a quien llaman “imperio viviente” y acudir al
-                    que todo lo sabe en busca de su historia. Si seguiste mis
-                    indicaciones al pie de la letra, entre los resultados
-                    hallarás un enlace de redhistoria.com, tendrás que
-                    revisarlo para continuar. ¡No te pierdas en el texto! El
-                    nombre sin espacios de aquel a quien encuentras en el
-                    primer retrato te dejará avanzar.
-                </p>
+                <div id="riddleSentence">
+                    <p class="text-center text-white mx-auto">
+                        Los destinos con los que soñaste esperan por ti. Ingresa a
+                        peru.travel/pe y revisa la sección de destinos en busca de
+                        sus hermosos valles. ¿Listo? Tendrás que guardar el
+                        nombre de a quien llaman “imperio viviente” y acudir al
+                        que todo lo sabe en busca de su historia. Si seguiste mis
+                        indicaciones al pie de la letra, entre los resultados
+                        hallarás un enlace de redhistoria.com, tendrás que
+                        revisarlo para continuar. ¡No te pierdas en el texto! El
+                        nombre sin espacios de aquel a quien encuentras en el
+                        primer retrato te dejará avanzar.
+                    </p>
+                </div>
             </div>
             <div id="acertijoanswer" class="flex flex-col justify-center items-center">
                 <label for="answer"></label>
@@ -36,4 +38,5 @@
             </div>
         </div>
     </div>
+    <script src="{{ config('app.url').'/js/fail.js' }}" defer></script>
 <x-footer/>

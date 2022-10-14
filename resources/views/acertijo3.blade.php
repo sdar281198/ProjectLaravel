@@ -40,4 +40,5 @@
             </div>
         </div>
     </div>
+    <script src="{{ config('app.url').'/js/completed.js' }}" defer></script>
 <x-footer/>

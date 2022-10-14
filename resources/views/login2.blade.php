@@ -33,4 +33,5 @@
     </form>
     <div>
     </div>
+    <script src="{{ config('app.url').'/js/eye.js' }}" defer></script> 
     <x-footer/>

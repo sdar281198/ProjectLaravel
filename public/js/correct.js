@@ -1,6 +1,6 @@
 const correctOpen = document.getElementById('acertijobuttonCorrect');
 const correctClose = document.getElementById('correctClose');
-// const tapar = document.getElementById('body');
+const tapar = document.getElementById('body');
 const correctPop = document.getElementById('correctriddle');
 correctOpen.addEventListener('click', () => {
     correctPop.classList.add('fail-opened');

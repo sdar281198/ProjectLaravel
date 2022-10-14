@@ -388,4 +388,6 @@
             </div>
         </div>
     </div>
+    <script src="{{ config('app.url').'/js/backslider.js' }}" defer></script>
+    <script src="{{ config('app.url').'/js/toggle.js' }}" defer></script>
 <x-footer/>

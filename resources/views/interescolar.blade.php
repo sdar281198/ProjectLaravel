@@ -371,4 +371,8 @@
             </div>  
         </div>
     </div>
+    <script src="{{ config('app.url').'/js/userdata.js' }}" defer></script>
+    <script src="{{ config('app.url').'/js/toggle.js' }}" defer></script>
+    <script src="{{ config('app.url').'/js/pagination.js' }}" defer></script>
+    <script src="{{ config('app.url').'/js/ranking.js' }}" defer></script>
 <x-footer/>

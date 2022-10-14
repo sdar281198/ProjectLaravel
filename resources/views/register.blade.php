@@ -75,4 +75,5 @@
             </form>
         </div>
         </div>
+        <script src="{{config('app.url').'/js/formulario.js'}}" defer></script>
       <x-footer/>

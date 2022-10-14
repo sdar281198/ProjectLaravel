@@ -1,6 +1,6 @@
 const completedOpen = document.getElementById('acertijobuttoncompleted');
 const completedClose = document.getElementById('completedClose');
-// const tapar = document.getElementById('body');
+const tapar = document.getElementById('body');
 const completedPop = document.getElementById('completedriddle');
 completedOpen.addEventListener('click', () => {
     completedPop.classList.add('fail-opened');

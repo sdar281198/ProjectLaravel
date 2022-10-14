@@ -20,18 +20,6 @@
         </div>
     </footer>
 </main>
-<!--<script src="../assets/js/backslider.js"></script>-->
-<!-- <script src="public/js/formulario.js"></script>  -->
-<script src="{{ config('app.url').'/js/userdata.js' }}" defer></script>
-<script src="{{config('app.url').'/js/formulario.js'}}" defer></script>
-<script src="{{ config('app.url').'/js/backslider.js' }}" defer></script>
-<script src="{{ config('app.url').'/js/pagination.js' }}" defer></script>
-<script src="{{ config('app.url').'/js/ranking.js' }}" defer></script>
-<script src="{{ config('app.url').'/js/fail.js' }}" defer></script>
-<script src="{{ config('app.url').'/js/correct.js' }}" defer></script>
-<script src="{{ config('app.url').'/js/completed.js' }}" defer></script>
-<script src="{{ config('app.url').'/js/formPopUp.js' }}" defer></script>
-<script src="{{ config('app.url').'/js/toggle.js' }}" defer></script>
-<script src="{{ config('app.url').'/js/eye.js' }}" defer></script>
+<script src="{{ config('app.url').'/js/menuresp.js' }}" defer></script>
 </body>
 </html>

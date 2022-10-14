@@ -206,4 +206,5 @@
     
             </div>
         </div>
+        <script src="{{ config('app.url').'/js/backslider.js' }}" defer></script>
   <x-footer/>
