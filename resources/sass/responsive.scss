@@ -114,6 +114,17 @@ $latBold : 'latina bold';
     
 }
 @media screen and (max-width:841px){
+    #ennounce{
+        text-align: center!important;
+        p{
+            font-size: 1rem!important;
+        }
+    }
+    #ennounceButt{
+        button{
+            width: 40%!important;
+        }
+    }
     #contentfoot{
         justify-content: center;
         flex-direction: column;
@@ -195,6 +206,16 @@ $latBold : 'latina bold';
 }
 }
 @media screen and (max-width:450px){
+    #actFoot{
+        ul{
+            width: 50%!important;
+        }
+    }
+    #ennounceButt{
+        button{
+            width: 55%!important;
+        }
+    }
     .raceTitle{
         a,
         p{

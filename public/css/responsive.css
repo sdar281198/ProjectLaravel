@@ -10,6 +10,7 @@
   .capa p:nth-child(2) {
     font-size: 1.3rem !important;
   }
+
   #mainmail {
     overflow: auto !important;
   }
@@ -22,12 +23,15 @@
     width: 80%;
     margin-bottom: 1rem;
   }
+
   #logo #logo1 {
     width: 25%;
   }
+
   #maininter #buttons {
     display: flex !important;
   }
+
   #frase {
     justify-content: center;
     align-items: center;
@@ -46,6 +50,7 @@
   #frase div {
     justify-content: center;
   }
+
   #navsup #hambMenu {
     display: block;
   }
@@ -57,9 +62,11 @@
   #navsup ul {
     display: none;
   }
+
   #raceSectionAndfaq {
     height: auto;
   }
+
   #caracteristics {
     display: flex;
     flex-direction: column;
@@ -70,6 +77,7 @@
     width: 100%;
     border: 0px;
   }
+
   #races {
     width: 100% !important;
     margin-top: 60px !important;
@@ -80,21 +88,35 @@
     width: 50% !important;
     margin-bottom: 1.5rem;
   }
+
   #buttons {
     display: none;
   }
   .loginin {
     width: 75% !important;
   }
+
   #headerinter #navsup #buttons {
     display: none !important;
   }
 }
 @media screen and (max-width: 841px) {
+  #ennounce {
+    text-align: center !important;
+  }
+  #ennounce p {
+    font-size: 1rem !important;
+  }
+
+  #ennounceButt button {
+    width: 40% !important;
+  }
+
   #contentfoot {
     justify-content: center;
     flex-direction: column;
   }
+
   #menudown {
     width: 100% !important;
     margin: auto;
@@ -111,11 +133,13 @@
     font-size: 1.2rem;
     transition: all 500ms;
   }
+
   #footernet {
     width: auto !important;
     justify-content: center !important;
     margin-top: 9%;
   }
+
   #termsTitle p {
     font-size: 2rem !important;
   }
@@ -124,6 +148,7 @@
   .accordionfaq {
     padding: 0.4rem !important;
   }
+
   .accordion-link {
     font-size: 1rem !important;
   }
@@ -132,15 +157,18 @@
   #acertijoTime {
     width: 30% !important;
   }
+
   #allraces #allracestitle {
     font-size: 1.5rem !important;
   }
   #allraces #racesTable {
     font-size: 7px !important;
   }
+
   #acertijotext {
     width: 85% !important;
   }
+
   #frase img {
     width: 55% !important;
   }
@@ -150,34 +178,50 @@
   #frase #frase2 {
     font-size: 100% !important;
   }
+
   .faqAnswer p {
     font-size: 60% !important;
   }
+
   .plus {
     font-size: 60% !important;
   }
+
   #textandline p {
     font-size: 38%;
     font-weight: bold;
   }
 }
 @media screen and (max-width: 450px) {
+  #actFoot ul {
+    width: 50% !important;
+  }
+
+  #ennounceButt button {
+    width: 55% !important;
+  }
+
   .raceTitle a,
 .raceTitle p {
     font-size: 1rem !important;
   }
+
   .modes {
     margin-top: 2rem;
   }
+
   #failriddle {
     width: 50% !important;
   }
+
   .caracteristic .text {
     font-size: 80% !important;
   }
+
   .raceTitle {
     font-size: 1rem !important;
   }
+
   .raceDescription {
     font-size: 10px !important;
   }
@@ -186,6 +230,7 @@
   .faqAnswer p {
     font-size: 35% !important;
   }
+
   .plus {
     font-size: 35% !important;
   }
@@ -200,9 +245,11 @@
   #logo #logo1 {
     width: 28%;
   }
+
   #mainreg #navsup {
     width: 90% !important;
   }
+
   #form {
     width: 90% !important;
   }
@@ -212,17 +259,21 @@
   #form #grupo__terminos {
     font-size: 70%;
   }
+
   #buttonregister {
     width: 60%;
   }
+
   #regrayas {
     font-size: 70%;
   }
+
   #got {
     width: 90%;
     border-radius: 1rem;
     font-size: 75%;
   }
+
   #redes {
     width: 90%;
   }
@@ -243,6 +294,7 @@
   #logo #logo1 {
     width: 55%;
   }
+
   #redes {
     display: flex;
     flex-direction: column;
@@ -262,6 +314,7 @@
   #racesTable {
     font-size: 10.5px !important;
   }
+
   #createlog {
     width: 25%;
   }
@@ -278,6 +331,7 @@
   .capa p:nth-child(2) {
     font-size: 0.9rem !important;
   }
+
   #formlog .loginin {
     width: 95% !important;
   }
@@ -290,6 +344,7 @@
   #formlog #rayaslog p {
     font-size: 70%;
   }
+
   #redeslog {
     width: 90%;
   }
@@ -297,6 +352,7 @@
     width: 49%;
     border-radius: 1rem;
   }
+
   #createlog {
     width: 95%;
     border-radius: 1rem;
@@ -306,6 +362,7 @@
   #rayaslog p {
     font-size: 50% !important;
   }
+
   #redeslog {
     display: flex;
     flex-direction: column;
@@ -321,9 +378,11 @@
   .content {
     height: 70% !important;
   }
+
   .botonRace img {
     bottom: -5% !important;
   }
+
   .containerdate #contentTables {
     width: 100%;
     margin: auto;
@@ -331,6 +390,7 @@
   .containerdate .tabs {
     width: 87% !important;
   }
+
   #schoolAndRanking {
     width: 100% !important;
     height: 200vh !important;
@@ -373,6 +433,7 @@
   #profilecontent #formProfile {
     width: 100% !important;
   }
+
   #rankingMenu {
     width: 74%;
   }
@@ -381,12 +442,14 @@
   #textreg {
     width: 90% !important;
   }
+
   #mail p:first-child {
     font-size: 1.5rem !important;
   }
   #mail p:nth-child(2) {
     font-size: 9px !important;
   }
+
   #mobileMenuform {
     width: 77% !important;
   }
@@ -396,9 +459,11 @@
   #mobileMenuform .mobileUl a {
     font-size: 1rem !important;
   }
+
   #mobileMenu {
     width: 80% !important;
   }
+
   #logo #logo1 {
     width: 40%;
   }
@@ -418,6 +483,7 @@
   #mobileMenu #hambMenuClose img {
     width: 20%;
   }
+
   .containerdate #tabsGeneralContainer .tabrank {
     width: 80%;
   }
@@ -426,6 +492,7 @@
   #rankingMenu .rankingContent p {
     font-size: 1rem !important;
   }
+
   #rankingTable th {
     font-size: 0.7rem;
   }
@@ -445,15 +512,19 @@
     justify-content: center;
     align-items: center;
   }
+
   .tabrank {
     margin-bottom: 0.5rem !important;
   }
+
   #progress #tituloFechas p:nth-child(2) {
     font-size: 0.7rem;
   }
+
   #datedur {
     font-size: 0.7rem;
   }
+
   #racesInter {
     flex-wrap: nowrap !important;
     overflow: auto !important;
@@ -462,15 +533,18 @@
     width: 86% !important;
     height: 40% !important;
   }
+
   #progress {
     width: 100% !important;
   }
   #progress #bar {
     width: 80% !important;
   }
+
   .hour {
     font-size: 2rem !important;
   }
+
   .tab {
     height: 70% !important;
     display: flex;
@@ -478,9 +552,11 @@
     align-items: center;
     font-size: 0.8rem !important;
   }
+
   #schoolAndRanking .botonRace img {
     width: 30% !important;
   }
+
   /*classicoac medias*/
   #clasAcContent {
     margin-top: 4rem !important;
@@ -507,9 +583,11 @@
     font-size: 0.5rem !important;
     height: 55% !important;
   }
+
   .tabrank {
     height: 35% !important;
   }
+
   #racesInter .raceInter {
     height: 25% !important;
   }
@@ -518,6 +596,7 @@
   #tituloFechas p:first-child img {
     width: 85% !important;
   }
+
   #progress #tituloFechas p:first-child img {
     width: 95% !important;
   }
@@ -526,9 +605,11 @@
   #racesInter .raceInter {
     height: 20% !important;
   }
+
   .botonRace img {
     bottom: 0% !important;
   }
+
   .hour {
     font-size: 1rem !important;
   }
@@ -537,6 +618,7 @@
   #racesInter {
     height: 110% !important;
   }
+
   .containerdate #progress {
     height: 20% !important;
   }
@@ -546,6 +628,7 @@
   .trIndice {
     font-size: 0.7rem;
   }
+
   .trDato {
     font-size: 0.5rem;
   }
@@ -554,9 +637,11 @@
   #redesbuttons a {
     width: 90% !important;
   }
+
   #netbuttons {
     width: 90% !important;
   }
+
   #datesPrices {
     width: 85% !important;
   }
@@ -565,15 +650,19 @@
   #rankingMenu {
     width: 95% !important;
   }
+
   #navsup {
     width: 95% !important;
   }
+
   #schoolAndRanking #school {
     width: 95% !important;
   }
+
   .containerdate .tabs {
     width: 95% !important;
   }
+
   #datesPrices {
     width: 100% !important;
   }
@@ -588,12 +677,14 @@
   .capa {
     overflow: auto !important;
   }
+
   #acertijotext p:first-child {
     font-size: 1.8rem;
   }
   #acertijotext p:nth-child(2) {
     font-size: 0.8rem !important;
   }
+
   /*done medias*/
   #tab {
     overflow: auto;
@@ -604,9 +695,11 @@
   #time p {
     font-size: 1rem !important;
   }
+
   #donePos #posit p:first-child {
     font-size: 1.5rem !important;
   }
+
   #donemsg p {
     font-size: 2.5rem !important;
   }
@@ -620,9 +713,11 @@
   #donehour {
     width: 20% !important;
   }
+
   #donetable {
     width: 35% !important;
   }
+
   .positNumber {
     left: 0% !important;
   }
@@ -636,9 +731,11 @@
   #donehour {
     width: 25% !important;
   }
+
   #donemsg p {
     font-size: 2rem !important;
   }
+
   #posImg {
     width: 55px !important;
     height: 55px !important;
@@ -646,21 +743,26 @@
   #posImg p {
     font-size: 2rem !important;
   }
+
   .rank {
     font-size: 1rem !important;
   }
+
   #doneTable tbody tr:first-child {
     font-size: 0.8rem !important;
   }
   #doneTable tbody .trInfo {
     font-size: 0.8rem !important;
   }
+
   #calavera {
     height: 30% !important;
   }
+
   #donetable {
     width: 50% !important;
   }
+
   #donehour {
     width: 35% !important;
   }
@@ -669,15 +771,19 @@
   #tituloFechas {
     font-size: 1.5rem !important;
   }
+
   #donemsg p {
     font-size: 1.5rem !important;
   }
+
   #donePos {
     width: 100% !important;
   }
+
   #time p {
     font-size: 0.7rem !important;
   }
+
   #doneTableBut {
     width: 25% !important;
   }
@@ -699,12 +805,15 @@
   #raceContent {
     overflow: auto;
   }
+
   #logo1 {
     left: -9% !important;
   }
+
   #acertijoTime p {
     font-size: 0.9rem !important;
   }
+
   #acertijotext p:first-child {
     font-size: 1rem;
   }
@@ -728,6 +837,7 @@
   #barProg #barraProg {
     width: 20% !important;
   }
+
   #acertijotext {
     width: 85% !important;
     height: 45% !important;
@@ -735,6 +845,7 @@
   #acertijotext p:first-child {
     font-size: 1rem !important;
   }
+
   #acertijoanswer {
     width: 75% !important;
   }
@@ -744,9 +855,11 @@
   #acertijoanswer p {
     font-size: 0.5rem !important;
   }
+
   #acertijoTime {
     width: 30% !important;
   }
+
   .acertijobutton button img {
     height: 80% !important;
   }
@@ -755,12 +868,15 @@
   #acertijoAll #barProg #barraProg p {
     font-size: 8px !important;
   }
+
   #acertijoTime p {
     font-size: 0.7rem !important;
   }
+
   #acertijoanswer p {
     font-size: 5px !important;
   }
+
   .acertijobutton {
     width: 40% !important;
   }
@@ -794,9 +910,11 @@
     font-size: 0.8rem !important;
     text-align: center;
   }
+
   #acertijoTime p {
     font-size: 10px !important;
   }
+
   #acertijotext p:nth-child(2) {
     font-size: 10px !important;
   }
@@ -826,12 +944,15 @@
   #racesTable table .trRaces td:last-child a img {
     width: 100% !important;
   }
+
   #completedContent p:nth-child(3) {
     font-size: 6px !important;
   }
+
   #termsTitle p {
     font-size: 1.7rem !important;
   }
+
   #termsText p {
     font-size: 0.7rem !important;
   }
@@ -847,6 +968,7 @@
     font-size: 0.6rem !important;
     text-align: center;
   }
+
   #buttonCompleted img {
     width: 45% !important;
   }
@@ -867,9 +989,11 @@
   .racetod {
     display: none !important;
   }
+
   #pubText p:nth-child(2) {
     width: 70% !important;
   }
+
   #racesTod #swipRace {
     width: 100%;
     height: 100%;
@@ -881,15 +1005,18 @@
     margin: auto;
     display: flex !important;
   }
+
   #profilecontent {
     overflow: auto;
   }
+
   #nameandlast {
     flex-direction: column !important;
   }
   #nameandlast input {
     width: 100% !important;
   }
+
   #profileButtons button {
     font-size: 10px !important;
   }
@@ -905,9 +1032,11 @@
     height: 95% !important;
     overflow: auto !important;
   }
+
   #formProfile {
     margin-top: 15% !important;
   }
+
   .contCirc {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -931,6 +1060,7 @@
   #racesTod #swipRace .swiperButtonracePrev {
     left: -5px;
   }
+
   #competitors .competitor .modesimg:first-child {
     margin-top: 30%;
   }
@@ -944,12 +1074,15 @@
   #competitors .competitor .modescomp .ulmodes {
     margin-top: 25% !important;
   }
+
   #profilecontent img {
     width: 55% !important;
   }
+
   #formProfile input {
     font-size: 0.7rem !important;
   }
+
   /*classicoac medias*/
   #clasAcContent .riddle {
     width: 95% !important;
@@ -976,6 +1109,7 @@
   #ticketDivs #tituloBol h1 {
     margin-bottom: 1.5rem !important;
   }
+
   #pricesBol {
     height: 100% !important;
     flex-direction: column;
@@ -991,9 +1125,11 @@
   #pricesBol #priceTicket {
     width: 30% !important;
   }
+
   #buyButton img {
     width: 60% !important;
   }
+
   #canjear {
     width: 90% !important;
   }
@@ -1002,9 +1138,11 @@
   #ticketDivs {
     overflow: auto;
   }
+
   .tituloPrices p:first-child {
     font-size: 1rem !important;
   }
+
   #canjear {
     height: 20% !important;
     flex-direction: column;
@@ -1060,6 +1198,7 @@
   .capa p:nth-child(2) {
     font-size: 0.6rem !important;
   }
+
   #formDivBokk #twoRadios {
     flex-direction: column !important;
   }
@@ -1088,13 +1227,16 @@
   #imgandbutts .butt a {
     font-size: 1rem;
   }
+
   .modescomp2 {
     height: 75% !important;
     margin-top: 3rem;
   }
+
   #reward {
     padding-bottom: 2rem;
   }
+
   #presnav #presMenu {
     display: none;
   }
@@ -1105,6 +1247,7 @@
     color: #fff;
     font-size: 2rem;
   }
+
   #interPresentcont2 {
     overflow: auto;
   }
@@ -1128,6 +1271,7 @@
   #interPresentcont2 #dynamicAndReward .thingsd .modes .ulmodes .modes200 {
     width: 100% !important;
   }
+
   #interPresentcont3 {
     height: 100vh !important;
     overflow: auto;
@@ -1147,16 +1291,20 @@
   #interPresentcont3 #competitors .modescomp2 {
     flex-direction: column;
   }
+
   .ulmodes {
     width: 100% !important;
     text-align: center !important;
   }
+
   .competitor {
     width: 100% !important;
   }
+
   .butt {
     width: 100% !important;
   }
+
   .things {
     width: 100% !important;
   }
@@ -1165,6 +1313,7 @@
   .menuform {
     width: 95% !important;
   }
+
   #presTitle p:first-child {
     font-size: 2rem !important;
   }
@@ -1184,9 +1333,11 @@
   #formTitleBox {
     width: 90% !important;
   }
+
   #formend .inp {
     width: 95% !important;
   }
+
   .butt {
     font-size: 1rem !important;
   }
@@ -1196,9 +1347,11 @@
   .answer {
     overflow: auto !important;
   }
+
   #supportElements {
     overflow: auto;
   }
+
   #supportInfo {
     width: 100% !important;
     align-items: center;
@@ -1212,12 +1365,14 @@
   #supportInfo div i {
     margin-right: 0px !important;
   }
+
   #supportInfo {
     height: 25% !important;
   }
   #supportInfo #phone {
     margin-top: 1rem !important;
   }
+
   #supportForm {
     height: 80% !important;
   }
@@ -1225,10 +1380,12 @@
     text-align: center;
     margin-top: 1rem;
   }
+
   #supportButton button {
     width: 100% !important;
     margin-top: 1rem;
   }
+
   #supportNet {
     display: flex;
     flex-direction: column;
@@ -1248,6 +1405,7 @@
     font-size: 1rem !important;
     width: 90%;
   }
+
   #buttonconf button {
     width: 90% !important;
   }
@@ -1266,6 +1424,7 @@
   .howdiv p {
     font-size: 1.5rem !important;
   }
+
   #mainrace .raceTitle {
     width: 80% !important;
   }
@@ -1283,9 +1442,11 @@
     width: 80%;
     margin-bottom: 1rem;
   }
+
   #howtitle p {
     font-size: 2rem !important;
   }
+
   .howdiv img {
     width: 90% !important;
   }
@@ -1301,9 +1462,11 @@
   #divNav {
     visibility: visible !important;
   }
+
   .racetod {
     width: 32% !important;
   }
+
   #redesbuttons {
     flex-direction: column;
     align-items: center;
@@ -1312,12 +1475,15 @@
   #redesbuttons a {
     margin-bottom: 1rem;
   }
+
   #dontreceive p {
     font-size: 1rem !important;
   }
+
   #netbuttons {
     font-size: 9px !important;
   }
+
   #mainclassic {
     overflow: auto;
     margin-bottom: 2%;
@@ -1348,9 +1514,11 @@
   #classicTexts {
     margin-top: 5rem;
   }
+
   #titleClas {
     font-size: 2rem !important;
   }
+
   #textClas {
     font-size: 10px;
   }
@@ -1360,6 +1528,7 @@
   .noth {
     display: none !important;
   }
+
   #pub {
     width: 80% !important;
     margin: auto !important;
@@ -1367,12 +1536,15 @@
   #divNav {
     visibility: visible;
   }
+
   #boletLil {
     display: none;
   }
+
   #officialHour {
     display: none;
   }
+
   #titlePub {
     width: 100% !important;
     margin: auto;

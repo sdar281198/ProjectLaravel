@@ -2300,7 +2300,7 @@ textarea{
                     border: 2px solid #ce7318;
                     background: rgb(28,25,1);
                     background: linear-gradient(180deg, rgba(28,25,1,1) 0%, rgba(60,44,10,1) 50%);
-                    margin-top: -0.6rem;
+                    margin-top: -0.1rem;
                     span{
                         color: #f7c603;
                         font-weight: bold;
@@ -3202,4 +3202,65 @@ textarea{
 .divnav-content span a 
 .divnav-content span a:hover i{
     opacity: 1;
+}
+/*Activar styles*/
+#activar{
+    #actContent{
+        width: 90%;
+        height: 90%;
+        #actlogo{
+            width: 100%;
+            height: 15%;
+            border: 1px solid white;
+            background: $gradient1;
+            background:$gradient2;
+            img{
+                width: 10rem;
+            }
+        }
+        #actEnnounce{
+            width: 100%;
+            height: 75%;
+            background: $white;
+            #ennounce{
+                width: 100%;
+                height: 55%;
+                #enntext{
+                    width: 90%;
+                    height: 90%;
+                    p{
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            #ennounceButt{
+                width: 100%;
+                height: 30%;
+                button{
+                    width: 20%;
+                    height: 45%;
+                    img{
+                        width: 100%;
+                        height: 90%;
+                    }
+                }
+            }
+            #actDoubt{
+                width: 100%;
+                height: 15%;
+            }
+        }
+        #actFoot{
+            width: 100%;
+            height: 10%;
+            background: $colorFondo;
+            border: 1px solid white;
+            ul{
+                width: 30%;
+                li{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
 }

@@ -2182,7 +2182,7 @@ textarea {
   border: 2px solid #ce7318;
   background: rgb(28, 25, 1);
   background: linear-gradient(180deg, rgb(28, 25, 1) 0%, rgb(60, 44, 10) 50%);
-  margin-top: -0.6rem;
+  margin-top: -0.1rem;
 }
 #mainrace #raceContent #raceElements #raceGames #boletLil .boletEl:first-child span {
   color: #f7c603;
@@ -3004,6 +3004,66 @@ textarea {
 
 .divnav-content span a .divnav-content span a:hover i {
   opacity: 1;
+}
+
+/*Activar styles*/
+#activar #actContent {
+  width: 90%;
+  height: 90%;
+}
+#activar #actContent #actlogo {
+  width: 100%;
+  height: 15%;
+  border: 1px solid white;
+  background: rgb(0, 74, 61);
+  background: linear-gradient(180deg, rgb(0, 74, 61) 0%, rgb(0, 57, 53) 34%, rgb(0, 38, 44) 64%, rgb(0, 21, 33) 100%);
+}
+#activar #actContent #actlogo img {
+  width: 10rem;
+}
+#activar #actContent #actEnnounce {
+  width: 100%;
+  height: 75%;
+  background: #fff;
+}
+#activar #actContent #actEnnounce #ennounce {
+  width: 100%;
+  height: 55%;
+}
+#activar #actContent #actEnnounce #ennounce #enntext {
+  width: 90%;
+  height: 90%;
+}
+#activar #actContent #actEnnounce #ennounce #enntext p {
+  font-size: 1.5rem;
+}
+#activar #actContent #actEnnounce #ennounceButt {
+  width: 100%;
+  height: 30%;
+}
+#activar #actContent #actEnnounce #ennounceButt button {
+  width: 20%;
+  height: 45%;
+}
+#activar #actContent #actEnnounce #ennounceButt button img {
+  width: 100%;
+  height: 90%;
+}
+#activar #actContent #actEnnounce #actDoubt {
+  width: 100%;
+  height: 15%;
+}
+#activar #actContent #actFoot {
+  width: 100%;
+  height: 10%;
+  background: #001521;
+  border: 1px solid white;
+}
+#activar #actContent #actFoot ul {
+  width: 30%;
+}
+#activar #actContent #actFoot ul li {
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

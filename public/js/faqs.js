@@ -19,22 +19,3 @@ function showandhide(){
     }
 }
 showandhide();
-
-// imas.forEach(ima =>{
-//     ima.addEventListener('click', (event)=>{
-//         ima.setAttribute('style', 'display:none;');
-//         event.preventDefault();
-
-//         imenos.setAttribute('style', 'display:block;');
-//     })
-// })
-// imas.addEventListener('click', ()=>{
-//     answer.classList.add('answerresp');
-//         imas.classList.add('noneans');
-//         imenos.classList.add('blockansw');
-// });
-// imenos.addEventListener('click', ()=>{
-//     answer.classList.remove('answerresp');
-//     imas.classList.remove('noneans');
-//     imenos.classList.remove('blockansw');
-// });
