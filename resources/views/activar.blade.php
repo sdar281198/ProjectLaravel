@@ -14,7 +14,7 @@
             </div>
             <div id="ennounceButt" class="flex justify-center items-center">
                 <button>
-                    <img src="../img/landing/activar.png" alt="">
+                    <img src="../img/landing/activar2.png" alt="">
                 </button>
             </div>
             <div id="actDoubt" class="flex justify-center items-center">
