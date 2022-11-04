@@ -1,4 +1,5 @@
 const completedOpen = document.getElementById('acertijobuttoncompleted');
+console.log(completedOpen);
 const completedClose = document.getElementById('completedClose');
 const tapar = document.getElementById('body');
 const completedPop = document.getElementById('completedriddle');

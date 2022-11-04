@@ -375,6 +375,10 @@
 }
 /*Inter medias*/
 @media screen and (max-width: 1000px) {
+  #nocanj, #bolgo {
+    display: none !important;
+  }
+
   .content {
     height: 70% !important;
   }
@@ -397,18 +401,21 @@
     flex-direction: column;
     align-items: center;
   }
-  #schoolAndRanking #school {
+  #schoolAndRanking #schoolanddatescanj {
     width: 85% !important;
-    margin-bottom: 3% !important;
   }
-  #schoolAndRanking #school .dissapear {
+  #schoolAndRanking #schoolanddatescanj #school {
+    margin-bottom: 3% !important;
+    height: 100% !important;
+  }
+  #schoolAndRanking #schoolanddatescanj #school .dissapear {
     display: none !important;
     transition: all 1000ms !important;
   }
-  #schoolAndRanking #school #userAndName {
+  #schoolAndRanking #schoolanddatescanj #school #userAndName {
     display: flex !important;
   }
-  #schoolAndRanking #school #pic {
+  #schoolAndRanking #schoolanddatescanj #school #pic {
     width: 20% !important;
   }
   #schoolAndRanking #ranking {
@@ -439,6 +446,14 @@
   }
 }
 @media screen and (max-width: 420px) {
+  #canjAvai {
+    width: 71% !important;
+  }
+
+  #textblock p {
+    font-size: 1rem !important;
+  }
+
   #textreg {
     width: 90% !important;
   }
@@ -501,6 +516,14 @@
   }
 }
 @media screen and (max-width: 800px) {
+  #racesInterLocked {
+    display: none;
+  }
+
+  #raceInterLocked {
+    display: flex !important;
+  }
+
   #tabsGeneralContainer {
     display: flex;
     flex-direction: column;
@@ -634,6 +657,13 @@
   }
 }
 @media screen and (max-width: 510px) {
+  #canjButt {
+    width: 40% !important;
+  }
+  #canjButt button {
+    font-size: 0.5rem !important;
+  }
+
   #redesbuttons a {
     width: 90% !important;
   }
@@ -1401,6 +1431,14 @@
 }
 /*mailconf medias*/
 @media screen and (max-width: 850px) {
+  #canjtitle {
+    font-size: 1.2rem !important;
+  }
+
+  #canjtext {
+    font-size: 0.9rem !important;
+  }
+
   #middleText p {
     font-size: 1rem !important;
     width: 90%;

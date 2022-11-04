@@ -406,6 +406,9 @@ $latBold : 'latina bold';
 }
 /*Inter medias*/
 @media screen and (max-width:1000px){
+    #nocanj,#bolgo{
+        display: none!important;
+    }
     .content{
         height: 70%!important;
     }
@@ -428,19 +431,22 @@ $latBold : 'latina bold';
         height: 200vh!important;
         flex-direction: column;
         align-items: center;
-        #school{
+        #schoolanddatescanj{
             width: 85%!important;
-            margin-bottom: 3%!important;
-            // // height: 10%!important;
-            .dissapear{
-                display: none!important;
-                transition: all 1000ms!important;
-            }
-            #userAndName{
-                display: flex!important;
-            }
-            #pic{
-                width: 20%!important;
+            #school{
+                // width: 85%!important;
+                margin-bottom: 3%!important;
+                height: 100%!important;
+                .dissapear{
+                    display: none!important;
+                    transition: all 1000ms!important;
+                }
+                #userAndName{
+                    display: flex!important;
+                }
+                #pic{
+                    width: 20%!important;
+                }
             }
         }
         #ranking{
@@ -475,6 +481,14 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:420px){
+    #canjAvai{
+        width: 71%!important;
+    }
+    #textblock{
+        p{
+            font-size: 1rem!important;
+        }
+    }
     #textreg{
         width: 90%!important;
     }
@@ -558,6 +572,12 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:800px){
+    #racesInterLocked{
+        display: none;
+    }
+    #raceInterLocked{
+        display: flex!important;
+    }
     #tabsGeneralContainer{
         display: flex;
         flex-direction: column;
@@ -713,6 +733,12 @@ $latBold : 'latina bold';
     }
 }
 @media screen and (max-width:510px){
+    #canjButt{
+        width: 40%!important;
+        button{
+            font-size: 0.5rem!important;
+        }
+    }
     #redesbuttons{
         a{
             width: 90%!important;
@@ -1582,6 +1608,12 @@ $latBold : 'latina bold';
 }
 /*mailconf medias*/
 @media screen and (max-width:850px){
+    #canjtitle{
+        font-size: 1.2rem!important;
+    }
+    #canjtext{
+        font-size: 0.9rem!important;
+    }
     #middleText{
         p{
             font-size: 1rem!important;

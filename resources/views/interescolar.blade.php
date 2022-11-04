@@ -5,6 +5,7 @@
         </header>
         <div id="schoolAndRanking" class="flex mx-auto mt-10 justify-between relative">
         <x-toggle/>
+            <div id="schoolanddatescanj" class="flex flex-col">
             <div id="school" class="flex flex-col coleg">
                 <div id="userAndName" class="flex items-center justify-between my-auto mx-auto">
                     <div id="user">
@@ -36,6 +37,17 @@
                     <p>1150</p>
                     <p>puntos acumulados</p>
                 </div>
+            </div>
+            <div id="nocanj" class="flex items-center justify-around">
+                <div class="relative">
+                    <!-- <img src="../img/acertijos/cofre1.png" class="" alt=""> -->
+                    <img class="absolute" src="../img/acertijos/brillo.png" alt="">
+                </div>
+                <p class="text-white uppercase latbold"><span class="paytone">3</span> fechas <br> no canjeadas</p>
+            </div>
+            <div id="bolgo" class="text-center">
+                <a href="/boleteria" class="tex-white uppercase mx-auto latbold">Boletería</a>
+            </div>
             </div>
             <div id="ranking">
                 <!-- <div class="pagenumbers" id="pagination"></div>
@@ -214,153 +226,296 @@
                                 </div> -->
                             </div>
                             <div id="racesInter">
-                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo1.png);">
-                                <div class="position absolute">1</div>
-                                <div class="hour flex">
+                                <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo1.png);">
+                                    <div class="position absolute">1</div>
+                                    <div class="hour flex">
+                                        <div id="symbolandHour" class="flex">
+                                            <img class="" src="../img/inter/reloj de arena-04.png" alt="">
+                                            <div id="watch">00:00:49</div>
+                                        </div>
+                                    </div>
+                                    <div class="botonRace">
+                                        <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
+                                    </div>
+                                    <!-- <div id="raceLocked" class="flex justify-center items-center">
+                                        <img src="../img/classic/CANDADO.png" alt="">
+                                    </div> -->
+                                    <div id="raceInterLocked" class="absolute flex justify-center items-center">
+                                        <div id="racesLockedEl" class="flex flex-col items-center justify-between">
+                                            <img src="../img/classic/CANDADO.png" alt="">
+                                            <div id="textblock">
+                                                <p class="text-center shadowspecial uppercase">Bloqueado</p>
+                                            </div>
+                                            <div id="canjButt" class="flex justify-center items-center">
+                                                <button id="canjButtop" class="text-white uppercase text-center latbold canjButtopen">canjear fecha</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo2.png);">
+                                    <div class="position absolute">2</div>
+                                    <div class="hour flex">
+                                        <div id="symbolandHour" class="flex">
+                                            <img class="" src="../img/inter/banderas-04.png" alt="">
+                                            <div id="watch">18:05</div>
+                                        </div>
+                                    </div>
+                                    <div class="botonRace">
+                                        <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
+                                    </div>
+                                    <div id="raceInterLocked" class="absolute flex justify-center items-center">
+                                        <div id="racesLockedEl" class="flex flex-col items-center justify-between">
+                                            <img src="../img/classic/CANDADO.png" alt="">
+                                            <div id="textblock">
+                                                <p class="text-center shadowspecial uppercase">Bloqueado</p>
+                                            </div>
+                                            <div id="canjButt" class="flex justify-center items-center">
+                                                <button id="canjButtop" class="text-white uppercase text-center latbold canjButtopen">canjear fecha</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo3.png);">
+                                    <div class="position absolute">3</div>
+                                    <div class="hour flex">
+                                        <div id="symbolandHour" class="flex">
+                                                <img class="" src="../img/inter/banderas-04.png" alt="">
+                                                <div id="watch">18:10</div>
+                                        </div>
+                                    </div>
+                                    <div class="botonRace">
+                                        <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
+                                    </div>
+                                    <div id="raceInterLocked" class="absolute flex justify-center items-center">
+                                        <div id="racesLockedEl" class="flex flex-col items-center justify-between">
+                                            <img src="../img/classic/CANDADO.png" alt="">
+                                            <div id="textblock">
+                                                <p class="text-center shadowspecial uppercase">Bloqueado</p>
+                                            </div>
+                                            <div id="canjButt" class="flex justify-center items-center">
+                                                <button id="canjButtop" class="text-white uppercase text-center latbold canjButtopen">canjear fecha</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo4.png);">
+                                    <div class="position absolute">4</div>
+                                    <div class="hour flex">
+                                        <div id="symbolandHour" class="flex">
+                                                <img class="" src="../img/inter/banderas-04.png" alt="">
+                                                <div id="watch">18:15</div>
+                                        </div>
+                                    </div>
+                                    <div class="botonRace">
+                                        <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
+                                    </div>
+                                    <div id="raceInterLocked" class="absolute flex justify-center items-center">
+                                        <div id="racesLockedEl" class="flex flex-col items-center justify-between">
+                                            <img src="../img/classic/CANDADO.png" alt="">
+                                            <div id="textblock">
+                                                <p class="text-center shadowspecial uppercase">Bloqueado</p>
+                                            </div>
+                                            <div id="canjButt" class="flex justify-center items-center">
+                                                <button id="canjButtop" class="text-white uppercase text-center latbold canjButtopen">canjear fecha</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo5.png);">
+                                    <div class="position absolute">5</div>
+                                    <div class="hour flex">
+                                        <div id="symbolandHour" class="flex">
+                                                <img class="" src="../img/inter/banderas-04.png" alt="">
+                                                <div id="watch">18:20</div>
+                                        </div>
+                                    </div>
+                                    <div class="botonRace">
+                                        <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
+                                    </div>
+                                    <div id="raceInterLocked" class="absolute flex justify-center items-center">
+                                        <div id="racesLockedEl" class="flex flex-col items-center justify-between">
+                                            <img src="../img/classic/CANDADO.png" alt="">
+                                            <div id="textblock">
+                                                <p class="text-center shadowspecial uppercase">Bloqueado</p>
+                                            </div>
+                                            <div id="canjButt" class="flex justify-center items-center">
+                                                <button id="canjButtop" class="text-white uppercase text-center latbold canjButtopen">canjear fecha</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo6.png);">
+                                    <div class="position absolute">6</div>
+                                    <div class="hour flex">
                                     <div id="symbolandHour" class="flex">
-                                        <img class="" src="../img/inter/reloj de arena-04.png" alt="">
-                                        <div id="watch">00:00:49</div>
+                                                <img class="" src="../img/inter/banderas-04.png" alt="">
+                                                <div id="watch">18:25</div>
+                                        </div>
+                                    </div>
+                                    <div class="botonRace">
+                                        <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
+                                    </div>
+                                    <div id="raceInterLocked" class="absolute flex justify-center items-center">
+                                        <div id="racesLockedEl" class="flex flex-col items-center justify-between">
+                                            <img src="../img/classic/CANDADO.png" alt="">
+                                            <div id="textblock">
+                                                <p class="text-center shadowspecial uppercase">Bloqueado</p>
+                                            </div>
+                                            <div id="canjButt" class="flex justify-center items-center">
+                                                <button id="canjButtop" class="text-white uppercase text-center latbold canjButtopen">canjear fecha</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="botonRace">
-                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
-                                </div>
-                                <div id="raceLocked" class="flex justify-center items-center">
-                                    <img src="../img/classic/CANDADO.png" alt="">
-                                </div>
-                            </div>
-                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo2.png);">
-                                <div class="position absolute">2</div>
-                                <div class="hour flex">
+                                <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo1.png);">
+                                    <div class="position absolute">7</div>
+                                    <div class="hour flex">
                                     <div id="symbolandHour" class="flex">
-                                        <img class="" src="../img/inter/banderas-04.png" alt="">
-                                        <div id="watch">18:05</div>
+                                                <img class="" src="../img/inter/banderas-04.png" alt="">
+                                                <div id="watch">18:30</div>
+                                        </div>
+                                    </div>
+                                    <div class="botonRace">
+                                        <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
+                                    </div>
+                                    <div id="raceInterLocked" class="absolute flex justify-center items-center">
+                                        <div id="racesLockedEl" class="flex flex-col items-center justify-between">
+                                            <img src="../img/classic/CANDADO.png" alt="">
+                                            <div id="textblock">
+                                                <p class="text-center shadowspecial uppercase">Bloqueado</p>
+                                            </div>
+                                            <div id="canjButt" class="flex justify-center items-center">
+                                                <button id="canjButtop" class="text-white uppercase text-center latbold canjButtopen">canjear fecha</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="botonRace">
-                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo3.png);">
-                                <div class="position absolute">3</div>
-                                <div class="hour flex">
+                                <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo2.png);">
+                                    <div class="position absolute">8</div>
+                                    <div class="hour flex">
                                     <div id="symbolandHour" class="flex">
-                                            <img class="" src="../img/inter/banderas-04.png" alt="">
-                                            <div id="watch">18:10</div>
+                                                <img class="" src="../img/inter/banderas-04.png" alt="">
+                                                <div id="watch">18:35</div>
+                                        </div>
+                                    </div>
+                                    <div class="botonRace">
+                                        <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
+                                    </div>
+                                    <div id="raceInterLocked" class="absolute flex justify-center items-center">
+                                        <div id="racesLockedEl" class="flex flex-col items-center justify-between">
+                                            <img src="../img/classic/CANDADO.png" alt="">
+                                            <div id="textblock">
+                                                <p class="text-center shadowspecial uppercase">Bloqueado</p>
+                                            </div>
+                                            <div id="canjButt" class="flex justify-center items-center">
+                                                <button id="canjButtop" class="text-white uppercase text-center latbold canjButtopen">canjear fecha</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="botonRace">
-                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo4.png);">
-                                <div class="position absolute">4</div>
-                                <div class="hour flex">
+                                <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo3.png);">
+                                    <div class="position absolute">9</div>
+                                    <div class="hour flex">
                                     <div id="symbolandHour" class="flex">
-                                            <img class="" src="../img/inter/banderas-04.png" alt="">
-                                            <div id="watch">18:15</div>
+                                                <img class="" src="../img/inter/banderas-04.png" alt="">
+                                                <div id="watch">18:40</div>
+                                        </div>
+                                    </div>
+                                    <div class="botonRace">
+                                        <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
+                                    </div>
+                                    <div id="raceInterLocked" class="absolute flex justify-center items-center">
+                                        <div id="racesLockedEl" class="flex flex-col items-center justify-between">
+                                            <img src="../img/classic/CANDADO.png" alt="">
+                                            <div id="textblock">
+                                                <p class="text-center shadowspecial uppercase">Bloqueado</p>
+                                            </div>
+                                            <div id="canjButt" class="flex justify-center items-center">
+                                                <button id="canjButtop" class="text-white uppercase text-center latbold canjButtopen">canjear fecha</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="botonRace">
-                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo5.png);">
-                                <div class="position absolute">5</div>
-                                <div class="hour flex">
+                                <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo4.png);">
+                                    <div class="position absolute">10</div>
+                                    <div class="hour flex">
                                     <div id="symbolandHour" class="flex">
-                                            <img class="" src="../img/inter/banderas-04.png" alt="">
-                                            <div id="watch">18:20</div>
+                                                <img class="" src="../img/inter/banderas-04.png" alt="">
+                                                <div id="watch">18:45</div>
+                                        </div>
+                                    </div>
+                                    <div class="botonRace">
+                                        <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
+                                    </div>
+                                    <div id="raceInterLocked" class="absolute flex justify-center items-center">
+                                        <div id="racesLockedEl" class="flex flex-col items-center justify-between">
+                                            <img src="../img/classic/CANDADO.png" alt="">
+                                            <div id="textblock">
+                                                <p class="text-center shadowspecial uppercase">Bloqueado</p>
+                                            </div>
+                                            <div id="canjButt" class="flex justify-center items-center">
+                                                <button id="canjButtop" class="text-white uppercase text-center latbold canjButtopen">canjear fecha</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="botonRace">
-                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo6.png);">
-                                <div class="position absolute">6</div>
-                                <div class="hour flex">
-                                <div id="symbolandHour" class="flex">
-                                            <img class="" src="../img/inter/banderas-04.png" alt="">
-                                            <div id="watch">18:25</div>
+                                <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo5.png);">
+                                    <div class="position absolute">11</div>
+                                    <div class="hour flex">
+                                    <div id="symbolandHour" class="flex">
+                                                <img class="" src="../img/inter/banderas-04.png" alt="">
+                                                <div id="watch">18:50</div>
+                                        </div>
+                                    </div>
+                                    <div class="botonRace">
+                                        <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
+                                    </div>
+                                    <div id="raceInterLocked" class="absolute flex justify-center items-center">
+                                        <div id="racesLockedEl" class="flex flex-col items-center justify-between">
+                                            <img src="../img/classic/CANDADO.png" alt="">
+                                            <div id="textblock">
+                                                <p class="text-center shadowspecial uppercase">Bloqueado</p>
+                                            </div>
+                                            <div id="canjButt" class="flex justify-center items-center">
+                                                <button id="canjButtop" class="text-white uppercase text-center latbold canjButtopen">canjear fecha</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="botonRace">
-                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo1.png);">
-                                <div class="position absolute">7</div>
-                                <div class="hour flex">
-                                <div id="symbolandHour" class="flex">
-                                            <img class="" src="../img/inter/banderas-04.png" alt="">
-                                            <div id="watch">18:30</div>
+                                <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo6.png);">
+                                    <div class="position absolute">12</div>
+                                    <div class="hour flex">
+                                    <div id="symbolandHour" class="flex">
+                                                <img class="" src="../img/inter/banderas-04.png" alt="">
+                                                <div id="watch">18:55</div>
+                                        </div>
+                                    </div>
+                                    <div class="botonRace">
+                                        <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
+                                    </div>
+                                    <div id="raceInterLocked" class="absolute flex justify-center items-center">
+                                        <div id="racesLockedEl" class="flex flex-col items-center justify-between">
+                                            <img src="../img/classic/CANDADO.png" alt="">
+                                            <div id="textblock">
+                                                <p class="text-center shadowspecial uppercase">Bloqueado</p>
+                                            </div>
+                                            <div id="canjButt" class="flex justify-center items-center">
+                                                <button id="canjButtop" class="text-white uppercase text-center latbold canjButtopen">canjear fecha</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="botonRace">
-                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo2.png);">
-                                <div class="position absolute">8</div>
-                                <div class="hour flex">
-                                <div id="symbolandHour" class="flex">
-                                            <img class="" src="../img/inter/banderas-04.png" alt="">
-                                            <div id="watch">18:35</div>
+                                <div id="racesInterLocked" class="absolute flex justify-center items-center">
+                                    <div id="racesLockedEl" class="flex flex-col items-center justify-between">
+                                        <img src="../img/classic/CANDADO.png" alt="">
+                                        <div id="textblock">
+                                            <p class="text-center shadowspecial uppercase">Bloqueado</p>
+                                        </div>
+                                        <div id="canjButt" class="flex justify-center items-center">
+                                            <button id="canjButtop" class="text-white uppercase text-center latbold canjButtopen">canjear fecha</button>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="botonRace">
-                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo3.png);">
-                                <div class="position absolute">9</div>
-                                <div class="hour flex">
-                                <div id="symbolandHour" class="flex">
-                                            <img class="" src="../img/inter/banderas-04.png" alt="">
-                                            <div id="watch">18:40</div>
-                                    </div>
-                                </div>
-                                <div class="botonRace">
-                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo4.png);">
-                                <div class="position absolute">10</div>
-                                <div class="hour flex">
-                                <div id="symbolandHour" class="flex">
-                                            <img class="" src="../img/inter/banderas-04.png" alt="">
-                                            <div id="watch">18:45</div>
-                                    </div>
-                                </div>
-                                <div class="botonRace">
-                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo5.png);">
-                                <div class="position absolute">11</div>
-                                <div class="hour flex">
-                                <div id="symbolandHour" class="flex">
-                                            <img class="" src="../img/inter/banderas-04.png" alt="">
-                                            <div id="watch">18:50</div>
-                                    </div>
-                                </div>
-                                <div class="botonRace">
-                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="raceInter relative flex flex-col justify-center items-center" style="background-image: url(./../img/inter/fondo6.png);">
-                                <div class="position absolute">12</div>
-                                <div class="hour flex">
-                                <div id="symbolandHour" class="flex">
-                                            <img class="" src="../img/inter/banderas-04.png" alt="">
-                                            <div id="watch">18:55</div>
-                                    </div>
-                                </div>
-                                <div class="botonRace">
-                                    <a href=""><img src="../img/inter/botonjugar.png" alt=""></a>
-                                </div>
-                            </div>
                             </div>
                         </div>
                         <div id="fecha3" class="content fecha">3</div>
@@ -375,4 +530,5 @@
     <script src="{{ config('app.url').'/js/toggle.js' }}" defer></script>
     <script src="{{ config('app.url').'/js/pagination.js' }}" defer></script>
     <script src="{{ config('app.url').'/js/ranking.js' }}" defer></script>
+    <script src="{{ config('app.url').'/js/canj.js' }}" defer></script>
 <x-footer/>

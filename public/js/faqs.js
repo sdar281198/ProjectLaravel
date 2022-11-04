@@ -1,5 +1,5 @@
 
-const imas = document.getElementsByClassName('imas');
+const imas = document.querySelectorAll('.imas');
 const imenos = document.querySelectorAll('.imenos');
 const answer = document.querySelectorAll('.answerrespT');
 function showandhide(){

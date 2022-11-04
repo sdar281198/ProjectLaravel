@@ -870,27 +870,31 @@ textarea {
   color: #fff;
   margin-bottom: 10%;
 }
-#maininter #schoolAndRanking #school {
+#maininter #schoolAndRanking #schoolanddatescanj {
   width: 25%;
+  transition: all 500ms;
+}
+#maininter #schoolAndRanking #schoolanddatescanj #school {
+  width: 100%;
   background-color: #001521;
   border-radius: 1rem;
   transition: all 1000ms;
 }
-#maininter #schoolAndRanking #school #userAndName {
+#maininter #schoolAndRanking #schoolanddatescanj #school #userAndName {
   width: 90%;
   display: none;
 }
-#maininter #schoolAndRanking #school #userAndName #downarrow {
+#maininter #schoolAndRanking #schoolanddatescanj #school #userAndName #downarrow {
   z-index: 951;
 }
-#maininter #schoolAndRanking #school #schoolpicandname {
+#maininter #schoolAndRanking #schoolanddatescanj #school #schoolpicandname {
   width: 90%;
   height: 25%;
   margin: auto;
   font-family: "Latina ultra heavy";
   border-bottom: 1px solid #fff;
 }
-#maininter #schoolAndRanking #school #schoolpicandname #pic {
+#maininter #schoolAndRanking #schoolanddatescanj #school #schoolpicandname #pic {
   width: 25%;
   height: 60%;
   background-color: #fff;
@@ -898,23 +902,23 @@ textarea {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-#maininter #schoolAndRanking #school #schoolpicandname #name {
+#maininter #schoolAndRanking #schoolanddatescanj #school #schoolpicandname #name {
   margin-bottom: 1rem;
 }
-#maininter #schoolAndRanking #school #position {
+#maininter #schoolAndRanking #schoolanddatescanj #school #position {
   width: 90%;
   height: 25%;
   margin: auto;
 }
-#maininter #schoolAndRanking #school #position span p {
+#maininter #schoolAndRanking #schoolanddatescanj #school #position span p {
   color: #ffc200;
   font-size: 1.5rem;
   font-weight: bold;
 }
-#maininter #schoolAndRanking #school #position .puesto {
+#maininter #schoolAndRanking #schoolanddatescanj #school #position .puesto {
   font-family: "Latina bold";
 }
-#maininter #schoolAndRanking #school #rankingside {
+#maininter #schoolAndRanking #schoolanddatescanj #school #rankingside {
   cursor: pointer;
   width: 90%;
   height: 25%;
@@ -923,23 +927,47 @@ textarea {
   border-top: 1px solid #fff;
   font-family: "Latina bold";
 }
-#maininter #schoolAndRanking #school #rankingside img {
+#maininter #schoolAndRanking #schoolanddatescanj #school #rankingside img {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-#maininter #schoolAndRanking #school #rankingside p {
+#maininter #schoolAndRanking #schoolanddatescanj #school #rankingside p {
   margin-bottom: 1rem;
 }
-#maininter #schoolAndRanking #school #points {
+#maininter #schoolAndRanking #schoolanddatescanj #school #points {
   height: 25%;
 }
-#maininter #schoolAndRanking #school #points p:first-child {
+#maininter #schoolAndRanking #schoolanddatescanj #school #points p:first-child {
   font-family: "Latina bold";
 }
-#maininter #schoolAndRanking #school #points p:nth-child(2) {
+#maininter #schoolAndRanking #schoolanddatescanj #school #points p:nth-child(2) {
   color: #ffc200;
   font-size: 2rem;
   font-weight: bold;
+}
+#maininter #schoolAndRanking #schoolanddatescanj #nocanj, #maininter #schoolAndRanking #schoolanddatescanj #bolgo {
+  background-color: rgb(28, 25, 1);
+  background-color: linear-gradient(180deg, rgb(28, 25, 1) 0%, rgb(60, 44, 10) 50%);
+  border: 2px solid #ce7318;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+#maininter #schoolAndRanking #schoolanddatescanj #nocanj div {
+  width: 20%;
+  height: 90%;
+  background-image: url(../img/acertijos/cofre1.png);
+  background-size: 100% 100%;
+}
+#maininter #schoolAndRanking #schoolanddatescanj #nocanj div img {
+  bottom: -0.2rem;
+  height: 10rem;
+}
+#maininter #schoolAndRanking #schoolanddatescanj #nocanj p {
+  width: 40%;
+}
+#maininter #schoolAndRanking #schoolanddatescanj #bolgo a {
+  letter-spacing: 0.3rem;
 }
 #maininter #schoolAndRanking #ranking {
   width: 70%;
@@ -952,7 +980,7 @@ textarea {
 }
 
 .coleg {
-  height: 70% !important;
+  height: 85% !important;
   transition: all 1000ms;
 }
 
@@ -1430,12 +1458,35 @@ textarea {
   animation-name: fade-in;
   animation-duration: 2.5s;
 }
+.content-active #racesInterLocked {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(63, 77, 151, 0.6);
+  color: black;
+  top: 0;
+  border-radius: 1rem;
+}
+.content-active #racesInterLocked #racesLockedEl {
+  width: 90%;
+  height: 60%;
+}
+.content-active #racesInterLocked #racesLockedEl #textblock p {
+  font-size: 3.5rem;
+}
+.content-active #racesInterLocked #racesLockedEl #canjButt {
+  width: 25%;
+  height: 10%;
+  background: rgb(163, 6, 0);
+  background: linear-gradient(90deg, rgb(163, 6, 0) 0%, rgb(138, 15, 1) 50%, rgb(108, 27, 4) 100%);
+  border-radius: 0.5rem;
+}
 .content-active #racesInter {
   width: 95%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  position: relative;
 }
 .content-active #racesInter .raceInter {
   position: relative;
@@ -1443,6 +1494,35 @@ textarea {
   width: 30%;
   height: 25%;
   background-size: 100% 100%;
+}
+.content-active #racesInter .raceInter #raceInterLocked {
+  display: none;
+  width: 96%;
+  height: 96.5%;
+  background-color: rgba(63, 77, 151, 0.6);
+  color: black;
+  top: 0;
+  border-radius: 1rem;
+}
+.content-active #racesInter .raceInter #raceInterLocked #racesLockedEl {
+  width: 90%;
+  height: 60%;
+}
+.content-active #racesInter .raceInter #raceInterLocked #racesLockedEl img {
+  width: 3rem;
+}
+.content-active #racesInter .raceInter #raceInterLocked #racesLockedEl #textblock p {
+  font-size: 2rem;
+}
+.content-active #racesInter .raceInter #raceInterLocked #racesLockedEl #canjButt {
+  width: 40%;
+  height: 30%;
+  background: rgb(163, 6, 0);
+  background: linear-gradient(90deg, rgb(163, 6, 0) 0%, rgb(138, 15, 1) 50%, rgb(108, 27, 4) 100%);
+  border-radius: 0.5rem;
+}
+.content-active #racesInter .raceInter #raceInterLocked #racesLockedEl #canjButt button {
+  font-size: 1rem;
 }
 .content-active #racesInter .raceInter .position {
   left: 10%;
@@ -3063,6 +3143,63 @@ textarea {
   width: 30%;
 }
 #activar #actContent #actFoot ul li {
+  font-size: 1.5rem;
+}
+
+#canjAvai {
+  position: fixed;
+  width: 40%;
+  height: 40%;
+  background: rgb(30, 26, 1);
+  background: linear-gradient(180deg, rgb(30, 26, 1) 0%, rgb(41, 33, 4) 34%, rgb(51, 38, 7) 64%, rgb(60, 44, 10) 100%);
+  display: flex;
+  top: -400%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  border-radius: 5%;
+  border: 4px solid #8c510f;
+  transition: all 500ms;
+}
+#canjAvai #canjtitle {
+  font-size: 2rem;
+}
+#canjAvai #canjtext {
+  width: 90%;
+  font-size: 1.5rem;
+}
+
+.canj.canj-opened {
+  position: relative;
+  top: 25% !important;
+  z-index: 3999 !important;
+}
+
+.canj-opened.body::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#buytickets {
+  position: fixed;
+  width: 40%;
+  height: 40%;
+  background: rgb(30, 26, 1);
+  background: linear-gradient(180deg, rgb(30, 26, 1) 0%, rgb(41, 33, 4) 34%, rgb(51, 38, 7) 64%, rgb(60, 44, 10) 100%);
+  display: flex;
+  top: -400%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  border-radius: 5%;
+  border: 4px solid #8c510f;
+  transition: all 500ms;
+}
+#buytickets #canjtitle {
+  font-size: 2rem;
+}
+#buytickets #canjtext {
+  width: 90%;
   font-size: 1.5rem;
 }
 

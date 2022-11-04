@@ -20,6 +20,8 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 </head>
 <body id="body" class="body">
+<x-buytickets/>
+<x-canjavailable/>
 <x-mobilemenu/>
 <x-ranking/>
 <x-fail/>

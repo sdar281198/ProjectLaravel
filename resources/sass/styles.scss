@@ -905,77 +905,108 @@ textarea{
         height: 100vh;
         color: $white;
         margin-bottom: 10%;
-        #school{
+        #schoolanddatescanj{
             width: 25%;
-            // height: 70%;
-            background-color: $colorFondo;
-            border-radius: 1rem;
-            transition: all 1000ms;
-            #userAndName{
-                width: 90%;
-                display: none;
-                #downarrow{
-                    z-index: 951;
+            transition: all 500ms;
+            #school{
+                width: 100%;
+                background-color: $colorFondo;
+                border-radius: 1rem;
+                transition: all 1000ms;
+                #userAndName{
+                    width: 90%;
+                    display: none;
+                    #downarrow{
+                        z-index: 951;
+                    }
                 }
-            }
-            #schoolpicandname{
-                width: 90%;
-                height: 25%;
-                margin: auto;
-                font-family: $latUltHeav;
-                border-bottom: 1px solid $white;
-                #pic{
-                    width: 25%;
-                    height: 60%;
-                    background-color: $white;
-                    border-radius: 55%;
-                    margin-top: 1rem;
-                    margin-bottom: 1rem;
+                #schoolpicandname{
+                    width: 90%;
+                    height: 25%;
+                    margin: auto;
+                    font-family: $latUltHeav;
+                    border-bottom: 1px solid $white;
+                    #pic{
+                        width: 25%;
+                        height: 60%;
+                        background-color: $white;
+                        border-radius: 55%;
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                    }
+                    #name{
+                        margin-bottom: 1rem;
+                    }
                 }
-                #name{
-                    margin-bottom: 1rem;
+                #position{
+                    width: 90%;
+                    height: 25%;
+                    margin: auto;
+                    span{
+                        p{
+                        color: #ffc200;
+                        font-size: 1.5rem;
+                        font-weight: bold;
+                    }
                 }
-            }
-            #position{
-                width: 90%;
-                height: 25%;
-                margin: auto;
-                span{
-                    p{
-                    color: #ffc200;
-                    font-size: 1.5rem;
-                    font-weight: bold;
-                }
-            }
-            .puesto{
-                font-family: $latBold;
-            }
-            }
-            #rankingside{
-                cursor: pointer;
-                width: 90%;
-                height: 25%;
-                margin: auto;
-                border-bottom: 1px solid $white;
-                border-top: 1px solid $white;
-                font-family: $latBold;
-                img{
-                    margin-top: 1rem;
-                    margin-bottom: 1rem;
-                }
-                p{
-                    margin-bottom: 1rem;
-                }
-            }
-            #points{
-                height: 25%;
-                p:first-child{
+                .puesto{
                     font-family: $latBold;
                 }
-                p:nth-child(2){
-                    color:#ffc200;
-                    font-size: 2rem;
-                    font-weight: bold;
+                }
+                #rankingside{
+                    cursor: pointer;
+                    width: 90%;
+                    height: 25%;
+                    margin: auto;
+                    border-bottom: 1px solid $white;
+                    border-top: 1px solid $white;
+                    font-family: $latBold;
+                    img{
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                    }
+                    p{
+                        margin-bottom: 1rem;
+                    }
+                }
+                #points{
+                    height: 25%;
+                    p:first-child{
+                        font-family: $latBold;
+                    }
+                    p:nth-child(2){
+                        color:#ffc200;
+                        font-size: 2rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+            #nocanj,#bolgo{
+                background-color: $backBrowgrad;
+                background-color: $backBrowgrad2;
+                border: 2px solid #ce7318;
+                border-radius: 0.5rem;
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+            #nocanj{
+                div{
+                    width: 20%;
+                    height: 90%;
+                    background-image: url(../img/acertijos/cofre1.png);
+                    background-size: 100% 100%;
+                    img{
+                        bottom: -0.2rem;
+                        height: 10rem;
+                    }
+                }
+                p{
+                    width: 40%;
+                }
+            }
+            #bolgo{
+                a{
+                    letter-spacing: 0.3rem;
                 }
             }
         }
@@ -990,7 +1021,7 @@ textarea{
     transition: all 1000ms;
 }
 .coleg{
-    height: 70%!important;
+    height: 85%!important;
     transition: all 1000ms;
 }
 #maininteracces{
@@ -1499,12 +1530,37 @@ textarea{
             // justify-content: center;
             animation-name: fade-in;
             animation-duration: 2.5s;
+            #racesInterLocked{
+                width: 100%;
+                height: 100%;
+                background-color: rgba(63, 77, 151, 0.6); 
+                color: black;
+                top: 0;
+                border-radius: 1rem;
+                #racesLockedEl{
+                    width: 90%;
+                    height: 60%;
+                    #textblock{
+                        p{
+                            font-size: 3.5rem;
+                        }
+                    }
+                    #canjButt{
+                        width: 25%;
+                        height: 10%;
+                        background: rgb(163,6,0);
+                        background: linear-gradient(90deg, rgba(163,6,0,1) 0%, rgba(138,15,1,1) 50%, rgba(108,27,4,1) 100%);
+                        border-radius: 0.5rem;
+                    }
+                }
+            }
             #racesInter{
                 width: 95%;
                 height: 100%;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                position: relative;
             .raceInter{
                 position: relative;
                 flex: 1 0 auto;
@@ -1512,6 +1568,37 @@ textarea{
                 height: 25%;
                 // background-image: url(../../assets/img/inter/fondo1.png);
                 background-size: 100% 100%;
+                #raceInterLocked{
+                    display: none;
+                    width: 96%;
+                    height: 96.5%;
+                    background-color: rgba(63, 77, 151, 0.6); 
+                    color: black;
+                    top: 0;
+                    border-radius: 1rem;
+                    #racesLockedEl{
+                        width: 90%;
+                        height: 60%;
+                        img{
+                            width: 3rem;
+                        }
+                        #textblock{
+                            p{
+                                font-size: 2rem;
+                            }
+                        }
+                        #canjButt{
+                            width: 40%;
+                            height: 30%;
+                            background: rgb(163,6,0);
+                            background: linear-gradient(90deg, rgba(163,6,0,1) 0%, rgba(138,15,1,1) 50%, rgba(108,27,4,1) 100%);
+                            border-radius: 0.5rem;
+                            button{
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+                }
                 .position{
                     left: 10%;
                     top: 5%;
@@ -3262,5 +3349,60 @@ textarea{
                 }
             }
         }
+    }
+}
+#canjAvai{
+    position: fixed;
+    width: 40%;
+    height: 40%;
+    background: rgb(30,26,1);
+    background: linear-gradient(180deg, rgba(30,26,1,1) 0%, rgba(41,33,4,1) 34%, rgba(51,38,7,1) 64%, rgba(60,44,10,1) 100%); 
+    // background: $gradient2;
+    display: flex;
+    top: -400%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 200;
+    border-radius: 5%;
+    border: 4px solid #8c510f;
+    transition: all 500ms;
+    #canjtitle{
+        font-size: 2rem;
+    }
+    #canjtext{
+        width: 90%;
+        font-size: 1.5rem;
+    }
+}
+.canj.canj-opened{
+    position: relative;
+    top: 25%!important;
+    z-index: 3999!important;
+}
+.canj-opened.body::after{
+    opacity: 1;
+    transform: scale(1);
+}
+#buytickets{
+    position: fixed;
+    width: 40%;
+    height: 40%;
+    background: rgb(30,26,1);
+    background: linear-gradient(180deg, rgba(30,26,1,1) 0%, rgba(41,33,4,1) 34%, rgba(51,38,7,1) 64%, rgba(60,44,10,1) 100%); 
+    // background: $gradient2;
+    display: flex;
+    top: -400%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 200;
+    border-radius: 5%;
+    border: 4px solid #8c510f;
+    transition: all 500ms;
+    #canjtitle{
+        font-size: 2rem;
+    }
+    #canjtext{
+        width: 90%;
+        font-size: 1.5rem;
     }
 }
