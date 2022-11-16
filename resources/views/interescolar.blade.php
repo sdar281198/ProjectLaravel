@@ -230,7 +230,7 @@
                                     <div class="position absolute">1</div>
                                     <div class="hour flex">
                                         <div id="symbolandHour" class="flex">
-                                            <img class="" src="../img/inter/reloj de arena-04.png" alt="">
+                                            <div class="hourglass"></div>
                                             <div id="watch">00:00:49</div>
                                         </div>
                                     </div>

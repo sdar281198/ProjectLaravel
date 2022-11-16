@@ -12,6 +12,6 @@
         </p>
     </div>
     <div id="canjButt" class="flex justify-center">
-        <button>Canjear</button>
+        <button><img src="../img/inter/canjear.png" alt=""></button>
     </div>
 </div>
