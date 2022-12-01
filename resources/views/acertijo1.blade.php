@@ -50,7 +50,7 @@
           </div>
         <div class="snowflake">
           <img src="https://64.media.tumblr.com/909296f0e90554cd6ca5eb5c6d410b5d/6defb6d468e541ab-08/s500x750/609579ee362ff3a43051322ea392723d29daa57c.gifv" 
-               width="50" 
+               width="50"
                alt="155b4588f223ce388f2542198570256b.gif" />
           </div>
         <div class="snowflake">

@@ -257,6 +257,7 @@
                                     <div class="hour flex">
                                         <div id="symbolandHour" class="flex">
                                             <img class="" src="../img/inter/banderas-04.png" alt="">
+                                            <!-- <img src="https://acegif.com/wp-content/gifs/race-flag-13.gif" alt=""> -->
                                             <div id="watch">18:05</div>
                                         </div>
                                     </div>
